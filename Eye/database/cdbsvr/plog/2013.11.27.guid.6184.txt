@@ -1,0 +1,29 @@
+[2013.11.27 15:32:04] [0001m.55s.448ms] [0] WELCOME
+[2013.11.27 15:32:04] [0001m.55s.450ms] [1] iCDB Database ver.1.093, 4eaDVz8EvVKuZCsHMzatSQ, build:488395 created 2012-01-27 13:24:08, sources stamp:4eaDVz8EvVKuZCsHMzatSQ
+[2013.11.27 15:32:04] [0001m.55s.450ms] [1] Copyright 2012 Mentor Graphics Corporation. All Rights Reserved.
+[2013.11.27 15:32:04] [0001m.55s.450ms] [1] Base flow version [7.9.3]
+[2013.11.27 15:32:04] [0001m.55s.450ms] [1] GBS Install Id [24044], Flow Id [PADS 9.4.1], Full Flow Name [PADS 9.4.1], Exact Access Date [Nov 1 2011]
+[2013.11.27 15:32:04] [0001m.55s.450ms] [1] Machine [MATT-PC]  User [Matt]  PID [6184]
+[2013.11.27 15:32:04] [0001m.55s.450ms] [1] Operating system [Microsoft Windows 7 Home Premium Edition, 64-bit Service Pack 1 (build 7601)]
+[2013.11.27 15:32:04] [0001m.55s.450ms] [1] Current working dir [C:\EyeProject\Eye]
+[2013.11.27 15:32:04] [0001m.55s.450ms] [1] PATH [C:\MentorGraphics\9.4PADS\SDD_HOME\wv\win32\bin;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\MentorGraphics\9.4PADS\SDD_HOME\common\win32\bin;C:\MentorGraphics\9.4PADS\SDD_HOME\common\win32\lib;C:\MentorGraphics\9.4PADS\MGC_HOME.ixn\bin;C:\MentorGraphics\9.4PADS\MGC_HOME.ixn\lib;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Intel\Services\IPT\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Calibre2\;C:\Program Files\Java\jdk1.7.0_25\bin;C:\MentorGraphics\9.4PADS\SDD_HOME\common\win32\lib;C:\altera\13.1\modelsim_ase\win32aloem]
+[2013.11.27 15:32:04] [0001m.55s.450ms] [1] SDD_HOME [C:\MentorGraphics\9.4PADS\SDD_HOME] on file system [NTFS]
+[2013.11.27 15:32:04] [0001m.55s.450ms] [1] SDD_PLATFORM [win32]
+[2013.11.27 15:32:04] [0001m.55s.451ms] [1] WDIR [C:\PADS Projects;C:\MentorGraphics\9.4PADS\SDD_HOME\standard]
+[2013.11.27 15:32:04] [0001m.55s.451ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2013.11.27 15:32:04] [0001m.55s.451ms] [3] WARNING: Database [C:\EyeProject\Eye\database\icdb.dat] was manually copied
+[2013.11.27 15:32:04] [0001m.55s.451ms] [3] File change time:        [2013-11-24 19.44.35]
+[2013.11.27 15:32:04] [0001m.55s.451ms] [3] File modification time:  [2013-11-26 22.29.00]
+[2013.11.27 15:32:04] [0001m.55s.451ms] [3] Last change time:        [2013-11-26 22.28.53]
+[2013.11.27 15:32:04] [0001m.55s.451ms] [3] Last database open information:
+[2013.11.27 15:32:04] [0001m.55s.451ms] [3] Time:             [2013-11-26 22.28.53]
+[2013.11.27 15:32:04] [0001m.55s.451ms] [3] Location:         [C:\EyeProject\Eye\database\icdb.dat]
+[2013.11.27 15:32:04] [0001m.55s.451ms] [3] Machine:          [MATT-PC]
+[2013.11.27 15:32:04] [0001m.55s.451ms] [3] User:             [Matt]
+[2013.11.27 15:32:04] [0001m.55s.451ms] [3] PID:              [1188]
+[2013.11.27 15:32:04] [0001m.55s.451ms] [3] Application:      [iCDB Server]
+[2013.11.27 15:32:04] [0001m.55s.451ms] [3] Operating system: [Microsoft Windows 7 Home Premium Edition, 64-bit Service Pack 1 (build 7601)]
+[2013.11.27 15:32:04] [0001m.55s.451ms] [3] WARNING: Regenerating database GUID
+[2013.11.27 15:32:04] [0001m.55s.451ms] [3] Previous database GUID [3512-49b3-7760-7080-95b9-582e-5b95-8250-3b75-c3ce-3575-457e]
+[2013.11.27 15:32:04] [0001m.55s.451ms] [3] Current database GUID  [baaa-a6f1-445a-43ef-4c65-6929-c656-9250-6d0b-e9e8-f1b1-21cb]
+[2013.11.27 15:32:04] [0001m.55s.451ms] [0] .

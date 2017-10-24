@@ -1,0 +1,5565 @@
+
+(pcb "C:\EyeProject\Eye\Eye.AQ160-DEV_PADS94.AQ160-DEV.db"
+	(version "5.0.0")
+	(units "basic")
+	(config_properties
+		(attributes
+			(attval "PcbConfigName"
+ "C:\MentorGraphics\9.4PADS\SDD_HOME/standard/pads94.cfg")
+			(attval "CnsFile"
+ "C:\MentorGraphics\9.4PADS\SDD_HOME\standard\isis\pads94.cns")
+			(attval "BeAdapter" "PADS94")
+			(attval "FeAdapter" "DxDesigner")
+			(attval "SYSCONFIG" "pcbfwd")
+			(attval "LASTSYSCONFIG" "pcbfwd"))
+		(constraints
+			(cnsval "U:Velocity" "Unknown:3")
+			(cnsval "U:Time" "Unknown:3")
+			(cnsval "U:Ampere" "Unknown:3")
+			(cnsval "U:Capacitance" "Unknown:3")
+			(cnsval "U:Inductance" "Unknown:3")
+			(cnsval "U:Ohm" "Unknown:3")
+			(cnsval "U:Volt" "Unknown:3")
+			(cnsval "U:Power" "Unknown:3")
+			(cnsval "U:Unknown" "Unknown:3")
+			(cnsval "U:Angle" "Unknown:3")
+			(cnsval "U:Linear" "THOUSANDTHS:3")))
+	(project_properties
+		(attributes
+			(attval "EPLANNER_DSN" "1.0")))
+	(part_library
+		(part "USBZENER")
+		(logical_part_mapping "USBZENER"
+			(comp "U21" "U20" "U19"))
+		(logical_part "USBZENER"
+			(slots
+				(slot "USBZENER__USBZENER_1"
+					(attributes
+						(attval "Description" "DIODE ZENER ARRAY 5.1V SOT23-3")
+						(attval "PKG_TYPE" "SOT23M1")
+						(attval "REFDES" "U?"))))
+			(pin 2  3 "USBZENER__USBZENER_1" 0 "CAT2" 0)
+			(pin 1  3 "USBZENER__USBZENER_1" 0 "CAT1" 0)
+			(pin 3  3 "USBZENER__USBZENER_1" 0 "AN" 0))
+		(part "USBADAPTER")
+		(logical_part_mapping "USBADAPTER"
+			(comp "J3" "J2" "J1"))
+		(logical_part "USBADAPTER"
+			(slots
+				(slot "USBADAPTER__USBADAPTER_1"
+					(attributes
+						(attval "Description" "USB ADAPTER")
+						(attval "PKG_TYPE" "MICROUSBF")
+						(attval "REFDES" "J?")
+						(attval "Value" ""))))
+			(pin 2  3 "USBADAPTER__USBADAPTER_1" 0 "SENSE" 0)
+			(pin 3  3 "USBADAPTER__USBADAPTER_1" 0 "D-" 0)
+			(pin 4  3 "USBADAPTER__USBADAPTER_1" 0 "D+" 0)
+			(pin 5  3 "USBADAPTER__USBADAPTER_1" 0 "COM" 0)
+			(pin 1  3 "USBADAPTER__USBADAPTER_1" 0 "5V-PWR" 0))
+		(part "TXS0104EDR")
+		(logical_part_mapping "TXS0104EDR"
+			(comp "U6" "U5"))
+		(logical_part "TXS0104EDR"
+			(slots
+				(slot "TXS0104EDR__TXS0104EDR_1"
+					(attributes
+						(attval "Description" "IC 4BIT NON-INV TRANSLTR 14-SOIC")
+						(attval "PKG_TYPE" "SO14")
+						(attval "REFDES" "U?")
+						(attval "Value" ""))))
+			(pin 14  3 "TXS0104EDR__TXS0104EDR_1" 0 "VCCB" 0)
+			(pin 1  0 "TXS0104EDR__TXS0104EDR_1" 0 "VCCA" 0)
+			(pin 8  3 "TXS0104EDR__TXS0104EDR_1" 0 "OE" 0)
+			(pin 9  3 "TXS0104EDR__TXS0104EDR_1" 0 "NC2" 0)
+			(pin 6  3 "TXS0104EDR__TXS0104EDR_1" 0 "NC1" 0)
+			(pin 7  3 "TXS0104EDR__TXS0104EDR_1" 0 "GND" 0)
+			(pin 10  3 "TXS0104EDR__TXS0104EDR_1" 0 "B4" 0)
+			(pin 11  3 "TXS0104EDR__TXS0104EDR_1" 0 "B3" 0)
+			(pin 12  3 "TXS0104EDR__TXS0104EDR_1" 0 "B2" 0)
+			(pin 13  3 "TXS0104EDR__TXS0104EDR_1" 0 "B1" 0)
+			(pin 5  4 "TXS0104EDR__TXS0104EDR_1" 0 "A4" 0)
+			(pin 4  4 "TXS0104EDR__TXS0104EDR_1" 0 "A3" 0)
+			(pin 3  4 "TXS0104EDR__TXS0104EDR_1" 0 "A2" 0)
+			(pin 2  4 "TXS0104EDR__TXS0104EDR_1" 0 "A1" 0))
+		(part "TXB0104DR")
+		(logical_part_mapping "TXB0104DR"
+			(comp "U17" "U16" "U15" "U14"))
+		(logical_part "TXB0104DR"
+			(slots
+				(slot "TXB0104DR__TXB0104DR_1"
+					(attributes
+						(attval "Description" "IC VOLT-LVL TRANSL 1BIT SOT23-6")
+						(attval "PKG_TYPE" "SO14")
+						(attval "REFDES" "U?")
+						(attval "Value" ""))))
+			(pin 14  3 "TXB0104DR__TXB0104DR_1" 0 "VCCB" 0)
+			(pin 1  0 "TXB0104DR__TXB0104DR_1" 0 "VCCA" 0)
+			(pin 8  3 "TXB0104DR__TXB0104DR_1" 0 "OE" 0)
+			(pin 9  3 "TXB0104DR__TXB0104DR_1" 0 "NC2" 0)
+			(pin 6  3 "TXB0104DR__TXB0104DR_1" 0 "NC1" 0)
+			(pin 7  3 "TXB0104DR__TXB0104DR_1" 0 "GND" 0)
+			(pin 10  3 "TXB0104DR__TXB0104DR_1" 0 "B4" 0)
+			(pin 11  3 "TXB0104DR__TXB0104DR_1" 0 "B3" 0)
+			(pin 12  3 "TXB0104DR__TXB0104DR_1" 0 "B2" 0)
+			(pin 13  3 "TXB0104DR__TXB0104DR_1" 0 "B1" 0)
+			(pin 5  4 "TXB0104DR__TXB0104DR_1" 0 "A4" 0)
+			(pin 4  4 "TXB0104DR__TXB0104DR_1" 0 "A3" 0)
+			(pin 3  4 "TXB0104DR__TXB0104DR_1" 0 "A2" 0)
+			(pin 2  4 "TXB0104DR__TXB0104DR_1" 0 "A1" 0))
+		(part "TOSHIBAPMOS")
+		(logical_part_mapping "TOSHIBAPMOS"
+			(comp "Q21" "Q20"))
+		(logical_part "TOSHIBAPMOS"
+			(slots
+				(slot "TOSHIBAPMOS__TOSHIBAPMOS_1"
+					(attributes
+						(attval "Description" "MOSFET P-CH 20V 6A SOT23F")
+						(attval "PKG_TYPE" "SOT23")
+						(attval "REFDES" "Q?")
+						(attval "Value" ""))))
+			(pin 2  3 "TOSHIBAPMOS__TOSHIBAPMOS_1" 0 "SOURCE" 0)
+			(pin 1  3 "TOSHIBAPMOS__TOSHIBAPMOS_1" 0 "GATE" 0)
+			(pin 3  3 "TOSHIBAPMOS__TOSHIBAPMOS_1" 0 "DRAIN" 0))
+		(part "STLQ015M30R")
+		(logical_part_mapping "STLQ015M30R"
+			(comp "U8"))
+		(logical_part "STLQ015M30R"
+			(slots
+				(slot "STLQ015M30R__STLQ015M30R_1"
+					(attributes
+						(attval "Description" "IC REG LDO 3V 0.15A SOT23-5")
+						(attval "PKG_TYPE" "SOT23-5")
+						(attval "REFDES" "U?")
+						(attval "Value" "3V"))))
+			(pin 5  4 "STLQ015M30R__STLQ015M30R_1" 0 "OUT" 0)
+			(pin 4  4 "STLQ015M30R__STLQ015M30R_1" 0 "NC" 0)
+			(pin 1  0 "STLQ015M30R__STLQ015M30R_1" 0 "IN" 0)
+			(pin 2  4 "STLQ015M30R__STLQ015M30R_1" 0 "GND" 0)
+			(pin 3  3 "STLQ015M30R__STLQ015M30R_1" 0 "EN" 0))
+		(part "STLQ015M18R")
+		(logical_part_mapping "STLQ015M18R"
+			(comp "U13"))
+		(logical_part "STLQ015M18R"
+			(slots
+				(slot "STLQ015M18R__STLQ015M18R_1"
+					(attributes
+						(attval "Description" "IC REG LDO 1.8V 0.15A SOT23-5")
+						(attval "PKG_TYPE" "SOT23-5")
+						(attval "REFDES" "U?")
+						(attval "Value" "1.8V"))))
+			(pin 5  4 "STLQ015M18R__STLQ015M18R_1" 0 "OUT" 0)
+			(pin 4  4 "STLQ015M18R__STLQ015M18R_1" 0 "NC" 0)
+			(pin 1  0 "STLQ015M18R__STLQ015M18R_1" 0 "IN" 0)
+			(pin 2  4 "STLQ015M18R__STLQ015M18R_1" 0 "GND" 0)
+			(pin 3  3 "STLQ015M18R__STLQ015M18R_1" 0 "EN" 0))
+		(part "SOT223-3-3V3")
+		(logical_part_mapping "SOT223-3-3V3"
+			(comp "U10" "U9"))
+		(logical_part "SOT223-3-3V3"
+			(slots
+				(slot "SOT223-3-3V3__SOT223-3-3V3_1"
+					(attributes
+						(attval "Description" "IC REG LDO 3.3V 1A SOT223-3")
+						(attval "PKG_TYPE" "SOT223")
+						(attval "REFDES" "U?")
+						(attval "Value" "3.3V"))))
+			(pin 4  4 "SOT223-3-3V3__SOT223-3-3V3_1" 0 "VOUT2" 0)
+			(pin 2  4 "SOT223-3-3V3__SOT223-3-3V3_1" 0 "VOUT" 0)
+			(pin 3  3 "SOT223-3-3V3__SOT223-3-3V3_1" 0 "VIN" 0)
+			(pin 1  0 "SOT223-3-3V3__SOT223-3-3V3_1" 0 "GND" 0))
+		(part "SN74LVC1G34DBVR")
+		(logical_part_mapping "SN74LVC1G34DBVR"
+			(comp "U18"))
+		(logical_part "SN74LVC1G34DBVR"
+			(slots
+				(slot "SN74LVC1G34DBVR__SN74LVC1G34DBVR_1"
+					(attributes
+						(attval "Description" "IC BUFFER NON-INVERT SOT23-5")
+						(attval "PKG_TYPE" "SOT23-5")
+						(attval "REFDES" "U?"))))
+			(pin 5  4 "SN74LVC1G34DBVR__SN74LVC1G34DBVR_1" 0 "VCC" 0)
+			(pin 4  4 "SN74LVC1G34DBVR__SN74LVC1G34DBVR_1" 0 "OUT" 0)
+			(pin 1  0 "SN74LVC1G34DBVR__SN74LVC1G34DBVR_1" 0 "NC" 0)
+			(pin 2  4 "SN74LVC1G34DBVR__SN74LVC1G34DBVR_1" 0 "IN" 0)
+			(pin 3  3 "SN74LVC1G34DBVR__SN74LVC1G34DBVR_1" 0 "GND" 0))
+		(part "SN74CB3Q3257DBQR")
+		(logical_part_mapping "SN74CB3Q3257DBQR"
+			(comp "U3" "U2"))
+		(logical_part "SN74CB3Q3257DBQR"
+			(slots
+				(slot "SN74CB3Q3257DBQR__SN74CB3Q3257DBQR_1"
+					(attributes
+						(attval "Description" "	IC 4-BIT FET MUX/DEMUX 16SSOP")
+						(attval "PKG_TYPE" "16-SSOP")
+						(attval "REFDES" "U?"))))
+			(pin 15  3 "SN74CB3Q3257DBQR__SN74CB3Q3257DBQR_1" 0 "~OE" 0)
+			(pin 16  3 "SN74CB3Q3257DBQR__SN74CB3Q3257DBQR_1" 0 "VCC" 0)
+			(pin 1  3 "SN74CB3Q3257DBQR__SN74CB3Q3257DBQR_1" 0 "S" 0)
+			(pin 8  3 "SN74CB3Q3257DBQR__SN74CB3Q3257DBQR_1" 0 "GND" 0)
+			(pin 13  3 "SN74CB3Q3257DBQR__SN74CB3Q3257DBQR_1" 0 "4B2" 0)
+			(pin 14  3 "SN74CB3Q3257DBQR__SN74CB3Q3257DBQR_1" 0 "4B1" 0)
+			(pin 12  3 "SN74CB3Q3257DBQR__SN74CB3Q3257DBQR_1" 0 "4A" 0)
+			(pin 10  3 "SN74CB3Q3257DBQR__SN74CB3Q3257DBQR_1" 0 "3B2" 0)
+			(pin 11  3 "SN74CB3Q3257DBQR__SN74CB3Q3257DBQR_1" 0 "3B1" 0)
+			(pin 9  3 "SN74CB3Q3257DBQR__SN74CB3Q3257DBQR_1" 0 "3A" 0)
+			(pin 6  3 "SN74CB3Q3257DBQR__SN74CB3Q3257DBQR_1" 0 "2B2" 0)
+			(pin 5  3 "SN74CB3Q3257DBQR__SN74CB3Q3257DBQR_1" 0 "2B1" 0)
+			(pin 7  3 "SN74CB3Q3257DBQR__SN74CB3Q3257DBQR_1" 0 "2A" 0)
+			(pin 3  3 "SN74CB3Q3257DBQR__SN74CB3Q3257DBQR_1" 0 "1B2" 0)
+			(pin 2  3 "SN74CB3Q3257DBQR__SN74CB3Q3257DBQR_1" 0 "1B1" 0)
+			(pin 4  3 "SN74CB3Q3257DBQR__SN74CB3Q3257DBQR_1" 0 "1A" 0))
+		(part "SMAVERTICAL")
+		(logical_part_mapping "SMAVERTICAL"
+			(comp "J8" "J7" "J6"))
+		(logical_part "SMAVERTICAL"
+			(slots
+				(slot "SMAVERTICAL__SMAVERTICAL_1"
+					(attributes
+						(attval "Description" "CONN SMA JACK STR 50 OHM PCB")
+						(attval "PKG_TYPE" "SMAVERT")
+						(attval "REFDES" "J?"))))
+			(pin 5  3 "SMAVERTICAL__SMAVERTICAL_1" 0 "IN2_3" 0)
+			(pin 4  3 "SMAVERTICAL__SMAVERTICAL_1" 0 "IN2_2" 0)
+			(pin 3  3 "SMAVERTICAL__SMAVERTICAL_1" 0 "IN2_1" 0)
+			(pin 2  3 "SMAVERTICAL__SMAVERTICAL_1" 0 "IN2" 0)
+			(pin 1  3 "SMAVERTICAL__SMAVERTICAL_1" 0 "IN1" 0))
+		(part "SIMCARDHOLDER")
+		(logical_part_mapping "SIMCARDHOLDER"
+			(comp "J5"))
+		(logical_part "SIMCARDHOLDER"
+			(slots
+				(slot "SIMCARDHOLDER__SIMCARDHOLDER_1"
+					(attributes
+						(attval "Description" "MICRO SIM HOLDER")
+						(attval "PKG_TYPE" "MOLEX1041180811")
+						(attval "REFDES" "J?")
+						(attval "Value" ""))))
+			(pin 1  3 "SIMCARDHOLDER__SIMCARDHOLDER_1" 0 "VDD" 0)
+			(pin 2  3 "SIMCARDHOLDER__SIMCARDHOLDER_1" 0 "RST" 0)
+			(pin 8  3 "SIMCARDHOLDER__SIMCARDHOLDER_1" 0 "NC3" 0)
+			(pin 6  3 "SIMCARDHOLDER__SIMCARDHOLDER_1" 0 "NC2" 0)
+			(pin 4  3 "SIMCARDHOLDER__SIMCARDHOLDER_1" 0 "NC1" 0)
+			(pin 5  3 "SIMCARDHOLDER__SIMCARDHOLDER_1" 0 "GND" 0)
+			(pin 10  3 "SIMCARDHOLDER__SIMCARDHOLDER_1" 0 "DRET" 0)
+			(pin 9  3 "SIMCARDHOLDER__SIMCARDHOLDER_1" 0 "DET" 0)
+			(pin 7  3 "SIMCARDHOLDER__SIMCARDHOLDER_1" 0 "DATA" 0)
+			(pin 3  3 "SIMCARDHOLDER__SIMCARDHOLDER_1" 0 "CLK" 0))
+		(part "SDCARDHOLDER")
+		(logical_part_mapping "SDCARDHOLDER"
+			(comp "J4"))
+		(logical_part "SDCARDHOLDER"
+			(slots
+				(slot "SDCARDHOLDER__SDCARDHOLDER_1"
+					(attributes
+						(attval "Description" "MICRO SD HOLDER")
+						(attval "PKG_TYPE" "SD")
+						(attval "REFDES" "J?")
+						(attval "Value" ""))))
+			(pin 6  3 "SDCARDHOLDER__SDCARDHOLDER_1" 0 "VSS" 0)
+			(pin 4  3 "SDCARDHOLDER__SDCARDHOLDER_1" 0 "VDD" 0)
+			(pin 11  3 "SDCARDHOLDER__SDCARDHOLDER_1" 0 "GND3" 0)
+			(pin 10  3 "SDCARDHOLDER__SDCARDHOLDER_1" 0 "GND2" 0)
+			(pin 9  3 "SDCARDHOLDER__SDCARDHOLDER_1" 0 "GND" 0)
+			(pin 1  3 "SDCARDHOLDER__SDCARDHOLDER_1" 0 "DAT2" 0)
+			(pin 8  3 "SDCARDHOLDER__SDCARDHOLDER_1" 0 "DAT1" 0)
+			(pin 7  3 "SDCARDHOLDER__SDCARDHOLDER_1" 0 "DAT0" 0)
+			(pin 3  3 "SDCARDHOLDER__SDCARDHOLDER_1" 0 "CMD" 0)
+			(pin 5  3 "SDCARDHOLDER__SDCARDHOLDER_1" 0 "CLK" 0)
+			(pin 2  3 "SDCARDHOLDER__SDCARDHOLDER_1" 0 "CD/DAT3" 0)
+			(pin 12  3 "SDCARDHOLDER__SDCARDHOLDER_1" 0 "CD" 0))
+		(part "S3B-EH")
+		(logical_part_mapping "S3B-EH"
+			(comp "J9"))
+		(logical_part "S3B-EH"
+			(slots
+				(slot "S3B-EH__S3B-EH_1"
+					(attributes
+						(attval "Description" "CONN HEADER EH SIDE 3POS 2.5MM")
+						(attval "PKG_TYPE" "S3B-EH")
+						(attval "REFDES" "J?"))))
+			(pin 3  3 "S3B-EH__S3B-EH_1" 0 "THM" 0)
+			(pin 2  3 "S3B-EH__S3B-EH_1" 0 "PACK-" 0)
+			(pin 1  3 "S3B-EH__S3B-EH_1" 0 "PACK+" 0))
+		(part "RESISTOR")
+		(logical_part_mapping "RESISTOR"
+			(comp "R100" "R99" "R98" "R97" "R96" "R95" "R94" "R93" "R92" "R91" "R90" "R89" "R88" "R87" "R86" "R85" "R84" "R83" "R82"
+ "R81" "R80" "R79" "R78" "R77" "R76" "R75" "R74" "R73" "R72" "R71" "R70" "R69" "R68" "R67" "R66" "R65" "R64" "R63" "R62" "R61"
+ "R60" "R59" "R58" "R57" "R56" "R55" "R53" "R52" "R51" "R50" "R49" "R48" "R47" "R46" "R45" "R44" "R43" "R42" "R41" "R40" "R39"
+ "R38" "R37" "R36" "R35" "R34" "R33" "R32" "R31" "R30" "R29" "R28" "R27" "R25" "R21" "R20" "R18" "R17" "R16" "R12" "R11" "R8"
+ "R7" "R6" "R5" "R4" "R3" "R2" "R1"))
+		(logical_part "RESISTOR"
+			(slots
+				(slot "RESISTOR__RESISTOR_1"
+					(attributes
+						(attval "Description" "SMD RESISTOR")
+						(attval "PKG_TYPE" "0402R")
+						(attval "REFDES" "R?")
+						(attval "Value" ""))))
+			(pin 2  3 "RESISTOR__RESISTOR_1" 0 "OUT" 0)
+			(pin 1  3 "RESISTOR__RESISTOR_1" 0 "IN" 0))
+		(part "PANASONICSWITCH")
+		(logical_part_mapping "PANASONICSWITCH"
+			(comp "SW1"))
+		(logical_part "PANASONICSWITCH"
+			(slots
+				(slot "PANASONICSWITCH__PANASONICSWITCH_1"
+					(attributes
+						(attval "Description" "SWITCH TACTILE SPST-NO 0.02A 15V")
+						(attval "PKG_TYPE" "PANASONICSWITCH")
+						(attval "REFDES" "SW?")
+						(attval "Value" ""))))
+			(pin 4  3 "PANASONICSWITCH__PANASONICSWITCH_1" 0 "OUT_2" 0)
+			(pin 3  3 "PANASONICSWITCH__PANASONICSWITCH_1" 0 "OUT" 0)
+			(pin 2  3 "PANASONICSWITCH__PANASONICSWITCH_1" 0 "IN_2" 0)
+			(pin 1  3 "PANASONICSWITCH__PANASONICSWITCH_1" 0 "IN" 0))
+		(part "NRF51422")
+		(logical_part_mapping "NRF51422"
+			(comp "U22"))
+		(logical_part "NRF51422"
+			(slots
+				(slot "NRF51422__NRF51422_1"
+					(attributes
+						(attval "Description" "IC SOC 2.4GHZ 256K FLASH 48QFN")
+						(attval "PKG_TYPE" "QFN48NORDIC")
+						(attval "REFDES" "U?"))))
+			(pin 38  3 "NRF51422__NRF51422_1" 0 "XC2" 0)
+			(pin 37  3 "NRF51422__NRF51422_1" 0 "XC1" 0)
+			(pin 34  3 "NRF51422__NRF51422_1" 0 "VSS3" 0)
+			(pin 33  3 "NRF51422__NRF51422_1" 0 "VSS2" 0)
+			(pin 13  3 "NRF51422__NRF51422_1" 0 "VSS1" 0)
+			(pin 30  3 "NRF51422__NRF51422_1" 0 "VDD_PA" 0)
+			(pin 12  3 "NRF51422__NRF51422_1" 0 "VDD2" 0)
+			(pin 1  3 "NRF51422__NRF51422_1" 0 "VDD1" 0)
+			(pin 23  3 "NRF51422__NRF51422_1" 0 "SWDIO/NRESET" 0)
+			(pin 24  3 "NRF51422__NRF51422_1" 0 "SWDCLK" 0)
+			(pin 3  3 "NRF51422__NRF51422_1" 0 "P0.30" 0)
+			(pin 48  3 "NRF51422__NRF51422_1" 0 "P0.29" 0)
+			(pin 47  3 "NRF51422__NRF51422_1" 0 "P0.28" 0)
+			(pin 46  3 "NRF51422__NRF51422_1" 0 "P0.27/XL1" 0)
+			(pin 45  3 "NRF51422__NRF51422_1" 0 "P0.26/XL2" 0)
+			(pin 44  3 "NRF51422__NRF51422_1" 0 "P0.25" 0)
+			(pin 43  3 "NRF51422__NRF51422_1" 0 "P0.24" 0)
+			(pin 42  3 "NRF51422__NRF51422_1" 0 "P0.23" 0)
+			(pin 41  3 "NRF51422__NRF51422_1" 0 "P0.22" 0)
+			(pin 40  3 "NRF51422__NRF51422_1" 0 "P0.21" 0)
+			(pin 28  3 "NRF51422__NRF51422_1" 0 "P0.20" 0)
+			(pin 27  3 "NRF51422__NRF51422_1" 0 "P0.19" 0)
+			(pin 26  3 "NRF51422__NRF51422_1" 0 "P0.18" 0)
+			(pin 25  3 "NRF51422__NRF51422_1" 0 "P0.17" 0)
+			(pin 22  3 "NRF51422__NRF51422_1" 0 "P0.16" 0)
+			(pin 21  3 "NRF51422__NRF51422_1" 0 "P0.15" 0)
+			(pin 20  3 "NRF51422__NRF51422_1" 0 "P0.14" 0)
+			(pin 19  3 "NRF51422__NRF51422_1" 0 "P0.13" 0)
+			(pin 18  3 "NRF51422__NRF51422_1" 0 "P0.12" 0)
+			(pin 17  3 "NRF51422__NRF51422_1" 0 "P0.11" 0)
+			(pin 16  3 "NRF51422__NRF51422_1" 0 "P0.10" 0)
+			(pin 15  3 "NRF51422__NRF51422_1" 0 "P0.09" 0)
+			(pin 14  3 "NRF51422__NRF51422_1" 0 "P0.08" 0)
+			(pin 11  3 "NRF51422__NRF51422_1" 0 "P0.07" 0)
+			(pin 10  3 "NRF51422__NRF51422_1" 0 "P0.06" 0)
+			(pin 9  3 "NRF51422__NRF51422_1" 0 "P0.05" 0)
+			(pin 8  3 "NRF51422__NRF51422_1" 0 "P0.04" 0)
+			(pin 7  3 "NRF51422__NRF51422_1" 0 "P0.03" 0)
+			(pin 6  3 "NRF51422__NRF51422_1" 0 "P0.02" 0)
+			(pin 5  3 "NRF51422__NRF51422_1" 0 "P0.01" 0)
+			(pin 4  3 "NRF51422__NRF51422_1" 0 "P0.00" 0)
+			(pin 49  3 "NRF51422__NRF51422_1" 0 "EP" 0)
+			(pin 29  3 "NRF51422__NRF51422_1" 0 "DEC2" 0)
+			(pin 39  3 "NRF51422__NRF51422_1" 0 "DEC1" 0)
+			(pin 2  3 "NRF51422__NRF51422_1" 0 "DCC" 0)
+			(pin 36  3 "NRF51422__NRF51422_1" 0 "AVDD2" 0)
+			(pin 35  3 "NRF51422__NRF51422_1" 0 "AVDD1" 0)
+			(pin 32  3 "NRF51422__NRF51422_1" 0 "ANT2" 0)
+			(pin 31  3 "NRF51422__NRF51422_1" 0 "ANT1" 0))
+		(part "NMOS")
+		(logical_part_mapping "NMOS"
+			(comp "Q19" "Q18" "Q17" "Q16" "Q15" "Q14" "Q13" "Q12" "Q11" "Q10" "Q9" "Q8" "Q7" "Q3" "Q2" "Q1"))
+		(logical_part "NMOS"
+			(slots
+				(slot "NMOS__NMOS_1"
+					(attributes
+						(attval "Description" "SMD N-MOSFET")
+						(attval "PKG_TYPE" "SOT23")
+						(attval "REFDES" "Q?")
+						(attval "Value" ""))))
+			(pin 2  3 "NMOS__NMOS_1" 0 "SOURCE" 0)
+			(pin 1  3 "NMOS__NMOS_1" 0 "GATE" 0)
+			(pin 3  3 "NMOS__NMOS_1" 0 "DRAIN" 0))
+		(part "NKKROCKERDPDT")
+		(logical_part_mapping "NKKROCKERDPDT"
+			(comp "SW2"))
+		(logical_part "NKKROCKERDPDT"
+			(slots
+				(slot "NKKROCKERDPDT__NKKROCKERDPDT_1"
+					(attributes
+						(attval "Description" "SWITCH ROCKER DPDT 0.4VA 28V")
+						(attval "PKG_TYPE" "GWSWITCHDPDT")
+						(attval "REFDES" "SW?")
+						(attval "Value" ""))))
+			(pin 4  3 "NKKROCKERDPDT__NKKROCKERDPDT_1" 0 "OUT_4" 0)
+			(pin 6  3 "NKKROCKERDPDT__NKKROCKERDPDT_1" 0 "OUT_3" 0)
+			(pin 3  3 "NKKROCKERDPDT__NKKROCKERDPDT_1" 0 "OUT_2" 0)
+			(pin 1  3 "NKKROCKERDPDT__NKKROCKERDPDT_1" 0 "OUT" 0)
+			(pin 5  3 "NKKROCKERDPDT__NKKROCKERDPDT_1" 0 "IN_2" 0)
+			(pin 2  3 "NKKROCKERDPDT__NKKROCKERDPDT_1" 0 "IN" 0))
+		(part "MKL26Z128VFM4")
+		(logical_part_mapping "MKL26Z128VFM4"
+			(comp "U4"))
+		(logical_part "MKL26Z128VFM4"
+			(slots
+				(slot "MKL26Z128VFM4__MKL26Z128VFM4_1"
+					(attributes
+						(attval "Description" "IC MCU ARM 128KB FLASH 32QFN")
+						(attval "PKG_TYPE" "QFN32")
+						(attval "REFDES" "U?"))))
+			(pin 2  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "VSS_2" 0)
+			(pin 16  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "VSS_1" 0)
+			(pin 8  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "VSSA" 0)
+			(pin 6  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "VREGIN" 0)
+			(pin 5  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "VOUT33" 0)
+			(pin 7  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "VDDA" 0)
+			(pin 15  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "VDD" 0)
+			(pin 3  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "USB0_DP" 0)
+			(pin 4  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "USB0_DM" 0)
+			(pin 19  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "RESET_B" 0)
+			(pin 9  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "PTE20" 0)
+			(pin 1  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "PTE0" 0)
+			(pin 32  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "PTD7" 0)
+			(pin 31  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "PTD6/LLWU_P15" 0)
+			(pin 30  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "PTD5" 0)
+			(pin 29  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "PTD4/LLWU_P14" 0)
+			(pin 28  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "PTC7" 0)
+			(pin 27  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "PTC6/LLWU_P10" 0)
+			(pin 26  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "PTC5/LLWU_P9" 0)
+			(pin 25  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "PTC4/LLWU_P8" 0)
+			(pin 24  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "PTC3/LLWU_P7" 0)
+			(pin 23  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "PTC2" 0)
+			(pin 22  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "PTC1/LLWU_P6" 0)
+			(pin 21  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "PTB1" 0)
+			(pin 20  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "PTB0/LLWU_P5" 0)
+			(pin 14  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "PTA4" 0)
+			(pin 13  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "PTA3" 0)
+			(pin 12  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "PTA2" 0)
+			(pin 18  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "PTA19" 0)
+			(pin 17  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "PTA18" 0)
+			(pin 11  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "PTA1" 0)
+			(pin 10  3 "MKL26Z128VFM4__MKL26Z128VFM4_1" 0 "PTA0" 0))
+		(part "MKL02Z8VFG4_DEV")
+		(logical_part_mapping "MKL02Z8VFG4_DEV"
+			(comp "U37"))
+		(logical_part "MKL02Z8VFG4_DEV"
+			(slots
+				(slot "MKL02Z8VFG4_DEV__MKL02Z8VFG4_DEV_1"
+					(attributes
+						(attval "Description" "IC MCU ARM 8KB FLASH 16QFN")
+						(attval "PKG_TYPE" "DIP16")
+						(attval "REFDES" "U?"))))
+			(pin 2  3 "MKL02Z8VFG4_DEV__MKL02Z8VFG4_DEV_1" 0 "VSS" 0)
+			(pin 1  3 "MKL02Z8VFG4_DEV__MKL02Z8VFG4_DEV_1" 0 "VDD" 0)
+			(pin 16  3 "MKL02Z8VFG4_DEV__MKL02Z8VFG4_DEV_1" 0 "SWD_DIO" 0)
+			(pin 14  3 "MKL02Z8VFG4_DEV__MKL02Z8VFG4_DEV_1" 0 "SWD_CLK" 0)
+			(pin 15  3 "MKL02Z8VFG4_DEV__MKL02Z8VFG4_DEV_1" 0 "RESET_B" 0)
+			(pin 13  3 "MKL02Z8VFG4_DEV__MKL02Z8VFG4_DEV_1" 0 "PTB5" 0)
+			(pin 12  3 "MKL02Z8VFG4_DEV__MKL02Z8VFG4_DEV_1" 0 "PTB4" 0)
+			(pin 11  3 "MKL02Z8VFG4_DEV__MKL02Z8VFG4_DEV_1" 0 "PTB3" 0)
+			(pin 10  3 "MKL02Z8VFG4_DEV__MKL02Z8VFG4_DEV_1" 0 "PTB2" 0)
+			(pin 9  3 "MKL02Z8VFG4_DEV__MKL02Z8VFG4_DEV_1" 0 "PTB1" 0)
+			(pin 8  3 "MKL02Z8VFG4_DEV__MKL02Z8VFG4_DEV_1" 0 "PTB0" 0)
+			(pin 7  3 "MKL02Z8VFG4_DEV__MKL02Z8VFG4_DEV_1" 0 "PTA7" 0)
+			(pin 6  3 "MKL02Z8VFG4_DEV__MKL02Z8VFG4_DEV_1" 0 "PTA6" 0)
+			(pin 5  3 "MKL02Z8VFG4_DEV__MKL02Z8VFG4_DEV_1" 0 "PTA5" 0)
+			(pin 4  3 "MKL02Z8VFG4_DEV__MKL02Z8VFG4_DEV_1" 0 "PTA4" 0)
+			(pin 3  3 "MKL02Z8VFG4_DEV__MKL02Z8VFG4_DEV_1" 0 "PTA3" 0))
+		(part "MCP73832")
+		(logical_part_mapping "MCP73832"
+			(comp "U7"))
+		(logical_part "MCP73832"
+			(slots
+				(slot "MCP73832__MCP73832_1"
+					(attributes
+						(attval "Description" "	IC LI-ION/LI-POLY CTRLR SOT23-5")
+						(attval "PKG_TYPE" "SOT23-5")
+						(attval "REFDES" "U?"))))
+			(pin 2  3 "MCP73832__MCP73832_1" 0 "VSS" 0)
+			(pin 4  3 "MCP73832__MCP73832_1" 0 "VDD" 0)
+			(pin 3  3 "MCP73832__MCP73832_1" 0 "VBAT" 0)
+			(pin 1  3 "MCP73832__MCP73832_1" 0 "STAT" 0)
+			(pin 5  3 "MCP73832__MCP73832_1" 0 "PROG" 0))
+		(part "MAX-M8Q")
+		(logical_part_mapping "MAX-M8Q"
+			(comp "U12"))
+		(logical_part "MAX-M8Q"
+			(slots
+				(slot "MAX-M8Q__MAX-M8Q_1"
+					(attributes
+						(attval "Description" "U-BLOX TRANSCEIVER MODULE")
+						(attval "PKG_TYPE" "UBLOXLCC")
+						(attval "REFDES" "U?")
+						(attval "Value" ""))))
+			(pin 6  4 "MAX-M8Q__MAX-M8Q_1" 0 "V_BCKP" 0)
+			(pin 14  3 "MAX-M8Q__MAX-M8Q_1" 0 "VCC_RF" 0)
+			(pin 7  4 "MAX-M8Q__MAX-M8Q_1" 0 "VCC_IO" 0)
+			(pin 8  4 "MAX-M8Q__MAX-M8Q_1" 0 "VCC" 0)
+			(pin 2  0 "MAX-M8Q__MAX-M8Q_1" 0 "TXD" 0)
+			(pin 4  4 "MAX-M8Q__MAX-M8Q_1" 0 "TIMEPULSE" 0)
+			(pin 16  3 "MAX-M8Q__MAX-M8Q_1" 0 "SDA" 0)
+			(pin 17  3 "MAX-M8Q__MAX-M8Q_1" 0 "SCL" 0)
+			(pin 3  4 "MAX-M8Q__MAX-M8Q_1" 0 "RXD" 0)
+			(pin 11  3 "MAX-M8Q__MAX-M8Q_1" 0 "RF_IN" 0)
+			(pin 9  4 "MAX-M8Q__MAX-M8Q_1" 0 "RESET_N" 0)
+			(pin 18  3 "MAX-M8Q__MAX-M8Q_1" 0 "RESERVED2" 0)
+			(pin 15  3 "MAX-M8Q__MAX-M8Q_1" 0 "RESERVED1" 0)
+			(pin 12  3 "MAX-M8Q__MAX-M8Q_1" 0 "GND3" 0)
+			(pin 10  3 "MAX-M8Q__MAX-M8Q_1" 0 "GND2" 0)
+			(pin 1  4 "MAX-M8Q__MAX-M8Q_1" 0 "GND1" 0)
+			(pin 5  4 "MAX-M8Q__MAX-M8Q_1" 0 "EXTINT0" 0)
+			(pin 13  3 "MAX-M8Q__MAX-M8Q_1" 0 "ANTON" 0))
+		(part "M74VHC1GT50DTT1G")
+		(logical_part_mapping "M74VHC1GT50DTT1G"
+			(comp "U23"))
+		(logical_part "M74VHC1GT50DTT1G"
+			(slots
+				(slot "M74VHC1GT50DTT1G__M74VHC1GT50DTT1G_1"
+					(attributes
+						(attval "Description" "IC BUFF CMOS LVL/SFTR N-I 5TSOP")
+						(attval "PKG_TYPE" "SOT23-5")
+						(attval "REFDES" "U?"))))
+			(pin 5  4 "M74VHC1GT50DTT1G__M74VHC1GT50DTT1G_1" 0 "VCC" 0)
+			(pin 4  4 "M74VHC1GT50DTT1G__M74VHC1GT50DTT1G_1" 0 "OUT" 0)
+			(pin 1  0 "M74VHC1GT50DTT1G__M74VHC1GT50DTT1G_1" 0 "NC" 0)
+			(pin 2  4 "M74VHC1GT50DTT1G__M74VHC1GT50DTT1G_1" 0 "IN" 0)
+			(pin 3  3 "M74VHC1GT50DTT1G__M74VHC1GT50DTT1G_1" 0 "GND" 0))
+		(part "LOADSWITCH")
+		(logical_part_mapping "LOADSWITCH"
+			(comp "U28" "U27" "U26" "U25"))
+		(logical_part "LOADSWITCH"
+			(slots
+				(slot "LOADSWITCH__LOADSWITCH_1"
+					(attributes
+						(attval "Description" "LOAD SWITCH")
+						(attval "PKG_TYPE" "TSOT-23")
+						(attval "REFDES" "U?")
+						(attval "Value" ""))))
+			(pin 3  4 "LOADSWITCH__LOADSWITCH_1" 0 "VOUT2" 0)
+			(pin 2  3 "LOADSWITCH__LOADSWITCH_1" 0 "VOUT1" 0)
+			(pin 4  3 "LOADSWITCH__LOADSWITCH_1" 0 "VIN" 0)
+			(pin 6  3 "LOADSWITCH__LOADSWITCH_1" 0 "R1/C1" 0)
+			(pin 5  3 "LOADSWITCH__LOADSWITCH_1" 0 "ON/OFF" 0)
+			(pin 1  0 "LOADSWITCH__LOADSWITCH_1" 0 "GND" 0))
+		(part "LC709203FQH-01TWG_DEV")
+		(logical_part_mapping "LC709203FQH-01TWG_DEV"
+			(comp "U1"))
+		(logical_part "LC709203FQH-01TWG_DEV"
+			(slots
+				(slot "LC709203FQH-01TWG_DEV__LC709203FQH-01TWG_DEV_1"
+					(attributes
+						(attval "Description" "IC BATT MONITOR LI-ION 9WLCSP")
+						(attval "PKG_TYPE" "DIP26-300-DEV")
+						(attval "REFDES" "U?"))))
+			(pin A1  3 "LC709203FQH-01TWG_DEV__LC709203FQH-01TWG_DEV_1" 0 "VSS" 0)
+			(pin A3  3 "LC709203FQH-01TWG_DEV__LC709203FQH-01TWG_DEV_1" 0 "VDD" 0)
+			(pin B3  3 "LC709203FQH-01TWG_DEV__LC709203FQH-01TWG_DEV_1" 0 "TSW" 0)
+			(pin C3  3 "LC709203FQH-01TWG_DEV__LC709203FQH-01TWG_DEV_1" 0 "TSENSE" 0)
+			(pin B1  3 "LC709203FQH-01TWG_DEV__LC709203FQH-01TWG_DEV_1" 0 "TEST" 0)
+			(pin C1  3 "LC709203FQH-01TWG_DEV__LC709203FQH-01TWG_DEV_1" 0 "SDA" 0)
+			(pin C2  3 "LC709203FQH-01TWG_DEV__LC709203FQH-01TWG_DEV_1" 0 "SCL" 0)
+			(pin D2  3 "LC709203FQH-01TWG_DEV__LC709203FQH-01TWG_DEV_1" 0 "NC_9" 0)
+			(pin D1  3 "LC709203FQH-01TWG_DEV__LC709203FQH-01TWG_DEV_1" 0 "NC_8" 0)
+			(pin C5  3 "LC709203FQH-01TWG_DEV__LC709203FQH-01TWG_DEV_1" 0 "NC_7" 0)
+			(pin C4  3 "LC709203FQH-01TWG_DEV__LC709203FQH-01TWG_DEV_1" 0 "NC_6" 0)
+			(pin B5  3 "LC709203FQH-01TWG_DEV__LC709203FQH-01TWG_DEV_1" 0 "NC_5" 0)
+			(pin B4  3 "LC709203FQH-01TWG_DEV__LC709203FQH-01TWG_DEV_1" 0 "NC_4" 0)
+			(pin A5  3 "LC709203FQH-01TWG_DEV__LC709203FQH-01TWG_DEV_1" 0 "NC_3" 0)
+			(pin A4  3 "LC709203FQH-01TWG_DEV__LC709203FQH-01TWG_DEV_1" 0 "NC_2" 0)
+			(pin E6  3 "LC709203FQH-01TWG_DEV__LC709203FQH-01TWG_DEV_1" 0 "NC_18" 0)
+			(pin E5  3 "LC709203FQH-01TWG_DEV__LC709203FQH-01TWG_DEV_1" 0 "NC_17" 0)
+			(pin E4  3 "LC709203FQH-01TWG_DEV__LC709203FQH-01TWG_DEV_1" 0 "NC_16" 0)
+			(pin E3  3 "LC709203FQH-01TWG_DEV__LC709203FQH-01TWG_DEV_1" 0 "NC_15" 0)
+			(pin E2  3 "LC709203FQH-01TWG_DEV__LC709203FQH-01TWG_DEV_1" 0 "NC_14" 0)
+			(pin E1  3 "LC709203FQH-01TWG_DEV__LC709203FQH-01TWG_DEV_1" 0 "NC_13" 0)
+			(pin D5  3 "LC709203FQH-01TWG_DEV__LC709203FQH-01TWG_DEV_1" 0 "NC_12" 0)
+			(pin D4  3 "LC709203FQH-01TWG_DEV__LC709203FQH-01TWG_DEV_1" 0 "NC_11" 0)
+			(pin D3  3 "LC709203FQH-01TWG_DEV__LC709203FQH-01TWG_DEV_1" 0 "NC_10" 0)
+			(pin B2  3 "LC709203FQH-01TWG_DEV__LC709203FQH-01TWG_DEV_1" 0 "NC" 0)
+			(pin A2  3 "LC709203FQH-01TWG_DEV__LC709203FQH-01TWG_DEV_1" 0 "ALARMB" 0))
+		(part "GNDMHOLE")
+		(logical_part_mapping "GNDMHOLE"
+			(comp "M4" "M3" "M2" "M1"))
+		(logical_part "GNDMHOLE"
+			(slots
+				(slot "GNDMHOLE__GNDMHOLE_1"
+					(attributes
+						(attval "Description" "HEX STANDOFF 6-32 ALUMINUM 1/2""")
+						(attval "PKG_TYPE" "GNDMHOLE")
+						(attval "REFDES" "M?")
+						(attval "Value" ""))))
+			(pin 1  3 "GNDMHOLE__GNDMHOLE_1" 0 "IN1" 0))
+		(part "FTSH-105-01-F-DV-K")
+		(logical_part_mapping "FTSH-105-01-F-DV-K"
+			(comp "J77" "J76"))
+		(logical_part "FTSH-105-01-F-DV-K"
+			(slots
+				(slot "FTSH-105-01-F-DV-K__FTSH-105-01-F-DV-K_1"
+					(attributes
+						(attval "Description" "CONN HEADER 10POS DUAL VERT")
+						(attval "PKG_TYPE" "FTSH-105-01-F-DV")
+						(attval "REFDES" "J?")
+						(attval "Value" ""))))
+			(pin 10  3 "FTSH-105-01-F-DV-K__FTSH-105-01-F-DV-K_1" 0 "~RESET" 0)
+			(pin 1  3 "FTSH-105-01-F-DV-K__FTSH-105-01-F-DV-K_1" 0 "VCC" 0)
+			(pin 6  3 "FTSH-105-01-F-DV-K__FTSH-105-01-F-DV-K_1" 0 "SWO" 0)
+			(pin 2  3 "FTSH-105-01-F-DV-K__FTSH-105-01-F-DV-K_1" 0 "SWDIO" 0)
+			(pin 4  3 "FTSH-105-01-F-DV-K__FTSH-105-01-F-DV-K_1" 0 "SWCLK" 0)
+			(pin 8  3 "FTSH-105-01-F-DV-K__FTSH-105-01-F-DV-K_1" 0 "NC2" 0)
+			(pin 7  3 "FTSH-105-01-F-DV-K__FTSH-105-01-F-DV-K_1" 0 "NC1" 0)
+			(pin 9  3 "FTSH-105-01-F-DV-K__FTSH-105-01-F-DV-K_1" 0 "GNDDETECT" 0)
+			(pin 5  3 "FTSH-105-01-F-DV-K__FTSH-105-01-F-DV-K_1" 0 "GND2" 0)
+			(pin 3  3 "FTSH-105-01-F-DV-K__FTSH-105-01-F-DV-K_1" 0 "GND1" 0))
+		(part "FERRITEBEAD")
+		(logical_part_mapping "FERRITEBEAD"
+			(comp "FB7" "FB6" "FB5" "FB4" "FB3" "FB2" "FB1"))
+		(logical_part "FERRITEBEAD"
+			(slots
+				(slot "FERRITEBEAD__FERRITEBEAD_1"
+					(attributes
+						(attval "Description" "")
+						(attval "PKG_TYPE" "0805")
+						(attval "REFDES" "FB?")
+						(attval "Value" ""))))
+			(pin 2  3 "FERRITEBEAD__FERRITEBEAD_1" 0 "PIN1" 0)
+			(pin 1  3 "FERRITEBEAD__FERRITEBEAD_1" 0 "PIN0" 0))
+		(part "EHS6_DEV")
+		(logical_part_mapping "EHS6_DEV"
+			(comp "U30"))
+		(logical_part "EHS6_DEV"
+			(slots
+				(slot "EHS6_DEV__EHS6_DEV_1"
+					(attributes
+						(attval "Description" "IC GSM/UMTS M2M INTERFACE")
+						(attval "PKG_TYPE" "EHS6_LGA_DEV")
+						(attval "REFDES" "U?"))))
+			(pin 233  3 "EHS6_DEV__EHS6_DEV_1" 0 "VUSB" 0)
+			(pin 215  3 "EHS6_DEV__EHS6_DEV_1" 0 "VDDLP" 0)
+			(pin 22  3 "EHS6_DEV__EHS6_DEV_1" 0 "VCORE" 0)
+			(pin 209  5 "EHS6_DEV__EHS6_DEV_1" 0 "V180" 0)
+			(pin 234  3 "EHS6_DEV__EHS6_DEV_1" 0 "USB_DP" 0)
+			(pin 235  3 "EHS6_DEV__EHS6_DEV_1" 0 "USB_DN" 0)
+			(pin 212  3 "EHS6_DEV__EHS6_DEV_1" 0 "TXD0" 0)
+			(pin 243  3 "EHS6_DEV__EHS6_DEV_1" 0 "RESERVED_9" 0)
+			(pin 66  3 "EHS6_DEV__EHS6_DEV_1" 0 "RESERVED_8" 0)
+			(pin 65  3 "EHS6_DEV__EHS6_DEV_1" 0 "RESERVED_7" 0)
+			(pin 64  3 "EHS6_DEV__EHS6_DEV_1" 0 "RESERVED_6" 0)
+			(pin 228  3 "EHS6_DEV__EHS6_DEV_1" 0 "RESERVED_5" 0)
+			(pin 226  3 "EHS6_DEV__EHS6_DEV_1" 0 "RESERVED_4" 0)
+			(pin 224  3 "EHS6_DEV__EHS6_DEV_1" 0 "RESERVED_3" 0)
+			(pin 202  5 "EHS6_DEV__EHS6_DEV_1" 0 "RESERVED_2" 0)
+			(pin 246  3 "EHS6_DEV__EHS6_DEV_1" 0 "RESERVED_14" 0)
+			(pin 247  3 "EHS6_DEV__EHS6_DEV_1" 0 "RESERVED_13" 0)
+			(pin 248  3 "EHS6_DEV__EHS6_DEV_1" 0 "RESERVED_12" 0)
+			(pin 249  3 "EHS6_DEV__EHS6_DEV_1" 0 "RESERVED_11" 0)
+			(pin 106  3 "EHS6_DEV__EHS6_DEV_1" 0 "RESERVED_10" 0)
+			(pin 201  5 "EHS6_DEV__EHS6_DEV_1" 0 "RESERVED_1" 0)
+			(pin 210  5 "EHS6_DEV__EHS6_DEV_1" 0 "RXD0" 0)
+			(pin 214  3 "EHS6_DEV__EHS6_DEV_1" 0 "RTS0" 0)
+			(pin 207  5 "EHS6_DEV__EHS6_DEV_1" 0 "ON" 0)
+			(pin 76  3 "EHS6_DEV__EHS6_DEV_1" 0 "NC9" 0)
+			(pin 75  3 "EHS6_DEV__EHS6_DEV_1" 0 "NC8" 0)
+			(pin 74  3 "EHS6_DEV__EHS6_DEV_1" 0 "NC7" 0)
+			(pin 73  3 "EHS6_DEV__EHS6_DEV_1" 0 "NC6" 0)
+			(pin 71  3 "EHS6_DEV__EHS6_DEV_1" 0 "NC5" 0)
+			(pin 70  3 "EHS6_DEV__EHS6_DEV_1" 0 "NC4" 0)
+			(pin 69  3 "EHS6_DEV__EHS6_DEV_1" 0 "NC3" 0)
+			(pin 68  3 "EHS6_DEV__EHS6_DEV_1" 0 "NC2" 0)
+			(pin 105  3 "EHS6_DEV__EHS6_DEV_1" 0 "NC17" 0)
+			(pin 104  3 "EHS6_DEV__EHS6_DEV_1" 0 "NC16" 0)
+			(pin 91  3 "EHS6_DEV__EHS6_DEV_1" 0 "NC15" 0)
+			(pin 87  3 "EHS6_DEV__EHS6_DEV_1" 0 "NC14" 0)
+			(pin 80  3 "EHS6_DEV__EHS6_DEV_1" 0 "NC13" 0)
+			(pin 79  3 "EHS6_DEV__EHS6_DEV_1" 0 "NC12" 0)
+			(pin 78  3 "EHS6_DEV__EHS6_DEV_1" 0 "NC11" 0)
+			(pin 77  3 "EHS6_DEV__EHS6_DEV_1" 0 "NC10" 0)
+			(pin 67  3 "EHS6_DEV__EHS6_DEV_1" 0 "NC1" 0)
+			(pin 27  3 "EHS6_DEV__EHS6_DEV_1" 0 "I2CDAT" 0)
+			(pin 28  3 "EHS6_DEV__EHS6_DEV_1" 0 "I2CCLK" 0)
+			(pin 237  3 "EHS6_DEV__EHS6_DEV_1" 0 "HSIC_STRB" 0)
+			(pin 236  3 "EHS6_DEV__EHS6_DEV_1" 0 "HSIC_DATA" 0)
+			(pin 242  3 "EHS6_DEV__EHS6_DEV_1" 0 "GPIO8/COUNTER" 0)
+			(pin 241  3 "EHS6_DEV__EHS6_DEV_1" 0 "GPIO7/PWM1" 0)
+			(pin 240  3 "EHS6_DEV__EHS6_DEV_1" 0 "GPIO6/PWM2" 0)
+			(pin 239  3 "EHS6_DEV__EHS6_DEV_1" 0 "GPIO5/LED" 0)
+			(pin 229  3 "EHS6_DEV__EHS6_DEV_1" 0 "GPIO4/FST_SHDN" 0)
+			(pin 230  3 "EHS6_DEV__EHS6_DEV_1" 0 "GPIO3/DSR0/SPI_CLK" 0)
+			(pin 213  3 "EHS6_DEV__EHS6_DEV_1" 0 "GPIO24/RING0" 0)
+			(pin 26  3 "EHS6_DEV__EHS6_DEV_1" 0 "GPIO23/SCLK" 0)
+			(pin 24  3 "EHS6_DEV__EHS6_DEV_1" 0 "GPIO22/TFSDAI" 0)
+			(pin 25  3 "EHS6_DEV__EHS6_DEV_1" 0 "GPIO21/RXDDAI" 0)
+			(pin 23  3 "EHS6_DEV__EHS6_DEV_1" 0 "GPIO20/TXDDAI" 0)
+			(pin 231  3 "EHS6_DEV__EHS6_DEV_1" 0 "GPIO2/DCD0" 0)
+			(pin 32  3 "EHS6_DEV__EHS6_DEV_1" 0 "GPIO19/SUSPEND/CTS1/SPI_CS" 0)
+			(pin 31  3 "EHS6_DEV__EHS6_DEV_1" 0 "GPIO18/CP_WAKEUP/RTS1" 0)
+			(pin 29  3 "EHS6_DEV__EHS6_DEV_1" 0 "GPIO17/HOST_ACTIVE/TXD1/MISO" 0)
+			(pin 30  3 "EHS6_DEV__EHS6_DEV_1" 0 "GPIO16/AP_WAKEUP/RXD1/MOSI" 0)
+			(pin 244  3 "EHS6_DEV__EHS6_DEV_1" 0 "GPIO15" 0)
+			(pin 219  3 "EHS6_DEV__EHS6_DEV_1" 0 "GPIO14" 0)
+			(pin 220  3 "EHS6_DEV__EHS6_DEV_1" 0 "GPIO13" 0)
+			(pin 221  3 "EHS6_DEV__EHS6_DEV_1" 0 "GPIO12" 0)
+			(pin 222  3 "EHS6_DEV__EHS6_DEV_1" 0 "GPIO11" 0)
+			(pin 232  3 "EHS6_DEV__EHS6_DEV_1" 0 "GPIO1/DTR0" 0)
+			(pin 83  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND9" 0)
+			(pin 227  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND8" 0)
+			(pin 225  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND7" 0)
+			(pin 223  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND6" 0)
+			(pin 82  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND5" 0)
+			(pin 252  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND41" 0)
+			(pin 251  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND40" 0)
+			(pin 81  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND4" 0)
+			(pin 250  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND39" 0)
+			(pin 245  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND38" 0)
+			(pin 103  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND37" 0)
+			(pin 102  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND36" 0)
+			(pin 101  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND35" 0)
+			(pin 100  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND34" 0)
+			(pin 99  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND33" 0)
+			(pin 63  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND32" 0)
+			(pin 62  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND31" 0)
+			(pin 61  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND30" 0)
+			(pin 208  5 "EHS6_DEV__EHS6_DEV_1" 0 "GND3" 0)
+			(pin 60  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND29" 0)
+			(pin 58  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND28" 0)
+			(pin 57  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND27" 0)
+			(pin 56  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND26" 0)
+			(pin 55  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND25" 0)
+			(pin 54  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND24" 0)
+			(pin 238  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND23" 0)
+			(pin 98  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND22" 0)
+			(pin 97  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND21" 0)
+			(pin 96  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND20" 0)
+			(pin 205  5 "EHS6_DEV__EHS6_DEV_1" 0 "GND2" 0)
+			(pin 95  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND19" 0)
+			(pin 94  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND18" 0)
+			(pin 93  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND17" 0)
+			(pin 92  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND16" 0)
+			(pin 90  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND15" 0)
+			(pin 89  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND14" 0)
+			(pin 88  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND13" 0)
+			(pin 86  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND12" 0)
+			(pin 85  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND11" 0)
+			(pin 84  3 "EHS6_DEV__EHS6_DEV_1" 0 "GND10" 0)
+			(pin 203  5 "EHS6_DEV__EHS6_DEV_1" 0 "GND1" 0)
+			(pin 33  3 "EHS6_DEV__EHS6_DEV_1" 0 "EMERG_RST" 0)
+			(pin 211  5 "EHS6_DEV__EHS6_DEV_1" 0 "CTS0" 0)
+			(pin 20  3 "EHS6_DEV__EHS6_DEV_1" 0 "CCVCC" 0)
+			(pin 216  3 "EHS6_DEV__EHS6_DEV_1" 0 "CCRST" 0)
+			(pin 218  3 "EHS6_DEV__EHS6_DEV_1" 0 "CCIO" 0)
+			(pin 217  3 "EHS6_DEV__EHS6_DEV_1" 0 "CCIN" 0)
+			(pin 21  3 "EHS6_DEV__EHS6_DEV_1" 0 "CCCLK" 0)
+			(pin 53  3 "EHS6_DEV__EHS6_DEV_1" 0 "BATTPRF" 0)
+			(pin 204  5 "EHS6_DEV__EHS6_DEV_1" 0 "BATTPBB" 0)
+			(pin 72  3 "EHS6_DEV__EHS6_DEV_1" 0 "AUTO_ON" 0)
+			(pin 59  3 "EHS6_DEV__EHS6_DEV_1" 0 "ANT_GSM" 0)
+			(pin 206  5 "EHS6_DEV__EHS6_DEV_1" 0 "ADC1" 0))
+		(part "DIPSWITCH8")
+		(logical_part_mapping "DIPSWITCH8"
+			(comp "SW3"))
+		(logical_part "DIPSWITCH8"
+			(slots
+				(slot "DIPSWITCH8__DIPSWITCH8_1"
+					(attributes
+						(attval "Description" "SW DIP EXT RCKR SEALED 8POS 30V")
+						(attval "PKG_TYPE" "DIP16")
+						(attval "REFDES" "SW?")
+						(attval "Value" ""))))
+			(pin 13  3 "DIPSWITCH8__DIPSWITCH8_1" 0 "OUT_3" 0)
+			(pin 15  3 "DIPSWITCH8__DIPSWITCH8_1" 0 "OUT_2_1" 0)
+			(pin 11  3 "DIPSWITCH8__DIPSWITCH8_1" 0 "OUT_2" 0)
+			(pin 14  3 "DIPSWITCH8__DIPSWITCH8_1" 0 "OUT_1_2" 0)
+			(pin 16  3 "DIPSWITCH8__DIPSWITCH8_1" 0 "OUT_1_1_1" 0)
+			(pin 12  3 "DIPSWITCH8__DIPSWITCH8_1" 0 "OUT_1_1" 0)
+			(pin 10  3 "DIPSWITCH8__DIPSWITCH8_1" 0 "OUT_1" 0)
+			(pin 9  3 "DIPSWITCH8__DIPSWITCH8_1" 0 "OUT" 0)
+			(pin 4  3 "DIPSWITCH8__DIPSWITCH8_1" 0 "IN_3" 0)
+			(pin 2  3 "DIPSWITCH8__DIPSWITCH8_1" 0 "IN_2_1" 0)
+			(pin 6  3 "DIPSWITCH8__DIPSWITCH8_1" 0 "IN_2" 0)
+			(pin 3  3 "DIPSWITCH8__DIPSWITCH8_1" 0 "IN_1_2" 0)
+			(pin 1  3 "DIPSWITCH8__DIPSWITCH8_1" 0 "IN_1_1_1" 0)
+			(pin 5  3 "DIPSWITCH8__DIPSWITCH8_1" 0 "IN_1_1" 0)
+			(pin 7  3 "DIPSWITCH8__DIPSWITCH8_1" 0 "IN_1" 0)
+			(pin 8  3 "DIPSWITCH8__DIPSWITCH8_1" 0 "IN" 0))
+		(part "CRYSTAL3")
+		(logical_part_mapping "CRYSTAL3"
+			(comp "X2" "X1"))
+		(logical_part "CRYSTAL3"
+			(slots
+				(slot "CRYSTAL3__CRYSTAL3_1"
+					(attributes
+						(attval "Description" "16MHZ CRYSTAL OSCILLATOR")
+						(attval "PKG_TYPE" "XTAL")
+						(attval "REFDES" "X?")
+						(attval "Value" "16MHZ"))))
+			(pin 2  3 "CRYSTAL3__CRYSTAL3_1" 0 "OUT" 0)
+			(pin 1  3 "CRYSTAL3__CRYSTAL3_1" 0 "IN" 0))
+		(part "CRYSTAL2")
+		(logical_part_mapping "CRYSTAL2"
+			(comp "X4" "X3"))
+		(logical_part "CRYSTAL2"
+			(slots
+				(slot "CRYSTAL2__CRYSTAL2_1"
+					(attributes
+						(attval "Description" "CRYSTAL 32.768KHZ 12.5PF SMD 1206")
+						(attval "PKG_TYPE" "1206")
+						(attval "REFDES" "X?")
+						(attval "Value" "32.768KHZ"))))
+			(pin 2  3 "CRYSTAL2__CRYSTAL2_1" 0 "OUT" 0)
+			(pin 1  3 "CRYSTAL2__CRYSTAL2_1" 0 "IN" 0))
+		(part "CREESMRGBLED")
+		(logical_part_mapping "CREESMRGBLED"
+			(comp "LED1"))
+		(logical_part "CREESMRGBLED"
+			(slots
+				(slot "CREESMRGBLED__CREESMRGBLED_1"
+					(attributes
+						(attval "Description" "LED RGB DIFFUSED 6SMD")
+						(attval "PKG_TYPE" "CREESMRGB")
+						(attval "REFDES" "LED?")
+						(attval "Value" ""))))
+			(pin 6  3 "CREESMRGBLED__CREESMRGBLED_1" 0 "RED_CA" 0)
+			(pin 1  3 "CREESMRGBLED__CREESMRGBLED_1" 0 "RED_AN" 0)
+			(pin 5  3 "CREESMRGBLED__CREESMRGBLED_1" 0 "GRE_CA" 0)
+			(pin 2  3 "CREESMRGBLED__CREESMRGBLED_1" 0 "GRE_AN" 0)
+			(pin 4  3 "CREESMRGBLED__CREESMRGBLED_1" 0 "BLU_CA" 0)
+			(pin 3  3 "CREESMRGBLED__CREESMRGBLED_1" 0 "BLU_AN" 0))
+		(part "CAPACITOR")
+		(logical_part_mapping "CAPACITOR"
+			(comp "C58" "C57" "C56" "C55" "C54" "C53" "C52" "C51" "C50" "C49" "C48" "C47" "C46" "C45" "C44" "C43" "C42" "C41" "C40" "C39"
+ "C38" "C37" "C36" "C35" "C34" "C33" "C32" "C31" "C30" "C29" "C28" "C27" "C26" "C25" "C24" "C23" "C22" "C21" "C20" "C19" "C18"
+ "C17" "C16" "C15" "C14" "C13" "C12" "C11" "C10" "C9" "C8" "C7" "C6" "C5" "C4" "C3" "C2" "C1"))
+		(logical_part "CAPACITOR"
+			(slots
+				(slot "CAPACITOR__CAPACITOR_1"
+					(attributes
+						(attval "Description" "SMD CAPACITOR")
+						(attval "PKG_TYPE" "0402")
+						(attval "REFDES" "C?")
+						(attval "Value" ""))))
+			(pin 2  3 "CAPACITOR__CAPACITOR_1" 0 "V-" 0)
+			(pin 1  3 "CAPACITOR__CAPACITOR_1" 0 "V+" 0))
+		(part "BLUELED")
+		(logical_part_mapping "BLUELED"
+			(comp "LED10" "LED9" "LED8" "LED7" "LED6" "LED5" "LED4" "LED3" "LED2"))
+		(logical_part "BLUELED"
+			(slots
+				(slot "BLUELED__BLUELED_1"
+					(attributes
+						(attval "Description" "LED BLUE DIFF 4MM OVAL T/H")
+						(attval "PKG_TYPE" "THTLED")
+						(attval "REFDES" "LED?")
+						(attval "Value" "BLUE"))))
+			(pin 2  3 "BLUELED__BLUELED_1" 0 "OUT_3" 0)
+			(pin 1  3 "BLUELED__BLUELED_1" 0 "IN_3" 0))
+		(part "BJT-MMBT3904-7-F")
+		(logical_part_mapping "BJT-MMBT3904-7-F"
+			(comp "Q22" "Q6" "Q5" "Q4"))
+		(logical_part "BJT-MMBT3904-7-F"
+			(slots
+				(slot "BJT-MMBT3904-7-F__BJT-MMBT3904-7-F_1"
+					(attributes
+						(attval "Description" "	TRANS NPN 40V 0.2A SMD SOT23-3")
+						(attval "PKG_TYPE" "SOT23")
+						(attval "REFDES" "Q?")
+						(attval "Value" ""))))
+			(pin 2  3 "BJT-MMBT3904-7-F__BJT-MMBT3904-7-F_1" 0 "EMITTER" 0)
+			(pin 3  3 "BJT-MMBT3904-7-F__BJT-MMBT3904-7-F_1" 0 "COLLECTOR" 0)
+			(pin 1  3 "BJT-MMBT3904-7-F__BJT-MMBT3904-7-F_1" 0 "BASE" 0))
+		(part "BAT54C-7-F")
+		(logical_part_mapping "BAT54C-7-F"
+			(comp "U36" "U35" "U34" "U33" "U32" "U31"))
+		(logical_part "BAT54C-7-F"
+			(slots
+				(slot "BAT54C-7-F__BAT54C-7-F_1"
+					(attributes
+						(attval "Description" "	DIODE ARRAY SCHOTTKY 30V SOT23-3")
+						(attval "PKG_TYPE" "SOT23M1")
+						(attval "REFDES" "U?"))))
+			(pin 3  3 "BAT54C-7-F__BAT54C-7-F_1" 0 "CAT1" 0)
+			(pin 2  3 "BAT54C-7-F__BAT54C-7-F_1" 0 "AN2" 0)
+			(pin 1  3 "BAT54C-7-F__BAT54C-7-F_1" 0 "AN1" 0))
+		(part "AU6465R-DEV")
+		(logical_part_mapping "AU6465R-DEV"
+			(comp "U11"))
+		(logical_part "AU6465R-DEV"
+			(slots
+				(slot "AU6465R-DEV__AU6465R-DEV_1"
+					(attributes
+						(attval "Description" "IC CARD READER CONTROLLER 28-QFN")
+						(attval "PKG_TYPE" "QFN28-DEV")
+						(attval "REFDES" "U?"))))
+			(pin 15  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "XTALSEL" 0)
+			(pin 7  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "XO" 0)
+			(pin 6  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "XI" 0)
+			(pin 5  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "VS33P" 0)
+			(pin 16  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "VDDIO" 0)
+			(pin 10  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "VDDHM" 0)
+			(pin 11  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "VDD" 0)
+			(pin 2  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "V33P" 0)
+			(pin 8  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "V18" 0)
+			(pin 24  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "SDCMD" 0)
+			(pin 22  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "SDCLK" 0)
+			(pin 13  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "SDCDN" 0)
+			(pin 14  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "RSTN" 0)
+			(pin 1  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "REXT" 0)
+			(pin 12  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "MSINS" 0)
+			(pin 27  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "MSD7/SDD2" 0)
+			(pin 25  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "MSD6/SDD4" 0)
+			(pin 18  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "MSD5/SDD1" 0)
+			(pin 20  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "MSD4/SDD7" 0)
+			(pin 26  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "MSD3/SDD3" 0)
+			(pin 23  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "MSD2/SDD5" 0)
+			(pin 19  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "MSD1/SDD0" 0)
+			(pin 21  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "MSD0/SDD6" 0)
+			(pin 28  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "MSCLK" 0)
+			(pin 17  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "MSBS/SDWP" 0)
+			(pin 29  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "EXP1" 0)
+			(pin 3  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "DP" 0)
+			(pin 4  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "DM" 0)
+			(pin 9  3 "AU6465R-DEV__AU6465R-DEV_1" 0 "C1V33" 0))
+		(part "AT24C02D-MAHM-T")
+		(logical_part_mapping "AT24C02D-MAHM-T"
+			(comp "U29"))
+		(logical_part "AT24C02D-MAHM-T"
+			(slots
+				(slot "AT24C02D-MAHM-T__AT24C02D-MAHM-T_1"
+					(attributes
+						(attval "Description" "IC EEPROM 2KBIT 1MHZ 8MINIMAP")
+						(attval "PKG_TYPE" "UDFN8ATMEL")
+						(attval "REFDES" "U?"))))
+			(pin 7  3 "AT24C02D-MAHM-T__AT24C02D-MAHM-T_1" 0 "WP" 0)
+			(pin 8  3 "AT24C02D-MAHM-T__AT24C02D-MAHM-T_1" 0 "VCC" 0)
+			(pin 5  3 "AT24C02D-MAHM-T__AT24C02D-MAHM-T_1" 0 "SDA" 0)
+			(pin 6  3 "AT24C02D-MAHM-T__AT24C02D-MAHM-T_1" 0 "SCL" 0)
+			(pin 4  3 "AT24C02D-MAHM-T__AT24C02D-MAHM-T_1" 0 "GND" 0)
+			(pin 3  3 "AT24C02D-MAHM-T__AT24C02D-MAHM-T_1" 0 "A2" 0)
+			(pin 2  3 "AT24C02D-MAHM-T__AT24C02D-MAHM-T_1" 0 "A1" 0)
+			(pin 1  3 "AT24C02D-MAHM-T__AT24C02D-MAHM-T_1" 0 "A0" 0))
+		(part "ANTENOVAA10204-01")
+		(logical_part_mapping "ANTENOVAA10204-01"
+			(comp "ANT2"))
+		(logical_part "ANTENOVAA10204-01"
+			(slots
+				(slot "ANTENOVAA10204-01__ANTENOVAA10204-01_1"
+					(attributes
+						(attval "Description" "GPS ANTENNA")
+						(attval "PKG_TYPE" "A10204-01")
+						(attval "REFDES" "ANT?"))))
+			(pin 2  3 "ANTENOVAA10204-01__ANTENOVAA10204-01_1" 0 "RFIN" 0)
+			(pin 6  3 "ANTENOVAA10204-01__ANTENOVAA10204-01_1" 0 "P6" 0)
+			(pin 5  3 "ANTENOVAA10204-01__ANTENOVAA10204-01_1" 0 "P5" 0)
+			(pin 4  3 "ANTENOVAA10204-01__ANTENOVAA10204-01_1" 0 "GND3" 0)
+			(pin 3  3 "ANTENOVAA10204-01__ANTENOVAA10204-01_1" 0 "GND2" 0)
+			(pin 1  3 "ANTENOVAA10204-01__ANTENOVAA10204-01_1" 0 "GND1" 0))
+		(part "AM1805_DEV")
+		(logical_part_mapping "AM1805_DEV"
+			(comp "U24"))
+		(logical_part "AM1805_DEV"
+			(slots
+				(slot "AM1805_DEV__AM1805_DEV_1"
+					(attributes
+						(attval "Description" "IC RTC ULTRA LOW POWER")
+						(attval "PKG_TYPE" "QFN16AMBIQ_DEV")
+						(attval "REFDES" "U?"))))
+			(pin 12  3 "AM1805_DEV__AM1805_DEV_1" 0 "NTIRQ" 0)
+			(pin 1  3 "AM1805_DEV__AM1805_DEV_1" 0 "NRST" 0)
+			(pin 3  3 "AM1805_DEV__AM1805_DEV_1" 0 "NEXTR" 0)
+			(pin 15  3 "AM1805_DEV__AM1805_DEV_1" 0 "XO" 0)
+			(pin 16  3 "AM1805_DEV__AM1805_DEV_1" 0 "XI" 0)
+			(pin 2  3 "AM1805_DEV__AM1805_DEV_1" 0 "WDI" 0)
+			(pin 17  3 "AM1805_DEV__AM1805_DEV_1" 0 "VSSEP1" 0)
+			(pin 9  3 "AM1805_DEV__AM1805_DEV_1" 0 "VSS" 0)
+			(pin 13  3 "AM1805_DEV__AM1805_DEV_1" 0 "VCC" 0)
+			(pin 5  3 "AM1805_DEV__AM1805_DEV_1" 0 "VBAT" 0)
+			(pin 6  3 "AM1805_DEV__AM1805_DEV_1" 0 "SDA" 0)
+			(pin 7  3 "AM1805_DEV__AM1805_DEV_1" 0 "SCL" 0)
+			(pin 4  3 "AM1805_DEV__AM1805_DEV_1" 0 "PSW/NIRQ2" 0)
+			(pin 11  3 "AM1805_DEV__AM1805_DEV_1" 0 "FOUT/NIRQ" 0)
+			(pin 10  3 "AM1805_DEV__AM1805_DEV_1" 0 "EXTI" 0)
+			(pin 8  3 "AM1805_DEV__AM1805_DEV_1" 0 "CLKOUT/NIRQ3" 0)
+			(pin 14  3 "AM1805_DEV__AM1805_DEV_1" 0 "AF" 0))
+		(part "A10393")
+		(logical_part_mapping "A10393"
+			(comp "ANT3"))
+		(logical_part "A10393"
+			(slots
+				(slot "A10393__A10393_1"
+					(attributes
+						(attval "Description" "RUBRA CHIP ANT GSM/UMTS")
+						(attval "PKG_TYPE" "RUBRA")
+						(attval "REFDES" "ANT?")
+						(attval "Value" ""))))
+			(pin 2  3 "A10393__A10393_1" 0 "PIN1" 0)
+			(pin 1  3 "A10393__A10393_1" 0 "ANT" 0))
+		(part "A5645")
+		(logical_part_mapping "A5645"
+			(comp "ANT1"))
+		(logical_part "A5645"
+			(slots
+				(slot "A5645__A5645_1"
+					(attributes
+						(attval "Description" "ANTENNA CHIP 2.4GHZ SMD")
+						(attval "PKG_TYPE" "MICA")
+						(attval "REFDES" "ANT?")
+						(attval "Value" ""))))
+			(pin 4  3 "A5645__A5645_1" 0 "GND3" 0)
+			(pin 3  3 "A5645__A5645_1" 0 "GND2" 0)
+			(pin 1  3 "A5645__A5645_1" 0 "GND1" 0)
+			(pin 2  3 "A5645__A5645_1" 0 "ANT" 0))
+		(part "2PINTP")
+		(logical_part_mapping "2PINTP"
+			(comp "J73" "J72" "J71" "J70" "J69" "J37" "J36" "J35" "J34" "J33" "J32" "J31" "J30" "J29" "J28" "J27" "J26" "J25" "J24" "J23"
+ "J22" "J21" "J20" "J19" "J18" "J17" "J16" "J15" "J14" "J13" "J12" "J11" "J10"))
+		(logical_part "2PINTP"
+			(slots
+				(slot "2PINTP__2PINTP_1"
+					(attributes
+						(attval "PKG_TYPE" "TESTPT")
+						(attval "REFDES" "J?"))))
+			(pin 2  3 "2PINTP__2PINTP_1" 0 "IN2" 0)
+			(pin 1  3 "2PINTP__2PINTP_1" 0 "IN1" 0)))
+	(placement
+		(component "1206"
+			(place "X4" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "CRYSTAL 32.768KHZ 12.5PF SMD 1206")
+				(attval "Value" "32.768KHZ")
+				(attval "DEVICE" "CRYSTAL2")
+				(attval "REFDES" "X4")))
+		(component "1206"
+			(place "X3" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "32.768KHZ")
+				(attval "Description" "CRYSTAL 32.7680KHZ 20PPM 9PF")
+				(attval "DEVICE" "CRYSTAL2")
+				(attval "REFDES" "X3")))
+		(component "XTAL"
+			(place "X2" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "16MHZ CRYSTAL OSCILLATOR")
+				(attval "Value" "16MHZ")
+				(attval "DEVICE" "CRYSTAL3")
+				(attval "REFDES" "X2")))
+		(component "XTAL"
+			(place "X1" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "16MHZ CRYSTAL OSCILLATOR")
+				(attval "Value" "16MHZ")
+				(attval "DEVICE" "CRYSTAL3")
+				(attval "REFDES" "X1")))
+		(component "QFN16-DEV"
+			(place "U37" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "IC MCU ARM 8KB FLASH 16QFN")
+				(attval "DEVICE" "MKL02Z8VFG4_DEV")
+				(attval "REFDES" "U37")))
+		(component "SOT23M1"
+			(place "U36" 0.0 0.0 top 0.0
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "	DIODE ARRAY SCHOTTKY 30V SOT23-3")
+				(attval "DEVICE" "BAT54C-7-F")
+				(attval "REFDES" "U36")))
+		(component "SOT23M1"
+			(place "U35" 0.0 0.0 top 0.0
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "	DIODE ARRAY SCHOTTKY 30V SOT23-3")
+				(attval "DEVICE" "BAT54C-7-F")
+				(attval "REFDES" "U35")))
+		(component "SOT23M1"
+			(place "U34" 0.0 0.0 top 0.0
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "	DIODE ARRAY SCHOTTKY 30V SOT23-3")
+				(attval "DEVICE" "BAT54C-7-F")
+				(attval "REFDES" "U34")))
+		(component "SOT23M1"
+			(place "U33" 0.0 0.0 top 0.0
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "	DIODE ARRAY SCHOTTKY 30V SOT23-3")
+				(attval "DEVICE" "BAT54C-7-F")
+				(attval "REFDES" "U33")))
+		(component "SOT23M1"
+			(place "U32" 0.0 0.0 top 0.0
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "	DIODE ARRAY SCHOTTKY 30V SOT23-3")
+				(attval "DEVICE" "BAT54C-7-F")
+				(attval "REFDES" "U32")))
+		(component "SOT23M1"
+			(place "U31" 0.0 0.0 top 0.0
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "	DIODE ARRAY SCHOTTKY 30V SOT23-3")
+				(attval "DEVICE" "BAT54C-7-F")
+				(attval "REFDES" "U31")))
+		(component "EHS6_LGA_DEV"
+			(place "U30" 0.0 0.0 top 0.0
+				(comp_pin "233" 0.0 0.0 "IN")
+				(comp_pin "215" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "209" 0.0 0.0 "BI")
+				(comp_pin "234" 0.0 0.0 "IN")
+				(comp_pin "235" 0.0 0.0 "IN")
+				(comp_pin "212" 0.0 0.0 "IN")
+				(comp_pin "243" 0.0 0.0 "IN")
+				(comp_pin "66" 0.0 0.0 "IN")
+				(comp_pin "65" 0.0 0.0 "IN")
+				(comp_pin "64" 0.0 0.0 "IN")
+				(comp_pin "228" 0.0 0.0 "IN")
+				(comp_pin "226" 0.0 0.0 "IN")
+				(comp_pin "224" 0.0 0.0 "IN")
+				(comp_pin "202" 0.0 0.0 "BI")
+				(comp_pin "246" 0.0 0.0 "IN")
+				(comp_pin "247" 0.0 0.0 "IN")
+				(comp_pin "248" 0.0 0.0 "IN")
+				(comp_pin "249" 0.0 0.0 "IN")
+				(comp_pin "106" 0.0 0.0 "IN")
+				(comp_pin "201" 0.0 0.0 "BI")
+				(comp_pin "210" 0.0 0.0 "BI")
+				(comp_pin "214" 0.0 0.0 "IN")
+				(comp_pin "207" 0.0 0.0 "BI")
+				(comp_pin "76" 0.0 0.0 "IN")
+				(comp_pin "75" 0.0 0.0 "IN")
+				(comp_pin "74" 0.0 0.0 "IN")
+				(comp_pin "73" 0.0 0.0 "IN")
+				(comp_pin "71" 0.0 0.0 "IN")
+				(comp_pin "70" 0.0 0.0 "IN")
+				(comp_pin "69" 0.0 0.0 "IN")
+				(comp_pin "68" 0.0 0.0 "IN")
+				(comp_pin "105" 0.0 0.0 "IN")
+				(comp_pin "104" 0.0 0.0 "IN")
+				(comp_pin "91" 0.0 0.0 "IN")
+				(comp_pin "87" 0.0 0.0 "IN")
+				(comp_pin "80" 0.0 0.0 "IN")
+				(comp_pin "79" 0.0 0.0 "IN")
+				(comp_pin "78" 0.0 0.0 "IN")
+				(comp_pin "77" 0.0 0.0 "IN")
+				(comp_pin "67" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "237" 0.0 0.0 "IN")
+				(comp_pin "236" 0.0 0.0 "IN")
+				(comp_pin "242" 0.0 0.0 "IN")
+				(comp_pin "241" 0.0 0.0 "IN")
+				(comp_pin "240" 0.0 0.0 "IN")
+				(comp_pin "239" 0.0 0.0 "IN")
+				(comp_pin "229" 0.0 0.0 "IN")
+				(comp_pin "230" 0.0 0.0 "IN")
+				(comp_pin "213" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "231" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "244" 0.0 0.0 "IN")
+				(comp_pin "219" 0.0 0.0 "IN")
+				(comp_pin "220" 0.0 0.0 "IN")
+				(comp_pin "221" 0.0 0.0 "IN")
+				(comp_pin "222" 0.0 0.0 "IN")
+				(comp_pin "232" 0.0 0.0 "IN")
+				(comp_pin "83" 0.0 0.0 "IN")
+				(comp_pin "227" 0.0 0.0 "IN")
+				(comp_pin "225" 0.0 0.0 "IN")
+				(comp_pin "223" 0.0 0.0 "IN")
+				(comp_pin "82" 0.0 0.0 "IN")
+				(comp_pin "252" 0.0 0.0 "IN")
+				(comp_pin "251" 0.0 0.0 "IN")
+				(comp_pin "81" 0.0 0.0 "IN")
+				(comp_pin "250" 0.0 0.0 "IN")
+				(comp_pin "245" 0.0 0.0 "IN")
+				(comp_pin "103" 0.0 0.0 "IN")
+				(comp_pin "102" 0.0 0.0 "IN")
+				(comp_pin "101" 0.0 0.0 "IN")
+				(comp_pin "100" 0.0 0.0 "IN")
+				(comp_pin "99" 0.0 0.0 "IN")
+				(comp_pin "63" 0.0 0.0 "IN")
+				(comp_pin "62" 0.0 0.0 "IN")
+				(comp_pin "61" 0.0 0.0 "IN")
+				(comp_pin "208" 0.0 0.0 "BI")
+				(comp_pin "60" 0.0 0.0 "IN")
+				(comp_pin "58" 0.0 0.0 "IN")
+				(comp_pin "57" 0.0 0.0 "IN")
+				(comp_pin "56" 0.0 0.0 "IN")
+				(comp_pin "55" 0.0 0.0 "IN")
+				(comp_pin "54" 0.0 0.0 "IN")
+				(comp_pin "238" 0.0 0.0 "IN")
+				(comp_pin "98" 0.0 0.0 "IN")
+				(comp_pin "97" 0.0 0.0 "IN")
+				(comp_pin "96" 0.0 0.0 "IN")
+				(comp_pin "205" 0.0 0.0 "BI")
+				(comp_pin "95" 0.0 0.0 "IN")
+				(comp_pin "94" 0.0 0.0 "IN")
+				(comp_pin "93" 0.0 0.0 "IN")
+				(comp_pin "92" 0.0 0.0 "IN")
+				(comp_pin "90" 0.0 0.0 "IN")
+				(comp_pin "89" 0.0 0.0 "IN")
+				(comp_pin "88" 0.0 0.0 "IN")
+				(comp_pin "86" 0.0 0.0 "IN")
+				(comp_pin "85" 0.0 0.0 "IN")
+				(comp_pin "84" 0.0 0.0 "IN")
+				(comp_pin "203" 0.0 0.0 "BI")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "211" 0.0 0.0 "BI")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "216" 0.0 0.0 "IN")
+				(comp_pin "218" 0.0 0.0 "IN")
+				(comp_pin "217" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "53" 0.0 0.0 "IN")
+				(comp_pin "204" 0.0 0.0 "BI")
+				(comp_pin "72" 0.0 0.0 "IN")
+				(comp_pin "59" 0.0 0.0 "IN")
+				(comp_pin "206" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Description" "IC GSM/UMTS M2M INTERFACE")
+				(attval "DEVICE" "EHS6_DEV")
+				(attval "REFDES" "U30")))
+		(component "DIP8"
+			(place "U29" 0.0 0.0 top 0.0
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "IC EEPROM 2KBIT 1MHZ 8MINIMAP")
+				(attval "DEVICE" "AT24C02D-MAHM-T")
+				(attval "REFDES" "U29")))
+		(component "TSOT-23"
+			(place "U28" 0.0 0.0 top 0.0
+				(comp_pin "3" 0.0 0.0 "OUT")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0))
+			(attributes
+				(attval "Value" "")
+				(attval "Description" "IC LOAD SW HIGH SIDE 6SOT")
+				(attval "DEVICE" "LOADSWITCH")
+				(attval "REFDES" "U28")))
+		(component "TSOT-23"
+			(place "U27" 0.0 0.0 top 0.0
+				(comp_pin "3" 0.0 0.0 "OUT")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0))
+			(attributes
+				(attval "Value" "")
+				(attval "Description" "IC LOAD SW HIGH SIDE 6SOT")
+				(attval "DEVICE" "LOADSWITCH")
+				(attval "REFDES" "U27")))
+		(component "TSOT-23"
+			(place "U26" 0.0 0.0 top 0.0
+				(comp_pin "3" 0.0 0.0 "OUT")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0))
+			(attributes
+				(attval "Value" "")
+				(attval "Description" "IC LOAD SW HIGH SIDE 6SOT")
+				(attval "DEVICE" "LOADSWITCH")
+				(attval "REFDES" "U26")))
+		(component "TSOT-23"
+			(place "U25" 0.0 0.0 top 0.0
+				(comp_pin "3" 0.0 0.0 "OUT")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0))
+			(attributes
+				(attval "Value" "")
+				(attval "Description" "IC LOAD SW HIGH SIDE 6SOT")
+				(attval "DEVICE" "LOADSWITCH")
+				(attval "REFDES" "U25")))
+		(component "QFN16AMBIQ_DEV"
+			(place "U24" 0.0 0.0 top 0.0
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "IC RTC ULTRA LOW POWER")
+				(attval "DEVICE" "AM1805_DEV")
+				(attval "REFDES" "U24")))
+		(component "SOT23-5"
+			(place "U23" 0.0 0.0 top 0.0
+				(comp_pin "5" 0.0 0.0 "OUT")
+				(comp_pin "4" 0.0 0.0 "OUT")
+				(comp_pin "1" 0.0 0.0)
+				(comp_pin "2" 0.0 0.0 "OUT")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "IC BUFF CMOS LVL/SFTR N-I 5TSOP")
+				(attval "DEVICE" "M74VHC1GT50DTT1G")
+				(attval "REFDES" "U23")))
+		(component "QFN48NORDIC-DEV"
+			(place "U22" 0.0 0.0 top 0.0
+				(comp_pin "38" 0.0 0.0 "IN")
+				(comp_pin "37" 0.0 0.0 "IN")
+				(comp_pin "34" 0.0 0.0 "IN")
+				(comp_pin "33" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "48" 0.0 0.0 "IN")
+				(comp_pin "47" 0.0 0.0 "IN")
+				(comp_pin "46" 0.0 0.0 "IN")
+				(comp_pin "45" 0.0 0.0 "IN")
+				(comp_pin "44" 0.0 0.0 "IN")
+				(comp_pin "43" 0.0 0.0 "IN")
+				(comp_pin "42" 0.0 0.0 "IN")
+				(comp_pin "41" 0.0 0.0 "IN")
+				(comp_pin "40" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "49" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "39" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "36" 0.0 0.0 "IN")
+				(comp_pin "35" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "IC SOC 2.4GHZ 256K FLASH 48QFN")
+				(attval "DEVICE" "NRF51422")
+				(attval "REFDES" "U22")))
+		(component "SOT23M1"
+			(place "U21" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "DIODE ZENER ARRAY 5.1V SOT23-3")
+				(attval "DEVICE" "USBZENER")
+				(attval "REFDES" "U21")))
+		(component "SOT23M1"
+			(place "U20" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "DIODE ZENER ARRAY 5.1V SOT23-3")
+				(attval "DEVICE" "USBZENER")
+				(attval "REFDES" "U20")))
+		(component "SOT23M1"
+			(place "U19" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "DIODE ZENER ARRAY 5.1V SOT23-3")
+				(attval "DEVICE" "USBZENER")
+				(attval "REFDES" "U19")))
+		(component "SOT23-5"
+			(place "U18" 0.0 0.0 top 0.0
+				(comp_pin "5" 0.0 0.0 "OUT")
+				(comp_pin "4" 0.0 0.0 "OUT")
+				(comp_pin "1" 0.0 0.0)
+				(comp_pin "2" 0.0 0.0 "OUT")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "IC BUFFER NON-INVERT SOT23-5")
+				(attval "DEVICE" "SN74LVC1G34DBVR")
+				(attval "REFDES" "U18")))
+		(component "SO14"
+			(place "U17" 0.0 0.0 top 0.0
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0)
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "OUT")
+				(comp_pin "4" 0.0 0.0 "OUT")
+				(comp_pin "3" 0.0 0.0 "OUT")
+				(comp_pin "2" 0.0 0.0 "OUT"))
+			(attributes
+				(attval "Description" "IC VOLT-LVL TRANSL 1BIT SOT23-6")
+				(attval "Value" "")
+				(attval "DEVICE" "TXB0104DR")
+				(attval "REFDES" "U17")))
+		(component "SO14"
+			(place "U16" 0.0 0.0 top 0.0
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0)
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "OUT")
+				(comp_pin "4" 0.0 0.0 "OUT")
+				(comp_pin "3" 0.0 0.0 "OUT")
+				(comp_pin "2" 0.0 0.0 "OUT"))
+			(attributes
+				(attval "Description" "IC VOLT-LVL TRANSL 1BIT SOT23-6")
+				(attval "Value" "")
+				(attval "DEVICE" "TXB0104DR")
+				(attval "REFDES" "U16")))
+		(component "SO14"
+			(place "U15" 0.0 0.0 top 0.0
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0)
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "OUT")
+				(comp_pin "4" 0.0 0.0 "OUT")
+				(comp_pin "3" 0.0 0.0 "OUT")
+				(comp_pin "2" 0.0 0.0 "OUT"))
+			(attributes
+				(attval "Description" "IC VOLT-LVL TRANSL 1BIT SOT23-6")
+				(attval "Value" "")
+				(attval "DEVICE" "TXB0104DR")
+				(attval "REFDES" "U15")))
+		(component "SO14"
+			(place "U14" 0.0 0.0 top 0.0
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0)
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "OUT")
+				(comp_pin "4" 0.0 0.0 "OUT")
+				(comp_pin "3" 0.0 0.0 "OUT")
+				(comp_pin "2" 0.0 0.0 "OUT"))
+			(attributes
+				(attval "Description" "IC VOLT-LVL TRANSL 1BIT SOT23-6")
+				(attval "Value" "")
+				(attval "DEVICE" "TXB0104DR")
+				(attval "REFDES" "U14")))
+		(component "SOT23-5"
+			(place "U13" 0.0 0.0 top 0.0
+				(comp_pin "5" 0.0 0.0 "OUT")
+				(comp_pin "4" 0.0 0.0 "OUT")
+				(comp_pin "1" 0.0 0.0)
+				(comp_pin "2" 0.0 0.0 "OUT")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "IC REG LDO 1.8V 0.15A SOT23-5")
+				(attval "Value" "1.8V")
+				(attval "DEVICE" "STLQ015M18R")
+				(attval "REFDES" "U13")))
+		(component "UBLOXLCC"
+			(place "U12" 0.0 0.0 top 0.0
+				(comp_pin "6" 0.0 0.0 "OUT")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "OUT")
+				(comp_pin "8" 0.0 0.0 "OUT")
+				(comp_pin "2" 0.0 0.0)
+				(comp_pin "4" 0.0 0.0 "OUT")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "OUT")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "OUT")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "OUT")
+				(comp_pin "5" 0.0 0.0 "OUT")
+				(comp_pin "13" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "U-BLOX TRANSCEIVER MODULE")
+				(attval "Value" "")
+				(attval "DEVICE" "MAX-M8Q")
+				(attval "REFDES" "U12")))
+		(component "QFN28-DEV"
+			(place "U11" 0.0 0.0 top 0.0
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "IC CARD READER CONTROLLER 28-QFN")
+				(attval "DEVICE" "AU6465R-DEV")
+				(attval "REFDES" "U11")))
+		(component "SOT223"
+			(place "U10" 0.0 0.0 top 0.0
+				(comp_pin "4" 0.0 0.0 "OUT")
+				(comp_pin "2" 0.0 0.0 "OUT")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0))
+			(attributes
+				(attval "Description" "IC REG LDO 3.3V 1A SOT223-3")
+				(attval "Value" "3.3V")
+				(attval "DEVICE" "SOT223-3-3V3")
+				(attval "REFDES" "U10")))
+		(component "SOT223"
+			(place "U9" 0.0 0.0 top 0.0
+				(comp_pin "4" 0.0 0.0 "OUT")
+				(comp_pin "2" 0.0 0.0 "OUT")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0))
+			(attributes
+				(attval "Description" "IC REG LDO 3.3V 1A SOT223-3")
+				(attval "Value" "3.3V")
+				(attval "DEVICE" "SOT223-3-3V3")
+				(attval "REFDES" "U9")))
+		(component "SOT23-5"
+			(place "U8" 0.0 0.0 top 0.0
+				(comp_pin "5" 0.0 0.0 "OUT")
+				(comp_pin "4" 0.0 0.0 "OUT")
+				(comp_pin "1" 0.0 0.0)
+				(comp_pin "2" 0.0 0.0 "OUT")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "IC REG LDO 3V 0.15A SOT23-5")
+				(attval "Value" "3V")
+				(attval "DEVICE" "STLQ015M30R")
+				(attval "REFDES" "U8")))
+		(component "SOT23-5"
+			(place "U7" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "	IC LI-ION/LI-POLY CTRLR SOT23-5")
+				(attval "DEVICE" "MCP73832")
+				(attval "REFDES" "U7")))
+		(component "SO14"
+			(place "U6" 0.0 0.0 top 0.0
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0)
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "OUT")
+				(comp_pin "4" 0.0 0.0 "OUT")
+				(comp_pin "3" 0.0 0.0 "OUT")
+				(comp_pin "2" 0.0 0.0 "OUT"))
+			(attributes
+				(attval "Description" "IC 4BIT NON-INV TRANSLTR 14-SOIC")
+				(attval "Value" "")
+				(attval "DEVICE" "TXS0104EDR")
+				(attval "REFDES" "U6")))
+		(component "SO14"
+			(place "U5" 0.0 0.0 top 0.0
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0)
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "OUT")
+				(comp_pin "4" 0.0 0.0 "OUT")
+				(comp_pin "3" 0.0 0.0 "OUT")
+				(comp_pin "2" 0.0 0.0 "OUT"))
+			(attributes
+				(attval "Description" "IC 4BIT NON-INV TRANSLTR 14-SOIC")
+				(attval "Value" "")
+				(attval "DEVICE" "TXS0104EDR")
+				(attval "REFDES" "U5")))
+		(component "QFN32_DEV"
+			(place "U4" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "19" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "32" 0.0 0.0 "IN")
+				(comp_pin "31" 0.0 0.0 "IN")
+				(comp_pin "30" 0.0 0.0 "IN")
+				(comp_pin "29" 0.0 0.0 "IN")
+				(comp_pin "28" 0.0 0.0 "IN")
+				(comp_pin "27" 0.0 0.0 "IN")
+				(comp_pin "26" 0.0 0.0 "IN")
+				(comp_pin "25" 0.0 0.0 "IN")
+				(comp_pin "24" 0.0 0.0 "IN")
+				(comp_pin "23" 0.0 0.0 "IN")
+				(comp_pin "22" 0.0 0.0 "IN")
+				(comp_pin "21" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "18" 0.0 0.0 "IN")
+				(comp_pin "17" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "IC MCU ARM 128KB FLASH 32QFN")
+				(attval "DEVICE" "MKL26Z128VFM4")
+				(attval "REFDES" "U4")))
+		(component "16-SSOP"
+			(place "U3" 0.0 0.0 top 0.0
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "	IC 4-BIT FET MUX/DEMUX 16SSOP")
+				(attval "DEVICE" "SN74CB3Q3257DBQR")
+				(attval "REFDES" "U3")))
+		(component "16-SSOP"
+			(place "U2" 0.0 0.0 top 0.0
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "	IC 4-BIT FET MUX/DEMUX 16SSOP")
+				(attval "DEVICE" "SN74CB3Q3257DBQR")
+				(attval "REFDES" "U2")))
+		(component "DIP26-300-DEV"
+			(place "U1" 0.0 0.0 top 0.0
+				(comp_pin "A1" 0.0 0.0 "IN")
+				(comp_pin "A3" 0.0 0.0 "IN")
+				(comp_pin "B3" 0.0 0.0 "IN")
+				(comp_pin "C3" 0.0 0.0 "IN")
+				(comp_pin "B1" 0.0 0.0 "IN")
+				(comp_pin "C1" 0.0 0.0 "IN")
+				(comp_pin "C2" 0.0 0.0 "IN")
+				(comp_pin "D2" 0.0 0.0 "IN")
+				(comp_pin "D1" 0.0 0.0 "IN")
+				(comp_pin "C5" 0.0 0.0 "IN")
+				(comp_pin "C4" 0.0 0.0 "IN")
+				(comp_pin "B5" 0.0 0.0 "IN")
+				(comp_pin "B4" 0.0 0.0 "IN")
+				(comp_pin "A5" 0.0 0.0 "IN")
+				(comp_pin "A4" 0.0 0.0 "IN")
+				(comp_pin "E6" 0.0 0.0 "IN")
+				(comp_pin "E5" 0.0 0.0 "IN")
+				(comp_pin "E4" 0.0 0.0 "IN")
+				(comp_pin "E3" 0.0 0.0 "IN")
+				(comp_pin "E2" 0.0 0.0 "IN")
+				(comp_pin "E1" 0.0 0.0 "IN")
+				(comp_pin "D5" 0.0 0.0 "IN")
+				(comp_pin "D4" 0.0 0.0 "IN")
+				(comp_pin "D3" 0.0 0.0 "IN")
+				(comp_pin "B2" 0.0 0.0 "IN")
+				(comp_pin "A2" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "IC BATT MONITOR LI-ION 9WLCSP")
+				(attval "DEVICE" "LC709203FQH-01TWG_DEV")
+				(attval "REFDES" "U1")))
+		(component "DIP16"
+			(place "SW3" 0.0 0.0 top 0.0
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "16" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "SW DIP EXT RCKR SEALED 8POS 30V")
+				(attval "Value" "")
+				(attval "DEVICE" "DIPSWITCH8")
+				(attval "REFDES" "SW3")))
+		(component "GWSWITCHDPDT"
+			(place "SW2" 0.0 0.0 top 0.0
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "SWITCH ROCKER DPDT 0.4VA 28V")
+				(attval "Value" "")
+				(attval "DEVICE" "NKKROCKERDPDT")
+				(attval "REFDES" "SW2")))
+		(component "PANASONICSWITCH"
+			(place "SW1" 0.0 0.0 top 0.0
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "SWITCH TACTILE SPST-NO 0.02A 15V")
+				(attval "Value" "")
+				(attval "DEVICE" "PANASONICSWITCH")
+				(attval "REFDES" "SW1")))
+		(component "1206"
+			(place "R100" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100K")
+				(attval "Description" "RES SMD 100K OHM 1% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R100")))
+		(component "1206"
+			(place "R99" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "330R")
+				(attval "Description" "RES SMD 330 OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R99")))
+		(component "1206"
+			(place "R98" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100K")
+				(attval "Description" "RES SMD 100K OHM 1% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R98")))
+		(component "1206"
+			(place "R97" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "23.7K")
+				(attval "Description" "RES SMD 23.7K OHM 1% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R97")))
+		(component "1206"
+			(place "R96" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "4.7K")
+				(attval "Description" "RES SMD 4.7K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R96")))
+		(component "1206"
+			(place "R95" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "23.7K")
+				(attval "Description" "RES SMD 23.7K OHM 1% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R95")))
+		(component "1206"
+			(place "R94" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "33R")
+				(attval "Description" "RES SMD 33 OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R94")))
+		(component "1206"
+			(place "R93" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "33R")
+				(attval "Description" "RES SMD 33 OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R93")))
+		(component "1206"
+			(place "R92" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "4.7K")
+				(attval "Description" "RES SMD 4.7K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R92")))
+		(component "1206"
+			(place "R91" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10K")
+				(attval "Description" "RES SMD 10K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R91")))
+		(component "1206"
+			(place "R90" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10K")
+				(attval "Description" "RES SMD 10K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R90")))
+		(component "1206"
+			(place "R89" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R89")))
+		(component "1206"
+			(place "R88" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R88")))
+		(component "1206"
+			(place "R87" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R87")))
+		(component "1206"
+			(place "R86" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R86")))
+		(component "1206"
+			(place "R85" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R85")))
+		(component "1206"
+			(place "R84" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R84")))
+		(component "1206"
+			(place "R83" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R83")))
+		(component "1206"
+			(place "R82" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R82")))
+		(component "1206"
+			(place "R81" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R81")))
+		(component "1206"
+			(place "R80" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R80")))
+		(component "1206"
+			(place "R79" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100R")
+				(attval "Description" "RES SMD 100 OHM 1% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R79")))
+		(component "1206"
+			(place "R78" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R78")))
+		(component "1206"
+			(place "R77" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R77")))
+		(component "1206"
+			(place "R76" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R76")))
+		(component "1206"
+			(place "R75" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R75")))
+		(component "1206"
+			(place "R74" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R74")))
+		(component "1206"
+			(place "R73" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R73")))
+		(component "1206"
+			(place "R72" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R72")))
+		(component "1206"
+			(place "R71" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R71")))
+		(component "1206"
+			(place "R70" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10K")
+				(attval "Description" "RES SMD 10K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R70")))
+		(component "1206"
+			(place "R69" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R69")))
+		(component "1206"
+			(place "R68" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R68")))
+		(component "1206"
+			(place "R67" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R67")))
+		(component "1206"
+			(place "R66" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R66")))
+		(component "1206"
+			(place "R65" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "1.5K")
+				(attval "Description" "RES SMD 1.5K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R65")))
+		(component "1206"
+			(place "R64" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "51R")
+				(attval "Description" "RES SMD 51 OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R64")))
+		(component "1206"
+			(place "R63" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "51R")
+				(attval "Description" "RES SMD 51 OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R63")))
+		(component "1206"
+			(place "R62" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "51R")
+				(attval "Description" "RES SMD 51 OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R62")))
+		(component "1206"
+			(place "R61" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "51R")
+				(attval "Description" "RES SMD 51 OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R61")))
+		(component "1206"
+			(place "R60" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "51R")
+				(attval "Description" "RES SMD 51 OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R60")))
+		(component "1206"
+			(place "R59" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "51R")
+				(attval "Description" "RES SMD 51 OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R59")))
+		(component "1206"
+			(place "R58" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "51R")
+				(attval "Description" "RES SMD 51 OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R58")))
+		(component "1206"
+			(place "R57" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "51R")
+				(attval "Description" "RES SMD 51 OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R57")))
+		(component "1206"
+			(place "R56" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R56")))
+		(component "1206"
+			(place "R55" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R55")))
+		(component "1206"
+			(place "R53" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R53")))
+		(component "1206"
+			(place "R52" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R52")))
+		(component "1206"
+			(place "R51" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "4.99M")
+				(attval "Description" "RES SMD 4.99M OHM 1% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R51")))
+		(component "1206"
+			(place "R50" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R50")))
+		(component "1206"
+			(place "R49" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R49")))
+		(component "1206"
+			(place "R48" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10K")
+				(attval "Description" "RES SMD 10K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R48")))
+		(component "0402R"
+			(place "R47" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "DNP")
+				(attval "Description" "DNP")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R47")))
+		(component "0402R"
+			(place "R46" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "DNP")
+				(attval "Description" "DNP")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R46")))
+		(component "1206"
+			(place "R45" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100K")
+				(attval "Description" "RES SMD 100K OHM 1% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R45")))
+		(component "1206"
+			(place "R44" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100K")
+				(attval "Description" "RES SMD 100K OHM 1% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R44")))
+		(component "1206"
+			(place "R43" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10K")
+				(attval "Description" "RES SMD 10K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R43")))
+		(component "1206"
+			(place "R42" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R42")))
+		(component "1206"
+			(place "R41" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R41")))
+		(component "1206"
+			(place "R40" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10K")
+				(attval "Description" "RES SMD 10K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R40")))
+		(component "1206"
+			(place "R39" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R39")))
+		(component "1206"
+			(place "R38" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R38")))
+		(component "1206"
+			(place "R37" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R37")))
+		(component "1206"
+			(place "R36" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R36")))
+		(component "1206"
+			(place "R35" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "51R")
+				(attval "Description" "RES SMD 51 OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R35")))
+		(component "1206"
+			(place "R34" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100R")
+				(attval "Description" "RES SMD 100 OHM 1% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R34")))
+		(component "1206"
+			(place "R33" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "51R")
+				(attval "Description" "RES SMD 51 OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R33")))
+		(component "1206"
+			(place "R32" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10K")
+				(attval "Description" "RES SMD 10K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R32")))
+		(component "1206"
+			(place "R31" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10K")
+				(attval "Description" "RES SMD 10K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R31")))
+		(component "1206"
+			(place "R30" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "330R")
+				(attval "Description" "RES SMD 330 OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R30")))
+		(component "1206"
+			(place "R29" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R29")))
+		(component "1206"
+			(place "R28" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R28")))
+		(component "1206"
+			(place "R27" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R27")))
+		(component "1206"
+			(place "R25" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R25")))
+		(component "1206"
+			(place "R21" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R21")))
+		(component "1206"
+			(place "R20" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R20")))
+		(component "1206"
+			(place "R18" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R18")))
+		(component "1206"
+			(place "R17" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R17")))
+		(component "1206"
+			(place "R16" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R16")))
+		(component "1206"
+			(place "R12" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R12")))
+		(component "1206"
+			(place "R11" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R11")))
+		(component "1206"
+			(place "R8" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R8")))
+		(component "0603"
+			(place "R7" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "0R")
+				(attval "Description" "RES SMD 0.0OHM JUMPER 1/10W 0603")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R7")))
+		(component "1206"
+			(place "R6" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R6")))
+		(component "0603"
+			(place "R5" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "0R")
+				(attval "Description" "RES SMD 0.0OHM JUMPER 1/10W 0603")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R5")))
+		(component "1206"
+			(place "R4" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "75K")
+				(attval "Description" "RES SMD 75K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R4")))
+		(component "1206"
+			(place "R3" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10K")
+				(attval "Description" "RES SMD 10K OHM 5% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R3")))
+		(component "1206"
+			(place "R2" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100R")
+				(attval "Description" "RES SMD 100 OHM 1% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R2")))
+		(component "1206"
+			(place "R1" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "23.7K")
+				(attval "Description" "RES SMD 23.7K OHM 1% 1/4W 1206")
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "R1")))
+		(component "SOT23"
+			(place "Q22" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "	TRANS NPN 40V 0.2A SMD SOT23-3")
+				(attval "Value" "")
+				(attval "DEVICE" "BJT-MMBT3904-7-F")
+				(attval "REFDES" "Q22")))
+		(component "SOT23"
+			(place "Q21" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "MOSFET P-CH 20V 6A SOT23F")
+				(attval "Value" "")
+				(attval "DEVICE" "TOSHIBAPMOS")
+				(attval "REFDES" "Q21")))
+		(component "SOT23"
+			(place "Q20" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "MOSFET P-CH 20V 6A SOT23F")
+				(attval "Value" "")
+				(attval "DEVICE" "TOSHIBAPMOS")
+				(attval "REFDES" "Q20")))
+		(component "SOT23"
+			(place "Q19" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "")
+				(attval "Description" "MOSFET N-CH 25V 5.8A SOT23")
+				(attval "DEVICE" "NMOS")
+				(attval "REFDES" "Q19")))
+		(component "SOT23"
+			(place "Q18" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "")
+				(attval "Description" "MOSFET N-CH 25V 5.8A SOT23")
+				(attval "DEVICE" "NMOS")
+				(attval "REFDES" "Q18")))
+		(component "SOT23"
+			(place "Q17" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "")
+				(attval "Description" "MOSFET N-CH 25V 5.8A SOT23")
+				(attval "DEVICE" "NMOS")
+				(attval "REFDES" "Q17")))
+		(component "SOT23"
+			(place "Q16" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "")
+				(attval "Description" "MOSFET N-CH 25V 5.8A SOT23")
+				(attval "DEVICE" "NMOS")
+				(attval "REFDES" "Q16")))
+		(component "SOT23"
+			(place "Q15" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "")
+				(attval "Description" "MOSFET N-CH 25V 5.8A SOT23")
+				(attval "DEVICE" "NMOS")
+				(attval "REFDES" "Q15")))
+		(component "SOT23"
+			(place "Q14" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "")
+				(attval "Description" "MOSFET N-CH 25V 5.8A SOT23")
+				(attval "DEVICE" "NMOS")
+				(attval "REFDES" "Q14")))
+		(component "SOT23"
+			(place "Q13" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "")
+				(attval "Description" "MOSFET N-CH 25V 5.8A SOT23")
+				(attval "DEVICE" "NMOS")
+				(attval "REFDES" "Q13")))
+		(component "SOT23"
+			(place "Q12" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "")
+				(attval "Description" "MOSFET N-CH 25V 5.8A SOT23")
+				(attval "DEVICE" "NMOS")
+				(attval "REFDES" "Q12")))
+		(component "SOT23"
+			(place "Q11" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "")
+				(attval "Description" "MOSFET N-CH 25V 5.8A SOT23")
+				(attval "DEVICE" "NMOS")
+				(attval "REFDES" "Q11")))
+		(component "SOT23"
+			(place "Q10" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "")
+				(attval "Description" "MOSFET N-CH 25V 5.8A SOT23")
+				(attval "DEVICE" "NMOS")
+				(attval "REFDES" "Q10")))
+		(component "SOT23"
+			(place "Q9" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "")
+				(attval "Description" "MOSFET N-CH 25V 5.8A SOT23")
+				(attval "DEVICE" "NMOS")
+				(attval "REFDES" "Q9")))
+		(component "SOT23"
+			(place "Q8" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "")
+				(attval "Description" "MOSFET N-CH 25V 5.8A SOT23")
+				(attval "DEVICE" "NMOS")
+				(attval "REFDES" "Q8")))
+		(component "SOT23"
+			(place "Q7" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "")
+				(attval "Description" "MOSFET N-CH 25V 5.8A SOT23")
+				(attval "DEVICE" "NMOS")
+				(attval "REFDES" "Q7")))
+		(component "SOT23"
+			(place "Q6" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "	TRANS NPN 40V 0.2A SMD SOT23-3")
+				(attval "Value" "")
+				(attval "DEVICE" "BJT-MMBT3904-7-F")
+				(attval "REFDES" "Q6")))
+		(component "SOT23"
+			(place "Q5" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "	TRANS NPN 40V 0.2A SMD SOT23-3")
+				(attval "Value" "")
+				(attval "DEVICE" "BJT-MMBT3904-7-F")
+				(attval "REFDES" "Q5")))
+		(component "SOT23"
+			(place "Q4" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "	TRANS NPN 40V 0.2A SMD SOT23-3")
+				(attval "Value" "")
+				(attval "DEVICE" "BJT-MMBT3904-7-F")
+				(attval "REFDES" "Q4")))
+		(component "SOT23"
+			(place "Q3" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "")
+				(attval "Description" "MOSFET N-CH 25V 5.8A SOT23")
+				(attval "DEVICE" "NMOS")
+				(attval "REFDES" "Q3")))
+		(component "SOT23"
+			(place "Q2" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "")
+				(attval "Description" "MOSFET N-CH 25V 5.8A SOT23")
+				(attval "DEVICE" "NMOS")
+				(attval "REFDES" "Q2")))
+		(component "SOT23"
+			(place "Q1" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "")
+				(attval "Description" "MOSFET N-CH 25V 5.8A SOT23")
+				(attval "DEVICE" "NMOS")
+				(attval "REFDES" "Q1")))
+		(component "GNDMHOLE"
+			(place "M4" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "HEX STANDOFF 6-32 ALUMINUM 1/2""")
+				(attval "Value" "")
+				(attval "DEVICE" "GNDMHOLE")
+				(attval "REFDES" "M4")))
+		(component "GNDMHOLE"
+			(place "M3" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "HEX STANDOFF 6-32 ALUMINUM 1/2""")
+				(attval "Value" "")
+				(attval "DEVICE" "GNDMHOLE")
+				(attval "REFDES" "M3")))
+		(component "GNDMHOLE"
+			(place "M2" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "HEX STANDOFF 6-32 ALUMINUM 1/2""")
+				(attval "Value" "")
+				(attval "DEVICE" "GNDMHOLE")
+				(attval "REFDES" "M2")))
+		(component "GNDMHOLE"
+			(place "M1" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "HEX STANDOFF 6-32 ALUMINUM 1/2""")
+				(attval "Value" "")
+				(attval "DEVICE" "GNDMHOLE")
+				(attval "REFDES" "M1")))
+		(component "THTLED"
+			(place "LED10" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "LED BLUE DIFF 4MM OVAL T/H")
+				(attval "Value" "BLUE")
+				(attval "DEVICE" "BLUELED")
+				(attval "REFDES" "LED10")))
+		(component "THTLED"
+			(place "LED9" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "LED BLUE DIFF 4MM OVAL T/H")
+				(attval "Value" "BLUE")
+				(attval "DEVICE" "BLUELED")
+				(attval "REFDES" "LED9")))
+		(component "THTLED"
+			(place "LED8" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "LED BLUE DIFF 4MM OVAL T/H")
+				(attval "Value" "BLUE")
+				(attval "DEVICE" "BLUELED")
+				(attval "REFDES" "LED8")))
+		(component "THTLED"
+			(place "LED7" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "LED BLUE DIFF 4MM OVAL T/H")
+				(attval "Value" "BLUE")
+				(attval "DEVICE" "BLUELED")
+				(attval "REFDES" "LED7")))
+		(component "THTLED"
+			(place "LED6" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "LED BLUE DIFF 4MM OVAL T/H")
+				(attval "Value" "BLUE")
+				(attval "DEVICE" "BLUELED")
+				(attval "REFDES" "LED6")))
+		(component "THTLED"
+			(place "LED5" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "LED BLUE DIFF 4MM OVAL T/H")
+				(attval "Value" "BLUE")
+				(attval "DEVICE" "BLUELED")
+				(attval "REFDES" "LED5")))
+		(component "THTLED"
+			(place "LED4" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "LED BLUE DIFF 4MM OVAL T/H")
+				(attval "Value" "BLUE")
+				(attval "DEVICE" "BLUELED")
+				(attval "REFDES" "LED4")))
+		(component "THTLED"
+			(place "LED3" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "LED BLUE DIFF 4MM OVAL T/H")
+				(attval "Value" "BLUE")
+				(attval "DEVICE" "BLUELED")
+				(attval "REFDES" "LED3")))
+		(component "THTLED"
+			(place "LED2" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "LED BLUE DIFF 4MM OVAL T/H")
+				(attval "Value" "BLUE")
+				(attval "DEVICE" "BLUELED")
+				(attval "REFDES" "LED2")))
+		(component "CREESMRGB"
+			(place "LED1" 0.0 0.0 top 0.0
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "LED RGB DIFFUSED 6SMD")
+				(attval "Value" "")
+				(attval "DEVICE" "CREESMRGBLED")
+				(attval "REFDES" "LED1")))
+		(component "FTSH-105-01-F-DV"
+			(place "J77" 0.0 0.0 top 0.0
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "CONN HEADER 10POS DUAL VERT")
+				(attval "Value" "")
+				(attval "DEVICE" "FTSH-105-01-F-DV-K")
+				(attval "REFDES" "J77")))
+		(component "FTSH-105-01-F-DV"
+			(place "J76" 0.0 0.0 top 0.0
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "CONN HEADER 10POS DUAL VERT")
+				(attval "Value" "")
+				(attval "DEVICE" "FTSH-105-01-F-DV-K")
+				(attval "REFDES" "J76")))
+		(component "TESTPT"
+			(place "J73" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J73")))
+		(component "TESTPT"
+			(place "J72" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J72")))
+		(component "TESTPT"
+			(place "J71" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J71")))
+		(component "TESTPT"
+			(place "J70" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J70")))
+		(component "TESTPT"
+			(place "J69" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J69")))
+		(component "TESTPT"
+			(place "J37" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J37")))
+		(component "TESTPT"
+			(place "J36" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J36")))
+		(component "TESTPT"
+			(place "J35" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J35")))
+		(component "TESTPT"
+			(place "J34" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J34")))
+		(component "TESTPT"
+			(place "J33" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J33")))
+		(component "TESTPT"
+			(place "J32" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J32")))
+		(component "TESTPT"
+			(place "J31" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J31")))
+		(component "TESTPT"
+			(place "J30" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J30")))
+		(component "TESTPT"
+			(place "J29" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J29")))
+		(component "TESTPT"
+			(place "J28" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J28")))
+		(component "TESTPT"
+			(place "J27" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J27")))
+		(component "TESTPT"
+			(place "J26" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J26")))
+		(component "TESTPT"
+			(place "J25" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J25")))
+		(component "TESTPT"
+			(place "J24" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J24")))
+		(component "TESTPT"
+			(place "J23" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J23")))
+		(component "TESTPT"
+			(place "J22" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J22")))
+		(component "TESTPT"
+			(place "J21" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J21")))
+		(component "TESTPT"
+			(place "J20" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J20")))
+		(component "TESTPT"
+			(place "J19" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J19")))
+		(component "TESTPT"
+			(place "J18" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J18")))
+		(component "TESTPT"
+			(place "J17" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J17")))
+		(component "TESTPT"
+			(place "J16" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J16")))
+		(component "TESTPT"
+			(place "J15" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J15")))
+		(component "TESTPT"
+			(place "J14" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J14")))
+		(component "TESTPT"
+			(place "J13" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J13")))
+		(component "TESTPT"
+			(place "J12" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J12")))
+		(component "TESTPT"
+			(place "J11" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J11")))
+		(component "TESTPT"
+			(place "J10" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "BERGSTIK II .100"" SR STRAIGHT")
+				(attval "DEVICE" "2PINTP")
+				(attval "REFDES" "J10")))
+		(component "S3B-EH"
+			(place "J9" 0.0 0.0 top 0.0
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "CONN HEADER EH SIDE 3POS 2.5MM")
+				(attval "DEVICE" "S3B-EH")
+				(attval "REFDES" "J9")))
+		(component "SMAVERT"
+			(place "J8" 0.0 0.0 top 0.0
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "CONN SMA JACK STR 50 OHM PCB")
+				(attval "DEVICE" "SMAVERTICAL")
+				(attval "REFDES" "J8")))
+		(component "SMAVERT"
+			(place "J7" 0.0 0.0 top 0.0
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "CONN SMA JACK STR 50 OHM PCB")
+				(attval "DEVICE" "SMAVERTICAL")
+				(attval "REFDES" "J7")))
+		(component "SMAVERT"
+			(place "J6" 0.0 0.0 top 0.0
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "CONN SMA JACK STR 50 OHM PCB")
+				(attval "DEVICE" "SMAVERTICAL")
+				(attval "REFDES" "J6")))
+		(component "MOLEX1041180811"
+			(place "J5" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "MICRO SIM HOLDER")
+				(attval "Value" "")
+				(attval "DEVICE" "SIMCARDHOLDER")
+				(attval "REFDES" "J5")))
+		(component "SD"
+			(place "J4" 0.0 0.0 top 0.0
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "MICRO SD HOLDER")
+				(attval "Value" "")
+				(attval "DEVICE" "SDCARDHOLDER")
+				(attval "REFDES" "J4")))
+		(component "FCIMICROUSBB"
+			(place "J3" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "")
+				(attval "Description" "CONN RCPT STD MICRO USB TYPE B")
+				(attval "DEVICE" "USBADAPTER")
+				(attval "REFDES" "J3")))
+		(component "FCIMICROUSBB"
+			(place "J2" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "")
+				(attval "Description" "CONN RCPT STD MICRO USB TYPE B")
+				(attval "DEVICE" "USBADAPTER")
+				(attval "REFDES" "J2")))
+		(component "FCIMICROUSBB"
+			(place "J1" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "")
+				(attval "Description" "CONN RCPT STD MICRO USB TYPE B")
+				(attval "DEVICE" "USBADAPTER")
+				(attval "REFDES" "J1")))
+		(component "0603"
+			(place "FB7" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" ".005R")
+				(attval "Description" "FERRITE BEAD 8 OHM 0603 1LN")
+				(attval "DEVICE" "FERRITEBEAD")
+				(attval "REFDES" "FB7")))
+		(component "0603"
+			(place "FB6" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" ".6R")
+				(attval "Description" "FIXED IND 4.7NH 160MA 600 MOHM")
+				(attval "DEVICE" "FERRITEBEAD")
+				(attval "REFDES" "FB6")))
+		(component "0805"
+			(place "FB5" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "6.8NH")
+				(attval "Description" "FIXED IND 6.8NH 400MA 250 MOHM")
+				(attval "DEVICE" "FERRITEBEAD")
+				(attval "REFDES" "FB5")))
+		(component "0805"
+			(place "FB4" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "5.6NH")
+				(attval "Description" "FIXED IND 5.6NH 400MA 230 MOHM")
+				(attval "DEVICE" "FERRITEBEAD")
+				(attval "REFDES" "FB4")))
+		(component "0402"
+			(place "FB3" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "3.3NH")
+				(attval "Description" "FIXED IND 3.3NH 190MA 400 MOHM")
+				(attval "DEVICE" "FERRITEBEAD")
+				(attval "REFDES" "FB3")))
+		(component "0402"
+			(place "FB2" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "4.7NH")
+				(attval "Description" "FIXED IND 4.7NH 160MA 600 MOHM")
+				(attval "DEVICE" "FERRITEBEAD")
+				(attval "REFDES" "FB2")))
+		(component "0402"
+			(place "FB1" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "27NH")
+				(attval "Description" "FIXED IND 27NH 300MA 460 MOHM")
+				(attval "DEVICE" "FERRITEBEAD")
+				(attval "REFDES" "FB1")))
+		(component "0603"
+			(place "C58" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "5PF")
+				(attval "Description"
+ "5PF ±0.1PF 50V C0G, NP0 CERAMIC CAPACITOR -55°C ~ 125°C SURFACE MOUNT, MLCC 0603")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C58")))
+		(component "0603"
+			(place "C57" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "5PF")
+				(attval "Description"
+ "5PF ±0.1PF 50V C0G, NP0 CERAMIC CAPACITOR -55°C ~ 125°C SURFACE MOUNT, MLCC 0603")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C57")))
+		(component "0603"
+			(place "C56" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "Description" "CAP CER 10UF 6.3V 20% X5R 0603")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C56")))
+		(component "1206"
+			(place "C55" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "22PF")
+				(attval "Description" "CAP CER 22PF 50V NPO 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C55")))
+		(component "1206"
+			(place "C54" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "22PF")
+				(attval "Description" "CAP CER 22PF 50V NPO 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C54")))
+		(component "1206"
+			(place "C53" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "12PF")
+				(attval "Description" "CAP CER 12PF 50V NPO 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C53")))
+		(component "1206"
+			(place "C52" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100NF")
+				(attval "Description" "CAP CER 0.1UF 50V X7R 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C52")))
+		(component "1206"
+			(place "C51" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100NF")
+				(attval "Description" "CAP CER 0.1UF 50V X7R 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C51")))
+		(component "1206"
+			(place "C50" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "12PF")
+				(attval "Description" "CAP CER 12PF 50V NPO 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C50")))
+		(component "1206"
+			(place "C49" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "4.7UF")
+				(attval "Description" "CAP CER 4.7UF 35V Y5V 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C49")))
+		(component "1206"
+			(place "C48" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "1UF")
+				(attval "Description" "CAP CER 1UF 25V X7R 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C48")))
+		(component "FC_SUPERCAP"
+			(place "C47" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "47MF")
+				(attval "Description" "CAP 47MF -20% +80% 5.5V SMD")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C47")))
+		(component "1206"
+			(place "C46" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "1UF")
+				(attval "Description" "CAP CER 1UF 25V X7R 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C46")))
+		(component "1206"
+			(place "C45" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "1NF")
+				(attval "Description" "CAP CER 1000PF 50V X7R 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C45")))
+		(component "1206"
+			(place "C44" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10PF")
+				(attval "Description" "CAP CER 10PF 50V NPO 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C44")))
+		(component "1206"
+			(place "C43" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100NF")
+				(attval "Description" "CAP CER 0.1UF 50V X7R 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C43")))
+		(component "1206"
+			(place "C42" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10PF")
+				(attval "Description" "CAP CER 10PF 50V NPO 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C42")))
+		(component "1206"
+			(place "C41" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100NF")
+				(attval "Description" "CAP CER 0.1UF 50V X7R 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C41")))
+		(component "0402"
+			(place "C40" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "DNP")
+				(attval "Description" "DNP")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C40")))
+		(component "2312"
+			(place "C39" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "220UF")
+				(attval "Description" "CAP TANT 220UF 6.3V 10% 2312")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C39")))
+		(component "0402"
+			(place "C38" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "DNP")
+				(attval "Description" "DNP")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C38")))
+		(component "0402"
+			(place "C37" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "DNP")
+				(attval "Description" "DNP")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C37")))
+		(component "1206"
+			(place "C36" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "33PF")
+				(attval "Description" "CAP CER 33PF 50V NP0 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C36")))
+		(component "1206"
+			(place "C35" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10PF")
+				(attval "Description" "CAP CER 10PF 50V NPO 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C35")))
+		(component "1206"
+			(place "C34" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10PF")
+				(attval "Description" "CAP CER 10PF 50V NPO 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C34")))
+		(component "1206"
+			(place "C33" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "33PF")
+				(attval "Description" "CAP CER 33PF 50V NP0 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C33")))
+		(component "0603"
+			(place "C32" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "Description" "CAP CER 10UF 6.3V 20% X5R 0603")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C32")))
+		(component "1206"
+			(place "C31" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "20PF")
+				(attval "Description" "CAP CER 20PF 50V NPO 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C31")))
+		(component "1206"
+			(place "C30" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "20PF")
+				(attval "Description" "CAP CER 20PF 50V NPO 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C30")))
+		(component "0402"
+			(place "C29" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "20PF")
+				(attval "Description" "CAP CER 20PF 50V 5% NP0 0402")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C29")))
+		(component "0402"
+			(place "C28" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "20PF")
+				(attval "Description" "CAP CER 20PF 50V 5% NP0 0402")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C28")))
+		(component "1206"
+			(place "C27" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "1UF")
+				(attval "Description" "CAP CER 1UF 25V X7R 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C27")))
+		(component "1206"
+			(place "C26" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "1UF")
+				(attval "Description" "CAP CER 1UF 25V X7R 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C26")))
+		(component "1206"
+			(place "C25" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "47PF")
+				(attval "Description" "CAP CER 47PF 630V NP0 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C25")))
+		(component "1206"
+			(place "C24" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "4.7UF")
+				(attval "Description" "CAP CER 4.7UF 35V Y5V 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C24")))
+		(component "1206"
+			(place "C23" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "4.7UF")
+				(attval "Description" "CAP CER 4.7UF 35V Y5V 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C23")))
+		(component "1206"
+			(place "C22" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "4.7UF")
+				(attval "Description" "CAP CER 4.7UF 35V Y5V 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C22")))
+		(component "1206"
+			(place "C21" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100NF")
+				(attval "Description" "CAP CER 0.1UF 50V X7R 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C21")))
+		(component "1206"
+			(place "C20" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100NF")
+				(attval "Description" "CAP CER 0.1UF 50V X7R 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C20")))
+		(component "1206"
+			(place "C19" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100NF")
+				(attval "Description" "CAP CER 0.1UF 50V X7R 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C19")))
+		(component "0603"
+			(place "C18" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "Description" "CAP CER 10UF 6.3V 20% X5R 0603")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C18")))
+		(component "1206"
+			(place "C17" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "2.2NF")
+				(attval "Description" "CAP CER 2200PF 50V X7R 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C17")))
+		(component "1206"
+			(place "C16" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "1UF")
+				(attval "Description" "CAP CER 1UF 25V X7R 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C16")))
+		(component "1206"
+			(place "C15" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "22UF")
+				(attval "Description" "CAP CER 22UF 10V Y5V 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C15")))
+		(component "1206"
+			(place "C14" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100NF")
+				(attval "Description" "CAP CER 0.1UF 50V X7R 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C14")))
+		(component "0603"
+			(place "C13" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "10UF")
+				(attval "Description" "CAP CER 10UF 6.3V 20% X5R 0603")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C13")))
+		(component "0402"
+			(place "C12" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "1.5PF")
+				(attval "Description" "CAP CER 1.5PF 50V NP0 0402")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C12")))
+		(component "1206"
+			(place "C11" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "12PF")
+				(attval "Description" "CAP CER 12PF 50V NPO 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C11")))
+		(component "1206"
+			(place "C10" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "12PF")
+				(attval "Description" "CAP CER 12PF 50V NPO 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C10")))
+		(component "1206"
+			(place "C9" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "12PF")
+				(attval "Description" "CAP CER 12PF 50V NPO 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C9")))
+		(component "0402"
+			(place "C8" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "1PF")
+				(attval "Description" "CAP CER 1PF 50V NP0 0402")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C8")))
+		(component "0402"
+			(place "C7" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "2.2PF")
+				(attval "Description" "CAP CER 2.2PF 50V NP0 0402")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C7")))
+		(component "1206"
+			(place "C6" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "1NF")
+				(attval "Description" "CAP CER 1000PF 50V X7R 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C6")))
+		(component "1206"
+			(place "C5" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100NF")
+				(attval "Description" "CAP CER 0.1UF 50V X7R 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C5")))
+		(component "1206"
+			(place "C4" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100NF")
+				(attval "Description" "CAP CER 0.1UF 50V X7R 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C4")))
+		(component "1206"
+			(place "C3" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "100NF")
+				(attval "Description" "CAP CER 0.1UF 50V X7R 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C3")))
+		(component "1206"
+			(place "C2" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "12PF")
+				(attval "Description" "CAP CER 12PF 50V NPO 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C2")))
+		(component "1206"
+			(place "C1" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "47NF")
+				(attval "Description" "CAP CER 0.047UF 50V X7R 1206")
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "C1")))
+		(component "RUBRA"
+			(place "ANT3" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "RUBRA CHIP ANT GSM/UMTS")
+				(attval "Value" "")
+				(attval "DEVICE" "A10393")
+				(attval "REFDES" "ANT3")))
+		(component "A10204-01_DEV"
+			(place "ANT2" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "GPS ANTENNA")
+				(attval "DEVICE" "ANTENOVAA10204-01")
+				(attval "REFDES" "ANT2")))
+		(component "MICA_DEV"
+			(place "ANT1" 0.0 0.0 top 0.0
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "ANTENNA CHIP 2.4GHZ SMD")
+				(attval "Value" "")
+				(attval "DEVICE" "A5645")
+				(attval "REFDES" "ANT1"))))
+	(functions
+		(func "$1I327" "" "X4" 1)
+		(func "$1I1588" "" "X3" 1)
+		(func "$1I5412" "" "X2" 1)
+		(func "$1I5359" "" "X1" 1)
+		(func "$1I5694" "" "U37" 1)
+		(func "$1I5819" "" "U36" 1)
+		(func "$1I5813" "" "U35" 1)
+		(func "$1I5807" "" "U34" 1)
+		(func "$1I5079" "" "U33" 1)
+		(func "$1I420" "" "U32" 1)
+		(func "$1I413" "" "U31" 1)
+		(func "$1I4817" "" "U30" 1)
+		(func "$1I8547" "" "U29" 1)
+		(func "$1I6376" "" "U28" 1)
+		(func "$1I4956" "" "U27" 1)
+		(func "$1I3496" "" "U26" 1)
+		(func "$1I207" "" "U25" 1)
+		(func "$1I237" "" "U24" 1)
+		(func "$1I6463" "" "U23" 1)
+		(func "$1I1461" "" "U22" 1)
+		(func "$1I6766" "" "U21" 1)
+		(func "$1I4800" "" "U20" 1)
+		(func "$1I4794" "" "U19" 1)
+		(func "$1I6442" "" "U18" 1)
+		(func "$1I6146" "" "U17" 1)
+		(func "$1I6081" "" "U16" 1)
+		(func "$1I4598" "" "U15" 1)
+		(func "$1I4582" "" "U14" 1)
+		(func "$1I6165" "" "U13" 1)
+		(func "$1I3519" "" "U12" 1)
+		(func "$1I2746" "" "U11" 1)
+		(func "$1I3460" "" "U10" 1)
+		(func "$1I2714" "" "U9" 1)
+		(func "$1I5461" "" "U8" 1)
+		(func "$1I121" "" "U7" 1)
+		(func "$1I5534" "" "U6" 1)
+		(func "$1I5439" "" "U5" 1)
+		(func "$1I854" "" "U4" 1)
+		(func "$1I2271" "" "U3" 1)
+		(func "$1I2270" "" "U2" 1)
+		(func "$1I7074" "" "U1" 1)
+		(func "$1I5050" "" "SW3" 1)
+		(func "$1I449" "" "SW2" 1)
+		(func "$1I2121" "" "SW1" 1)
+		(func "$1I6933" "" "R100" 1)
+		(func "$1I6913" "" "R99" 1)
+		(func "$1I6883" "" "R98" 1)
+		(func "$1I6872" "" "R97" 1)
+		(func "$1I6861" "" "R96" 1)
+		(func "$1I6848" "" "R95" 1)
+		(func "$1I935" "" "R94" 1)
+		(func "$1I934" "" "R93" 1)
+		(func "$1I933" "" "R92" 1)
+		(func "$1I932" "" "R91" 1)
+		(func "$1I808" "" "R90" 1)
+		(func "$1I795" "" "R89" 1)
+		(func "$1I720" "" "R88" 1)
+		(func "$1I6655" "" "R87" 1)
+		(func "$1I658" "" "R86" 1)
+		(func "$1I6423" "" "R85" 1)
+		(func "$1I6411" "" "R84" 1)
+		(func "$1I640" "" "R83" 1)
+		(func "$1I6338" "" "R82" 1)
+		(func "$1I6328" "" "R81" 1)
+		(func "$1I6307" "" "R80" 1)
+		(func "$1I6270" "" "R79" 1)
+		(func "$1I6242" "" "R78" 1)
+		(func "$1I6241" "" "R77" 1)
+		(func "$1I6227" "" "R76" 1)
+		(func "$1I6217" "" "R75" 1)
+		(func "$1I6191" "" "R74" 1)
+		(func "$1I6113" "" "R73" 1)
+		(func "$1I6061" "" "R72" 1)
+		(func "$1I5725" "" "R71" 1)
+		(func "$1I5724" "" "R70" 1)
+		(func "$1I558" "" "R69" 1)
+		(func "$1I5527" "" "R68" 1)
+		(func "$1I5493" "" "R67" 1)
+		(func "$1I5398" "" "R66" 1)
+		(func "$1I5377" "" "R65" 1)
+		(func "$1I5326" "" "R64" 1)
+		(func "$1I5316" "" "R63" 1)
+		(func "$1I5296" "" "R62" 1)
+		(func "$1I5286" "" "R61" 1)
+		(func "$1I5276" "" "R60" 1)
+		(func "$1I5266" "" "R59" 1)
+		(func "$1I5256" "" "R58" 1)
+		(func "$1I5246" "" "R57" 1)
+		(func "$1I4981" "" "R56" 1)
+		(func "$1I4969" "" "R55" 1)
+		(func "$1I4687" "" "R53" 1)
+		(func "$1I4671" "" "R52" 1)
+		(func "$1I465" "" "R51" 1)
+		(func "$1I433" "" "R50" 1)
+		(func "$1I396" "" "R49" 1)
+		(func "$1I3923" "" "R48" 1)
+		(func "$1I3916" "" "R47" 1)
+		(func "$1I3915" "" "R46" 1)
+		(func "$1I6838" "" "R45" 1)
+		(func "$1I3888" "" "R44" 1)
+		(func "$1I3885" "" "R43" 1)
+		(func "$1I3882" "" "R42" 1)
+		(func "$1I365" "" "R41" 1)
+		(func "$1I3523" "" "R40" 1)
+		(func "$1I3506" "" "R39" 1)
+		(func "$1I3342" "" "R38" 1)
+		(func "$1I3332" "" "R37" 1)
+		(func "$1I3319" "" "R36" 1)
+		(func "$1I3241" "" "R35" 1)
+		(func "$1I3239" "" "R34" 1)
+		(func "$1I3238" "" "R33" 1)
+		(func "$1I3211" "" "R32" 1)
+		(func "$1I28" "" "R31" 1)
+		(func "$1I2780" "" "R30" 1)
+		(func "$1I2335" "" "R29" 1)
+		(func "$1I2334" "" "R28" 1)
+		(func "$1I2329" "" "R27" 1)
+		(func "$1I2327" "" "R25" 1)
+		(func "$1I2323" "" "R21" 1)
+		(func "$1I2322" "" "R20" 1)
+		(func "$1I2320" "" "R18" 1)
+		(func "$1I2319" "" "R17" 1)
+		(func "$1I2318" "" "R16" 1)
+		(func "$1I2314" "" "R12" 1)
+		(func "$1I2313" "" "R11" 1)
+		(func "$1I8143" "" "R8" 1)
+		(func "$1I7983" "" "R7" 1)
+		(func "$1I2308" "" "R6" 1)
+		(func "$1I7963" "" "R5" 1)
+		(func "$1I2184" "" "R4" 1)
+		(func "$1I2126" "" "R3" 1)
+		(func "$1I17" "" "R2" 1)
+		(func "$1I151" "" "R1" 1)
+		(func "$1I6928" "" "Q22" 1)
+		(func "$1I652" "" "Q21" 1)
+		(func "$1I542" "" "Q20" 1)
+		(func "$1I708" "" "Q19" 1)
+		(func "$1I6391" "" "Q18" 1)
+		(func "$1I6293" "" "Q17" 1)
+		(func "$1I629" "" "Q16" 1)
+		(func "$1I616" "" "Q15" 1)
+		(func "$1I5213" "" "Q14" 1)
+		(func "$1I5203" "" "Q13" 1)
+		(func "$1I5193" "" "Q12" 1)
+		(func "$1I5183" "" "Q11" 1)
+		(func "$1I5173" "" "Q10" 1)
+		(func "$1I5163" "" "Q9" 1)
+		(func "$1I5153" "" "Q8" 1)
+		(func "$1I5143" "" "Q7" 1)
+		(func "$1I6897" "" "Q6" 1)
+		(func "$1I6833" "" "Q5" 1)
+		(func "$1I6828" "" "Q4" 1)
+		(func "$1I3299" "" "Q3" 1)
+		(func "$1I3289" "" "Q2" 1)
+		(func "$1I3279" "" "Q1" 1)
+		(func "$1I8533" "" "M4" 1)
+		(func "$1I8532" "" "M3" 1)
+		(func "$1I8531" "" "M2" 1)
+		(func "$1I8528" "" "M1" 1)
+		(func "$1I6908" "" "LED10" 1)
+		(func "$1I6526" "" "LED9" 1)
+		(func "$1I6520" "" "LED8" 1)
+		(func "$1I6514" "" "LED7" 1)
+		(func "$1I6508" "" "LED6" 1)
+		(func "$1I6502" "" "LED5" 1)
+		(func "$1I6496" "" "LED4" 1)
+		(func "$1I6490" "" "LED3" 1)
+		(func "$1I6484" "" "LED2" 1)
+		(func "$1I3240" "" "LED1" 1)
+		(func "$1I780" "" "J77" 1)
+		(func "$1I5714" "" "J76" 1)
+		(func "$1I6129" "" "J73" 1)
+		(func "$1I5916" "" "J72" 1)
+		(func "$1I5866" "" "J71" 1)
+		(func "$1I5858" "" "J70" 1)
+		(func "$1I5120" "" "J69" 1)
+		(func "$1I8589" "" "J37" 1)
+		(func "$1I8568" "" "J36" 1)
+		(func "$1I8517" "" "J35" 1)
+		(func "$1I8503" "" "J34" 1)
+		(func "$1I8495" "" "J33" 1)
+		(func "$1I8475" "" "J32" 1)
+		(func "$1I8467" "" "J31" 1)
+		(func "$1I8459" "" "J30" 1)
+		(func "$1I8451" "" "J29" 1)
+		(func "$1I8435" "" "J28" 1)
+		(func "$1I8427" "" "J27" 1)
+		(func "$1I8417" "" "J26" 1)
+		(func "$1I8403" "" "J25" 1)
+		(func "$1I8395" "" "J24" 1)
+		(func "$1I8387" "" "J23" 1)
+		(func "$1I8372" "" "J22" 1)
+		(func "$1I8364" "" "J21" 1)
+		(func "$1I8336" "" "J20" 1)
+		(func "$1I8328" "" "J19" 1)
+		(func "$1I8315" "" "J18" 1)
+		(func "$1I8293" "" "J17" 1)
+		(func "$1I8271" "" "J16" 1)
+		(func "$1I8270" "" "J15" 1)
+		(func "$1I8269" "" "J14" 1)
+		(func "$1I8261" "" "J13" 1)
+		(func "$1I8253" "" "J12" 1)
+		(func "$1I8245" "" "J11" 1)
+		(func "$1I8232" "" "J10" 1)
+		(func "$1I1" "" "J9" 1)
+		(func "$1I3816" "" "J8" 1)
+		(func "$1I3525" "" "J7" 1)
+		(func "$1I1569" "" "J6" 1)
+		(func "$1I8110" "" "J5" 1)
+		(func "$1I8072" "" "J4" 1)
+		(func "$1I85" "" "J3" 1)
+		(func "$1I4741" "" "J2" 1)
+		(func "$1I4728" "" "J1" 1)
+		(func "$1I8003" "" "FB7" 1)
+		(func "$1I7993" "" "FB6" 1)
+		(func "$1I3926" "" "FB5" 1)
+		(func "$1I3578" "" "FB4" 1)
+		(func "$1I1599" "" "FB3" 1)
+		(func "$1I1596" "" "FB2" 1)
+		(func "$1I1595" "" "FB1" 1)
+		(func "$1I8033" "" "C58" 1)
+		(func "$1I8023" "" "C57" 1)
+		(func "$1I98" "" "C56" 1)
+		(func "$1I928" "" "C55" 1)
+		(func "$1I927" "" "C54" 1)
+		(func "$1I925" "" "C53" 1)
+		(func "$1I923" "" "C52" 1)
+		(func "$1I922" "" "C51" 1)
+		(func "$1I920" "" "C50" 1)
+		(func "$1I916" "" "C49" 1)
+		(func "$1I5656" "" "C48" 1)
+		(func "$1I5367" "" "C47" 1)
+		(func "$1I475" "" "C46" 1)
+		(func "$1I4470" "" "C45" 1)
+		(func "$1I4464" "" "C44" 1)
+		(func "$1I4462" "" "C43" 1)
+		(func "$1I4461" "" "C42" 1)
+		(func "$1I4451" "" "C41" 1)
+		(func "$1I3937" "" "C40" 1)
+		(func "$1I3924" "" "C39" 1)
+		(func "$1I3918" "" "C38" 1)
+		(func "$1I3914" "" "C37" 1)
+		(func "$1I3880" "" "C36" 1)
+		(func "$1I3879" "" "C35" 1)
+		(func "$1I3878" "" "C34" 1)
+		(func "$1I3877" "" "C33" 1)
+		(func "$1I3795" "" "C32" 1)
+		(func "$1I3573" "" "C31" 1)
+		(func "$1I3572" "" "C30" 1)
+		(func "$1I3522" "" "C29" 1)
+		(func "$1I3521" "" "C28" 1)
+		(func "$1I3477" "" "C27" 1)
+		(func "$1I3467" "" "C26" 1)
+		(func "$1I337" "" "C25" 1)
+		(func "$1I2781" "" "C24" 1)
+		(func "$1I2779" "" "C23" 1)
+		(func "$1I2776" "" "C22" 1)
+		(func "$1I2775" "" "C21" 1)
+		(func "$1I2774" "" "C20" 1)
+		(func "$1I2773" "" "C19" 1)
+		(func "$1I2734" "" "C18" 1)
+		(func "$1I2256" "" "C17" 1)
+		(func "$1I224" "" "C16" 1)
+		(func "$1I2187" "" "C15" 1)
+		(func "$1I2125" "" "C14" 1)
+		(func "$1I192" "" "C13" 1)
+		(func "$1I1611" "" "C12" 1)
+		(func "$1I1587" "" "C11" 1)
+		(func "$1I1586" "" "C10" 1)
+		(func "$1I1585" "" "C9" 1)
+		(func "$1I1574" "" "C8" 1)
+		(func "$1I1573" "" "C7" 1)
+		(func "$1I1572" "" "C6" 1)
+		(func "$1I1571" "" "C5" 1)
+		(func "$1I1570" "" "C4" 1)
+		(func "$1I1568" "" "C3" 1)
+		(func "$1I1567" "" "C2" 1)
+		(func "$1I1566" "" "C1" 1)
+		(func "$1I3815" "" "ANT3" 1)
+		(func "$1I3520" "" "ANT2" 1)
+		(func "$1I1610" "" "ANT1" 1))
+	(network
+		(net "3V3AU"
+			(pins C19-1 C20-1 C23-1 U11-2 U11-10 U11-16 U28-2 U28-3 SW3-1))
+		(net "3V3GPS"
+			(pins C32-1 U12-8 U12-7 U26-2 U26-3 SW3-5))
+		(net "3V3MBED"
+			(pins U4-14 U4-15 U4-7 U4-5 C49-1 C51-1 C52-1 U14-8 U14-14 U15-8 U15-14 SW3-2
+ J77-1 R3-1 R52-1 R89-1 R90-1))
+		(net "3V3NRF"
+			(pins U29-8 U2-16 U3-16 U5-8 U5-14 C4-1 C5-1 C6-1 C15-1 C26-1 U10-2 U10-4
+ U14-1 U15-2 U15-1 U17-14 J4-4 U22-35 U22-36 U22-1 U22-12 U23-5 U26-4 SW3-4
+ R4-1 R6-1 R11-1 R12-1 R18-1 R20-1 R21-1 R25-1 R27-1 R28-2 R29-2 R32-1 R39-1
+ R43-1 R66-1 R67-2))
+		(net "3VUSB"
+			(pins U6-14 C48-1 U8-5 U17-8 U17-1 U37-1 J76-1 R70-1 R71-1 R74-2))
+		(net "5VUSB"
+			(pins Q17-1 Q19-1 FB6-2 J1-1 J3-1 U4-6 U7-4 C56-1 U8-3 U8-1 U9-3 U30-233 U33-2
+ R88-1 R92-1))
+		(net "$1N38"
+			(pins J9-3 R2-2 R31-1))
+		(net "$1N39"
+			(pins U1-C3 R2-1))
+		(net "$1N168"
+			(pins U7-5 R1-1))
+		(net "$1N290"
+			(pins U24-5 R65-1))
+		(net "$1N332"
+			(pins U24-16 X4-1))
+		(net "$1N335"
+			(pins U24-15 X4-2))
+		(net "$1N347"
+			(pins C25-1 U24-14))
+		(net "$1N376"
+			(pins U24-11 R41-1))
+		(net "$1N394"
+			(pins C27-1 U10-3 U25-2 U25-3))
+		(net "$1N406"
+			(pins U25-6 R49-2))
+		(net "$1N485"
+			(pins Q15-1 C46-1 SW2-1 R51-2))
+		(net "$1N639"
+			(pins Q15-3 Q16-1 R83-2))
+		(net "$1N657"
+			(pins Q16-3 Q21-1 R86-2))
+		(net "$1N871"
+			(pins U4-3 R93-2))
+		(net "$1N873"
+			(pins U4-4 R94-2))
+		(net "$1N879"
+			(pins U4-17 X2-2 C53-1))
+		(net "$1N880"
+			(pins U4-18 X2-1 C50-1))
+		(net "$1N1487"
+			(pins FB3-2 C12-1 ANT1-2 J6-1))
+		(net "$1N1488"
+			(pins FB3-1 C7-2 C8-1))
+		(net "$1N1489"
+			(pins FB2-2 C7-1 U22-32))
+		(net "$1N1492"
+			(pins FB1-2 FB2-1 U22-31))
+		(net "$1N1493"
+			(pins C3-1 U22-39))
+		(net "$1N1494"
+			(pins C1-1 U22-29))
+		(net "$1N1495"
+			(pins X1-2 C10-1 U22-37))
+		(net "$1N1496"
+			(pins X1-1 C9-1 U22-38))
+		(net "$1N1497"
+			(pins C2-1 U22-46 J70-1 X3-2))
+		(net "$1N1498"
+			(pins C11-1 U22-45 J71-2 X3-1))
+		(net "$1N2272"
+			(pins U3-3 R27-2))
+		(net "$1N2294"
+			(pins U3-10 R20-2))
+		(net "$1N2300"
+			(pins U3-6 R21-2))
+		(net "$1N2732"
+			(pins C18-1 U9-2 U9-4 U28-4 R72-2 R85-2))
+		(net "$1N2748"
+			(pins C24-1 U11-14))
+		(net "$1N2749"
+			(pins U11-1 R30-1))
+		(net "$1N2757"
+			(pins C21-1 C22-1 U11-8 U11-11))
+		(net "$1N3235"
+			(pins LED1-5 R35-1))
+		(net "$1N3236"
+			(pins LED1-4 R33-1))
+		(net "$1N3237"
+			(pins LED1-6 R34-1))
+		(net "$1N3309"
+			(pins Q1-3 R34-2))
+		(net "$1N3310"
+			(pins Q3-3 R35-2))
+		(net "$1N3311"
+			(pins Q2-3 R33-2))
+		(net "$1N3329"
+			(pins Q2-1 U36-3 R36-2))
+		(net "$1N3355"
+			(pins Q3-1 U35-3 R37-2))
+		(net "$1N3357"
+			(pins Q1-1 U34-3 R38-2))
+		(net "$1N3516"
+			(pins U26-6 R39-2))
+		(net "$1N3538"
+			(pins FB4-2 C30-1 R40-1))
+		(net "$1N3540"
+			(pins FB4-1 U12-11))
+		(net "$1N3541"
+			(pins C31-1 J7-1 ANT2-2 R40-2))
+		(net "$1N3542"
+			(pins C29-1 ANT2-5))
+		(net "$1N3543"
+			(pins C28-1 ANT2-6))
+		(net "$1N3829"
+			(pins Q22-3 U30-33))
+		(net "$1N3832"
+			(pins U30-22 R96-1))
+		(net "$1N3846"
+			(pins U16-2 U30-222 R81-1))
+		(net "$1N3847"
+			(pins U16-3 U30-221 R82-1))
+		(net "$1N3857"
+			(pins Q22-1 R42-1 R100-1))
+		(net "$1N3872"
+			(pins FB5-1 ANT3-2))
+		(net "$1N3873"
+			(pins C37-1 R46-1 R47-2))
+		(net "$1N3874"
+			(pins C38-1 U30-59 R46-2))
+		(net "$1N3875"
+			(pins C40-1 J8-1 ANT3-1 R47-1))
+		(net "$1N4441"
+			(pins Q4-2 Q5-3))
+		(net "$1N4769"
+			(pins FB7-1 J2-5 U20-3))
+		(net "$1N4979"
+			(pins U27-6 R55-2))
+		(net "$1N4991"
+			(pins U27-5 U33-3 R56-1))
+		(net "$1N5128"
+			(pins J9-1 J69-1))
+		(net "$1N5223"
+			(pins Q7-1 SW3-16))
+		(net "$1N5224"
+			(pins Q8-1 SW3-15))
+		(net "$1N5225"
+			(pins Q10-1 SW3-14))
+		(net "$1N5226"
+			(pins Q9-1 SW3-13))
+		(net "$1N5227"
+			(pins Q12-1 SW3-11))
+		(net "$1N5228"
+			(pins Q11-1 SW3-12))
+		(net "$1N5229"
+			(pins Q13-1 SW3-10))
+		(net "$1N5230"
+			(pins Q14-1 SW3-9))
+		(net "$1N5336"
+			(pins Q7-3 R64-2))
+		(net "$1N5337"
+			(pins Q8-3 R57-2))
+		(net "$1N5338"
+			(pins Q10-3 R58-2))
+		(net "$1N5339"
+			(pins Q9-3 R59-2))
+		(net "$1N5340"
+			(pins Q11-3 R60-2))
+		(net "$1N5341"
+			(pins Q12-3 R61-2))
+		(net "$1N5342"
+			(pins Q13-3 R62-2))
+		(net "$1N5343"
+			(pins Q14-3 R63-2))
+		(net "$1N5388"
+			(pins C47-1 R65-2))
+		(net "$1N6137"
+			(pins J73-1 U31-2))
+		(net "$1N6281"
+			(pins SW2-4 R79-2))
+		(net "$1N6387"
+			(pins Q18-3 U28-5 R72-1))
+		(net "$1N6433"
+			(pins U28-6 R85-1))
+		(net "$1N6488"
+			(pins LED2-2 R64-1))
+		(net "$1N6494"
+			(pins LED3-2 R57-1))
+		(net "$1N6500"
+			(pins LED4-2 R58-1))
+		(net "$1N6506"
+			(pins LED5-2 R59-1))
+		(net "$1N6512"
+			(pins LED6-2 R60-1))
+		(net "$1N6518"
+			(pins LED7-2 R61-1))
+		(net "$1N6524"
+			(pins LED8-2 R62-1))
+		(net "$1N6530"
+			(pins LED9-2 R63-1))
+		(net "$1N6858"
+			(pins Q4-1 R45-1 R95-2))
+		(net "$1N6871"
+			(pins Q5-1 R44-1 R96-2))
+		(net "$1N6882"
+			(pins U30-239 R97-2))
+		(net "$1N6893"
+			(pins Q6-1 R97-1 R98-1))
+		(net "$1N6923"
+			(pins LED10-2 R99-1))
+		(net "$1N6924"
+			(pins Q6-3 R99-2))
+		(net "$1N7115"
+			(pins U1-B3 R31-2))
+		(net "$1N8051"
+			(pins C57-1 U11-3 R7-2))
+		(net "$1N8052"
+			(pins C58-1 U11-4 R5-2))
+		(net "$1N8133"
+			(pins U30-207 R48-2))
+		(net "$1N8141"
+			(pins U16-4 U30-220 R8-1))
+		(net "$1N8240"
+			(pins J10-2 U30-72))
+		(net "$1N8301"
+			(pins J15-1 U30-31))
+		(net "$1N8303"
+			(pins J15-2 U30-32))
+		(net "$1N8305"
+			(pins J14-1 U30-23))
+		(net "$1N8307"
+			(pins J14-2 U30-25))
+		(net "$1N8309"
+			(pins J16-1 U30-24))
+		(net "$1N8311"
+			(pins J16-2 U30-26))
+		(net "$1N8313"
+			(pins J17-1 U30-213))
+		(net "$1N8323"
+			(pins J18-1 U30-219))
+		(net "$1N8326"
+			(pins J18-2 U30-244))
+		(net "$1N8344"
+			(pins J35-2 U30-229))
+		(net "$1N8346"
+			(pins J20-2 U30-240))
+		(net "$1N8348"
+			(pins J19-1 U30-241))
+		(net "$1N8350"
+			(pins J19-2 U30-242))
+		(net "$1N8352"
+			(pins J11-1 U30-27))
+		(net "$1N8354"
+			(pins J11-2 U30-28))
+		(net "$1N8356"
+			(pins J12-1 U30-212))
+		(net "$1N8358"
+			(pins J12-2 U30-210))
+		(net "$1N8360"
+			(pins J13-1 U30-211))
+		(net "$1N8362"
+			(pins J13-2 U30-214))
+		(net "$1N8380"
+			(pins J21-2 U30-230))
+		(net "$1N8382"
+			(pins J21-1 U30-231))
+		(net "$1N8384"
+			(pins J22-2 U30-232))
+		(net "$1N8443"
+			(pins U24-1 J28-1))
+		(net "$1N8445"
+			(pins U24-8 J27-2))
+		(net "$1N8447"
+			(pins U24-12 J27-1))
+		(net "$1N8449"
+			(pins U24-2 J28-2))
+		(net "$1N8483"
+			(pins U12-9 J32-2))
+		(net "$1N8485"
+			(pins U12-4 J31-2))
+		(net "$1N8487"
+			(pins U12-5 J31-1))
+		(net "$1N8491"
+			(pins U12-14 J30-1))
+		(net "$1N8493"
+			(pins U12-13 J30-2))
+		(net "$1N8511"
+			(pins U37-10 J33-1))
+		(net "$1N8513"
+			(pins U37-11 J33-2))
+		(net "$1N8515"
+			(pins U37-12 J34-1))
+		(net "$1N8576"
+			(pins U29-7 J36-1))
+		(net "$1N8597"
+			(pins U24-10 J37-2))
+		(net "$1N8599"
+			(pins U24-3 J37-1))
+		(net "+V_TGT"
+			(pins U4-23 U15-13 R53-1))
+		(net "ALARMB"
+			(pins U22-9 U1-A2 SW3-8 R32-2))
+		(net "AMPWR"
+			(pins Q17-3 U5-1 U6-1 C16-1 U12-6 SW2-5 U13-5 U16-14 U24-13 SW3-3 R41-2))
+		(net "AM_SCL"
+			(pins U5-2 U6-2 U1-C2 U24-7 J26-1))
+		(net "AM_SDA"
+			(pins U5-3 U6-3 U1-C1 U24-6 J26-2))
+		(net "AU_ON_OFF"
+			(pins Q18-1 U22-21 R84-1))
+		(net "AU_SDCDN"
+			(pins U3-11 U11-13 R6-2))
+		(net "AU_SD_CLK"
+			(pins U2-14 U11-22))
+		(net "AU_SD_CMD"
+			(pins U2-11 U11-24))
+		(net "AU_SD_DAT0"
+			(pins U3-2 U11-19))
+		(net "AU_SD_DAT1"
+			(pins U3-5 U11-18))
+		(net "AU_SD_DAT2"
+			(pins U2-5 U11-27))
+		(net "AU_SD_DAT3"
+			(pins U2-2 U11-26 R12-2))
+		(net "BOOTLOAD"
+			(pins U4-21 SW1-3 SW1-4 C14-1 R3-2))
+		(net "BSTAT"
+			(pins U7-1 U22-4 R66-2))
+		(net "EHS6-1V8"
+			(pins U16-8 U16-1 U18-5 J5-9 SW3-7 U30-209 R73-1 R95-1))
+		(net "EHS6_DM"
+			(pins J1-3 U19-1 U30-235))
+		(net "EHS6_DP"
+			(pins J1-4 U19-2 U30-234))
+		(net "EHS6_EN"
+			(pins U22-5 U33-1))
+		(net "EHS6_FLOW_IN"
+			(pins U16-11 U22-20))
+		(net "EHS6_MISO"
+			(pins U18-4 U30-29))
+		(net "EHS6_MOSI"
+			(pins U23-2 U30-30))
+		(net "EMERG_RST"
+			(pins U22-3 R100-2))
+		(net "ENSUREPSW"
+			(pins U22-17 U32-1))
+		(net "GND"
+			(pins Q1-2 Q2-2 Q3-2 Q7-2 Q8-2 Q9-2 Q10-2 Q11-2 Q12-2 Q13-2 Q14-2 Q15-2 Q16-2
+ Q18-2 FB5-2 FB7-2 U29-1 U29-2 U29-3 U29-4 U2-8 U3-12 U3-8 J1-5 J3-5 U4-8 U4-16
+ U4-2 M1-1 M2-1 M3-1 M4-1 U5-4 U5-5 U5-11 U5-10 U5-7 U6-4 U6-5 U6-11 U6-10 U6-7
+ U7-2 SW1-1 SW1-2 C1-2 C2-2 C3-2 C4-2 C5-2 C6-2 C8-2 C9-2 C10-2 C11-2 C12-2
+ C13-2 C14-2 C15-2 C16-2 C17-2 C18-2 C19-2 C20-2 C21-2 C22-2 C23-2 C24-2 C25-2
+ C26-2 C27-2 C28-2 C29-2 C30-2 C31-2 C32-2 C33-2 C34-2 C35-2 C36-2 C37-2 C38-2
+ C39-2 C40-2 C41-2 C42-2 C43-2 C44-2 C45-2 C46-2 C47-2 C48-2 C57-2 C58-2 C49-2
+ C50-2 C51-2 C52-2 C53-2 C54-2 C55-2 C56-2 U8-2 U9-1 U10-1 Q5-2 Q6-2 Q22-2
+ ANT1-1 ANT1-3 ANT1-4 J6-2 J6-3 J6-4 J6-5 J7-2 J7-3 J7-4 J7-5 J8-2 J8-3 J8-4 J8-5
+ U11-29 U11-17 U11-5 U12-1 U12-10 U12-12 SW2-2 U13-2 U14-7 U15-3 U15-4 U15-5
+ U15-12 U15-11 U15-10 U15-7 U16-5 U16-10 U16-7 U17-4 U17-5 U17-11 U17-10 U17-7
+ U18-3 U19-3 U21-3 J4-9 J4-10 J4-11 J4-6 ANT2-1 ANT2-3 ANT2-4 U22-49 U22-13
+ U22-33 U22-34 U1-B1 U1-A1 J5-5 U23-3 U24-9 U24-17 U25-1 U26-1 U27-1 U28-1 J9-2
+ U37-2 J10-1 J34-2 J76-3 J76-5 J77-3 J77-5 U30-203 U30-84 U30-85 U30-86
+ U30-88 U30-89 U30-90 U30-92 U30-93 U30-94 U30-95 U30-205 U30-96 U30-97
+ U30-98 U30-238 U30-54 U30-55 U30-56 U30-57 U30-58 U30-60 U30-208 U30-61
+ U30-62 U30-63 U30-99 U30-100 U30-101 U30-102 U30-103 U30-245 U30-250 U30-81
+ U30-251 U30-252 U30-82 U30-223 U30-225 U30-227 U30-83 R1-2 R16-2 R17-2 R30-2
+ R36-1 R37-1 R38-1 R42-2 R44-2 R48-1 R50-2 R52-2 R53-2 R56-2 R67-1 R68-1 R73-2
+ R74-1 R75-1 R76-1 R77-1 R78-1 R79-1 R80-1 R81-2 R82-2 R84-2 R87-2 R45-2 R98-2
+ R88-2 R8-2 R91-2))
+		(net "GPS_EN"
+			(pins U22-48 U26-5 R87-1))
+		(net "GPS_RXD"
+			(pins U12-3 U22-40 J24-1))
+		(net "GPS_SCL"
+			(pins U12-17 J29-2))
+		(net "GPS_SDA"
+			(pins U12-16 J29-1))
+		(net "GPS_TXD"
+			(pins U12-2 U22-11 J24-2))
+		(net "IS_NRF_ON"
+			(pins U16-12 U25-5 U31-3 U32-3 R50-1))
+		(net "KIN_FLOW_IN"
+			(pins U17-2 U37-7 R77-2))
+		(net "KIN_FLOW_IN_HV"
+			(pins U17-13 J71-1 R76-2))
+		(net "KIN_FLOW_OUT"
+			(pins U17-3 U37-8 R78-2))
+		(net "KIN_FLOW_OUT_HV"
+			(pins U17-12 J70-2 R75-2))
+		(net "KIN_I2C_OE"
+			(pins U6-8 U37-9 R68-2))
+		(net "KIN_SCL"
+			(pins U6-13 U37-3))
+		(net "KIN_SDA"
+			(pins U6-12 U37-4))
+		(net "LED_BLU"
+			(pins U37-13 U36-2))
+		(net "LED_GRN"
+			(pins U37-6 U35-2))
+		(net "LED_RED"
+			(pins U37-5 U34-2))
+		(net "MBATT"
+			(pins U7-3 C13-1 LED1-3 LED1-2 LED1-1 U13-3 U13-1 U1-A3 U25-4 U27-4 J69-2
+ LED2-1 LED3-1 LED4-1 LED5-1 LED6-1 LED7-1 LED8-1 LED9-1 R49-1 R55-1))
+		(net "MBED_DM"
+			(pins J3-3 C54-1 U21-1 R94-1))
+		(net "MBED_DP"
+			(pins J3-4 C55-1 U21-2 R93-1))
+		(net "MBED_RX"
+			(pins U4-25 U14-12))
+		(net "MBED_SWCLK"
+			(pins U4-26 U14-11))
+		(net "MBED_SWDIO"
+			(pins U4-27 U14-10))
+		(net "MBED_TX"
+			(pins U4-24 U14-13))
+		(net "NRFSLAVE_MISO"
+			(pins U18-2 U22-42))
+		(net "NRFSLAVE_MOSI"
+			(pins U22-41 U23-4))
+		(net "NRF_LED_BLU"
+			(pins U22-8 U36-1))
+		(net "NRF_LED_GRN"
+			(pins U22-7 U35-1))
+		(net "NRF_LED_RED"
+			(pins U22-6 U34-1))
+		(net "NRF_RX"
+			(pins U14-3 U22-44 J23-1))
+		(net "NRF_SCL"
+			(pins U29-6 U5-13 U22-19 J25-1))
+		(net "NRF_SDA"
+			(pins U29-5 U5-12 U22-18 J25-2))
+		(net "NRF_SD_CS"
+			(pins U2-3 U22-22 R11-2))
+		(net "NRF_SD_MISO"
+			(pins U2-6 U22-27))
+		(net "NRF_SD_MOSI"
+			(pins U2-10 U22-26))
+		(net "NRF_SD_SCLK"
+			(pins U2-13 U22-25))
+		(net "NRF_SWCLK"
+			(pins U14-4 U22-24))
+		(net "NRF_SWDIO"
+			(pins U14-5 U22-23))
+		(net "NRF_TX"
+			(pins U14-2 U22-43 J23-2))
+		(net "PSW"
+			(pins Q20-1 U24-4 R69-1))
+		(net "PSWSW"
+			(pins Q20-3 U22-15 U31-1))
+		(net "PWR_IND"
+			(pins Q4-3 U22-47 R43-2))
+		(net "RESET_B_02"
+			(pins U37-15 J76-10 R70-2))
+		(net "S1"
+			(pins U2-1 U22-10 J72-2 R16-1))
+		(net "SDCDN"
+			(pins U3-9 J4-12 R4-2 R18-2))
+		(net "SD_CLK"
+			(pins U2-12 J4-5))
+		(net "SD_CMD"
+			(pins U2-9 J4-3))
+		(net "SD_DAT0"
+			(pins U3-4 J4-7))
+		(net "SD_DAT1"
+			(pins U3-7 J4-8))
+		(net "SD_DAT2"
+			(pins U2-7 J4-1))
+		(net "SD_DAT3"
+			(pins U2-4 J4-2 R25-2))
+		(net "SD_DM"
+			(pins J2-3 U20-1 R5-1))
+		(net "SD_DP"
+			(pins J2-4 U20-2 R7-1))
+		(net "SD_OE"
+			(pins U2-15 U3-15 U22-28 R28-1 R29-1))
+		(net "SIM_CD"
+			(pins J5-10 U30-217))
+		(net "SIM_CLK"
+			(pins C44-1 J5-3 U30-21))
+		(net "SIM_DATA"
+			(pins C42-1 J5-7 U30-218))
+		(net "SIM_RST"
+			(pins C45-1 J5-2 U30-216))
+		(net "SIM_VDD"
+			(pins C41-1 C43-1 J5-1 U30-20))
+		(net "SWCLK"
+			(pins U4-10 J77-4))
+		(net "SWDIO"
+			(pins U4-13 J77-2 R89-2))
+		(net "SWDIO_02"
+			(pins U37-16 J76-2 R71-2))
+		(net "SWPWR"
+			(pins Q19-3 Q20-2 Q21-2 SW2-6 R51-1 R69-2 R83-1 R86-1))
+		(net "SW_CLK_02"
+			(pins U37-14 J76-4))
+		(net "TC"
+			(pins Q21-3 U22-16 U32-2))
+		(net "USBON"
+			(pins Q19-2 U22-14 J73-2))
+		(net "USBON_EHS6"
+			(pins Q17-2 U16-13 R80-2))
+		(net "USB_DIRECT"
+			(pins FB6-1 J2-1))
+		(net "USB_VBUS"
+			(pins U4-32 U4-19 J77-10 R90-2 R91-1 R92-2))
+		(net "VDD_PA"
+			(pins FB1-1 C17-1 U22-30))
+		(net "VEHS6"
+			(pins C33-1 C34-1 C35-1 C36-1 C39-1 U27-2 U27-3 SW3-6 U30-204 U30-53 LED10-1))
+		(net "_1N2301"
+			(pins U3-1 J72-1 R17-1)))
+	(network_electrical
+		(net_scalar "_1N2301"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "VEHS6"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "VDD_PA"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "USB_VBUS"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "USB_DIRECT"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "USBON_EHS6"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "USBON"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "TC"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "SW_CLK_02"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "SWPWR"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "SWDIO_02"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "SWDIO"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "SWCLK"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "SIM_VDD"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "SIM_RST"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "SIM_DATA"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "SIM_CLK"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "SIM_CD"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "SD_OE"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "SD_DP"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "SD_DM"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "SD_DAT3"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "SD_DAT2"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "SD_DAT1"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "SD_DAT0"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "SD_CMD"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "SD_CLK"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "SDCDN"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "S1"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "RESET_B_02"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "PWR_IND"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "PSWSW"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "PSW"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "NRF_TX"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "NRF_SWDIO"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "NRF_SWCLK"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "NRF_SD_SCLK"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "NRF_SD_MOSI"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "NRF_SD_MISO"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "NRF_SD_CS"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "NRF_SDA"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "NRF_SCL"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "NRF_RX"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "NRF_LED_RED"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "NRF_LED_GRN"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "NRF_LED_BLU"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "NRFSLAVE_MOSI"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "NRFSLAVE_MISO"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "MBED_TX"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "MBED_SWDIO"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "MBED_SWCLK"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "MBED_RX"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "MBED_DP"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "MBED_DM"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "MBATT"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "LED_RED"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "LED_GRN"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "LED_BLU"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "KIN_SDA"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "KIN_SCL"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "KIN_I2C_OE"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "KIN_FLOW_OUT_HV"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "KIN_FLOW_OUT"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "KIN_FLOW_IN_HV"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "KIN_FLOW_IN"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "IS_NRF_ON"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "GPS_TXD"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "GPS_SDA"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "GPS_SCL"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "GPS_RXD"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "GPS_EN"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "GND"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "ENSUREPSW"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "EMERG_RST"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "EHS6_MOSI"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "EHS6_MISO"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "EHS6_FLOW_IN"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "EHS6_EN"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "EHS6_DP"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "EHS6_DM"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "EHS6-1V8"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "BSTAT"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "BOOTLOAD"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "AU_SD_DAT3"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "AU_SD_DAT2"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "AU_SD_DAT1"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "AU_SD_DAT0"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "AU_SD_CMD"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "AU_SD_CLK"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "AU_SDCDN"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "AU_ON_OFF"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "AM_SDA"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "AM_SCL"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "AMPWR"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "ALARMB"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "+V_TGT"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8599"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8597"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8576"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8515"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8513"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8511"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8493"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8491"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8487"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8485"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8483"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8449"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8447"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8445"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8443"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8384"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8382"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8380"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8362"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8360"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8358"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8356"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8354"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8352"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8350"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8348"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8346"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8344"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8326"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8323"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8313"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8311"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8309"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8307"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8305"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8303"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8301"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8240"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8141"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8133"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8052"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N8051"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N7115"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N6924"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N6923"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N6893"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N6882"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N6871"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N6858"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N6530"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N6524"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N6518"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N6512"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N6506"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N6500"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N6494"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N6488"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N6433"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N6387"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N6281"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N6137"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N5388"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N5343"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N5342"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N5341"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N5340"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N5339"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N5338"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N5337"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N5336"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N5230"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N5229"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N5228"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N5227"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N5226"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N5225"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N5224"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N5223"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N5128"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N4991"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N4979"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N4769"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N4441"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N3875"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N3874"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N3873"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N3872"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N3857"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N3847"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N3846"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N3832"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N3829"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N3543"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N3542"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N3541"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N3540"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N3538"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N3516"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N3357"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N3355"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N3329"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N3311"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N3310"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N3309"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N3237"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N3236"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N3235"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N2757"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N2749"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N2748"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N2732"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N2300"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N2294"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N2272"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N1498"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N1497"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N1496"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N1495"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N1494"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N1493"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N1492"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N1489"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N1488"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N1487"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N880"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N879"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N873"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N871"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N657"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N639"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N485"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N406"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N394"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N376"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N347"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N335"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N332"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N290"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N168"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N39"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N38"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "5VUSB"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "3VUSB"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "3V3NRF"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "3V3MBED"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "3V3GPS"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "3V3AU"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))))

@@ -1,0 +1,119 @@
+
+(pcb "C:\EyeProject\Eye\Eye.Schematic3_PADS94.Schematic3.db"
+	(version "5.0.0")
+	(units "basic")
+	(config_properties
+		(attributes
+			(attval "PcbConfigName"
+ "C:\MentorGraphics\9.4PADS\SDD_HOME/standard/pads94.cfg")
+			(attval "CnsFile"
+ "C:\MentorGraphics\9.4PADS\SDD_HOME\standard\isis\pads94.cns")
+			(attval "BeAdapter" "PADS94")
+			(attval "FeAdapter" "DxDesigner")
+			(attval "SYSCONFIG" "pcbfwd")
+			(attval "LASTSYSCONFIG" "pcbfwd"))
+		(constraints
+			(cnsval "U:Velocity" "Unknown:3")
+			(cnsval "U:Time" "Unknown:3")
+			(cnsval "U:Ampere" "Unknown:3")
+			(cnsval "U:Capacitance" "Unknown:3")
+			(cnsval "U:Inductance" "Unknown:3")
+			(cnsval "U:Ohm" "Unknown:3")
+			(cnsval "U:Volt" "Unknown:3")
+			(cnsval "U:Power" "Unknown:3")
+			(cnsval "U:Unknown" "Unknown:3")
+			(cnsval "U:Angle" "Unknown:3")
+			(cnsval "U:Linear" "THOUSANDTHS:3")))
+	(project_properties
+		(attributes
+			(attval "EPLANNER_DSN" "1.0")))
+	(part_library
+		(part "RESISTOR")
+		(logical_part_mapping "RESISTOR"
+			(comp "U3"))
+		(logical_part "RESISTOR"
+			(slots
+				(slot "RESISTOR__RESISTOR_1"
+					(attributes
+						(attval "REFDES" "U?"))))
+			(pin 2  3 "RESISTOR__RESISTOR_1" 0 "OUT" 0)
+			(pin 1  3 "RESISTOR__RESISTOR_1" 0 "IN" 0))
+		(part "CAPACITOR")
+		(logical_part_mapping "CAPACITOR"
+			(comp "U2"))
+		(logical_part "CAPACITOR"
+			(slots
+				(slot "CAPACITOR__CAPACITOR_1"
+					(attributes
+						(attval "REFDES" "U?"))))
+			(pin 2  3 "CAPACITOR__CAPACITOR_1" 0 "V-" 0)
+			(pin 1  3 "CAPACITOR__CAPACITOR_1" 0 "V+" 0))
+		(part "ANTENNA")
+		(logical_part_mapping "ANTENNA"
+			(comp "U4"))
+		(logical_part "ANTENNA"
+			(slots
+				(slot "ANTENNA__ANTENNA_1"
+					(attributes
+						(attval "REFDES" "U?"))))
+			(pin 1  3 "ANTENNA__ANTENNA_1" 0 "ANT" 0))
+		(part "2PINHEADER")
+		(logical_part_mapping "2PINHEADER"
+			(comp "U1"))
+		(logical_part "2PINHEADER"
+			(slots
+				(slot "2PINHEADER__2PINHEADER_1"
+					(attributes
+						(attval "REFDES" "U?"))))
+			(pin 2  3 "2PINHEADER__2PINHEADER_1" 0 "IN2" 0)
+			(pin 1  3 "2PINHEADER__2PINHEADER_1" 0 "IN1" 0)))
+	(placement
+		(component "GPSANTENNA"
+			(place "U4" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "DEVICE" "ANTENNA")
+				(attval "REFDES" "U4")))
+		(component "RESISTOR"
+			(place "U3" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "DEVICE" "RESISTOR")
+				(attval "REFDES" "U3")))
+		(component "100MILCAP"
+			(place "U2" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "DEVICE" "CAPACITOR")
+				(attval "REFDES" "U2")))
+		(component "2PINHEADER"
+			(place "U1" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "DEVICE" "2PINHEADER")
+				(attval "REFDES" "U1"))))
+	(functions
+		(func "$1I25" "" "U4" 1)
+		(func "$1I7" "" "U3" 1)
+		(func "$1I4" "" "U2" 1)
+		(func "$1I1" "" "U1" 1))
+	(network
+		(net "$1N12"
+			(pins U2-2 U3-2))
+		(net "$1N15"
+			(pins U1-1 U2-1))
+		(net "$1N17"
+			(pins U1-2 U4-1 U3-1)))
+	(network_electrical
+		(net_scalar "$1N17"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N15"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N12"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))))

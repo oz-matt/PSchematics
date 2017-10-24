@@ -1,0 +1,59 @@
+LIST TESTBENCHES
+AQ150-DEV
+ENDLIST
+ACTIVE_TESTBENCH AQ150-DEV
+SECTION AQ150-DEV
+TYPE SCH
+NOMINAL_TEMP 27
+SIM_OPTION APEX
+DC_CONV_MODE AUTO
+GNODE 0
+GRAMP 1e-12
+END_TIME 1us
+DCOP_TIME 10s
+ITL6 5
+ITL7 30
+ITL1 100
+ITL8 10000
+APEX_DC_CONV_MODE ALL
+GMIN 1e-12
+APEX_ITL1 
+NODESET 1
+ABSVAR 0.2
+RELVAR 0.15
+ELDO_ITL3 3.0
+ELDO_ITL4 13.0
+FT 0.125
+FAST TRUE
+TPRINT FALSE
+ACCURACY_TUNING STANDARD
+ELDO_INTEGRATION TRAPEZOIDAL
+TIME_CONTROL LOCAL_TRUNCATION
+TRANSIENT FAST
+APEX_INTEGRATION TRAPEZOIDAL
+TIME_POINT 
+TOTAL_ITERATION 
+COMPILE_MODELSIM FALSE
+MODELSIM_LIB_SETTING FALSE
+MODELSIM_WORK_LIB 
+MODELSIM_LOG_LIB 
+MODELSIM_EXE_DIR 
+MODELSIM_CMP_OPT 
+SIM_SPICE 1
+ENDSECTION
+LIST SPICE LIBRARIES
+C:\MentorGraphics\9.4PADS\SDD_HOME\standard\templates\hyperlynx analog\Central Library\HLASym_CentralLibrary\Models\Spice\amp\amp.lib
+C:\MentorGraphics\9.4PADS\SDD_HOME\standard\templates\hyperlynx analog\Central Library\HLASym_CentralLibrary\Models\Spice\auto\auto.lib
+C:\MentorGraphics\9.4PADS\SDD_HOME\standard\templates\hyperlynx analog\Central Library\HLASym_CentralLibrary\Models\Spice\bjt\bjt.lib
+C:\MentorGraphics\9.4PADS\SDD_HOME\standard\templates\hyperlynx analog\Central Library\HLASym_CentralLibrary\Models\Spice\diode\diode.lib
+C:\MentorGraphics\9.4PADS\SDD_HOME\standard\templates\hyperlynx analog\Central Library\HLASym_CentralLibrary\Models\Spice\func\func.lib
+C:\MentorGraphics\9.4PADS\SDD_HOME\standard\templates\hyperlynx analog\Central Library\HLASym_CentralLibrary\Models\Spice\jfet\jfet.lib
+C:\MentorGraphics\9.4PADS\SDD_HOME\standard\templates\hyperlynx analog\Central Library\HLASym_CentralLibrary\Models\Spice\macro\macro.lib
+C:\MentorGraphics\9.4PADS\SDD_HOME\standard\templates\hyperlynx analog\Central Library\HLASym_CentralLibrary\Models\Spice\mag\mag.lib
+C:\MentorGraphics\9.4PADS\SDD_HOME\standard\templates\hyperlynx analog\Central Library\HLASym_CentralLibrary\Models\Spice\mixsig\mixsig.lib
+C:\MentorGraphics\9.4PADS\SDD_HOME\standard\templates\hyperlynx analog\Central Library\HLASym_CentralLibrary\Models\Spice\mosfet\mosfet.lib
+C:\MentorGraphics\9.4PADS\SDD_HOME\standard\templates\hyperlynx analog\Central Library\HLASym_CentralLibrary\Models\Spice\opto\opto.lib
+C:\MentorGraphics\9.4PADS\SDD_HOME\standard\templates\hyperlynx analog\Central Library\HLASym_CentralLibrary\Models\Spice\pwrsup\pwrsup.lib
+C:\MentorGraphics\9.4PADS\SDD_HOME\standard\templates\hyperlynx analog\Central Library\HLASym_CentralLibrary\Models\Spice\smps\smps.lib
+C:\MentorGraphics\9.4PADS\SDD_HOME\standard\templates\hyperlynx analog\Central Library\HLASym_CentralLibrary\Models\Spice\uwave\uwave.lib
+ENDLIST

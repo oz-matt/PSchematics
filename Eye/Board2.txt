@@ -1,0 +1,141 @@
+Part Lister output for Board7
+Generated on Sunday, August 17, 2014
+#          QTY   REFDES     VALUE      DESC- PKG_TYPE   MANF  MANF- DIST-
+-------------------------------------------------------------------------
+    1        1   D1         40V .5A    SMD S 1206DIODE  AVX C SD120 Digik
+                                       chott            orpor 6S040 ey   
+                                       ky Di            ation S0R5       
+                                       ode                               
+    2        1   FB1                   Ferri 0805       Wurth 74279 Digik
+                                       te Be             Elec 2031  ey   
+                                       ad               troni            
+                                                        cs In            
+                                                        c                
+    3        1   J1                    USB A MICROUSBF  TE Co 19815 Digik
+                                       dapte            nnect 84-1  ey   
+                                       r                ivity            
+    4        1   J2                    6 Pin ISPHEADER  Harwi M20-9      
+                                        DIL             n Inc 98034      
+                                       Heade                  5          
+                                       r                                 
+    5        1   J3                    5 Pin 5PINHEADER Harwi M20-9 Digik
+                                        SIL             n Inc 99054 ey   
+                                       Heade                  6          
+                                       r                                 
+    6        1   J4                    Micro Molex10411 Molex 10411 Digik
+                                        Sim  80811            80811 ey   
+                                       Holde                             
+                                       r                                 
+    7        1   LED1                  Commo RGBLED     China YSL-R Vario
+                                       n Ano             Youn 596AR us   
+                                       de RG            g Sun 3G4B5      
+                                       B LED             LED  C-C10      
+                                        Thru            Tech             
+                                        Hole                             
+    8        1   Q2         IRFML8244T SMD N SOT23      Inter IRFML Digik
+                            RPBF       -Mosf            natio 8244T ey   
+                                       et               nal R RPBF       
+                                                        ectif            
+                                                        ier              
+    9        1   Q5         DMP2305U-7 SMD P SOT23      Diode DMP23 Digik
+                                       -Mosf            s Inc 05U-7 ey   
+                                       et                                
+    10       1   R11        866R       SMD R 0402R      Samsu ERJ-2 Digik
+                                       esist            ng    RKF86 ey   
+                                       or                     60X        
+    11       1   R21        210R       SMD R 0402R      Samsu RC100 Digik
+                                       esist            ng    5F210 ey   
+                                       or                     0CS        
+    12       1   R24        1k         SMD R 0402R      Samsu RC100 Digik
+                                       esist            ng    5J102 ey   
+                                       or                     CS         
+    13       1   R25        0.02R      SMD R 1206       Ohmit LVK12 Digik
+                                       esist            e     R020D ey   
+                                       or                     ER         
+    14       1   SW1                   SPDT  PINSWITCH  C&K C PN12S Digik
+                                                        ompon HNA03 ey   
+                                                        ents  QE         
+    15       1   TH1        10k NTC    SMD N 0603       Panas ERT-J Digik
+                                       TC Th            onic  1VR10 ey   
+                                       ermis                  3J         
+                                       tor                               
+    16       1   U1                    Li-Io TFSOP10V   Micro MCP73 Digik
+                                       n Cha            chip  833-A ey   
+                                       rge C                  MI/UN      
+                                       ontro                             
+                                       ller                              
+    17       1   U2                    Li-Io DS2782     Maxim DS278 Digik
+                                       n Fue             Inte 2E+T& ey   
+                                       l Gau            grate R          
+                                       ge               d                
+    18       1   U3                    GSM/G SIM968     SIMCO SIM96 Kowat
+                                       PS Mo            M     8     ec   
+                                       dule                              
+    19       1   U5                    AVR M ATMEGA1284 Atmel ATMEG Digik
+                                       icroc PSMD             A1284 ey   
+                                       ontro                  P-AU       
+                                       ller                              
+    20       1   X1                    Cryst CRYSTAL    Abrac ABMM- Digik
+                                       al Os            on Co 7.372 ey   
+                                       cilla            rp    8MHZ-      
+                                       tor                    B2-T       
+    21       2   C1,C3      10uF       SMD C 0603       Samsu CL10A Digik
+                                       apaci            ng    106MQ ey   
+                                       tor                    8NNNC      
+    22       2   C2,C6      10nF       SMD C 0402       Samsu CL05B Digik
+                                       apaci            ng    103KB ey   
+                                       tor                    5NNNC      
+    23       2   C10,C13    100nF      SMD C 0603       Samsu CL10F Digik
+                                       apaci            ng    104ZB ey   
+                                       tor                    8NNNC      
+    24       2   C15,C16    10pF       SMD C 0603       Samsu CL10C Digik
+                                       apaci            ng    100FB ey   
+                                       tor                    8NNNC      
+    25       2   R1,R2      75R        SMD R 0402R      Samsu RC100 Digik
+                                       esist            ng    5F750 ey   
+                                       or                     CS         
+    26       2   R5,R16     115R       SMD R 0402R      Panas ERJ-2 Digik
+                                       esist            onic  RKF11 ey   
+                                       or                     50X        
+    27       2   R10,R44    0R         SMD R 0402R,0603 Samsu RC100 Digik
+                                       esist            ng    5J000 ey   
+                                       or                     CS         
+    28       3   C4,C5,R22  DNI        xxxx  0603       xxxx  xxxx  xxxx 
+    29       3   C7,C8,C9   100uF      SMD C 1206       Samsu CL31A Digik
+                                       apaci            ng    107MQ ey   
+                                       tor                    HNNNE      
+    30       3   C11,C12,   20pF       SMD C 0603       Samsu CL10C Digik
+                 C14                   apaci            ng    200JB ey   
+                                       tor                    8NCNC      
+    31       3   R18,R26,   5.6k       SMD R 0402R      Samsu RC100 Digik
+                 R27                   esist            ng    5F562 ey   
+                                       or                     CS         
+    32       3   R23,R28,   150R       SMD R 0402R      Samsu RC100 Digik
+                 R29                   esist            ng    5F151 ey   
+                                       or                     CS         
+    33       3   R41,R42,   22R        SMD R 0402R      Samsu RC201 Digik
+                 R43                   esist            ng    2F220 ey   
+                                       or                     CS         
+    34       3   U6,U8,U9              Load  TSOT-23    Texas TPS27 Digik
+                                       Switc             Inst 082LD ey   
+                                       h                rumen DCR        
+                                                        ts               
+    35       3   ZA1,ZA2,   5V         Zener ZENERARRAY ON Se SMF05 Digik
+                 ZA3                    Arra            micon CT1G  ey   
+                                       y                ducto            
+                                                        r                
+    36       4   Q1,Q3,Q4,  2N7002     SMD N SOT23      Diode 2N700 Digik
+                 Q6                    -Mosf            s Inc 2-7-F ey   
+                                       et                                
+    37      12   R4,R6,R15, 510k       SMD R 0402R      Samsu RC100 Digik
+                 R17,R19,              esist            ng    5J514 ey   
+                 R32,R33,              or                     CS         
+                 R34,R35,                                                
+                 R37,R38,                                                
+                 R39                                                     
+    38      12   R3,R7,R8,  10k        SMD R 0402R      Samsu RC100 Digik
+                 R9,R12,               esist            ng    5F103 ey   
+                 R13,R14,              or                     CS         
+                 R20,R30,                                                
+                 R31,R36,                                                
+                 R40                                                     

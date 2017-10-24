@@ -1,0 +1,324 @@
+Part Lister output for RevE
+Generated on Thursday, January 15, 2015
+#          Q- REFDES     VALUE      DESC- MANF  MANF- DIST- NOTES
+-----------------------------------------------------------------
+    1      1  ANT1       1575MHz    ANTEN Johan 1575A Digik Brown
+                                    NA CH son T T43A0 ey     mark
+                                    IP GP ehnol 040E         matc
+                                    S 157 ogy               hes d
+                                    5 MHZ                   ot   
+    2      1  ANT2                  ANTEN TE Co 15132 Digik      
+                                    NA PC nnect 59-1  ey         
+                                    B QUA ivity                  
+                                    D BAN                        
+                                    D                            
+    3      1  BAT1       3V         HOLDE MPD   BC501 Digik      
+                                    R COI       SM    ey         
+                                    N CEL                        
+                                    L FOR                        
+                                     CR12                        
+                                    20 SM                        
+                                    D                            
+    4      1  C15        4.7uF      CAP C Samsu CL10A Digik      
+                                    ER 4. ng    475KQ ey         
+                                    7UF 6       8NNNC            
+                                    .3V 1                        
+                                    0% X5                        
+                                    R 060                        
+                                    3                            
+    5      1  C20        10nF       CAP C Samsu CL05B Digik      
+                                    ER 10 ng    103KB ey         
+                                    000PF       5NNNC            
+                                     50V                         
+                                    10% X                        
+                                    7R 04                        
+                                    02                           
+    6      1  FB1        1.5 uH     FIXED Taiyo LK160 Digik      
+                                     IND   Yude 81R5K ey         
+                                    1.5UH n     -T               
+                                     40MA                        
+                                     700                         
+                                    MOHM                         
+                                    0603                         
+    7      1  FB2        300R@100MH WE-CB Wurth 74279 Digik      
+                         z          F SMD  Elec 2031  ey         
+                                     EMI  troni                  
+                                    SUPP  cs In                  
+                                    FERRI c                      
+                                    TE BE                        
+                                    AD 08                        
+                                    05                           
+    8      1  J1                    CONN  FCI   10103 Digik      
+                                    RCPT        594-0 ey         
+                                    STD M       001LF            
+                                    ICRO                         
+                                    USB T                        
+                                    YPE B                        
+    9      1  J2                    CONN  Amphe 101-0 Digik      
+                                    MICRO nol   0660- ey         
+                                     SD C       68-6             
+                                    ARD P                        
+                                    USH-P                        
+                                    USH R                        
+                                    /A                           
+    10     1  J3                    CONN  Molex 10411 Digik      
+                                    MICRO       80811 ey         
+                                     SIM                         
+                                    CARD                         
+                                    PUSH-                        
+                                    PUSH                         
+    11     1  J6                    CONN  Samte FTSH- Digik Keyed
+                                    HEADE c     105-0 ey     side
+                                    R 10P       1-F-D        must
+                                    OS DU       -K           matc
+                                    AL VE                   h lip
+                                    RT                           
+    12     1  LED3                  LED R Cree  CLV6A Digik Pin 1
+                                    ED/GR       -FKB- ey     indi
+                                    EEN/B       CK1P1       cated
+                                    LUE P       G1BB7        by d
+                                    LCC6        R3R3        ot   
+                                    SMD                          
+    13     1  Q3                    MOSFE Inter IRFML Digik      
+                                    T N-C natio 8244T ey         
+                                    H 25V nal R RPBF             
+                                     5.8A ectif                  
+                                     SOT2 ier                    
+                                    3                            
+    14     1  R10        120R       RES S Samsu RC100 Digik      
+                                    MD 12 ng    5F121 ey         
+                                    0 OHM       CS               
+                                     1% 1                        
+                                    /16W                         
+                                    0402                         
+    15     1  R33        274R       RES S Samsu RC100 Digik      
+                                    MD 27 ng    5F274 ey         
+                                    4 OHM       0CS              
+                                     1% 1                        
+                                    /16W                         
+                                    0402                         
+    16     1  R39        430R       RES S Samsu RC100 Digik      
+                                    MD 43 ng    5F431 ey         
+                                    0 OHM       CS               
+                                     1% 1                        
+                                    /16W                         
+                                    0402                         
+    17     1  R40        2.4M       RES S Samsu RC100 Digik      
+                                    MD 2. ng    5F245 ey         
+                                    4M OH       CS               
+                                    M 1%                         
+                                    1/16W                        
+                                     0402                        
+    18     1  R42        787k       RES S Panas ERJ-2 Digik      
+                                    MD 78 onic  RKF78 ey         
+                                    7K OH       73X              
+                                    M 1%                         
+                                    1/10W                        
+                                     0402                        
+    19     1  R52        0.02R      RES S Ohmit LVK12 Digik      
+                                    MD 0. e     R020D ey         
+                                    02 OH       ER               
+                                    M 0.5                        
+                                    % 1/2                        
+                                    W 120                        
+                                    6                            
+    20     1  SW1                   SWITC Panas EVQ-Q Digik Polar
+                                    H TAC onic  2Y03W ey    ity d
+                                    TILE                    oes n
+                                    SPST-                   ot ma
+                                    NO 0.                   tter 
+                                    02A 1                        
+                                    5V                           
+    21     1  SW2                   SL R/ Molex 07055 Digik      
+                                    A LAT       10001 ey         
+                                    CH HE                        
+                                    ADER                         
+                                    TIN 2                        
+                                    CKT                          
+    22     1  TH1        10k NTC    THERM Panas ERT-J Digik      
+                                    ISTOR onic  1VR10 ey         
+                                     NTC        3J               
+                                    10K O                        
+                                    HM 5%                        
+                                     0603                        
+    23     1  U1                    IC MC Frees MK20D Digik Pin 1
+                                    U ARM cale  N128V ey     indi
+                                     128K Semic FT5         cated
+                                    B FLA onduc              by d
+                                    SH 48 tor               ot   
+                                    QFN                          
+    24     1  U3                    IC CH Linea LTC40 Digik Pin 1
+                                    ARGER r Tec 01EUF ey     indi
+                                     LI-I hnolo #PBF        cated
+                                    ON BU gy                 by d
+                                    CK 16                   ot   
+                                    -QFN                         
+    25     1  U4                    IC SI SIMCO SIM96 Kowat Pin 1
+                                    M AND M     8     ec     indi
+                                     GPS                    cated
+                                    INTER                    by d
+                                    FACE                    ot   
+    26     1  U7                    IC CO Linea LTC15 Digik Pin 1
+                                    MP NA r Tec 40CS8 ey     indi
+                                    NOPOW hnolo #PBF        cated
+                                    ER W/ gy                 by l
+                                    REF 8                   ip   
+                                    -SOIC                        
+    27     1  U8                    IC FU Maxim DS278 Digik Pin 1
+                                    EL GA  Inte 2E+T& ey     indi
+                                    UGE B grate R           cated
+                                    ATT 8 d                  by l
+                                    TSSOP                   ip   
+    28     1  U26        3.3V       IC RE STMic LD393 Digik      
+                                    G LDO roele 00DT3 ey         
+                                     3.3V tcron 3-R              
+                                     3A D ics                    
+                                    PAK                          
+    29     1  X1         32.768kHz  CRYST Citiz CM315 Digik      
+                                    AL 32 en Fi D3276 ey         
+                                    .768K netec 8EZFT            
+                                    HZ 12 h Miy                  
+                                    .5PF  ota                    
+                                    SMD 1                        
+                                    206                          
+    30     2  BAT2,BAT3             18650 Keyst 1042  Mouse Cut H
+                                     BATT one         r     older
+                                    ERY H                    on B
+                                    OLDER                   AT2 I
+                                                            ndica
+                                                            ted O
+                                                            n PCB
+    31     2  C25,C26    150uF      CAP A Nichi EMVA1 Digik      
+                                    LUM 1 con   00ADA ey         
+                                    50UF        151MF            
+                                    10V 2       55G              
+                                    0% SM                        
+                                    D                            
+    32     2  LED1,LED2             RGB L China YSL-R Vario DNP  
+                                    ED Th  Youn 596AR us         
+                                    ru Ho g Sun 3G4B5            
+                                    le     LED  C-C10            
+                                          Tech                   
+    33     2  Q1,Q2                 MOSFE Diode 2N700 Digik      
+                                    T N-C s Inc 2-7-F ey         
+                                    H 60V                        
+                                     115M                        
+                                    A SOT                        
+                                    23-3                         
+    34     2  R47,R48    5.6k       RES S Samsu RC100 Digik      
+                                    MD 5. ng    5F562 ey         
+                                    6K OH       CS               
+                                    M 1%                         
+                                    1/16W                        
+                                     0402                        
+    35     2  U5,U6      3.3V       IC RE Micro MCP17 Digik      
+                                    G LDO chip  00T-3 ey         
+                                     3.3V       302E/            
+                                     0.25       TT               
+                                    A SOT                        
+                                    23-3                         
+    36     3  C3,C4,C7   20pF       CAP C Samsu CL05C Digik      
+                                    ER 20 ng    200JB ey         
+                                    PF 50       5NNNC            
+                                    V 5%                         
+                                    NP0 0                        
+                                    402                          
+    37     3  C6,C8,C10  100nF      CAP C Samsu CL05A Digik      
+                                    ER 0. ng    104MP ey         
+                                    1UF 1       5NNNC            
+                                    0V 20                        
+                                    % X5R                        
+                                     0402                        
+    38     3  R20,R23,   80.6R      RES S Samsu RC100 Digik      
+              R26                   MD 80 ng    5F80R ey         
+                                    .6 OH       6CS              
+                                    M 1%                         
+                                    1/16W                        
+                                     0402                        
+    39     3  R11,R13,   75k        RES S Samsu RC100 Digik      
+              R38                   MD 75 ng    5F753 ey         
+                                    K OHM       CS               
+                                     1% 1                        
+                                    /16W                         
+                                    0402                         
+    40     3  C1,C2,R51  DNP        DNP   DNP   DNP   DNP   DNP  
+    41     3  R30,R31,   22R        RES S Samsu RC100 Digik      
+              R32                   MD 22 ng    5F220 ey         
+                                     OHM        CS               
+                                    1% 1/                        
+                                    16W 0                        
+                                    402                          
+    42     3  R43,R44,   150R       RES S Samsu RC100 Digik      
+              R45                   MD 15 ng    5J151 ey         
+                                    0 OHM       CS               
+                                     5% 1                        
+                                    /16W                         
+                                    0402                         
+    43     3  U15,U16,   2.8V       IC RE Diode AP733 Digik      
+              U17                   G LDO s Inc 3-28S ey         
+                                     2.8V       AG-7             
+                                     0.3A                        
+                                     SOT2                        
+                                    3-3                          
+    44     3  U18,U19,              IC LO Texas TPS27 Digik Pin 1
+              U20                   AD SW  Inst 082LD ey     indi
+                                     HIGH rumen DCR         cated
+                                     SIDE ts                 by d
+                                     6SOT                   ot   
+    45     3  ZA1,ZA2,   5V         TVS D ON Se SMF05 Digik Pin 1
+              ZA3                   IODE  micon CT1G  ey     indi
+                                    5VWM  ducto             cated
+                                    12.5V r                  by d
+                                    C SC8                   ot   
+                                    8                            
+    46     4  C5,C9,C13, 10uF       CAP C Samsu CL10A Digik      
+              C14                   ER 10 ng    106MQ ey         
+                                    UF 6.       8NNNC            
+                                    3V 20                        
+                                    % X5R                        
+                                     0603                        
+    47     4  D1,D2,D3,  40V .5A    DIODE AVX C SD120 Digik Diode
+              D4                     SCHO orpor 6S040 ey     stri
+                                    TTKY  ation S0R5        pe go
+                                    40V 0                   es op
+                                    .5A 1                   posit
+                                    206                     e the
+                                                             plus
+                                                             sign
+                                                             (+) 
+    48     5  R16,R17,   1k         RES S Samsu RC100 Digik      
+              R18,R34,              MD 1K ng    5F102 ey         
+              R46                    OHM        CS               
+                                    1% 1/                        
+                                    16W 0                        
+                                    402                          
+    49     5  U21,U22,              MOSFE Fairc FDC63 Digik Pin 1
+              U23,U24,              T 2N- hild  05N   ey     indi
+              U25                   CH 20 Semic             cated
+                                    V 2.7 onduc              by d
+                                    A SSO tor               ot   
+                                    T6                           
+    50     6  R19,R21,   30R        RES S Samsu RC100 Digik      
+              R22,R24,              MD 30 ng    5F300 ey         
+              R25,R27                OHM        CS               
+                                    1% 1/                        
+                                    16W 0                        
+                                    402                          
+    51     8  R1,R3,R4,  392k       RES S Samsu RC100 Digik      
+              R5,R6,R7,             MD 39 ng    5F392 ey         
+              R8,R41                2K OH       3CS              
+                                    M 1%                         
+                                    1/16W                        
+                                     0402                        
+    52     10 C11,C12,   1uF        CAP C Samsu CL05B Digik      
+              C16,C17,              ER 1U ng    105KQ ey         
+              C18,C19,              F 6.3       5NQNC            
+              C21,C22,              V 10%                        
+              C23,C24                X7R                         
+                                    0402                         
+    53     12 R2,R9,R12, 10k        RES S Samsu RC100 Digik      
+              R14,R15,              MD 10 ng    5F103 ey         
+              R28,R29,              K OHM       CS               
+              R35,R36,               1% 1                        
+              R37,R49,              /16W                         
+              R50                   0402                         

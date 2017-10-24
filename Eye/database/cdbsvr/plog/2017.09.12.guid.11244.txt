@@ -1,0 +1,29 @@
+[2017.09.12 21:26:34] [0001m.15s.213ms] [0] WELCOME
+[2017.09.12 21:26:34] [0001m.15s.270ms] [1] iCDB Database ver.1.093, 4eaDVz8EvVKuZCsHMzatSQ, build:488395 created 2012-01-27 13:24:08, sources stamp:4eaDVz8EvVKuZCsHMzatSQ
+[2017.09.12 21:26:34] [0001m.15s.270ms] [1] Copyright 2012 Mentor Graphics Corporation. All Rights Reserved.
+[2017.09.12 21:26:34] [0001m.15s.270ms] [1] Base flow version [7.9.3]
+[2017.09.12 21:26:34] [0001m.15s.270ms] [1] GBS Install Id [24044], Flow Id [PADS 9.4.1], Full Flow Name [PADS 9.4.1], Exact Access Date [Nov 1 2011]
+[2017.09.12 21:26:34] [0001m.15s.271ms] [1] Machine [DESKTOP-APFMU2M]  User [klutc]  PID [11244]
+[2017.09.12 21:26:34] [0001m.15s.272ms] [1] Operating system [Microsoft Home Premium Edition, 64-bit (build 9200)]
+[2017.09.12 21:26:34] [0001m.15s.272ms] [1] Current working dir [C:\EyeProject\Eye]
+[2017.09.12 21:26:34] [0001m.15s.272ms] [1] PATH [C:\MentorGraphics\9.4PADS\SDD_HOME\wv\win32\bin;C:\MentorGraphics\9.4PADS\SDD_HOME\common\win32\bin;C:\MentorGraphics\9.4PADS\SDD_HOME\common\win32\lib;C:\MentorGraphics\9.4PADS\MGC_HOME.ixn\bin;C:\MentorGraphics\9.4PADS\MGC_HOME.ixn\lib;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Users\klutc\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\proXPN\bin;C:\MentorGraphics\9.4PADS\SDD_HOME\common\win32\lib;C:\MentorGraphics\9.4PADS\SDD_HOME\CAMCAD]
+[2017.09.12 21:26:34] [0001m.15s.273ms] [1] SDD_HOME [C:\MentorGraphics\9.4PADS\SDD_HOME] on file system [NTFS]
+[2017.09.12 21:26:34] [0001m.15s.273ms] [1] SDD_PLATFORM [win32]
+[2017.09.12 21:26:34] [0001m.15s.273ms] [1] WDIR [C:\PADS Projects;C:\MentorGraphics\9.4PADS\SDD_HOME\standard]
+[2017.09.12 21:26:34] [0001m.15s.273ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2017.09.12 21:26:34] [0001m.15s.273ms] [3] WARNING: Database [C:\EyeProject\Eye\database\icdb.dat] was manually copied
+[2017.09.12 21:26:34] [0001m.15s.273ms] [3] File change time:        [2017-09-11 16.33.23]
+[2017.09.12 21:26:34] [0001m.15s.274ms] [3] File modification time:  [2017-09-11 17.20.11]
+[2017.09.12 21:26:34] [0001m.15s.274ms] [3] Last change time:        [2017-09-11 17.04.54]
+[2017.09.12 21:26:34] [0001m.15s.274ms] [3] Last database open information:
+[2017.09.12 21:26:34] [0001m.15s.274ms] [3] Time:             [2017-09-11 17.04.54]
+[2017.09.12 21:26:34] [0001m.15s.274ms] [3] Location:         [C:\EyeProject\Eye\database\icdb.dat]
+[2017.09.12 21:26:34] [0001m.15s.274ms] [3] Machine:          [DESKTOP-47RP8D9]
+[2017.09.12 21:26:34] [0001m.15s.274ms] [3] User:             [TARS]
+[2017.09.12 21:26:34] [0001m.15s.275ms] [3] PID:              [584]
+[2017.09.12 21:26:34] [0001m.15s.275ms] [3] Application:      [iCDB Server]
+[2017.09.12 21:26:34] [0001m.15s.275ms] [3] Operating system: [Microsoft Home Premium Edition, 64-bit (build 9200)]
+[2017.09.12 21:26:34] [0001m.15s.275ms] [3] WARNING: Regenerating database GUID
+[2017.09.12 21:26:34] [0001m.15s.275ms] [3] Previous database GUID [74f7-fe57-9913-eb6f-d30e-0a92-40e0-a950-7115-d392-72b2-2f98]
+[2017.09.12 21:26:34] [0001m.15s.275ms] [3] Current database GUID  [5a03-7965-cebc-5e34-a498-8b9f-4988-b950-0335-1362-44f1-60a8]
+[2017.09.12 21:26:34] [0001m.15s.276ms] [0] .

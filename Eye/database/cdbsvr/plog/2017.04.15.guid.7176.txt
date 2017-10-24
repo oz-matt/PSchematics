@@ -1,0 +1,29 @@
+[2017.04.15 20:28:13] [0001m.01s.331ms] [0] WELCOME
+[2017.04.15 20:28:13] [0001m.01s.362ms] [1] iCDB Database ver.1.093, 4eaDVz8EvVKuZCsHMzatSQ, build:488395 created 2012-01-27 13:24:08, sources stamp:4eaDVz8EvVKuZCsHMzatSQ
+[2017.04.15 20:28:13] [0001m.01s.362ms] [1] Copyright 2012 Mentor Graphics Corporation. All Rights Reserved.
+[2017.04.15 20:28:13] [0001m.01s.362ms] [1] Base flow version [7.9.3]
+[2017.04.15 20:28:13] [0001m.01s.362ms] [1] GBS Install Id [24044], Flow Id [PADS 9.4.1], Full Flow Name [PADS 9.4.1], Exact Access Date [Nov 1 2011]
+[2017.04.15 20:28:13] [0001m.01s.362ms] [1] Machine [TARS-LAP]  User [TARS]  PID [7176]
+[2017.04.15 20:28:13] [0001m.01s.362ms] [1] Operating system [Microsoft Windows 7 Business Edition, 64-bit Service Pack 1 (build 7601)]
+[2017.04.15 20:28:13] [0001m.01s.362ms] [1] Current working dir [C:\EyeProject\Eye]
+[2017.04.15 20:28:13] [0001m.01s.362ms] [1] PATH [C:\MentorGraphics\9.4PADS\SDD_HOME\wv\win32\bin;C:\ProgramData\Oracle\Java\javapath;C:\MentorGraphics\9.4PADS\SDD_HOME\common\win32\bin;C:\MentorGraphics\9.4PADS\SDD_HOME\common\win32\lib;C:\MentorGraphics\9.4PADS\MGC_HOME.ixn\bin;C:\MentorGraphics\9.4PADS\MGC_HOME.ixn\lib;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Cypress\EZ-USB FX3 SDK\1.3\ARM GCC\bin\;C:\Program Files (x86)\GNU Tools ARM Embedded\5.4 2016q2\bin;C:\Program Files (x86)\GNU Tools ARM Embedded\5.4 2016q3\bin;C:\ProgramData\Oracle\Java\javapath;C:\MentorGraphics\9.4PADS\SDD_HOME\common\win32\bin;C:\MentorGraphics\9.4PADS\SDD_HOME\common\win32\lib;C:\MentorGraphics\9.4PADS\MGC_HOME.ixn\bin;C:\MentorGraphics\9.4PADS\MGC_HOME.ixn\lib;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Python27;C:\Program Files\Git\bin;C:\Python27\Scripts;C:\Program Files\Mercurial;C:\Program Files\Docker Toolbox]
+[2017.04.15 20:28:13] [0001m.01s.362ms] [1] SDD_HOME [C:\MentorGraphics\9.4PADS\SDD_HOME] on file system [NTFS]
+[2017.04.15 20:28:13] [0001m.01s.362ms] [1] SDD_PLATFORM [win32]
+[2017.04.15 20:28:13] [0001m.01s.362ms] [1] WDIR [C:\PADSProjects;C:\MentorGraphics\9.4PADS\SDD_HOME\standard]
+[2017.04.15 20:28:13] [0001m.01s.362ms] [1] Local iCDB working dir [C:\PADSProjects\iCDB] on file system [NTFS]
+[2017.04.15 20:28:13] [0001m.01s.362ms] [3] WARNING: Database [C:\EyeProject\Eye\database\icdb.dat] was manually copied
+[2017.04.15 20:28:13] [0001m.01s.362ms] [3] File change time:        [2017-04-11 19.37.52]
+[2017.04.15 20:28:13] [0001m.01s.362ms] [3] File modification time:  [2017-04-13 13.25.58]
+[2017.04.15 20:28:13] [0001m.01s.362ms] [3] Last change time:        [2017-04-13 10.09.58]
+[2017.04.15 20:28:13] [0001m.01s.362ms] [3] Last database open information:
+[2017.04.15 20:28:13] [0001m.01s.362ms] [3] Time:             [2017-04-13 10.09.58]
+[2017.04.15 20:28:13] [0001m.01s.362ms] [3] Location:         [C:\EyeProject\Eye\database\icdb.dat]
+[2017.04.15 20:28:13] [0001m.01s.362ms] [3] Machine:          [TARS-LAP]
+[2017.04.15 20:28:13] [0001m.01s.362ms] [3] User:             [TARS]
+[2017.04.15 20:28:13] [0001m.01s.362ms] [3] PID:              [5520]
+[2017.04.15 20:28:13] [0001m.01s.362ms] [3] Application:      [iCDB Server]
+[2017.04.15 20:28:13] [0001m.01s.362ms] [3] Operating system: [Microsoft Windows 7 Business Edition, 64-bit Service Pack 1 (build 7601)]
+[2017.04.15 20:28:13] [0001m.01s.362ms] [3] WARNING: Regenerating database GUID
+[2017.04.15 20:28:13] [0001m.01s.362ms] [3] Previous database GUID [79ba-5eef-cda9-cd26-22e6-5c87-2e65-c850-ba0e-aaf9-1205-a190]
+[2017.04.15 20:28:13] [0001m.01s.362ms] [3] Current database GUID  [2a9c-cf4b-7774-a19b-d9ab-2f82-aab2-f850-874d-fae6-1fc1-a190]
+[2017.04.15 20:28:13] [0001m.01s.362ms] [0] .

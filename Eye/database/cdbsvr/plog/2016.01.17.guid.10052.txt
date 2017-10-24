@@ -1,0 +1,29 @@
+[2016.01.17 10:20:14] [0000m.41s.652ms] [0] WELCOME
+[2016.01.17 10:20:14] [0000m.41s.660ms] [1] iCDB Database ver.1.093, 4eaDVz8EvVKuZCsHMzatSQ, build:488395 created 2012-01-27 13:24:08, sources stamp:4eaDVz8EvVKuZCsHMzatSQ
+[2016.01.17 10:20:14] [0000m.41s.660ms] [1] Copyright 2012 Mentor Graphics Corporation. All Rights Reserved.
+[2016.01.17 10:20:14] [0000m.41s.662ms] [1] Base flow version [7.9.3]
+[2016.01.17 10:20:14] [0000m.41s.662ms] [1] GBS Install Id [24044], Flow Id [PADS 9.4.1], Full Flow Name [PADS 9.4.1], Exact Access Date [Nov 1 2011]
+[2016.01.17 10:20:14] [0000m.41s.662ms] [1] Machine [TARS-LAP]  User [TARS]  PID [10052]
+[2016.01.17 10:20:14] [0000m.41s.662ms] [1] Operating system [Microsoft Windows 7 Business Edition, 64-bit Service Pack 1 (build 7601)]
+[2016.01.17 10:20:14] [0000m.41s.662ms] [1] Current working dir [C:\EyeProject\Eye]
+[2016.01.17 10:20:14] [0000m.41s.662ms] [1] PATH [C:\MentorGraphics\9.4PADS\SDD_HOME\wv\win32\bin;C:\MentorGraphics\9.4PADS\SDD_HOME\common\win32\bin;C:\MentorGraphics\9.4PADS\SDD_HOME\common\win32\lib;C:\MentorGraphics\9.4PADS\MGC_HOME.ixn\bin;C:\MentorGraphics\9.4PADS\MGC_HOME.ixn\lib;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\IntelSGXPSW\bin\x64\Release\;C:\Program Files\Intel\IntelSGXPSW\bin\win32\Release\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\MentorGraphics\9.4PADS\SDD_HOME\CAMCAD;]
+[2016.01.17 10:20:14] [0000m.41s.662ms] [1] SDD_HOME [C:\MentorGraphics\9.4PADS\SDD_HOME] on file system [NTFS]
+[2016.01.17 10:20:14] [0000m.41s.662ms] [1] SDD_PLATFORM [win32]
+[2016.01.17 10:20:14] [0000m.41s.662ms] [1] WDIR [C:\PADSProjects;C:\MentorGraphics\9.4PADS\SDD_HOME\standard]
+[2016.01.17 10:20:14] [0000m.41s.662ms] [1] Local iCDB working dir [C:\PADSProjects\iCDB] on file system [NTFS]
+[2016.01.17 10:20:14] [0000m.41s.662ms] [3] WARNING: Database [C:\EyeProject\Eye\database\icdb.dat] was manually copied
+[2016.01.17 10:20:14] [0000m.41s.662ms] [3] File change time:        [2016-01-16 20.06.24]
+[2016.01.17 10:20:14] [0000m.41s.662ms] [3] File modification time:  [2016-01-16 22.56.21]
+[2016.01.17 10:20:14] [0000m.41s.662ms] [3] Last change time:        [2016-01-16 22.51.26]
+[2016.01.17 10:20:14] [0000m.41s.662ms] [3] Last database open information:
+[2016.01.17 10:20:14] [0000m.41s.662ms] [3] Time:             [2016-01-16 22.51.26]
+[2016.01.17 10:20:14] [0000m.41s.662ms] [3] Location:         [C:\EyeProject\Eye\database\icdb.dat]
+[2016.01.17 10:20:14] [0000m.41s.662ms] [3] Machine:          [TARS-LAP]
+[2016.01.17 10:20:14] [0000m.41s.662ms] [3] User:             [TARS]
+[2016.01.17 10:20:14] [0000m.41s.662ms] [3] PID:              [3816]
+[2016.01.17 10:20:14] [0000m.41s.662ms] [3] Application:      [iCDB Server]
+[2016.01.17 10:20:14] [0000m.41s.662ms] [3] Operating system: [Microsoft Windows 7 Business Edition, 64-bit Service Pack 1 (build 7601)]
+[2016.01.17 10:20:14] [0000m.41s.662ms] [3] WARNING: Regenerating database GUID
+[2016.01.17 10:20:14] [0000m.41s.662ms] [3] Previous database GUID [c06a-1f8e-9dba-dae3-fbfa-3964-cfa3-9650-bc9e-ce0e-eb0b-9aca]
+[2016.01.17 10:20:14] [0000m.41s.662ms] [3] Current database GUID  [289a-1340-2afe-8987-e21b-b963-31bb-9650-7530-de0e-eb0b-9aca]
+[2016.01.17 10:20:14] [0000m.41s.665ms] [0] .

@@ -1,0 +1,86 @@
+DxDesigner Diagnostics Report
+Date: Sunday, December 04, 2016
+
+
+Test: Symbol Types
+Result: OK
+Time: 0 seconds
+
+Test: Invalid Nets
+Result: OK
+Time: 0 seconds
+
+Test: Invalid Buses
+Result: OK
+Time: 0 seconds
+
+Test: Sheet Order Data
+Result: OK
+Time: 0 seconds
+
+Test: Sheet Internal Identifiers
+Result: OK
+Time: 0 seconds
+
+Test: Component Graphical Data
+Result: OK
+Time: 0 seconds
+
+Test: Net Connections
+Result: OK
+Time: 1 seconds
+
+Test: Rippers
+Result: OK
+Time: 0 seconds
+
+Test: Reuse Blocks
+Result: OK
+Time: 0 seconds
+
+Test: Empty Blocks
+Result: OK
+Time: 0 seconds
+
+Test: Top Level Name Consistency
+Result: OK
+Time: 0 seconds
+
+Test: Duplicate Internal IDs
+Result: OK
+Time: 4 seconds
+
+Test: Bus Signal Connections
+Result: OK
+Time: 3 seconds
+
+Test: Component Names
+Result: FAILED
+Error: Invalid Component Name(s) $1I371, $1I587 on schematic Schematic8.1 
+Error: Invalid Component Name(s) $1I2270 on schematic Schematic13.1 
+Error: Invalid Component Name(s) $1I1237 on schematic Beacon-DEV.1 
+Time: 3 seconds
+
+Test: Pass-through Pins
+Result: OK
+Time: 0 seconds
+
+Test: Empty Labels
+Result: FAILED
+Error: Elements with empty label on schematic AQ150.1 
+Error: Elements with empty label on schematic AQ150-DEV.1 
+Error: Elements with empty label on schematic AQ160-DEV.1 
+Time: 4 seconds
+
+Test: Connectivity
+Result: FAILED
+Error: Net $3N1111 on block Q10 has invalid connections 
+Error: Schematic AQ160-DEV.1 has invalid graphical connections. 
+Error: Connectivity not up to date with schematic sheet Q10.3 
+Error: Schematic Q10.3 has invalid graphical connections. 
+Time: 12 seconds
+
+Report summary:
+Tests passed: 17
+Tests with error(s): 3
+Click here to fix all errors

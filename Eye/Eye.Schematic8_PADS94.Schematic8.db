@@ -1,0 +1,57 @@
+
+(pcb "C:\EyeProject\Eye\Eye.Schematic8_PADS94.Schematic8.db"
+	(version "5.0.0")
+	(units "basic")
+	(config_properties
+		(attributes
+			(attval "PcbConfigName"
+ "C:\MentorGraphics\9.4PADS\SDD_HOME/standard/pads94.cfg")
+			(attval "CnsFile"
+ "C:\MentorGraphics\9.4PADS\SDD_HOME\standard\isis\pads94.cns")
+			(attval "BeAdapter" "PADS94")
+			(attval "FeAdapter" "DxDesigner")
+			(attval "SYSCONFIG" "pcbfwd")
+			(attval "LASTSYSCONFIG" "pcbfwd"))
+		(constraints
+			(cnsval "U:Velocity" "Unknown:3")
+			(cnsval "U:Time" "Unknown:3")
+			(cnsval "U:Ampere" "Unknown:3")
+			(cnsval "U:Capacitance" "Unknown:3")
+			(cnsval "U:Inductance" "Unknown:3")
+			(cnsval "U:Ohm" "Unknown:3")
+			(cnsval "U:Volt" "Unknown:3")
+			(cnsval "U:Power" "Unknown:3")
+			(cnsval "U:Unknown" "Unknown:3")
+			(cnsval "U:Angle" "Unknown:3")
+			(cnsval "U:Linear" "THOUSANDTHS:3")))
+	(project_properties
+		(attributes
+			(attval "EPLANNER_DSN" "1.0")))
+	(part_library
+		(part "KEYSTONE500")
+		(logical_part_mapping "KEYSTONE500"
+			(comp "BAT1"))
+		(logical_part "KEYSTONE500"
+			(slots
+				(slot "KEYSTONE500__KEYSTONE500_1"
+					(attributes
+						(attval "Description" "HOLDER BATT PC COIN 1CELL 12MM")
+						(attval "PKG_TYPE" "KEYSTONE500")
+						(attval "REFDES" "BAT?")
+						(attval "Value" "3V"))))
+			(pin 1  3 "KEYSTONE500__KEYSTONE500_1" 0 "POS" 0)
+			(pin 2  3 "KEYSTONE500__KEYSTONE500_1" 0 "NEG" 0)))
+	(placement
+		(component "KEYSTONE500"
+			(place "BAT1" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "HOLDER BATT PC COIN 1CELL 12MM")
+				(attval "Value" "3V")
+				(attval "DEVICE" "KEYSTONE500")
+				(attval "REFDES" "BAT1"))))
+	(functions
+		(func "$1I1" "" "BAT1" 1))
+	(network)
+	(network_electrical))
