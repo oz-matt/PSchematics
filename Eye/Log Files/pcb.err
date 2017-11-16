@@ -186,6 +186,7 @@ pcb: Warning 6094: Q10B pin $1I2792.NC: Pin not connected
 pcb: Warning 6094: Q10B pin $1I1326.NC: Pin not connected
 pcb: Warning 6094: Q10B pin $1I10.NC: Pin not connected
 pcb: Warning 6094: Q10B pin $1I10.NC2: Pin not connected
+pcb: Note 5854: Instance value (PKG_TYPE=0402) was added to instance ($7I1924) on (Q10B).
 pcb: Note 5626: Summary of Log Files/pcb.err
-Status 0, Notes 2, Warnings 186
+Status 0, Notes 3, Warnings 186
 Errors 0, Failures 0, Fatals 0, Internals 0

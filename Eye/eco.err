@@ -1,15 +1,9 @@
 ** ECO In Report **
 
-Thu Nov 16 09:48:52 2017
+Thu Nov 16 15:36:34 2017
 
 Input  File : C:\EyeProject\Eye\Q10B.eco
-Current Job : Untitled
+Current Job : Q10B-v1.1.pcb
 
 
 * Warning: deleting single-pin signal $6N723
-
-
-Attribute Dictionary was modified during import operations.  The following
-attributes were added to the Attribute Dictionary as non-ECO Registered:
-
-PKG_TYPE
