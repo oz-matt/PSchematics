@@ -8386,8 +8386,6 @@
 			(pins R77-2 U45-3))
 		(net "$4N4055"
 			(pins R86-1 J6-5))
-		(net "$4N4056"
-			(pins R88-2 J6-10))
 		(net "$4N5039"
 			(pins R89-1 U29-3))
 		(net "$4N5040"
@@ -8904,7 +8902,7 @@
 		(net "QI_CHG"
 			(pins C45-2 U25-3 R181-2 U56-1))
 		(net "RESET_B_02"
-			(pins U25-19))
+			(pins U25-19 R88-2 J6-10))
 		(net "SDCDN"
 			(pins TP8-1 U9-9 J4-SW R41-2))
 		(net "SD_CLK"
@@ -9798,9 +9796,6 @@
 			(constraints
 				(cnsval "SCHEDULED" "FALSE")))
 		(net_scalar "$4N5039"
-			(constraints
-				(cnsval "SCHEDULED" "FALSE")))
-		(net_scalar "$4N4056"
 			(constraints
 				(cnsval "SCHEDULED" "FALSE")))
 		(net_scalar "$4N4055"

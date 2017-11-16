@@ -791,3 +791,15 @@
 [2017-11-16 07.16.34] Successfully created [AutoSave] backup [2017-11-16 07.16.25 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
 [2017-11-16 07.16.34] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-11-15 11.48.44 - auto.zip].
 [2017-11-16 07.16.34] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-11-15 11.48.44 - auto.zip] removed.
+[2017-11-16 09.23.09] ERROR: Broken backup file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-11 09.31.01 - auto.zip] - will not be managed. Could not find description data.
+[2017-11-16 09.23.13] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-13 11.31.23 - auto.zip] - will not be managed. Could not get list of backup content.
+[2017-11-16 09.23.28] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-08-07 17.16.31 - auto.zip] - will not be managed. Could not get list of backup content.
+[2017-11-16 09.23.42] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-10-22 14.33.21 - auto.zip] - will not be managed. Could not get list of backup content.
+[2017-11-16 09.23.42] Migrating iCDB upgrade backups from directory [Eye\database\cdbback] to Project Backup format.
+[2017-11-16 09.23.42] WARNING: Ignoring iCDB backup file [2017-10-09 23.32.53-11652-d.zip] - will not be migrated.
+[2017-11-16 09.23.42] WARNING: Ignoring iCDB backup file [2017-10-08 23.25.46-6192-d.zip] - will not be migrated.
+[2017-11-16 09.23.42] WARNING: Ignoring iCDB backup file [2017-09-12 21.26.59-3124-i.zip] - will not be migrated.
+[2017-11-16 09.23.42] WARNING: Ignoring iCDB backup file [2017-08-15 00.00.17-5560-d.zip] - will not be migrated.
+[2017-11-16 09.23.42] WARNING: Ignoring iCDB backup file [2017-08-06 01.22.11-7136-d.zip] - will not be migrated.
+[2017-11-16 09.23.42] WARNING: Ignoring iCDB backup file [2015-12-28 17.42.13-2160-i.zip] - will not be migrated.
+[2017-11-16 09.23.42] WARNING: Ignoring iCDB backup file [2014-04-23 17.44.46-1884-d.zip] - will not be migrated.
