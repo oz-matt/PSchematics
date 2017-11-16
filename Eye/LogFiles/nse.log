@@ -63411,3 +63411,4207 @@ edit::move -offset 0,0
 nse::clearselection
 nse::savesymbol sid1
 nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SPST_CNK_PTS840-GK-SMTR-LFS.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SPST_CNK_PTS840-GK-SMTR-LFS.1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD 4x2-1-MUX_SN74CB3Q3257RGYR.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD 4x2-1-MUX_SN74CB3Q3257RGYR.1
+nse::savesymbol -saveas 2x4-1-MUX_CD74HC4052PWR.1
+prop::setvalue -value CD74HC4052PWR -valueindex 0 MANF_P/N
+prop::setvalue -value {IC MUX/DEMUX DUAL 4X1 16TSSOP} -valueindex 0 DESCRIPTION
+nse::selectitems {202 204}
+symbol::deleteitems
+nse::selectitems 20
+edit::move -offset 14732,9144
+nse::clearselection
+nse::selectitems {125 126 129 242 243 244}
+symbol::deleteitems
+nse::selectitems 133
+item::setline -points {22352,-17526 18034,-22606}
+nse::clearselection
+nse::selectitems {132 133 136}
+nse::clearselection
+nse::selectitems {130 131 134 135 173 222}
+nse::clearselection
+nse::selectitems {131 135 173}
+edit::move -offset 0,-1524
+nse::clearselection
+nse::selectitems 176
+edit::move -offset 0,-1524
+nse::clearselection
+nse::selectitems 173
+edit::move -offset -254,1524
+nse::clearselection
+nse::selectitems {123 127 178}
+edit::move -offset 0,1778
+nse::deselectitems {123 127 178}
+nse::selectitems 177
+edit::move -offset 0,1778
+nse::clearselection
+nse::selectitems 178
+edit::move -offset 0,-2032
+nse::clearselection
+nse::selectitems {132 133 136}
+edit::move -offset 0,-5334
+nse::clearselection
+nse::selectitems 133
+item::setline -points {22352,-22860 12954,-28702}
+nse::clearselection
+nse::selectitems {14 31 270 275 288 290 294 295}
+symbol::deleteitems
+nse::selectitems {170 172 280 282}
+symbol::deleteitems
+nse::selectitems {245 246 247 248 249 250 251 252 253 254 255 256 257 258 260 261 262 263 300 301 302}
+symbol::deleteitems
+nse::selectitems {123 124 127 128 130 131 132 133 134 135 136 173 178 222 268 284}
+nse::clearselection
+nse::selectitems {123 124 127 128 130 131 132 133 134 135 136 268}
+nse::clearselection
+nse::selectitems {123 124 127 128 130 131 132 133 134 135 136}
+edit::copy
+edit::paste -point 9652,-46735
+nse::clearselection
+nse::selectitems {310 311 312 313 314 315 316 317 318 319 320}
+edit::move -offset -4572,-4318
+nse::clearselection
+nse::selectitems 20
+edit::move -offset -14732,-3810
+nse::clearselection
+nse::selectitems {66 174 176 177 179 223 285 287}
+edit::copy
+edit::paste -point -15240,-60706
+nse::clearselection
+nse::selectitems {321 322 323 324 325 326 327 328 329 330 331 332}
+edit::move -offset 16764,5080
+edit::move -offset -1524,2540
+nse::clearselection
+nse::selectitems {20 34}
+edit::copy
+nse::clearselection
+edit::paste -point 32766,-39624
+nse::clearselection
+nse::selectitems {333 334 335}
+edit::move -offset -32766,-6604
+nse::clearselection
+symbol::addline -points {18288,-53594 18288,-51816}
+symbol::addline -points {18288,-44450 18288,-42164}
+symbol::addline -points {18288,-38100 18288,-36068}
+symbol::addline -points {18288,-31750 18288,-28956}
+nse::selectitems 339
+item::setline -points {18288,-31750 18288,-29464}
+nse::clearselection
+nse::selectitems {338 339}
+edit::move -offset 0,-1524
+nse::clearselection
+nse::selectitems 339
+edit::move -offset 0,-2286
+nse::clearselection
+nse::selectitems 339
+edit::copy
+edit::paste -point 15748,-31750
+nse::clearselection
+nse::selectitems 340
+edit::move -offset 2540,2032
+nse::clearselection
+nse::selectitems 11
+item::setrect -rect 5080,-65786,24384,60452
+nse::deselectitems 11
+nse::selectitems 279
+edit::move -offset 0,1778
+nse::clearselection
+nse::selectitems 11
+item::setrect -rect 5080,-77216,24384,71882
+nse::clearselection
+nse::selectitems 266
+nse::deselectitems 266
+nse::selectitems 259
+edit::copy
+edit::paste -point 5842,-61722
+nse::clearselection
+nse::selectitems 341
+edit::move -offset -762,-254
+item::setline -points {5080,-61976 18542,-61976 18796,-60452}
+item::setline -points {5080,-61976 18542,-61976 18288,-58674}
+item::setline -points {5080,-61976 18288,-61976 18288,-58674}
+nse::clearselection
+nse::selectitems 266
+edit::copy
+edit::paste -point -1016,-62484
+nse::clearselection
+nse::selectitems {342 343 344 345}
+edit::move -offset 1016,-1778
+nse::clearselection
+nse::selectitems 177
+nse::clearselection
+nse::selectitems 20
+nse::clearselection
+nse::selectitems 266
+nse::clearselection
+nse::selectitems 342
+nse::clearselection
+nse::selectitems 266
+nse::clearselection
+nse::selectitems 342
+nse::clearselection
+nse::selectitems 197
+prop::setvalue -value 2 -dest port -ports 342 \#
+nse::clearselection
+nse::selectitems 20
+prop::setvalue -value 3 -dest port -ports 197 \#
+nse::clearselection
+nse::selectitems 335
+prop::setvalue -value 4 -dest port -ports 20 \#
+nse::clearselection
+nse::selectitems 287
+prop::setvalue -value 5 -dest port -ports 335 \#
+nse::clearselection
+nse::selectitems 330
+prop::setvalue -value 6 -dest port -ports 287 \#
+nse::clearselection
+nse::selectitems 329
+prop::setvalue -value 7 -dest port -ports 330 \#
+nse::clearselection
+nse::selectitems 177
+nse::clearselection
+nse::selectitems 329
+prop::setvalue -value 8 -dest port -ports 177 \#
+nse::clearselection
+nse::selectitems 176
+prop::setvalue -value 9 -dest port -ports 329 \#
+nse::clearselection
+nse::selectitems 324
+prop::setvalue -value 10 -dest port -ports 176 \#
+nse::clearselection
+nse::selectitems 66
+prop::setvalue -value 11 -dest port -ports 324 \#
+prop::setvalue -value 12 -dest port -ports 66 \#
+nse::clearselection
+nse::selectitems 323
+nse::clearselection
+nse::selectitems 267
+prop::setvalue -value 13 -dest port -ports 323 \#
+nse::clearselection
+nse::selectitems 279
+prop::setvalue -value 14 -dest port -ports 267 \#
+nse::clearselection
+nse::selectitems 306
+prop::setvalue -value 15 -dest port -ports 279 \#
+prop::setvalue -value 16 -dest port -ports 306 \#
+nse::clearselection
+nse::selectitems 266
+nse::clearselection
+nse::selectitems 342
+port::rename -newname B0 266
+nse::clearselection
+nse::selectitems 197
+port::rename -newname B2 342
+port::rename -newname Bn 197
+nse::clearselection
+nse::selectitems 20
+nse::clearselection
+nse::selectitems 335
+port::rename -newname B3 20
+nse::clearselection
+nse::selectitems 287
+port::rename -newname B1 335
+port::rename -newname ~E 287
+nse::clearselection
+nse::selectitems 330
+nse::clearselection
+nse::selectitems 177
+port::rename -newname VEE 330
+nse::clearselection
+nse::selectitems 329
+port::rename -newname GND 177
+nse::clearselection
+nse::selectitems 176
+port::rename -newname S1 329
+nse::clearselection
+nse::selectitems 324
+port::rename -newname S0 176
+nse::clearselection
+nse::selectitems 66
+port::rename -newname A3 324
+nse::clearselection
+nse::selectitems 323
+port::rename -newname A0 66
+nse::clearselection
+nse::selectitems 267
+port::rename -newname An 323
+nse::clearselection
+nse::selectitems 279
+port::rename -newname A1 267
+nse::clearselection
+nse::selectitems 306
+port::rename -newname A2 279
+port::rename -newname VCC 306
+nse::clearselection
+nse::selectitems {66 174 176 177 179 223 266 285 287 292 323 324 329 330 342 345}
+edit::move -offset -17780,8382
+nse::clearselection
+nse::selectitems {20 34 267 277 279 293 335}
+edit::move -offset 22860,3302
+nse::clearselection
+nse::selectitems {197 199 306 308}
+edit::move -offset -7874,19812
+nse::clearselection
+nse::selectitems 177
+edit::move -offset 33020,17018
+edit::rotate -center 17780,-4064 -angle 90
+nse::deselectitems 177
+nse::selectitems 178
+edit::rotate -center 16256,-9398 -angle 90
+edit::rotate -center 16256,-9398 -angle 180
+edit::move -offset 1524,1778
+nse::deselectitems 178
+nse::selectitems 177
+edit::move -offset -4572,1270
+edit::move -offset 1016,0
+nse::deselectitems 177
+nse::selectitems 178
+edit::move -offset 0,-254
+nse::clearselection
+nse::selectitems 330
+edit::move -offset 32258,36576
+edit::rotate -center 17018,-1016 -angle 90
+edit::move -offset 3302,-1524
+edit::move -offset 0,-254
+nse::deselectitems 330
+nse::selectitems 331
+edit::rotate -center 19050,-7620 -angle 270
+edit::move -offset 1016,1016
+nse::deselectitems 331
+nse::selectitems 178
+edit::move -offset 0,-254
+nse::deselectitems 178
+nse::selectitems 331
+edit::move -offset 0,-254
+nse::clearselection
+nse::selectitems 329
+edit::move -offset 14986,-16256
+nse::deselectitems 329
+nse::selectitems 176
+edit::move -offset -508,0
+edit::move -offset 13716,-54610
+edit::move -offset 4572,254
+nse::deselectitems 176
+nse::selectitems 329
+edit::move -offset 2794,-508
+nse::clearselection
+nse::selectitems 327
+edit::move -offset 0,254
+nse::clearselection
+nse::selectitems 323
+edit::move -offset 42418,-14224
+edit::rotate -center 27178,-47244 -angle 180
+edit::move -offset 4826,3556
+nse::deselectitems 323
+nse::selectitems 66
+edit::move -offset 18034,-38100
+nse::deselectitems 66
+nse::selectitems 267
+edit::move -offset -32512,-23622
+edit::rotate -center 22352,-32258 -angle 180
+edit::move -offset -19812,-13716
+nse::deselectitems 267
+nse::selectitems 268
+edit::move -offset 0,-1016
+nse::deselectitems 268
+nse::selectitems 279
+edit::move -offset -57912,13208
+edit::rotate -center -3048,-45466 -angle 180
+edit::move -offset 5588,4064
+nse::deselectitems 279
+nse::selectitems 276
+edit::move -offset 0,-1270
+nse::deselectitems 276
+nse::selectitems 324
+edit::move -offset 17780,-8382
+nse::deselectitems 324
+nse::selectitems 197
+edit::move -offset 24638,-36830
+edit::rotate -center 30988,-19812 -angle 90
+edit::move -offset 1016,-3048
+nse::clearselection
+nse::selectitems 198
+edit::rotate -center 27686,-26924 -angle 270
+edit::move -offset 254,2794
+edit::move -offset 0,0
+nse::clearselection
+nse::selectitems {264 266 292 342 343 345}
+edit::move -offset 14224,25654
+nse::clearselection
+nse::selectitems 266
+edit::move -offset 0,-6350
+nse::clearselection
+nse::selectitems {266 342}
+edit::move -offset 3556,2794
+nse::clearselection
+nse::selectitems 266
+edit::move -offset 0,-1270
+nse::deselectitems 266
+nse::selectitems 264
+edit::move -offset 0,-254
+nse::deselectitems 264
+nse::selectitems 343
+edit::move -offset 0,-254
+nse::deselectitems 343
+nse::selectitems 342
+edit::move -offset 0,4572
+nse::clearselection
+nse::selectitems 335
+edit::move -offset -57404,15240
+edit::rotate -center -2540,-25146 -angle 180
+edit::move -offset 5080,0
+nse::deselectitems 335
+nse::selectitems 20
+edit::rotate -center 54864,-19558 -angle 180
+edit::move -offset -52070,3556
+nse::clearselection
+nse::selectitems {306 307 308}
+edit::move -offset 26416,-82042
+edit::rotate -center 39370,-67564 -angle 90
+edit::move -offset -9906,-3048
+nse::clearselection
+nse::selectitems 57
+edit::move -offset -762,-7366
+nse::clearselection
+nse::selectitems {285 287}
+edit::move -offset 41148,-40132
+edit::rotate -center 25908,-57912 -angle 180
+edit::move -offset 6096,3048
+nse::clearselection
+nse::selectitems 306
+edit::move -offset 0,2032
+nse::clearselection
+nse::selectitems 11
+item::setrect -rect 5080,-71120,24384,65786
+nse::clearselection
+nse::selectitems 57
+edit::move -offset 508,6350
+nse::clearselection
+nse::selectitems {20 34 66 174 176 223 266 267 277 279 292 293 324 329 335 342 345}
+prop::setvisible -valueindex 0 -visible none -dest port \#
+prop::setvisible -valueindex 0 -dest port \#
+nse::clearselection
+nse::selectitems 348
+edit::move -offset -254,229
+gfx::setfont -font SansSerif
+edit::move -offset 254,-2794
+nse::clearselection
+nse::selectitems 346
+gfx::setfont -font SansSerif
+edit::move -offset 0,-2565
+nse::clearselection
+nse::selectitems 347
+edit::move -offset 0,-25
+gfx::setfont -font SansSerif
+edit::move -offset 0,-2286
+nse::clearselection
+nse::selectitems 323
+prop::setvisible -valueindex 0 -visible none -dest port \#
+prop::setvisible -valueindex 0 -dest port \#
+nse::deselectitems 323
+nse::selectitems 349
+gfx::setfont -font RomanBoldItalic
+gfx::setfont -font SansSerif
+nse::clearselection
+nse::selectitems 349
+edit::move -offset 0,-2565
+nse::deselectitems 349
+nse::selectitems 330
+prop::setvisible -valueindex 0 -visible none -dest port \#
+prop::setvisible -valueindex 0 -dest port \#
+nse::deselectitems 330
+nse::selectitems 350
+edit::move -offset -2311,508
+nse::clearselection
+nse::selectitems 350
+edit::move -offset 0,-254
+nse::clearselection
+nse::selectitems 133
+item::setline -points {22352,-22860 13462,-29464}
+nse::deselectitems 133
+nse::selectitems 317
+item::setline -points {22352,-43688 13462,-50292}
+nse::clearselection
+nse::selectitems 11
+item::setrect -rect 5080,-72136,24384,66802
+nse::deselectitems 11
+nse::selectitems 57
+edit::move -offset 0,-1016
+edit::move -offset 0,0
+nse::clearselection
+symbol::setoutline -rect 0,-74422,34798,74422
+nse::selectitems 223
+edit::move -offset -254,0
+nse::clearselection
+nse::selectitems 339
+edit::move -offset 0,1016
+nse::clearselection
+nse::selectitems {11 20 21 34 123 124 127 128 130 131 132 133 134 135 136 177 178 179 197 198 199 264 266 292 315 324 325 330 331 333 335 339 340 342 343 345 346 348 350}
+nse::clearselection
+nse::selectitems {11 20 21 34 123 124 127 128 130 131 132 133 134 135 136 177 178 179 197 198 199 264 266 292 330 331 333 335 339 340 342 343 345 348 350}
+nse::clearselection
+nse::selectitems {11 20 21 34 123 124 127 128 130 131 132 133 134 135 136 177 178 179 197 198 199 264 266 292 315 319 324 325 330 331 333 335 338 339 340 342 343 345 346 348 350}
+nse::clearselection
+nse::selectitems {11 20 21 34 123 124 127 128 130 131 132 133 134 135 136 177 178 179 197 198 199 264 266 292 315 319 324 325 330 331 333 335 339 340 342 343 345 346 348 350}
+nse::clearselection
+nse::selectitems {11 20 21 34 123 124 127 128 130 131 132 133 134 135 136 177 178 179 197 198 199 264 266 292 330 331 333 335 339 340 342 343 345 348 350}
+nse::clearselection
+prop::setvalue -value TI-PW-16 -valueindex 0 PKG_TYPE
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD USB-KINETIS_NXP-MKV10Z32VFM7.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD USB-KINETIS_NXP-MKV10Z32VFM7.1
+nse::savesymbol -saveas WIRLS-CHRGR-RCVR_TI-BQ51013BRHLT.1
+prop::setvalue -value {IC WIRELESS PWR RCVR 20QFN} -valueindex 0 DESCRIPTION
+prop::setvalue -value {Texas Instruments} -valueindex 0 MANF
+prop::setvalue -value BQ51013BRHLT -valueindex 0 MANF_P/N
+prop::setvalue -value {Pin 1 designated by sillkscreen dot} -valueindex 0 Notes
+prop::setvalue -value TI-RHL -valueindex 0 PKG_TYPE
+nse::selectitems 254
+nse::clearselection
+nse::selectitems 258
+port::rename -newname PGND1 254
+nse::clearselection
+nse::selectitems 256
+nse::clearselection
+nse::selectitems 258
+port::rename -newname AC1 256
+nse::clearselection
+nse::selectitems 296
+port::rename -newname BOOT1 258
+nse::clearselection
+nse::selectitems 18
+port::rename -newname OUT 296
+nse::clearselection
+nse::selectitems 212
+nse::clearselection
+nse::selectitems 18
+port::rename -newname CLAMP1 212
+nse::clearselection
+nse::selectitems 292
+port::rename -newname COMM1 18
+nse::clearselection
+nse::selectitems 294
+port::rename -newname ~CHG 292
+nse::clearselection
+nse::selectitems 276
+port::rename -newname ~AD-EN 294
+nse::clearselection
+nse::selectitems 278
+port::rename -newname AD 276
+nse::clearselection
+nse::selectitems 280
+port::rename -newname EN1 278
+nse::clearselection
+nse::selectitems 282
+port::rename -newname EN2 280
+nse::clearselection
+nse::selectitems 284
+port::rename -newname ILIM 282
+nse::clearselection
+nse::selectitems 288
+port::rename -newname TS/CTRL 284
+nse::clearselection
+nse::selectitems 286
+nse::clearselection
+nse::selectitems 288
+port::rename -newname FOD 286
+nse::clearselection
+nse::selectitems 290
+port::rename -newname COMM2 288
+nse::clearselection
+nse::selectitems 214
+port::rename -newname CLAMP2 290
+nse::clearselection
+nse::selectitems 290
+port::rename -newname BOOT2 214
+nse::clearselection
+nse::selectitems 20
+nse::clearselection
+nse::selectitems 260
+port::rename -newname RECT 20
+nse::clearselection
+nse::selectitems 262
+port::rename -newname AC2 260
+nse::clearselection
+nse::selectitems 266
+port::rename -newname PGND2 262
+nse::clearselection
+nse::selectitems 264
+nse::clearselection
+nse::selectitems 266
+port::rename -newname EP 264
+nse::clearselection
+nse::selectitems 268
+port::rename -newname V1 266
+nse::clearselection
+nse::selectitems 270
+port::rename -newname GV2 268
+nse::clearselection
+nse::selectitems 272
+port::rename -newname GV3 270
+nse::clearselection
+nse::selectitems 274
+port::rename -newname GV4 272
+nse::clearselection
+nse::selectitems 14
+port::rename -newname GV5 274
+nse::clearselection
+nse::selectitems 266
+port::rename -newname GV6 14
+nse::clearselection
+nse::selectitems 270
+port::rename -newname GV1 266
+nse::clearselection
+nse::selectitems 196
+nse::clearselection
+nse::selectitems {196 298 242 240 238 394}
+symbol::deleteitems {196 238 240 242 298 394}
+nse::selectitems {14 20 214 262 264 266 268 270 272 274 284 286 300 302 306 325 326 327 328 329 330 331 336 337}
+edit::move -offset -20574,3556
+nse::clearselection
+nse::selectitems {18 212 254 256 258 260 276 278 280 282 288 290 292 294 296 301 305 321 322 323 324 332 333 334 335 338 339 340 341 342}
+edit::move -offset 19558,1270
+nse::deselectitems {18 212 254 256 258 260 276 278 280 282 288 290 292 294 296 301 305 321 322 323 324 332 333 334 335 338 339 340 341 342}
+nse::selectitems 295
+nse::deselectitems 295
+nse::selectitems 257
+edit::move -offset 169,-254
+nse::clearselection
+nse::selectitems 294
+edit::move -offset -254,-254
+edit::move -offset -52832,-51054
+edit::rotate -center 4572,-57658 -angle 180
+edit::move -offset -2032,2032
+edit::move -offset 0,-254
+nse::clearselection
+nse::selectitems 276
+edit::move -offset -17526,-9652
+edit::rotate -center 40132,-21082 -angle 180
+edit::move -offset -37592,-32004
+edit::move -offset 0,762
+nse::deselectitems 276
+nse::selectitems 18
+edit::move -offset -41910,-15494
+edit::rotate -center 15748,-34544 -angle 180
+edit::move -offset -13462,-13716
+edit::move -offset 254,-508
+edit::move -offset 0,-508
+nse::deselectitems 18
+nse::selectitems 258
+edit::move -offset -36576,-18034
+edit::rotate -center 21082,-44704 -angle 180
+edit::move -offset -18288,-1524
+edit::move -offset -254,0
+nse::deselectitems 258
+nse::selectitems 256
+edit::move -offset -48006,-38354
+edit::rotate -center 9652,-42164 -angle 180
+edit::move -offset -7366,-1778
+edit::move -offset 254,508
+nse::clearselection
+nse::selectitems 257
+edit::move -offset 254,0
+nse::clearselection
+nse::selectitems 260
+edit::move -offset -32766,10160
+edit::rotate -center 24892,-29210 -angle 180
+edit::move -offset -22352,-1270
+nse::clearselection
+nse::selectitems 214
+edit::move -offset 20320,20574
+edit::move -offset 254,-762
+nse::deselectitems 214
+nse::selectitems 288
+edit::move -offset -50038,26924
+edit::rotate -center 7620,-20066 -angle 180
+nse::clearselection
+nse::selectitems 338
+nse::deselectitems 338
+nse::selectitems 288
+edit::move -offset -4826,-4318
+edit::move -offset -254,0
+nse::deselectitems 288
+nse::selectitems 290
+edit::move -offset 0,254
+edit::move -offset -28194,4318
+nse::deselectitems 290
+nse::selectitems 291
+nse::clearselection
+nse::selectitems 290
+edit::rotate -center 29464,-29718 -angle 180
+edit::move -offset -21082,10922
+edit::move -offset -5842,-2032
+edit::move -offset 0,-508
+nse::deselectitems 290
+nse::selectitems 212
+edit::move -offset -16764,4826
+edit::move -offset -31750,254
+edit::rotate -center 9144,-16510 -angle 180
+edit::move -offset -6604,-2032
+nse::clearselection
+nse::selectitems 282
+edit::move -offset -31242,24130
+edit::move -offset -18542,9906
+nse::deselectitems 282
+nse::selectitems 335
+nse::deselectitems 335
+nse::selectitems 282
+edit::rotate -center 7874,-10414 -angle 180
+edit::move -offset -5080,-1778
+edit::move -offset -254,0
+nse::deselectitems 282
+nse::selectitems 286
+edit::move -offset 20574,41656
+edit::move -offset 0,508
+nse::clearselection
+nse::selectitems 296
+edit::move -offset -19304,-18542
+edit::move -offset -254,-7874
+edit::move -offset 0,-254
+nse::clearselection
+nse::selectitems 20
+edit::rotate -center -18034,-44704 -angle 180
+edit::move -offset 26162,7112
+edit::move -offset 29972,-8382
+edit::move -offset 0,2032
+nse::deselectitems 20
+nse::selectitems 284
+edit::move -offset 48260,14478
+nse::deselectitems 284
+nse::selectitems 336
+nse::clearselection
+nse::selectitems 284
+edit::rotate -center 30226,-37846 -angle 180
+edit::move -offset 7874,254
+nse::clearselection
+nse::selectitems 284
+edit::move -offset 0,508
+nse::clearselection
+nse::selectitems 292
+edit::move -offset -19304,23368
+edit::move -offset -254,0
+nse::clearselection
+nse::selectitems {278 280 333 334}
+edit::move -offset -19304,-3810
+nse::clearselection
+nse::selectitems 280
+edit::move -offset -254,508
+nse::clearselection
+nse::selectitems 278
+edit::move -offset -254,0
+nse::clearselection
+nse::selectitems {14 262 264 266 268 270 272 274 300 325 326 327 328 329 330 331}
+edit::rotate -center -18034,-29210 -angle 180
+nse::clearselection
+nse::undo
+nse::clearselection
+nse::selectitems {14 219 262 263 264 265 266 267 268 269 270 271 272 273 274 275 300 325 326 327 328 329 330 331}
+edit::vertmirror
+edit::move -offset 33152,11430
+nse::clearselection
+nse::selectitems 255
+edit::move -offset 1439,-1778
+nse::clearselection
+nse::selectitems {20 278 280 284 292 296 302 333 334 336 340 342}
+edit::move -offset 0,-7366
+nse::clearselection
+nse::selectitems 383
+nse::clearselection
+nse::selectitems {11 383 387}
+nse::clearselection
+nse::selectitems 295
+nse::deselectitems 295
+nse::selectitems 11
+item::setrect -rect 5080,-66802,30480,66802
+nse::clearselection
+nse::selectitems {383 387}
+edit::move -offset -1270,-8636
+nse::clearselection
+nse::selectitems {20 278 280 284 292 296 302 333 334 336 340 342}
+edit::move -offset 0,-4572
+nse::clearselection
+nse::selectitems {14 262 264 266 268 270 272 274 300 325 326 327 328 329 330 331}
+edit::move -offset 14732,3302
+nse::clearselection
+nse::selectitems {262 264 325 326}
+edit::move -offset -254,3556
+nse::clearselection
+nse::selectitems {14 266 268 270 272 274 300 327 328 329 330 331}
+edit::move -offset -254,-508
+nse::clearselection
+nse::selectitems 254
+edit::move -offset -18288,28194
+edit::move -offset -1270,2540
+nse::clearselection
+nse::selectitems 255
+edit::move -offset 0,0
+edit::move -offset -1270,2032
+nse::clearselection
+nse::selectitems {254 262 264}
+edit::move -offset -254,-1524
+nse::clearselection
+nse::selectitems {278 280 333 334}
+edit::move -offset 0,-2286
+nse::clearselection
+nse::selectitems 292
+edit::move -offset 0,-2032
+nse::clearselection
+nse::selectitems 294
+edit::move -offset 0,-5080
+nse::clearselection
+nse::selectitems 11
+item::setrect -rect 5080,-66802,25654,66802
+nse::clearselection
+nse::selectitems {14 20 254 262 264 266 268 270 272 274 278 280 284 292 296 300 302 321 325 326 327 328 329 330 331 333 334 336 340 342}
+edit::move -offset -4826,508
+edit::move -offset 0,-1016
+nse::clearselection
+nse::selectitems {212 214 260 288 290 305 306 324 338 339}
+edit::move -offset 0,-4064
+nse::clearselection
+symbol::setoutline -rect 254,-72136,40386,72136
+nse::selectitems {383 387}
+edit::move -offset -2540,0
+nse::clearselection
+symbol::setoutline -rect 254,-71120,36322,71120
+symbol::setoutline -rect 254,-72898,36322,72898
+nse::selectitems 294
+edit::move -offset 0,-2032
+nse::clearselection
+nse::savesymbol
+nse::opensymbol -snapshot DxD SEGGER-NEEDLE-10P-ADTR.1
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SEGGER-NEEDLE-10P-ADTR.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SEGGER-NEEDLE-10P-ADTR.1
+nse::selectitems 12
+nse::clearselection
+nse::selectitems 14
+port::rename -newname GATE 12
+nse::clearselection
+nse::selectitems 16
+port::rename -newname SOURCE 14
+nse::clearselection
+nse::selectitems 18
+port::rename -newname NC1 16
+nse::clearselection
+nse::selectitems 30
+port::rename -newname IN 18
+nse::clearselection
+nse::selectitems 28
+port::rename -newname ~SHDN 30
+nse::clearselection
+nse::selectitems 20
+port::rename -newname VSS 28
+nse::clearselection
+nse::selectitems 26
+port::rename -newname NC2 20
+nse::clearselection
+nse::selectitems 24
+port::rename -newname OUT 26
+symbol::deleteitems 24
+nse::selectitems 22
+symbol::deleteitems 22
+nse::selectitems 12
+edit::rotate -center 2540,-14986 -angle 270
+edit::move -offset 23876,-4826
+nse::clearselection
+nse::selectitems 13
+edit::rotate -center 26416,-13970 -angle 270
+edit::move -offset 0,-1016
+nse::clearselection
+nse::selectitems 18
+edit::move -offset -5080,-18796
+edit::rotate -center -2540,-24638 -angle 270
+edit::move -offset 6096,3048
+nse::clearselection
+nse::undo
+nse::undo
+nse::savesymbol
+nse::clearselection
+nse::undo
+nse::clearselection
+nse::selectitems {14 16 18 30 43 44 45 51}
+edit::move -offset -1016,14732
+nse::clearselection
+nse::selectitems 18
+edit::move -offset 1016,-23114
+edit::move -offset 0,1016
+nse::clearselection
+nse::selectitems 14
+edit::rotate -center 1524,2794 -angle 270
+edit::move -offset 9398,-15240
+edit::move -offset 1270,-7366
+nse::deselectitems 14
+nse::selectitems 15
+edit::rotate -center 12192,-11938 -angle 270
+edit::move -offset 0,-3302
+edit::move -offset 0,-508
+nse::deselectitems 15
+nse::selectitems 13
+edit::move -offset 0,-762
+nse::clearselection
+nse::selectitems 12
+edit::move -offset -4826,254
+edit::move -offset -254,-254
+edit::move -offset 1016,0
+nse::clearselection
+nse::selectitems 26
+edit::move -offset -2286,-10922
+edit::rotate -center 33274,-19812 -angle 270
+edit::rotate -center 33274,-19812 -angle 180
+nse::deselectitems 26
+nse::selectitems 27
+edit::rotate -center 33274,-14478 -angle 270
+nse::clearselection
+nse::selectitems 26
+edit::move -offset -3810,0
+edit::rotate -center 29464,-19812 -angle 270
+edit::move -offset 6096,5588
+edit::move -offset 0,1778
+nse::clearselection
+nse::selectitems 27
+edit::rotate -center 30226,-7874 -angle 270
+edit::move -offset 0,-4826
+nse::clearselection
+nse::selectitems 18
+edit::move -offset 0,1016
+nse::clearselection
+nse::selectitems 11
+nse::deselectitems 11
+nse::selectitems 26
+edit::move -offset -7620,254
+edit::move -offset 1524,0
+nse::clearselection
+nse::selectitems 11
+item::setrect -rect 5080,-17272,21844,17018
+nse::clearselection
+nse::selectitems 11
+nse::deselectitems 11
+nse::selectitems 26
+edit::move -offset 1016,0
+nse::clearselection
+nse::selectitems 11
+item::setrect -rect 5080,-17272,22606,17018
+item::setrect -rect 5080,-17272,22860,17018
+nse::clearselection
+nse::selectitems 30
+edit::move -offset 1016,-18034
+nse::clearselection
+nse::selectitems 30
+edit::move -offset 0,-1524
+nse::deselectitems 30
+nse::selectitems 28
+edit::move -offset -5080,-254
+nse::deselectitems 28
+nse::selectitems 20
+edit::move -offset -34544,10160
+nse::deselectitems 20
+nse::selectitems 44
+nse::deselectitems 44
+nse::selectitems 20
+edit::rotate -center 1016,4318 -angle 180
+edit::move -offset 508,5334
+edit::move -offset 0,-508
+nse::clearselection
+nse::selectitems {16 20}
+edit::move -offset 1016,-10414
+edit::move -offset 0,254
+nse::clearselection
+nse::selectitems 11
+item::setrect -rect 5080,-17272,22860,18034
+nse::deselectitems 11
+nse::selectitems 28
+edit::move -offset 0,2032
+nse::clearselection
+nse::selectitems {11 12 13 14 15 16 17 18 19 20 21 26 27 28 29 30 31 42 43 44 45 46 49 50 51 62}
+edit::move -offset 0,-1524
+nse::clearselection
+symbol::setoutline -rect 0,-23876,33274,23876
+prop::setvalue -value {Linear Technology} -valueindex 0 MANF
+prop::setvalue -value LTC4359HMS8#PBF -valueindex 0 MANF_P/N
+nse::opensymbol -snapshot DxD SCHOTTKY_CUS520-HEF.1
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SCHOTTKY_CUS520-HEF.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SCHOTTKY_CUS520-HEF.1
+nse::closesymbol
+nse::closesymbol
+nse::closesymbol
+nse::selectitems 98
+nse::deselectitems 98
+nse::selectitems 94
+nse::clearselection
+nse::selectitems 98
+nse::clearselection
+nse::selectitems 98
+nse::clearselection
+prop::setvalue -value {DIODE SCHOTTKY 10V 4A SMC} -valueindex 0 DESCRIPTION
+prop::setvalue -value \	\nON\ Semiconductor -valueindex 0 MANF
+# too many parameters.
+prop::setvalue -value {ON Semiconductor} -valueindex 0 MANF
+prop::setvalue -value MBRS410LT3G -valueindex 0 MANF_P/N
+prop::setvalue -value {Polarity indicated by diode symbol} -valueindex 0 Notes
+prop::setvalue -value SMC-2L -valueindex 0 PKG_TYPE
+nse::savesymbol -saveas SCHOTTKY_MBRS410LT3G.1
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -file C:\EyeProject\Eye/sym/LOADSWITCH_SIP32431DR3-T1GE3.1 
+nse::setmode -file -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\LOADSWITCH_SIP32431DR3-T1GE3.1 LOADSWITCH_SIP32431DR3-T1GE3.1
+nse::selectitems 35
+nse::clearselection
+nse::selectitems 22
+symbol::deleteitems 22
+nse::selectitems 35
+nse::clearselection
+nse::selectitems 24
+port::rename -newname VDD 35
+nse::clearselection
+nse::selectitems 70
+port::rename -newname GND 24
+nse::clearselection
+nse::selectitems 53
+port::rename -newname EN 70
+nse::clearselection
+nse::selectitems 72
+port::rename -newname NC 53
+# port 'NC reused id = 22
+port::rename -newname OUT 72
+nse::clearselection
+nse::selectitems 22
+edit::move -offset 24892,16510
+nse::clearselection
+nse::selectitems 77
+edit::move -offset 0,0
+symbol::deleteitems
+nse::selectitems 74
+symbol::deleteitems
+nse::selectitems 75
+symbol::deleteitems
+nse::selectitems {78 79}
+symbol::deleteitems
+nse::selectitems 70
+edit::move -offset 0,-2032
+nse::clearselection
+symbol::addline -points {11176,-22860 11176,-17780}
+item::setline -points {11176,-22860 11176,-17780 11176,-17780 13716,-20320} 108
+item::setline -points {11176,-22860 11176,-17780 13716,-20320 13716,-20320 11176,-22606} 108
+nse::selectitems 108
+edit::move -offset 0,0
+item::setline -points {11176,-23114 11176,-17780 13716,-20320 11176,-22606}
+nse::clearselection
+nse::selectitems 108
+nse::clearselection
+nse::selectitems 108
+edit::move -offset 0,0
+edit::move -offset 508,-508
+nse::clearselection
+nse::selectitems 108
+item::setline -points {11430,-22860 11684,-18288 14224,-20828 11684,-23114}
+nse::clearselection
+nse::selectitems 108
+item::setline -points {11430,-22860 11684,-18288 14224,-20828 11684,-23368}
+item::setline -points {11684,-23368 11684,-18288 14224,-20828 11684,-23368}
+nse::clearselection
+symbol::addline -points {14224,-20828 14224,-23368}
+item::setline -points {14224,-18288 14224,-20828 14224,-20828 14224,-23368} 109
+nse::selectitems {108 109}
+edit::move -offset -762,508
+edit::move -offset 508,0
+nse::clearselection
+nse::selectitems 76
+item::setline -points {11430,-20320 5080,-20320}
+nse::deselectitems 76
+nse::selectitems 80
+item::setline -points {20320,-20320 13970,-20320}
+nse::clearselection
+symbol::addline -points {5334,-11938 5842,-11938}
+nse::selectitems 110
+edit::move -offset 254,0
+item::setline -points {5588,-11938 6604,-11938}
+edit::move -offset 508,0
+edit::copy
+edit::paste -point 8128,-11684
+nse::clearselection
+nse::selectitems 111
+edit::move -offset 254,-254
+edit::paste -point 10414,-11938
+nse::clearselection
+nse::selectitems 112
+nse::clearselection
+edit::paste -point 11430,-14732
+nse::clearselection
+nse::selectitems 113
+edit::rotate -center 11938,-14732 -angle 90
+edit::move -offset 1016,-1778
+edit::paste -point 12446,-14478
+nse::clearselection
+nse::selectitems 114
+edit::rotate -center 12954,-14478 -angle 90
+nse::clearselection
+edit::paste -point 11176,-12700
+nse::clearselection
+nse::selectitems 115
+edit::rotate -center 11684,-12700 -angle 90
+edit::move -offset 1016,0
+edit::move -offset 254,0
+nse::clearselection
+nse::selectitems 112
+edit::move -offset 508,0
+nse::deselectitems 112
+nse::selectitems 111
+edit::move -offset 254,0
+nse::clearselection
+nse::selectitems 104
+nse::deselectitems 104
+nse::selectitems 70
+edit::move -offset -10160,17018
+edit::rotate -center 2540,-16002 -angle 270
+edit::rotate -center 2794,-16002 -angle 180
+edit::move -offset 254,4064
+nse::deselectitems 70
+nse::selectitems 102
+edit::move -offset -3810,-2794
+edit::rotate -center 3556,-8128 -angle 270
+nse::deselectitems 102
+nse::selectitems 104
+edit::rotate -center 762,-11176 -angle 270
+edit::move -offset 1270,-2032
+nse::deselectitems 104
+nse::selectitems 102
+edit::move -offset 3556,-5588
+nse::clearselection
+nse::selectitems 72
+edit::move -offset 12700,-13208
+nse::deselectitems 72
+nse::selectitems 35
+edit::move -offset -23368,3810
+edit::rotate -center -1016,-16510 -angle 180
+edit::move -offset 4064,-3810
+nse::clearselection
+nse::selectitems 72
+edit::rotate -center 24130,-14986 -angle 90
+edit::move -offset -1778,-5334
+nse::clearselection
+nse::selectitems 105
+edit::move -offset 254,-1016
+nse::deselectitems 105
+nse::selectitems 70
+nse::deselectitems 70
+nse::selectitems 101
+nse::deselectitems 101
+nse::selectitems 22
+edit::move -offset -11938,-7366
+edit::rotate -center 16256,-11176 -angle 180
+edit::move -offset 5588,2794
+edit::move -offset -20066,1270
+edit::rotate -center 2032,-7112 -angle 180
+edit::move -offset 1016,254
+edit::move -offset 0,-254
+nse::deselectitems 22
+nse::selectitems 24
+edit::rotate -center 15240,-1778 -angle 270
+edit::move -offset 2794,-5842
+edit::rotate -center 18288,-7620 -angle 180
+edit::move -offset 3810,-508
+nse::clearselection
+nse::selectitems 73
+item::setrect -rect 5080,-26416,15240,22606
+item::setrect -rect 5080,-26416,15240,21082
+nse::clearselection
+nse::selectitems 101
+edit::move -offset -1270,508
+nse::clearselection
+nse::selectitems 22
+port::setlabelvisible -true
+nse::clearselection
+nse::selectitems 35
+port::setlabelvisible -true
+nse::deselectitems 35
+nse::selectitems 76
+nse::deselectitems 76
+nse::selectitems 96
+edit::move -offset -3302,-1270
+nse::clearselection
+nse::selectitems 81
+edit::move -offset 6858,4572
+nse::clearselection
+nse::selectitems {22 24 35 70 72 73 76 80 81 93 95 96 98 99 101 102 104 105 107 108 109 110 111 112 113 114 115}
+nse::clearselection
+nse::selectitems 108
+nse::clearselection
+nse::selectitems {22 24 35 70 72 73 76 80 81 93 95 96 98 99 101 102 104 105 107 108 109 110 111 112 113 114 115}
+edit::move -offset -1016,5080
+nse::clearselection
+symbol::setoutline -rect 0,-23622,22860,23876
+prop::setvalue -value MAX40200AUK+T -valueindex 0 MANF_P/N
+prop::delete -valueindex 0 Notes
+prop::setvalue -value SOT23 -valueindex 0 PKG_TYPE
+prop::setvalue -value SOT23-5 -valueindex 0 PKG_TYPE
+prop::setvalue -value {Maxim Integrated} -valueindex 0 MANF
+prop::setvalue -value {IC DIODE CURRENT SWICTH SOT23-5} -valueindex 0 DESCRIPTION
+nse::selectitems 94
+nse::savesymbol -file C:\\EyeProject\\Eye\\SYM\\IDEALDIODE_MAXIM-MAX40200AUK.1 -saveas IDEALDIODE_MAXIM-MAX40200AUK.1
+nse::closesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD WIRLS-CHRGR-RCVR_TI-BQ51013BRHLT.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD WIRLS-CHRGR-RCVR_TI-BQ51013BRHLT.1
+nse::selectitems 276
+edit::move -offset 0,-254
+edit::move -offset 42926,11938
+nse::clearselection
+nse::selectitems 18
+edit::move -offset 0,-5588
+nse::deselectitems 18
+nse::selectitems 212
+edit::move -offset 0,-30226
+edit::move -offset 0,508
+nse::clearselection
+nse::selectitems 258
+edit::move -offset 254,-3556
+nse::clearselection
+nse::selectitems 256
+edit::move -offset 254,-3556
+nse::deselectitems 256
+nse::selectitems 258
+edit::move -offset -254,0
+nse::deselectitems 258
+nse::selectitems 256
+edit::move -offset -254,-254
+edit::move -offset 0,254
+nse::deselectitems 256
+nse::selectitems 288
+edit::move -offset -254,7620
+nse::deselectitems 288
+nse::selectitems 290
+edit::move -offset 0,-3048
+nse::deselectitems 290
+nse::selectitems 288
+edit::move -offset 254,-4572
+edit::move -offset 0,0
+nse::clearselection
+nse::selectitems {278 280 333 334}
+edit::move -offset -18288,18542
+nse::clearselection
+nse::selectitems {282 286 335 337}
+edit::move -offset 0,3556
+nse::clearselection
+nse::selectitems {278 280 333 334}
+edit::rotate -center 14986,-16002 -angle 180
+nse::clearselection
+nse::selectitems 278
+edit::move -offset 0,-6350
+nse::clearselection
+nse::selectitems 278
+edit::move -offset 0,508
+nse::clearselection
+nse::selectitems {278 280}
+edit::move -offset -12446,2032
+edit::move -offset 0,508
+nse::clearselection
+nse::selectitems 294
+edit::move -offset 26924,-7874
+nse::deselectitems 294
+nse::selectitems 276
+edit::move -offset -15748,-27940
+edit::move -offset -254,254
+nse::clearselection
+nse::selectitems {276 294}
+edit::rotate -center 29464,-69596 -angle 180
+edit::move -offset 6350,-4064
+nse::clearselection
+nse::selectitems {20 284 292 296 302 336 340 342}
+edit::move -offset 0,11684
+nse::clearselection
+nse::selectitems {276 294 332 341}
+edit::move -offset -2794,11430
+nse::clearselection
+nse::selectitems 294
+edit::move -offset 254,-5080
+nse::clearselection
+nse::selectitems {276 294}
+edit::move -offset 254,4572
+nse::clearselection
+nse::selectitems 294
+edit::move -offset -254,-508
+nse::clearselection
+nse::selectitems {18 212 214 256 258 260 288 290 301 305 306 322 323 324 338 339}
+edit::move -offset 0,-4064
+nse::clearselection
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD WIRLS-CHRGR-RCVR_TI-BQ51013BRHLT.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD WIRLS-CHRGR-RCVR_TI-BQ51013BRHLT.1
+nse::selectitems 296
+edit::move -offset 12192,-11684
+nse::clearselection
+nse::selectitems {276 294 332 341}
+nse::clearselection
+nse::selectitems {20 284 302 336}
+edit::move -offset 254,-11430
+nse::clearselection
+nse::selectitems {276 294 302}
+nse::clearselection
+nse::selectitems {276 294}
+edit::move -offset 18796,26670
+nse::deselectitems {276 294}
+nse::selectitems 292
+edit::move -offset 0,-10922
+nse::clearselection
+nse::selectitems {276 294}
+edit::move -offset -18796,2032
+nse::clearselection
+nse::selectitems 284
+edit::move -offset -254,0
+nse::deselectitems 284
+nse::selectitems 20
+edit::move -offset -254,0
+nse::deselectitems 20
+nse::selectitems 296
+edit::move -offset -12192,254
+nse::clearselection
+nse::selectitems {20 284 292 302 336}
+edit::move -offset 0,1778
+edit::move -offset 0,-762
+nse::clearselection
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD USB-KINETIS_NXP-MKV10Z32VFM7.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD USB-KINETIS_NXP-MKV10Z32VFM7.1
+nse::savesymbol -saveas LED-DRVR_NXP-PCA9685PW-Q900-118.1
+prop::setvalue -value {IC LED DRVR LIN DIM 25MA 28TSSOP} -valueindex 0 DESCRIPTION
+prop::setvalue -value PCA9685PW/Q900,118 -valueindex 0 MANF_P/N
+prop::setvalue -value {Pin 1 designated by silkscreen lip} -valueindex 0 Notes
+prop::setvalue -value TSSOP28 -valueindex 0 PKG_TYPE
+nse::selectitems 298
+nse::clearselection
+nse::selectitems {298 242 240 238 394}
+symbol::deleteitems {238 240 242 298 394}
+nse::selectitems 254
+nse::clearselection
+nse::selectitems 256
+port::rename -newname A0 254
+nse::clearselection
+nse::selectitems 258
+port::rename -newname A1 256
+nse::clearselection
+nse::selectitems 296
+port::rename -newname A2 258
+nse::clearselection
+nse::selectitems 212
+port::rename -newname A3 296
+nse::clearselection
+nse::selectitems 18
+port::rename -newname A4 212
+nse::clearselection
+nse::selectitems 292
+port::rename -newname LED0 18
+nse::clearselection
+nse::selectitems 294
+port::rename -newname LED1 292
+nse::clearselection
+nse::selectitems 276
+port::rename -newname LED2 294
+nse::clearselection
+nse::selectitems 278
+port::rename -newname LED3 276
+nse::clearselection
+nse::selectitems 280
+port::rename -newname LED4 278
+nse::clearselection
+nse::selectitems 282
+port::rename -newname LED5 280
+nse::clearselection
+nse::selectitems 280
+port::rename -newname LED6 282
+nse::clearselection
+nse::selectitems 284
+nse::clearselection
+nse::selectitems 286
+port::rename -newname LED7 284
+nse::clearselection
+nse::selectitems 288
+port::rename -newname VSS 286
+nse::clearselection
+nse::selectitems 290
+port::rename -newname LED8 288
+nse::clearselection
+nse::selectitems 286
+nse::clearselection
+nse::selectitems 288
+nse::clearselection
+nse::selectitems 290
+nse::clearselection
+nse::selectitems 214
+port::rename -newname LED9 290
+nse::clearselection
+nse::selectitems 20
+port::rename -newname LED10 214
+nse::clearselection
+nse::selectitems 260
+port::rename -newname LED11 20
+nse::clearselection
+nse::selectitems 262
+nse::clearselection
+nse::selectitems 260
+nse::clearselection
+nse::selectitems 262
+port::rename -newname LED12 260
+nse::clearselection
+nse::selectitems 264
+port::rename -newname LED13 262
+nse::clearselection
+nse::selectitems 266
+port::rename -newname LED14 264
+nse::clearselection
+nse::selectitems 268
+port::rename -newname LED15 266
+nse::clearselection
+nse::selectitems 270
+port::rename -newname ~OE 268
+nse::clearselection
+nse::selectitems 272
+port::rename -newname A5 270
+nse::clearselection
+nse::selectitems 274
+port::rename -newname EXTCLK 272
+nse::clearselection
+nse::selectitems 14
+port::rename -newname SCL 274
+nse::clearselection
+nse::selectitems 196
+port::rename -newname SDA 14
+nse::clearselection
+nse::selectitems 274
+port::rename -newname VDD 196
+nse::clearselection
+nse::selectitems 14
+nse::clearselection
+nse::selectitems 196
+nse::clearselection
+nse::selectitems {14 20 196 214 262 264 266 268 270 272 274 284 286 300 302 303 306 325 326 327 328 329 330 331 336 337}
+nse::clearselection
+nse::selectitems {266 327 328}
+nse::clearselection
+nse::selectitems {14 20 196 214 262 264 266 268 270 272 274 284 286 300 302 303 306 325 326 327 328 329 330 331 336 337}
+edit::move -offset -32258,-508
+nse::clearselection
+nse::selectitems {18 212 254 256 258 260 276 278 280 282 288 290 292 294 296 301 305 321 322 323 324 332 333 334 335 338 339 340 341 342}
+edit::move -offset 67056,5588
+nse::clearselection
+nse::selectitems 196
+edit::move -offset 75692,-34544
+edit::rotate -center 45974,-52832 -angle 180
+edit::move -offset -7874,-3048
+edit::move -offset 0,1270
+nse::deselectitems 196
+nse::selectitems 286
+edit::move -offset 58928,44450
+edit::rotate -center 29210,-9398 -angle 180
+edit::move -offset 8890,6350
+nse::clearselection
+nse::selectitems {14 274}
+edit::move -offset 32512,-31496
+nse::clearselection
+nse::selectitems 14
+edit::move -offset -254,1524
+nse::deselectitems 14
+nse::selectitems 274
+edit::move -offset -254,0
+nse::clearselection
+nse::selectitems 14
+edit::move -offset 0,-508
+nse::clearselection
+nse::selectitems 268
+edit::move -offset 70104,-18542
+edit::rotate -center 40386,-49530 -angle 180
+edit::move -offset -2286,762
+edit::move -offset -254,42672
+edit::move -offset 254,-508
+nse::deselectitems 268
+nse::selectitems 272
+edit::move -offset 61214,-22352
+edit::rotate -center 31496,-48260 -angle 180
+edit::move -offset 6604,-2794
+nse::clearselection
+nse::selectitems {212 258 296}
+edit::move -offset -126492,7620
+nse::deselectitems {212 258 296}
+nse::selectitems 270
+edit::move -offset 0,0
+edit::rotate -center -29718,-28448 -angle 180
+edit::move -offset 8382,23114
+edit::move -offset 0,-1778
+nse::deselectitems 270
+nse::selectitems 212
+edit::move -offset 0,-508
+nse::clearselection
+nse::selectitems 296
+edit::move -offset 0,-1016
+nse::deselectitems 296
+nse::selectitems 258
+edit::move -offset 0,-1524
+nse::clearselection
+nse::selectitems 256
+edit::move -offset -125984,-19304
+nse::deselectitems 256
+nse::selectitems 254
+edit::move -offset -126492,29210
+nse::deselectitems 254
+nse::selectitems 256
+edit::move -offset -508,-254
+nse::deselectitems 256
+nse::selectitems 254
+edit::move -offset 0,-762
+nse::clearselection
+nse::selectitems {212 213 254 255 256 257 258 259 270 271 296 297}
+edit::vertmirror
+edit::move -offset 26968,4064
+edit::move -offset 254,0
+nse::clearselection
+nse::selectitems 292
+edit::move -offset -121920,28194
+nse::deselectitems 292
+nse::selectitems 18
+edit::move -offset -122428,-7112
+nse::deselectitems 18
+nse::selectitems 294
+edit::move -offset -121666,-15240
+nse::deselectitems 294
+nse::selectitems 276
+edit::move -offset -122174,-7112
+nse::clearselection
+nse::selectitems {278 280 333 334}
+edit::move -offset -122174,508
+nse::deselectitems {278 280 333 334}
+nse::selectitems 282
+edit::move -offset -122174,33528
+nse::deselectitems 282
+nse::selectitems 284
+edit::move -offset 6858,53594
+edit::rotate -center -22860,-2794 -angle 180
+edit::move -offset 6350,-508
+nse::clearselection
+nse::selectitems {18 276 278 280 282 284 292 294}
+edit::vertmirror
+nse::clearselection
+nse::selectitems 18
+edit::move -offset -1270,-3556
+nse::deselectitems 18
+nse::selectitems 292
+edit::move -offset -762,-2286
+edit::move -offset 0,-254
+nse::deselectitems 292
+nse::selectitems 294
+edit::move -offset -762,-2032
+nse::deselectitems 294
+nse::selectitems 18
+edit::move -offset 0,254
+nse::deselectitems 18
+nse::selectitems 294
+edit::move -offset 254,254
+nse::deselectitems 294
+nse::selectitems 276
+edit::move -offset -1016,-2032
+nse::deselectitems 276
+nse::selectitems 278
+edit::move -offset -1016,-1778
+nse::deselectitems 278
+nse::selectitems 276
+edit::move -offset 0,254
+nse::deselectitems 276
+nse::selectitems 278
+edit::move -offset 0,508
+nse::deselectitems 278
+nse::selectitems 280
+edit::move -offset -1016,-508
+nse::deselectitems 280
+nse::selectitems 282
+edit::move -offset -1016,0
+nse::deselectitems 282
+nse::selectitems 284
+edit::move -offset -508,-508
+nse::clearselection
+nse::selectitems {280 282 284}
+edit::move -offset 0,-254
+nse::clearselection
+nse::selectitems {18 276 278 280 282 284 292 294}
+edit::move -offset 20320,-21336
+nse::clearselection
+nse::selectitems 260
+edit::move -offset -20320,-3048
+nse::deselectitems 260
+nse::selectitems 290
+edit::move -offset 0,-9906
+nse::clearselection
+nse::selectitems {20 209 214 215 262 263 264 265 266 267}
+nse::deselectitems {20 209 214 215 262 263 264 265 266 267}
+nse::selectitems 325
+nse::clearselection
+nse::selectitems {20 209 214 215 262 263 264 265 266 267}
+nse::deselectitems {20 209 214 215 262 263 264 265 266 267}
+nse::selectitems 325
+nse::clearselection
+nse::selectitems {20 209 214 215 262 263 264 265 266 267 302 306 325 326 327}
+edit::vertmirror
+edit::move -offset 126730,14732
+edit::move -offset 254,-1016
+nse::clearselection
+nse::selectitems {288 290}
+edit::move -offset 0,-254
+nse::clearselection
+nse::selectitems 288
+edit::move -offset 0,0
+nse::clearselection
+nse::selectitems 260
+edit::move -offset 20320,5588
+nse::clearselection
+nse::selectitems 266
+edit::move -offset 0,-5334
+edit::move -offset 0,254
+nse::clearselection
+nse::selectitems {20 209 214 215 260 261 262 263 264 265 266 267 288 289 290 291}
+edit::move -offset -67056,-3048
+nse::clearselection
+nse::selectitems 266
+edit::move -offset 0,2540
+nse::deselectitems 266
+nse::selectitems 264
+edit::move -offset 0,2286
+nse::deselectitems 264
+nse::selectitems 262
+edit::move -offset 0,1778
+nse::deselectitems 262
+nse::selectitems 260
+edit::move -offset 0,1270
+nse::deselectitems 260
+nse::selectitems 20
+edit::move -offset 0,762
+nse::deselectitems 20
+nse::selectitems 214
+edit::move -offset 0,508
+nse::deselectitems 214
+nse::selectitems 290
+edit::move -offset 0,254
+nse::clearselection
+nse::selectitems 288
+edit::move -offset 0,508
+edit::move -offset 0,-254
+nse::clearselection
+nse::selectitems {20 214 260 262 264 266 288 290 302 306 324 325 326 327 338 339}
+edit::move -offset 24892,23114
+nse::clearselection
+nse::selectitems {11 14 18 208 219 276 277 278 279 280 281 282 283 284 285 292 293 294 295 300 301 332 333 334 335 336 340 341}
+nse::clearselection
+nse::selectitems {18 276 278 280 282 284 292 294 301 332 333 334 335 336 340 341}
+edit::vertmirror
+edit::move -offset 60452,0
+nse::clearselection
+nse::selectitems {268 286 328 337}
+nse::clearselection
+nse::selectitems {212 254 256 258 270 296 305 321 322 323 329 342}
+edit::move -offset 0,-7620
+nse::clearselection
+nse::selectitems {268 286 328 337}
+edit::vertmirror
+edit::move -offset -35560,1016
+edit::move -offset 0,-1016
+nse::deselectitems {268 286 328 337}
+nse::selectitems 269
+edit::move -offset 85,0
+nse::clearselection
+nse::selectitems 268
+edit::move -offset 0,508
+nse::clearselection
+nse::selectitems {212 254 256 258 270 296 329}
+edit::move -offset 0,-11684
+nse::clearselection
+nse::selectitems {18 20 214 260 262 264 266 276 278 280 282 284 288 290 292 294 301 302 306 324 325 326 327 332 333 334 335 336 338 339 340 341}
+edit::move -offset -24638,508
+edit::move -offset -254,0
+nse::clearselection
+nse::selectitems {18 20 196 214 260 262 264 266 272 276 278 280 282 284 288 290 292 294 301 302 303 306 324 325 326 327 330 332 333 334 335 336 338 339 340 341}
+edit::move -offset -9906,254
+edit::move -offset -1778,-508
+nse::clearselection
+nse::selectitems 272
+edit::move -offset -30226,8636
+edit::vertmirror
+edit::move -offset 6350,-2032
+nse::clearselection
+nse::selectitems {212 254 256 258 270 272 296 305 321 322 323 329 330 342}
+edit::move -offset 0,4318
+edit::move -offset 0,-1524
+nse::clearselection
+nse::selectitems {18 20 196 214 260 262 264 266 276 278 280 282 284 288 290 292 294 301 302 303 306 324 325 326 327 332 333 334 335 336 338 339 340 341}
+edit::move -offset 1524,0
+nse::clearselection
+nse::selectitems 11
+edit::move -offset 254,-254
+item::setrect -rect 5334,-58674,20320,58420
+item::setrect -rect 5334,-58674,20066,58420
+nse::clearselection
+nse::selectitems 383
+edit::move -offset -11684,-508
+nse::deselectitems 383
+nse::selectitems 387
+edit::move -offset -6096,-508
+nse::clearselection
+symbol::setoutline -rect 254,-62992,30988,62992
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD FTSH-105-01-F-DV-K.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD FTSH-105-01-F-DV-K.1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SEGGER-NEEDLE-10P-ADTR.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SEGGER-NEEDLE-10P-ADTR.1
+nse::selectitems 12
+edit::rotate -center 26416,-19812 -angle 270
+edit::rotate -center 26416,-19812 -angle 180
+edit::move -offset -24130,5080
+nse::clearselection
+nse::selectitems 12
+edit::move -offset 254,0
+nse::deselectitems 12
+nse::selectitems 17
+nse::deselectitems 17
+nse::selectitems 13
+edit::move -offset 1016,-5588
+edit::rotate -center 8382,-14732 -angle 270
+nse::deselectitems 13
+nse::selectitems 12
+nse::clearselection
+nse::selectitems 18
+edit::move -offset 5080,18542
+nse::clearselection
+nse::selectitems {20 26}
+edit::copy
+edit::paste -point 29464,-16002
+nse::clearselection
+nse::selectitems {66 67 68 69 70 71 72 73}
+edit::move -offset -29210,-1499
+edit::move -offset -254,0
+nse::clearselection
+prop::setvalue -value 9 -dest port -ports 69 \#
+nse::selectitems 73
+prop::setvalue -value 10 -dest port -ports 73 \#
+nse::clearselection
+nse::selectitems 12
+nse::clearselection
+nse::selectitems 12
+nse::clearselection
+nse::selectitems 73
+prop::setvalue -value VTref -dest port -ports 12 \#
+nse::clearselection
+nse::selectitems 12
+prop::setvalue -value 1 -dest port -ports 12 \#
+port::rename -newname VTref 12
+nse::deselectitems 12
+nse::selectitems 13
+edit::move -offset 508,0
+nse::clearselection
+nse::selectitems 14
+port::rename -newname SWDIO/TMS 14
+nse::clearselection
+nse::selectitems 16
+port::rename -newname GND 16
+nse::clearselection
+nse::selectitems 18
+port::rename -newname SWCLK/TCK 18
+nse::clearselection
+nse::selectitems 20
+port::rename -newname 5V-Supply 20
+nse::clearselection
+nse::selectitems 30
+port::rename -newname 5V-Supply 30
+nse::clearselection
+nse::selectitems 28
+port::rename -newname SWO/TDO 28
+nse::clearselection
+nse::selectitems 20
+port::rename -newname RTCK 20
+nse::clearselection
+nse::selectitems 26
+port::rename -newname TDI 26
+nse::clearselection
+nse::selectitems 69
+port::rename -newname TRST 69
+nse::clearselection
+nse::selectitems 73
+port::rename -newname nRESET 73
+nse::clearselection
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SEGGER-NEEDLE-10P-ADTR.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SEGGER-NEEDLE-10P-ADTR.1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -file C:\EyeProject\Eye/sym/ol_csheet_1.1 
+nse::setmode -file -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\ol_csheet_1.1 ol_csheet_1.1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -file C:\EyeProject\Eye/sym/ol_bsheet_1.1 
+nse::setmode -file -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\ol_bsheet_1.1 ol_bsheet_1.1
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\ol_csheet_1.1 ol_csheet_1.1
+nse::savesymbol -file C:\\EyeProject\\Eye\\SYM\\ol_bsheet_1.1 -saveas ol_bsheet_1.1
+nse::selectitems 20
+item::setline -points {10160,-10160 3302,-309626 548640,-421640 548640,-10160 10160,-10160}
+item::setline -points {10160,-10160 9652,-266954 548640,-421640 548640,-10160 10160,-10160}
+item::setline -points {10160,-10160 10160,-250190 548640,-421640 548640,-10160 10160,-10160}
+edit::move -offset 0,0
+item::setline -points {10160,-10160 10160,-269240 548640,-421640 548640,-10160 10160,-10160}
+item::setline -points {10160,-10160 10160,-269240 379730,-269240 548640,-10160 10160,-10160}
+item::setline -points {10160,-10160 10160,-269240 421640,-269240 548640,-10160 10160,-10160}
+item::setline -points {10160,-10160 10160,-269240 421640,-269240 421640,-10160 10160,-10160}
+nse::clearselection
+nse::selectitems {12 13 14 16 18 19 21 22 23 24 25 29 30 31 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 280}
+nse::selectitems 11
+edit::move -offset -127000,0
+nse::clearselection
+nse::selectitems 32
+edit::move -offset -125984,-254
+nse::clearselection
+nse::selectitems 32
+edit::move -offset -1270,0
+edit::move -offset 1270,0
+nse::clearselection
+nse::selectitems {254 255 258 259}
+symbol::deleteitems
+nse::selectitems {256 257}
+symbol::deleteitems
+nse::selectitems {271 272 273 274 275}
+edit::move -offset -127000,0
+nse::clearselection
+nse::selectitems {260 261 262 263 264 265 266 267 268}
+edit::move -offset -8890,151130
+edit::move -offset 2540,0
+edit::move -offset -3810,0
+edit::move -offset 2540,0
+edit::move -offset 0,1270
+nse::clearselection
+nse::selectitems 268
+edit::move -offset -17780,0
+nse::deselectitems 268
+nse::selectitems 253
+edit::move -offset -24130,0
+nse::clearselection
+nse::selectitems {269 270 277 278 279}
+symbol::deleteitems
+nse::selectitems 276
+symbol::deleteitems
+symbol::setoutline -rect 0,-279400,425450,279400
+symbol::setoutline -rect 0,-279400,431800,279400
+nse::savesymbol
+nse::closesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -file C:\EyeProject\Eye/sym/ol_bsheet_1.1 
+nse::setmode -file -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\ol_bsheet_1.1 ol_bsheet_1.1
+nse::selectitems 38
+nse::clearselection
+nse::selectitems 38
+nse::clearselection
+nse::selectitems 38
+nse::clearselection
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\ol_csheet_1.1 ol_csheet_1.1
+nse::closesymbol sid1
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\ol_bsheet_1.1 ol_bsheet_1.1
+nse::setactivesymbol sid2
+nse::selectitems {11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 269 270 271 272 273 274 275 276 277 278 279 280}
+edit::copy
+nse::clearselection
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\im_bsheet.1 im_bsheet.1
+nse::selectitems {11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 60 61 62 64 65}
+symbol::deleteitems
+edit::paste -point 3048,-361442
+nse::clearselection
+nse::selectitems {66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 269 270 271 272 273 274 275 276 277 278 279 280 281 282 283 284 285 286 287 288 289 290 291 292 293 294 295 296 297 298 299 300 301 302 303 304 305 306 307 308 309 310 311 312 313 314 315 316 317 318 319 320 321 322 323 324 325 326 327 328 329 330 331 332 333 334 335}
+edit::move -offset -5080,-65278
+edit::move -offset 4572,-2286
+edit::move -offset 0,-254
+symbol::setoutline -rect 0,-429260,556260,429006
+symbol::setoutline -rect 0,-429260,556260,429260
+nse::clearselection
+prop::setvisible -valueindex 0 -visible none @SHEET
+prop::setvisible -valueindex 0 @SHEET
+prop::delete -valueindex 0 DWG
+prop::delete -valueindex 0 REV
+prop::delete -valueindex 0 SCALE
+prop::delete -valueindex 0 @Name
+prop::delete -valueindex 0 @Path
+prop::delete -valueindex 0 @PRINTORDER
+prop::delete -valueindex 0 @SHEET
+prop::add @Sheet
+prop::setvisible -valueindex 0 @Sheet
+prop::setvisible -valueindex 0 -visible none @SHEETTOTAL
+prop::setvisible -valueindex 0 @SHEETTOTAL
+nse::selectitems 312
+nse::clearselection
+nse::selectitems 337
+nse::deselectitems 337
+nse::selectitems 335
+nse::clearselection
+nse::selectitems 335
+nse::clearselection
+nse::selectitems 337
+edit::move -offset -66333,-1778
+nse::clearselection
+nse::selectitems 338
+edit::move -offset -50585,-4318
+nse::deselectitems 338
+nse::selectitems 335
+nse::clearselection
+prop::delete -valueindex 0 @DATETIME
+nse::selectitems 75
+nse::deselectitems 75
+nse::selectitems 335
+symbol::deleteitems
+prop::add @DATETIME
+prop::setvisible -valueindex 0 @DATETIME
+nse::selectitems 339
+edit::move -offset 0,-254
+edit::move -offset 54610,-2540
+nse::clearselection
+nse::savesymbol
+nse::closesymbol
+nse::closesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -file C:\EyeProject\Eye/sym/LOADSWITCH_SIP32431DR3-T1GE3.1 
+nse::setmode -file -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\LOADSWITCH_SIP32431DR3-T1GE3.1 LOADSWITCH_SIP32431DR3-T1GE3.1
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\im_bsheet.1 im_bsheet.1
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\im_csheet.1 im_csheet.1
+nse::selectitems 50
+nse::clearselection
+nse::selectitems 50
+item::setarc -start 2015413546,-1925187920 -middle 448056,-51054 -end 448056,-51054
+item::setarc -start 2015413546,-1925187920 -middle 1828947320,1859774538 -end 448056,-51054
+item::setarc -start 2015413546,-1925187920 -middle 1828947320,1859774538 -end 1482259164,1774364752
+item::setarc -start -25695663,219658434 -middle -4551431,-264624122 -end 40834452,-253727940
+item::setarc -start 1503671872,1733457290 -middle -4551431,-264624122 -end 40834452,-253727940
+nse::undo
+nse::undo
+nse::undo
+nse::undo
+nse::undo
+edit::move -offset 667258,432816
+symbol::deleteitems
+nse::selectitems 288
+nse::clearselection
+nse::selectitems 19
+item::settext -text C
+nse::clearselection
+nse::selectitems 11
+edit::move -offset 0,0
+edit::move -offset 41656,-254
+nse::clearselection
+nse::selectitems 285
+gfx::setfontsize -size 18
+edit::move -offset 4064,508
+nse::deselectitems 285
+nse::selectitems 287
+nse::clearselection
+nse::selectitems 287
+nse::clearselection
+prop::setvisible -valueindex 0 -visible none @SHEET
+prop::setvisible -valueindex 0 @SHEET
+nse::selectitems 287
+edit::move -offset 6096,16510
+nse::deselectitems 287
+nse::selectitems 284
+nse::clearselection
+nse::selectitems 287
+edit::move -offset 0,0
+nse::clearselection
+prop::setvisible -valueindex 0 -visible none @SHEET
+prop::setvisible -valueindex 0 @SHEET
+nse::selectitems 287
+edit::move -offset 5842,508
+nse::clearselection
+prop::delete -valueindex 0 @SHEET
+prop::add @Sheet
+prop::setvisible -valueindex 0 @Sheet
+nse::selectitems 289
+edit::move -offset 208534,-3556
+edit::move -offset 223520,-16256
+gfx::setfont -font SansSerif
+nse::deselectitems 289
+nse::selectitems 284
+nse::deselectitems 284
+nse::selectitems 289
+gfx::setfontsize -size 22
+edit::move -offset -3556,-3048
+gfx::setfont -font SansSerifBold
+nse::clearselection
+nse::selectitems 289
+edit::move -offset 762,0
+nse::clearselection
+prop::delete -valueindex 0 @PRINTORDER
+nse::selectitems 259
+edit::move -offset 0,-2032
+edit::move -offset 0,1016
+nse::clearselection
+nse::savesymbol
+nse::closesymbol sid2
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\im_bsheet.1 im_bsheet.1
+nse::selectitems 46
+edit::move -offset 165354,555752
+edit::move -offset 397999966,246999760
+nse::clearselection
+nse::selectitems 46
+edit::move -offset -158500064,-240499900
+nse::clearselection
+nse::selectitems 276
+edit::move -offset -22305518,-8961628
+nse::deselectitems 276
+nse::selectitems 46
+symbol::deleteitems
+nse::selectitems 271
+edit::move -offset 254,254
+gfx::setfontsize -size 22
+gfx::setfont -font SansSerifBold
+nse::clearselection
+nse::selectitems 275
+nse::clearselection
+prop::delete -valueindex 0 @PRINTORDER
+nse::selectitems 271
+edit::move -offset 2286,49276
+nse::deselectitems 271
+nse::selectitems 273
+edit::move -offset 0,254
+gfx::setfontsize -size 18
+edit::move -offset 7620,508
+nse::clearselection
+nse::selectitems 11
+nse::deselectitems 11
+nse::selectitems 26
+edit::move -offset 11938,254
+nse::clearselection
+nse::undo
+nse::deselectitems 26
+nse::selectitems 11
+edit::move -offset 41910,0
+nse::clearselection
+nse::selectitems 13
+edit::move -offset 0,762
+nse::clearselection
+nse::selectitems 12
+edit::move -offset 0,254
+nse::clearselection
+prop::setvisible -valueindex 0 -visible none @Name
+prop::setvisible -valueindex 0 @Name
+prop::delete -valueindex 0 @Name
+prop::add @Name
+prop::setvisible -valueindex 0 @Name
+nse::selectitems 277
+edit::move -offset 215392,-27432
+edit::move -offset 97536,-7112
+gfx::setfont -font SansSerifBold
+nse::deselectitems 277
+nse::selectitems 26
+nse::deselectitems 26
+nse::selectitems 277
+edit::move -offset 0,0
+gfx::setfontsize -size 36
+edit::move -offset -6350,-3556
+nse::clearselection
+nse::selectitems 27
+nse::deselectitems 27
+nse::selectitems 11
+edit::move -offset -254,-508
+nse::clearselection
+nse::savesymbol
+nse::closesymbol
+nse::closesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -file C:\EyeProject\Eye/sym/im_bsheet.1 
+nse::setmode -file -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\im_bsheet.1 im_bsheet.1
+nse::selectitems 270
+edit::move -offset 0,0
+edit::move -offset 10160,-254
+edit::move -offset 0,-762
+edit::move -offset -508,0
+nse::deselectitems 270
+nse::selectitems 271
+edit::move -offset -254,254
+edit::move -offset 0,-1016
+nse::clearselection
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -file C:\EyeProject\Eye/sym/im_csheet.1 
+nse::setmode -file -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\im_csheet.1 im_csheet.1
+nse::selectitems 286
+edit::move -offset 9144,-254
+edit::move -offset 0,-508
+nse::deselectitems 286
+nse::selectitems 282
+edit::move -offset -254,-762
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD CREESMRGBLED.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD CREESMRGBLED.1
+nse::savesymbol -saveas SMALL-LED_CITIZEN-CL-503T-SD-T.1
+prop::setvalue -value SMALL-LED_CITIZEN-CL-503T-SD-T -valueindex 0 PKG_TYPE
+prop::setvalue -value Citizen -valueindex 0 MANF
+prop::setvalue -value CL-503T-SD-T -valueindex 0 MANF_P/N
+prop::setvalue -value {Silkscreen arrow points to anode on device} -valueindex 0 Notes
+prop::setvalue -value {TRICOLOR TOP FIRING 1.5 X 1.3 X} -valueindex 0 DESCRIPTION
+nse::selectitems 19
+edit::move -offset 0,0
+symbol::deleteitems
+nse::selectitems 34
+symbol::deleteitems
+nse::selectitems 17
+edit::rotate -center 10922,-16764 -angle 180
+edit::rotate -center 10922,-16764 -angle 180
+nse::deselectitems 17
+nse::selectitems 58
+nse::clearselection
+nse::selectitems 59
+edit::move -offset 0,18796
+nse::clearselection
+nse::selectitems 63
+edit::move -offset -9398,18796
+edit::rotate -center 8128,2032 -angle 180
+nse::deselectitems 63
+nse::selectitems 59
+edit::rotate -center 4064,2032 -angle 180
+edit::move -offset 254,-5080
+nse::deselectitems 59
+nse::selectitems 63
+edit::move -offset 2794,-5080
+nse::clearselection
+nse::selectitems 40
+nse::clearselection
+nse::selectitems 63
+edit::move -offset 0,254
+nse::deselectitems 63
+nse::selectitems 59
+edit::move -offset 0,254
+nse::clearselection
+item::setline -points {4064,-12954 4064,-14224 4064,-14224 4064,-15494} 54
+item::setline -points {4064,-12954 4064,-15494 4064,-15494 10922,-15494} 54
+item::setline -points {17526,-12954 17526,-14224 17526,-14224 17526,-15494} 55
+item::setline -points {4064,-12954 4064,-15494 10922,-15494 10922,-15494 17526,-15494} 54
+nse::selectitems 47
+edit::move -offset -762,254
+edit::move -offset 508,-2032
+nse::clearselection
+nse::savesymbol
+nse::opensymbol -snapshot DxD LED-DRVR_NXP-PCA9685PW-Q900-118.1
+nse::selectitems {18 20 196 214 260 262 264 266 276 278 280 282 284 288 290 292 294 301 302 303 306 324 325 326 327 332 333 334 335 336 338 339 340 341}
+edit::move -offset 20320,2540
+nse::clearselection
+nse::selectitems {14 212 254 256 258 268 270 272 274 286 296 300 305 321 322 323 328 329 330 331 337 342 383}
+edit::move -offset -23114,0
+edit::move -offset 254,0
+edit::move -offset -6096,762
+nse::clearselection
+nse::selectitems 383
+edit::move -offset 31496,-762
+nse::clearselection
+nse::selectitems 196
+edit::copy
+edit::paste -point 43942,-50038
+nse::clearselection
+nse::selectitems {391 392 393 394}
+edit::paste -point 44704,-49022
+# cannot create port with name 'VDD_1' : port already exists - using unique name 'VDD_2' instead
+nse::clearselection
+nse::selectitems {395 396 397 398}
+edit::paste -point 46990,-49022
+# cannot create port with name 'VDD_2' : port already exists - using unique name 'VDD_3' instead
+nse::clearselection
+nse::selectitems {399 400 401 402}
+symbol::deleteitems 402
+nse::selectitems 254
+nse::clearselection
+nse::selectitems 254
+nse::clearselection
+nse::selectitems 256
+port::rename -newname C2+ 254
+nse::clearselection
+nse::selectitems 258
+nse::clearselection
+nse::selectitems 256
+port::rename -newname C1+ 256
+nse::clearselection
+nse::selectitems 258
+nse::clearselection
+nse::selectitems 296
+port::rename -newname VIN 258
+nse::clearselection
+nse::selectitems 212
+port::rename -newname AGND 296
+port::rename -newname EN/PWM 212
+nse::clearselection
+nse::selectitems 18
+port::rename -newname CLK 18
+nse::clearselection
+nse::selectitems 292
+port::rename -newname GPIO/TRIG/INT 292
+nse::clearselection
+nse::selectitems 294
+nse::clearselection
+nse::selectitems 276
+port::rename -newname SDA 294
+port::rename -newname SCL 276
+nse::clearselection
+nse::selectitems 278
+nse::clearselection
+nse::selectitems 280
+port::rename -newname V1P8 278
+nse::clearselection
+nse::selectitems 282
+port::rename -newname LED8 280
+nse::clearselection
+nse::selectitems 284
+port::rename -newname LED7 282
+nse::clearselection
+nse::selectitems 286
+port::rename -newname LED6 284
+nse::clearselection
+nse::selectitems 284
+nse::clearselection
+nse::selectitems 286
+nse::clearselection
+nse::selectitems 284
+nse::clearselection
+nse::selectitems 286
+nse::clearselection
+nse::selectitems 288
+port::rename -newname LED5 286
+nse::clearselection
+nse::selectitems 290
+port::rename -newname LED4 288
+nse::clearselection
+nse::selectitems 214
+port::rename -newname LED3 290
+nse::clearselection
+nse::selectitems 20
+port::rename -newname LED2 214
+nse::clearselection
+nse::selectitems 214
+port::rename -newname LED1 20
+nse::clearselection
+nse::selectitems 20
+nse::clearselection
+nse::selectitems 260
+nse::clearselection
+nse::selectitems 262
+port::rename -newname LED0 260
+nse::clearselection
+nse::selectitems 264
+port::rename -newname ADDR 262
+nse::clearselection
+nse::selectitems 266
+port::rename -newname PGND 264
+nse::clearselection
+nse::selectitems 264
+port::rename -newname VOUT 266
+nse::clearselection
+nse::selectitems 266
+nse::clearselection
+nse::selectitems 268
+port::rename -newname C2- 268
+nse::clearselection
+nse::selectitems 270
+nse::clearselection
+nse::selectitems 272
+port::rename -newname C1- 270
+nse::clearselection
+nse::selectitems 274
+port::rename -newname EP 272
+nse::clearselection
+nse::selectitems 14
+port::rename -newname GV1 274
+nse::clearselection
+nse::selectitems 394
+port::rename -newname GV2 14
+nse::clearselection
+nse::selectitems 14
+nse::clearselection
+nse::selectitems 196
+nse::clearselection
+nse::selectitems 398
+port::rename -newname GV3 196
+nse::clearselection
+nse::selectitems 394
+nse::clearselection
+nse::selectitems 196
+port::rename -newname GV4 394
+nse::clearselection
+nse::selectitems 398
+nse::clearselection
+nse::selectitems 196
+port::rename -newname GV5 398
+nse::clearselection
+nse::selectitems 394
+nse::clearselection
+nse::selectitems 398
+prop::setvalue -value 29 -dest port -ports 394 \#
+nse::clearselection
+nse::selectitems 394
+nse::clearselection
+nse::selectitems 398
+prop::setvalue -value 30 -dest port -ports 398 \#
+nse::clearselection
+nse::selectitems 11
+item::setrect -rect 5334,-58674,24892,58420
+nse::clearselection
+nse::selectitems 278
+edit::move -offset -40386,-24892
+edit::rotate -center 7874,-56388 -angle 180
+edit::move -offset -5080,0
+nse::clearselection
+nse::selectitems 258
+edit::move -offset 28956,-25400
+nse::clearselection
+nse::selectitems 278
+nse::clearselection
+nse::selectitems 278
+edit::move -offset -254,508
+nse::deselectitems 278
+nse::selectitems 11
+item::setrect -rect 5080,-58674,25146,58420
+nse::clearselection
+nse::selectitems {276 294}
+edit::move -offset -27940,2032
+edit::vertmirror
+nse::clearselection
+nse::selectitems {276 294 332 341}
+edit::move -offset -17780,2540
+nse::clearselection
+nse::selectitems 276
+edit::move -offset 0,-5588
+nse::clearselection
+nse::selectitems 292
+edit::move -offset -35560,17780
+nse::deselectitems 292
+nse::selectitems 293
+nse::deselectitems 293
+nse::selectitems 292
+edit::rotate -center 12700,-22860 -angle 180
+edit::move -offset -10160,-2540
+nse::clearselection
+nse::selectitems 212
+edit::move -offset 28956,-1016
+nse::deselectitems 212
+nse::selectitems 18
+edit::move -offset -38100,28448
+edit::rotate -center 10160,-15240 -angle 180
+edit::move -offset -7620,-2540
+nse::clearselection
+nse::selectitems 18
+edit::move -offset 0,10160
+nse::clearselection
+nse::selectitems 262
+edit::move -offset -48260,-12446
+edit::rotate -center 0,-17780 -angle 180
+edit::move -offset 2540,0
+nse::clearselection
+nse::selectitems {254 256}
+edit::move -offset 46736,-14732
+edit::vertmirror
+edit::move -offset 12700,-5080
+nse::clearselection
+nse::selectitems 270
+edit::move -offset 51816,-26924
+edit::vertmirror
+edit::move -offset 7620,5080
+nse::clearselection
+nse::selectitems 268
+edit::move -offset 51816,-30226
+edit::rotate -center 25400,-35560 -angle 180
+edit::move -offset 7620,-2540
+nse::clearselection
+nse::selectitems 11
+edit::move -offset 0,254
+item::setrect -rect 5080,-66040,30480,66040
+nse::clearselection
+nse::selectitems {254 256 268 270 328 329}
+nse::clearselection
+nse::selectitems {258 278}
+edit::move -offset 0,-7620
+nse::clearselection
+nse::selectitems 383
+edit::move -offset 1524,-9652
+edit::move -offset 1016,508
+nse::deselectitems 383
+nse::selectitems 387
+edit::move -offset 3556,-9652
+nse::clearselection
+nse::selectitems 383
+edit::move -offset 1524,2032
+nse::clearselection
+nse::selectitems {254 256 268 270 328 329}
+edit::rotate -center 33020,-45720 -angle 180
+edit::move -offset -30480,-2540
+nse::clearselection
+nse::selectitems {254 256}
+edit::move -offset -10160,-17526
+nse::deselectitems {254 256}
+nse::selectitems 328
+edit::move -offset 0,-254
+nse::clearselection
+nse::selectitems {268 270}
+edit::move -offset 0,12700
+nse::clearselection
+nse::selectitems {254 256}
+edit::move -offset 10160,7620
+nse::clearselection
+nse::selectitems {268 270}
+edit::move -offset 0,-2540
+nse::clearselection
+nse::selectitems 11
+edit::move -offset 0,0
+nse::clearselection
+nse::selectitems {254 256}
+edit::move -offset 0,-2540
+nse::clearselection
+nse::selectitems {14 219 272 273 274 275 300 330 331}
+edit::rotate -center -22860,-48260 -angle 180
+nse::clearselection
+nse::selectitems 14
+edit::move -offset -1016,5334
+nse::deselectitems 14
+nse::selectitems 274
+edit::move -offset -1016,-762
+nse::clearselection
+nse::selectitems {391 393 394 395 397 398}
+edit::move -offset -43942,2032
+edit::move -offset -73660,10160
+nse::deselectitems {391 393 394 395 397 398}
+nse::selectitems 196
+edit::move -offset -68580,14224
+nse::clearselection
+nse::selectitems 394
+edit::move -offset 5080,0
+nse::deselectitems 394
+nse::selectitems 391
+nse::deselectitems 391
+nse::selectitems 397
+nse::deselectitems 397
+nse::selectitems 391
+nse::clearselection
+nse::selectitems 397
+edit::move -offset -5842,-3810
+nse::deselectitems 397
+nse::selectitems 391
+nse::deselectitems 391
+nse::selectitems 398
+edit::move -offset 4318,1524
+nse::deselectitems 398
+nse::selectitems 397
+edit::move -offset 5842,3556
+nse::clearselection
+nse::selectitems {14 196 274 394 398}
+edit::move -offset 48260,25400
+nse::clearselection
+nse::selectitems {20 209 214 215 260 261 264 265 266 267 280 281 282 283 284 285 288 289 290 291 302 306 324 326 327 334 335 336 338 339}
+edit::move -offset 22860,-14732
+nse::clearselection
+nse::selectitems {14 196 210 219 274 275 300 303 331 391 393 394 395 397 398}
+edit::move -offset 10160,5080
+nse::clearselection
+nse::selectitems 266
+edit::move -offset -30480,-49276
+edit::move -offset 0,0
+edit::move -offset -2540,0
+nse::clearselection
+nse::selectitems 296
+edit::move -offset 59436,4572
+edit::rotate -center 33020,-20320 -angle 180
+edit::move -offset 5080,0
+nse::deselectitems 296
+nse::selectitems 286
+edit::rotate -center -25400,-2540 -angle 180
+nse::deselectitems 286
+nse::selectitems 272
+edit::move -offset 49784,37592
+edit::move -offset 7620,2540
+nse::clearselection
+nse::selectitems 264
+edit::move -offset -33020,-5842
+nse::clearselection
+nse::selectitems {20 214 260 302 306 324}
+edit::move -offset -17780,-19304
+nse::clearselection
+nse::selectitems {288 290}
+edit::move -offset -17780,-3556
+nse::deselectitems {288 290}
+nse::selectitems 260
+edit::move -offset 0,-8382
+nse::deselectitems 260
+nse::selectitems 214
+edit::move -offset 0,2540
+nse::deselectitems 214
+nse::selectitems 20
+edit::move -offset 0,-2794
+nse::deselectitems 20
+nse::selectitems 214
+edit::move -offset 0,-5080
+nse::clearselection
+nse::selectitems 288
+edit::move -offset 0,5080
+nse::deselectitems 288
+nse::selectitems 338
+edit::move -offset 0,-2794
+edit::move -offset 0,2540
+nse::deselectitems 338
+nse::selectitems 288
+edit::move -offset 0,-2540
+edit::move -offset 0,-2540
+nse::deselectitems 288
+nse::selectitems 290
+edit::move -offset 0,-254
+nse::clearselection
+nse::selectitems 290
+edit::move -offset 0,2540
+nse::clearselection
+nse::selectitems 286
+edit::move -offset 72644,-22606
+edit::move -offset 5080,-2540
+nse::deselectitems 286
+nse::selectitems 284
+edit::move -offset -17780,14478
+nse::deselectitems 284
+nse::selectitems 282
+edit::move -offset -17780,19812
+nse::deselectitems 282
+nse::selectitems 280
+edit::move -offset -17780,25400
+nse::clearselection
+nse::selectitems {280 281 282 283 284 285 286 287 288 289 290 291 334 335 336 337 338 339}
+edit::move -offset 0,-7620
+nse::clearselection
+nse::selectitems {20 214 260 280 282 284 286 288 290 302 306 324 334 335 336 337 338 339}
+edit::move -offset -15240,-5080
+nse::clearselection
+nse::selectitems {20 214 260 302 306 324 339}
+nse::clearselection
+nse::selectitems {20 214 260 302 306 324}
+edit::move -offset 0,0
+nse::clearselection
+nse::selectitems {264 296 326 342}
+edit::move -offset -38100,30480
+nse::clearselection
+nse::selectitems {18 212 262 268 270 276 292 294 301 305 325 328 329 332 340 341}
+edit::move -offset 0,0
+nse::clearselection
+nse::selectitems {18 212 262 276 292 294 301 305 325 332 340 341}
+nse::clearselection
+nse::selectitems 18
+nse::clearselection
+nse::selectitems {18 212 262 276 292 294 301 305 325 332 340 341}
+edit::move -offset 0,-2540
+nse::clearselection
+nse::selectitems {264 296 326 342}
+edit::vertmirror
+edit::move -offset 2540,-12700
+nse::clearselection
+nse::selectitems {280 282 284 286 288 290 334 335 336 337 338 339}
+edit::move -offset 0,2540
+nse::clearselection
+nse::selectitems {280 282 284 334 335 336}
+edit::move -offset 0,2540
+nse::clearselection
+nse::selectitems 387
+edit::move -offset 0,2540
+nse::clearselection
+nse::savesymbol -saveas RGB-LED-DRVR_TI-LP5569RTWR.1
+prop::setvalue -value {9 CHANNEL RGB DRIVER} -valueindex 0 DESCRIPTION
+prop::setvalue -value {Texas Instruments} -valueindex 0 MANF
+prop::setvalue -value LP5569RTWR -valueindex 0 MANF_P/N
+prop::setvalue -value {Pin 1 designated by silkscreen notch and exposed pad notch} -valueindex 0 Notes
+prop::setvalue -value TI-WQFN28 -valueindex 0 PKG_TYPE
+nse::selectitems 383
+edit::move -offset 2540,0
+nse::clearselection
+nse::selectitems 383
+edit::move -offset 2540,0
+nse::clearselection
+nse::selectitems 387
+edit::move -offset 0,0
+nse::clearselection
+nse::savesymbol
+nse::closesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD RGB-LED-DRVR_TI-LP5569RTWR.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD RGB-LED-DRVR_TI-LP5569RTWR.1
+nse::selectitems 329
+edit::move -offset 0,-254
+nse::clearselection
+nse::selectitems {11 266 267 327 383}
+nse::clearselection
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD RGB-LED-DRVR_TI-LP5569RTWR.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD RGB-LED-DRVR_TI-LP5569RTWR.1
+symbol::setoutline -rect 254,-70866,42164,70866
+symbol::setoutline -rect 254,-71628,41402,71628
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD RGB-LED-DRVR_TI-LP5569RTWR.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD RGB-LED-DRVR_TI-LP5569RTWR.1
+nse::selectitems 11
+nse::deselectitems 11
+nse::selectitems 266
+edit::move -offset 17526,38354
+nse::clearselection
+nse::selectitems {20 214 260 280 282 284 286 288 290 302 306 324 334 335 336 337 338 339}
+edit::move -offset -254,-7620
+nse::clearselection
+nse::selectitems 266
+edit::move -offset -17272,762
+nse::clearselection
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -file C:\EyeProject\Eye/sym/REG-3V3_AP7361C-33E-13.1 
+nse::setmode -file -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\REG-3V3_AP7361C-33E-13.1 REG-3V3_AP7361C-33E-13.1
+nse::newsymbol unnamed.1
+nse::closesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -file C:\EyeProject\Eye/sym/REG-3V3_AP7361C-33E-13.1 
+nse::setmode -file -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\REG-3V3_AP7361C-33E-13.1 REG-3V3_AP7361C-33E-13.1
+nse::savesymbol -file C:\\EyeProject\\Eye\\SYM\\REG-1V8_MICROCHIP-TC1015-1-8VCT713.1 -saveas REG-1V8_MICROCHIP-TC1015-1-8VCT713.1
+prop::setvalue -value {IC REG LINEAR 1.8V 100MA SOT23-5} -valueindex 0 DESCRIPTION
+prop::setvalue -value \	\nMicrochip\ Technology -valueindex 0 MANF
+# too many parameters.
+prop::setvalue -value {Microchip Technology} -valueindex 0 MANF
+prop::setvalue -value TC1015-1.8VCT713 -valueindex 0 MANF_P/N
+prop::setvalue -value SOT23-5 -valueindex 0 PKG_TYPE
+prop::setvalue -value 1.8V -valueindex 0 VALUE
+nse::selectitems 35
+nse::clearselection
+nse::selectitems 87
+prop::setvalue -value 4 -dest port -ports 35 \#
+prop::setvalue -value 3 -dest port -ports 87 \#
+nse::clearselection
+nse::selectitems 123
+nse::clearselection
+nse::selectitems 87
+port::rename -newname ~SHDN 87
+nse::deselectitems 87
+nse::selectitems 35
+edit::copy
+edit::paste -point 14986,-11684
+nse::clearselection
+nse::selectitems {146 147 148 149}
+edit::move -offset -14986,-2032
+nse::clearselection
+nse::selectitems 87
+prop::setvalue -value 5 -dest port -ports 149 \#
+nse::clearselection
+nse::selectitems 149
+port::rename -newname VOUT 149
+nse::clearselection
+nse::selectitems 35
+nse::clearselection
+nse::selectitems 123
+nse::clearselection
+nse::selectitems 22
+nse::clearselection
+nse::selectitems 87
+nse::clearselection
+nse::selectitems 35
+port::rename -newname BYPASS 35
+nse::clearselection
+nse::selectitems 149
+edit::move -offset 254,-6096
+nse::clearselection
+nse::selectitems 35
+edit::move -offset 254,5080
+nse::deselectitems 35
+nse::selectitems 22
+edit::move -offset 4064,6350
+nse::deselectitems 22
+nse::selectitems 142
+nse::deselectitems 142
+nse::selectitems 87
+edit::rotate -center 15494,-1270 -angle 270
+edit::move -offset -14224,-6350
+nse::deselectitems 87
+nse::selectitems 139
+edit::move -offset -254,-254
+nse::deselectitems 139
+nse::selectitems 35
+edit::move -offset -508,2032
+edit::move -offset 254,0
+nse::deselectitems 35
+nse::selectitems 149
+edit::move -offset -254,2794
+nse::clearselection
+nse::selectitems 140
+edit::move -offset 0,3556
+edit::rotate -center 5080,-10668 -angle 270
+nse::clearselection
+nse::selectitems 140
+edit::move -offset 1778,3048
+nse::deselectitems 140
+nse::selectitems 137
+edit::move -offset 1016,0
+nse::deselectitems 137
+nse::selectitems 146
+edit::move -offset 762,254
+nse::deselectitems 146
+nse::selectitems 22
+edit::move -offset -508,-6350
+nse::clearselection
+nse::selectitems 134
+edit::move -offset 254,1270
+nse::clearselection
+nse::savesymbol
+nse::selectitems 130
+nse::clearselection
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD RGB-LED-DRVR_TI-LP5569RTWR.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD RGB-LED-DRVR_TI-LP5569RTWR.1
+prop::setvalue -value TI-WQFN24 -valueindex 0 PKG_TYPE
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD RGB-LED-DRVR_TI-LP5569RTWR.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD RGB-LED-DRVR_TI-LP5569RTWR.1
+nse::selectitems 266
+edit::move -offset 11176,-13970
+nse::clearselection
+nse::selectitems {20 214 260 280 282 284 286 288 290}
+edit::move -offset 254,5080
+nse::deselectitems {20 214 260 280 282 284 286 288 290}
+nse::selectitems 266
+edit::move -offset -11430,-25146
+nse::clearselection
+nse::selectitems {20 214 260 280 282 284 286 288 290 302 306 324 334 335 336 337 338 339}
+edit::move -offset 0,2540
+nse::clearselection
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD 2PinTP.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD 2PinTP.1
+nse::savesymbol -saveas 4P-HEADER_MOLEX-5037630491.1
+prop::setvalue -value 4P-HEADER_MOLEX-5037630491 -valueindex 0 PKG_TYPE
+prop::add COST
+prop::setvisible -valueindex 0 -visible none COST
+prop::delete -valueindex 0 COST
+prop::add DESCRIPTION
+prop::setvisible -valueindex 0 -visible none DESCRIPTION
+prop::add Distributor
+prop::setvisible -valueindex 0 Distributor
+prop::add MANF
+prop::setvisible -valueindex 0 MANF
+prop::add MANF_P/N
+prop::setvisible -valueindex 0 MANF_P/N
+prop::add RoHS
+prop::setvisible -valueindex 0 RoHS
+prop::add {Lead Free}
+prop::setvisible -valueindex 0 {Lead Free}
+prop::setvalue -value {CONN HEADER 1MM R/A 4CKT} -valueindex 0 DESCRIPTION
+prop::setvalue -value Digikey -valueindex 0 Distributor
+prop::setvisible -valueindex 0 -visible none Distributor
+prop::setvisible -valueindex 0 -visible none {Lead Free}
+prop::setvisible -valueindex 0 {Lead Free}
+prop::setvisible -valueindex 0 -visible none {Lead Free}
+prop::setvalue -value Yes -valueindex 0 {Lead Free}
+prop::setvalue -value {Molex, LLC} -valueindex 0 MANF
+prop::setvalue -value 5037630491 -valueindex 0 MANF_P/N
+prop::setvisible -valueindex 0 -visible none RoHS
+prop::setvalue -value Compliant -valueindex 0 RoHS
+prop::setvisible -valueindex 0 -visible none MANF
+prop::setvisible -valueindex 0 -visible none MANF_P/N
+nse::selectitems {14 15 21 23}
+edit::copy
+edit::paste -point 9144,-8128
+nse::clearselection
+nse::selectitems {62 63 64 65 66 67 68 69 70 71}
+edit::move -offset 1016,508
+nse::clearselection
+nse::selectitems {14 15 21 23 50 62 63 64 68}
+edit::move -offset 508,-762
+nse::clearselection
+symbol::addrect -rect 254,-9398,21082,7874
+nse::selectitems 50
+edit::move -offset 4826,-1270
+nse::clearselection
+nse::selectitems {50 63 72}
+symbol::setoutline -rect 0,-7968,10221,7968
+nse::clearselection
+symbol::setoutline -rect 0,-12192,21590,12192
+nse::selectitems 64
+nse::clearselection
+nse::selectitems 68
+port::rename -newname IN3 64
+port::rename -newname IN4 68
+nse::clearselection
+nse::selectitems 64
+nse::clearselection
+nse::selectitems 68
+prop::setvalue -value 3 -dest port -ports 64 \#
+prop::setvalue -value 4 -dest port -ports 68 \#
+nse::clearselection
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -file C:\EyeProject\Eye/sym/LOADSWITCH_SIP32431DR3-T1GE3.1 
+nse::setmode -file -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\LOADSWITCH_SIP32431DR3-T1GE3.1 LOADSWITCH_SIP32431DR3-T1GE3.1
+nse::savesymbol -file C:\\EyeProject\\Eye\\SYM\\3C-DIP-SWITCH_NIDEC-CVS-03TB.1 -saveas 3C-DIP-SWITCH_NIDEC-CVS-03TB.1
+nse::selectitems {24 72 95 107}
+nse::clearselection
+nse::selectitems {24 72 95 107}
+edit::move -offset 25908,-508
+nse::clearselection
+nse::selectitems {22 92}
+edit::move -offset 23114,3810
+nse::clearselection
+nse::selectitems {70 104}
+edit::move -offset 39116,24384
+nse::clearselection
+nse::selectitems {78 79}
+symbol::deleteitems
+nse::selectitems {74 75 76 77 80}
+nse::clearselection
+nse::selectitems {22 24 70 72 92 93 95 102 104 105 107}
+symbol::deleteitems
+nse::selectitems 73
+edit::move -offset 27940,762
+nse::clearselection
+nse::selectitems {35 53 74 75 76 77 80 98 101}
+edit::copy
+edit::paste -point 2794,-19304
+nse::clearselection
+nse::selectitems {108 109 110 111 112 113 114 115 116 117 118}
+edit::paste -point 3048,-14478
+# cannot create port with name 'VOUT1_1' : port already exists - using unique name 'VOUT1_2' instead
+# cannot create port with name 'VIN_1' : port already exists - using unique name 'VIN_2' instead
+nse::clearselection
+nse::selectitems {119 120 121 122 123 124 125 126 127 128 129}
+nse::clearselection
+nse::selectitems {110 113 114 115 116 117 118 121 124 125 126 127 128 129}
+edit::move -offset -2794,1016
+nse::clearselection
+nse::selectitems {121 125 126 127 128 129}
+nse::clearselection
+nse::selectitems {121 124 125 126 127 128 129}
+edit::move -offset -254,254
+nse::clearselection
+nse::selectitems 101
+nse::deselectitems 101
+nse::selectitems 98
+edit::move -offset 1016,-254
+nse::clearselection
+nse::selectitems 53
+nse::clearselection
+nse::selectitems 113
+prop::setvalue -value 1 -dest port -ports 53 \#
+nse::clearselection
+nse::selectitems 124
+prop::setvalue -value 2 -dest port -ports 113 \#
+nse::clearselection
+prop::setvalue -value 3 -dest port -ports 124 \#
+nse::selectitems 121
+edit::move -offset 0,0
+nse::clearselection
+nse::selectitems 110
+prop::setvalue -value 4 -dest port -ports 121 \#
+edit::move -offset 0,0
+nse::clearselection
+nse::selectitems 35
+prop::setvalue -value 5 -dest port -ports 110 \#
+nse::clearselection
+nse::selectitems 53
+nse::clearselection
+nse::selectitems 35
+prop::setvalue -value 6 -dest port -ports 35 \#
+nse::clearselection
+nse::selectitems {113 116 124 127}
+nse::clearselection
+nse::selectitems {113 124}
+prop::setvisible -valueindex 0 -visible none -dest port \#
+prop::setvisible -valueindex 0 -dest port \#
+nse::clearselection
+nse::selectitems 130
+edit::move -offset 508,-2565
+nse::deselectitems 130
+nse::selectitems 131
+edit::move -offset 508,-2565
+nse::clearselection
+nse::selectitems {110 121}
+prop::setvisible -valueindex 0 -visible none -dest port \#
+prop::setvisible -valueindex 0 -dest port \#
+nse::deselectitems {110 121}
+nse::selectitems 132
+edit::move -offset 254,-2565
+nse::deselectitems 132
+nse::selectitems 133
+edit::move -offset 254,-2311
+nse::clearselection
+nse::selectitems 73
+edit::move -offset -27686,762
+nse::clearselection
+nse::selectitems 73
+item::setrect -rect 5334,-25146,15240,22860
+nse::clearselection
+nse::selectitems 73
+item::setrect -rect 5334,-25146,15240,18288
+nse::clearselection
+nse::selectitems {35 98 110 121 132 133}
+edit::copy
+edit::paste -point 21590,-25400
+# cannot create port with name 'VOUT1_2' : port already exists - using unique name 'VOUT1_3' instead
+nse::clearselection
+nse::selectitems {134 135 136 137 138 139 140 141 142}
+nse::clearselection
+nse::selectitems 136
+edit::copy
+edit::paste -point 46990,0
+nse::clearselection
+nse::selectitems {143 144 145}
+edit::move -offset 0,0
+nse::clearselection
+nse::selectitems 143
+edit::move -offset 0,0
+edit::move -offset -40640,-5080
+nse::clearselection
+nse::selectitems 143
+edit::move -offset -2540,0
+edit::move -offset 2540,0
+nse::clearselection
+nse::selectitems 143
+edit::rotate -center 7620,-5080 -angle 270
+edit::move -offset 0,0
+nse::deselectitems 143
+nse::selectitems 73
+item::setrect -rect 5334,-25146,15240,17526
+item::setrect -rect 5334,-25400,15240,17780
+nse::clearselection
+nse::selectitems 73
+item::setrect -rect 5334,-25400,14986,17780
+item::setrect -rect 5080,-25400,15240,17780
+nse::clearselection
+nse::selectitems 143
+edit::move -offset 2540,0
+nse::clearselection
+nse::selectitems 143
+nse::selectitems {136 137 140}
+symbol::deleteitems
+nse::selectitems 35
+edit::move -offset 1270,0
+nse::deselectitems 35
+nse::selectitems 110
+edit::move -offset 1270,0
+nse::deselectitems 110
+nse::selectitems 121
+edit::move -offset 1270,0
+nse::clearselection
+nse::selectitems {53 101 113 124 130 131}
+edit::move -offset -1270,0
+nse::clearselection
+nse::selectitems 73
+edit::move -offset 0,0
+item::setrect -rect 5080,-25400,15240,17780
+nse::clearselection
+nse::selectitems {53 101 113 124}
+nse::clearselection
+nse::selectitems {53 113 124}
+nse::deselectitems {53 113 124}
+nse::selectitems 101
+edit::move -offset -254,-254
+nse::clearselection
+nse::selectitems 101
+edit::move -offset 0,508
+edit::move -offset 0,0
+nse::clearselection
+nse::selectitems {53 101 113 124 130 131}
+edit::move -offset 1524,0
+nse::clearselection
+nse::selectitems {35 98 110 121 132 133}
+edit::move -offset -1524,0
+nse::clearselection
+nse::selectitems {35 53 73 74 75 76 77 80 98 101 110 113 114 115 116 117 118 121 124 125 126 127 128 129 130 131 132 133}
+nse::clearselection
+nse::selectitems 130
+edit::move -offset 0,0
+nse::selectitems 131
+nse::selectitems 133
+nse::selectitems 132
+nse::selectitems 101
+gfx::setfont -font SansSerif
+nse::clearselection
+nse::selectitems 98
+edit::move -offset 254,-254
+nse::clearselection
+symbol::addport -name PIN3 -pos 5080,-5080
+symbol::addport -name PIN4 -pos 5080,-2540
+symbol::addport -name PIN5 -pos 5080,0
+symbol::addport -name PIN6 -pos 5080,2540
+nse::selectitems {146 148 150 152}
+edit::rotate -center 7620,0 -angle 90
+edit::move -offset 5080,-5080
+nse::clearselection
+nse::selectitems {150 152}
+edit::move -offset 2540,0
+nse::clearselection
+nse::selectitems {146 148 150 152}
+edit::move -offset 0,2540
+nse::clearselection
+nse::selectitems 73
+item::setrect -rect 5080,-25400,15240,20320
+nse::clearselection
+nse::selectitems {146 148 150 152}
+nse::clearselection
+nse::selectitems 35
+nse::clearselection
+nse::selectitems 148
+prop::add -value 7 -labelpos under -dest port -ports 146 \#
+prop::setvisible -valueindex 0 -dest port -ports 146 \#
+nse::clearselection
+nse::selectitems 150
+prop::add -value 8 -labelpos under -dest port -ports 148 \#
+prop::setvisible -valueindex 0 -dest port -ports 148 \#
+nse::clearselection
+nse::selectitems 148
+nse::clearselection
+nse::selectitems 35
+nse::clearselection
+nse::selectitems 150
+nse::clearselection
+nse::selectitems 152
+prop::add -value 9 -labelpos under -dest port -ports 150 \#
+prop::setvisible -valueindex 0 -dest port -ports 150 \#
+prop::add -value 10 -labelpos under -dest port -ports 152 \#
+prop::setvisible -valueindex 0 -dest port -ports 152 \#
+nse::clearselection
+nse::selectitems 146
+nse::clearselection
+nse::selectitems 148
+port::rename -newname M1 146
+nse::clearselection
+nse::selectitems 150
+port::rename -newname M2 148
+port::rename -newname M3 150
+nse::clearselection
+nse::selectitems 152
+port::rename -newname M4 152
+nse::clearselection
+nse::selectitems {147 149 151 153}
+gfx::setfont -font SansSerif
+nse::clearselection
+nse::selectitems {146 148 150 152 154 155 156 157}
+gfx::setfont -font SansSerif
+nse::clearselection
+nse::selectitems 157
+edit::move -offset -254,0
+nse::clearselection
+nse::selectitems 154
+edit::move -offset -2794,-2540
+nse::deselectitems 154
+nse::selectitems 155
+edit::move -offset -2794,-2540
+nse::deselectitems 155
+nse::selectitems 156
+edit::move -offset -2794,-2540
+nse::deselectitems 156
+nse::selectitems 157
+edit::move -offset -2540,-1270
+nse::clearselection
+nse::selectitems 81
+edit::move -offset 7112,5588
+nse::clearselection
+symbol::setoutline -rect 0,-27940,25654,28194
+prop::setvalue -value {SWITCH SLIDE DIP SPST 100MA 6V} -valueindex 0 DESCRIPTION
+prop::setvalue -value {Nidec Copal Electronics} -valueindex 0 MANF
+prop::setvalue -value CVS-03TB -valueindex 0 MANF_P/N
+prop::setvalue -value {Polarity does not matter} -valueindex 0 Notes
+prop::setvalue -value 3C-DIP-SWITCH_NIDEC-CVS-03TB -valueindex 0 PKG_TYPE
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SMALL-LED_CITIZEN-CL-503T-SD-T.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SMALL-LED_CITIZEN-CL-503T-SD-T.1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SCHOTTKY_MBRS410LT3G.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SCHOTTKY_MBRS410LT3G.1
+nse::selectitems 103
+item::setline -points {0,-7112 0,-7112 0,-7620 5080,-7620 5080,-8128 4572,-8128}
+item::setline -points {0,-7366 0,-7620 5080,-7620 5080,-8128 4572,-8128}
+item::setline -points {0,-7620 0,-7620 5080,-7620 5080,-8128 4572,-8128}
+item::setline -points {0,-7620 5080,-7620 5080,-8128 5080,-8128}
+item::setline -points {0,-7620 5080,-7620 5080,-7620}
+nse::clearselection
+nse::savesymbol -saveas SMDLED-BLU_LITEON-LTST-C193TBKT-5A.1
+prop::setvalue -value {LED BLUE CLEAR 0603 SMD} -valueindex 0 DESCRIPTION
+prop::setvalue -value {Lite-On Inc.} -valueindex 0 MANF
+prop::setvalue -value LTST-C193TBKT-5A -valueindex 0 MANF_P/N
+nse::selectitems 98
+nse::clearselection
+nse::selectitems 94
+nse::clearselection
+prop::setvalue -value 0603-DIODE -valueindex 0 PKG_TYPE
+nse::selectitems {88 89}
+edit::move -offset 10922,508
+nse::clearselection
+symbol::setoutline -rect 0,-12700,9144,12700
+symbol::addline -points {5588,-6096 8636,-6096}
+item::setline -points {5588,-6096 8636,-6096 8636,-6096 7620,-7112} 110
+symbol::addline -points {8636,-6096 7620,-5080}
+nse::selectitems {88 89}
+edit::move -offset -11684,-3810
+nse::clearselection
+nse::selectitems 89
+edit::move -offset -4572,0
+nse::clearselection
+nse::selectitems 89
+edit::move -offset 254,0
+nse::clearselection
+nse::savesymbol
+nse::selectitems 98
+nse::clearselection
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD BATT-CONN_BCPCB10.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD BATT-CONN_BCPCB10.1
+prop::setvalue -value {Ozora Labs} -valueindex 0 MANF
+prop::add -value .4 COST
+prop::setvisible -valueindex 0 -visible none COST
+prop::delete -valueindex 0 COST
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD BATT-CONN_BCPCB10.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD BATT-CONN_BCPCB10.1
+# invalid property value : expected real value
+prop::add {Cost/1000 with Lazy Sourcing}
+prop::setvisible -valueindex 0 {Cost/1000 with Lazy Sourcing}
+prop::setvalue -value .4 -valueindex 0 {Cost/1000 with Lazy Sourcing}
+prop::setvisible -valueindex 0 -visible none {Cost/1000 with Lazy Sourcing}
+prop::delete -valueindex 0 {Cost/1000 with Lazy Sourcing}
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD BATT-CONN_BCPCB10.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD BATT-CONN_BCPCB10.1
+prop::add -value .3 Cost-per-1000_with_Lazy_Sourcing
+prop::setvisible -valueindex 0 -visible none Cost-per-1000_with_Lazy_Sourcing
+nse::savesymbol
+nse::selectitems 78
+edit::move -offset 0,0
+nse::selectitems 29
+nse::selectitems 59
+nse::selectitems 30
+nse::selectitems 83
+nse::selectitems 87
+gfx::setfont -font SansSerif
+nse::clearselection
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD BATT-CONN_BCPCB10.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD BATT-CONN_BCPCB10.1
+nse::savesymbol -saveas SYM_BOM_ENTRY.1
+nse::selectitems 70
+symbol::deleteitems
+nse::selectitems {21 23 29 30 56 59 78 79}
+symbol::deleteitems
+nse::selectitems {80 83 84 87}
+symbol::deleteitems
+nse::selectitems {14 15 55 74 75 89 90 91 92 93 95 96}
+symbol::deleteitems
+nse::selectitems 88
+item::setrect -rect 254,-27178,14986,7112
+nse::clearselection
+symbol::addtext -text {BOM Entry} -pos 1778,-28448
+nse::selectitems 98
+nse::clearselection
+nse::selectitems 98
+gfx::setfont -font RomanBoldItalic
+gfx::setfont -font SansSerif
+gfx::setfont -font SansSerifBold
+nse::clearselection
+nse::selectitems 50
+nse::clearselection
+prop::setvalue -value B? -valueindex 0 REFDES
+nse::selectitems 50
+edit::move -offset 0,0
+edit::move -offset 7620,5080
+nse::clearselection
+prop::setvisible -valueindex 0 -visible none REFDES
+symbol::setforwardpcb false
+nse::selectitems {88 98}
+edit::move -offset 1270,18288
+nse::clearselection
+symbol::setoutline -rect 0,-12446,18542,12446
+prop::setvalue -value {} -valueindex 0 Cost-per-1000_with_Lazy_Sourcing
+prop::setvisible -valueindex 0 DESCRIPTION
+prop::setvalue -value {} -valueindex 0 DESCRIPTION
+nse::selectitems 60
+edit::move -offset 0,0
+gfx::setfont -font SansSerif
+edit::move -offset 0,-254
+edit::move -offset 1778,-8382
+gfx::setfontsize -size 6
+edit::move -offset 0,0
+edit::move -offset 254,254
+nse::clearselection
+nse::selectitems 60
+edit::move -offset 0,3556
+nse::clearselection
+prop::setvisible -valueindex 0 MANF
+prop::setvisible -valueindex 0 MANF_P/N
+nse::selectitems 63
+edit::move -offset 1524,-7112
+nse::clearselection
+prop::setvalue -value {} -valueindex 0 MANF
+prop::setvalue -value {} -valueindex 0 {Lead Free}
+prop::setvalue -value {} -valueindex 0 Distributor
+prop::setvalue -value {} -valueindex 0 MANF_P/N
+prop::setvalue -value {} -valueindex 0 Notes
+prop::setvalue -value {} -valueindex 0 PKG_TYPE
+prop::setvalue -value {} -valueindex 0 REFDES
+prop::setvalue -value {} -valueindex 0 RoHS
+nse::selectitems 63
+edit::move -offset 19812,4572
+nse::deselectitems 63
+nse::selectitems 62
+edit::move -offset 0,0
+edit::move -offset 1524,-8890
+gfx::setfontsize -size 6
+gfx::setfont -font SansSerif
+nse::clearselection
+nse::selectitems 62
+edit::move -offset 0,0
+edit::move -offset 254,254
+nse::clearselection
+nse::selectitems 63
+edit::move -offset 0,0
+gfx::setfont -font SansSerif
+gfx::setfontsize -size 6
+nse::clearselection
+nse::selectitems 63
+edit::move -offset -19558,-4318
+edit::move -offset 0,-254
+nse::deselectitems 63
+nse::selectitems 62
+edit::move -offset 0,0
+edit::move -offset 0,254
+nse::deselectitems 62
+nse::selectitems 63
+edit::move -offset 0,254
+nse::deselectitems 63
+nse::selectitems 62
+edit::move -offset 0,-254
+nse::deselectitems 62
+nse::selectitems 63
+edit::move -offset 0,-254
+nse::clearselection
+nse::selectitems 60
+edit::move -offset -254,0
+nse::clearselection
+nse::selectitems 88
+nse::deselectitems 88
+nse::selectitems 60
+nse::deselectitems 60
+nse::selectitems 88
+edit::move -offset 0,0
+nse::deselectitems 88
+nse::selectitems 60
+edit::move -offset 0,0
+gfx::setfontsize -size 4
+nse::clearselection
+nse::selectitems 62
+gfx::setfontsize -size 8
+nse::deselectitems 62
+nse::selectitems 63
+nse::clearselection
+nse::selectitems 60
+edit::move -offset 0,0
+gfx::setfontsize -size 3
+nse::clearselection
+nse::selectitems 63
+edit::move -offset 0,508
+nse::deselectitems 63
+nse::selectitems 60
+edit::move -offset 0,508
+nse::clearselection
+prop::delete -valueindex 0 PKG_TYPE
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SYM_BOM_ENTRY.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SYM_BOM_ENTRY.1
+nse::selectitems 60
+nse::clearselection
+prop::setvalue -value Description -valueindex 0 DESCRIPTION
+prop::setvalue -value Manufacturer -valueindex 0 MANF
+prop::setvalue -value {Manufacturer PN} -valueindex 0 MANF_P/N
+nse::savesymbol
+nse::selectitems 88
+nse::clearselection
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SYM_BOM_ENTRY.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SYM_BOM_ENTRY.1
+nse::selectitems 88
+item::setrect -rect 1524,-8890,18288,7112
+nse::deselectitems 88
+nse::selectitems 98
+edit::move -offset 0,0
+edit::move -offset 2286,-508
+nse::clearselection
+nse::selectitems {60 62 63 88 98}
+edit::move -offset -1524,1778
+nse::clearselection
+nse::selectitems 98
+edit::move -offset 0,0
+edit::move -offset -508,508
+nse::clearselection
+nse::selectitems 98
+nse::clearselection
+symbol::setoutline -rect 0,-9652,18542,9652
+prop::setvisible -valueindex 0 Notes
+prop::setvalue -value Notes -valueindex 0 Notes
+nse::selectitems 73
+edit::move -offset 0,0
+gfx::setfontsize -size 3
+gfx::setfont -font RomanBoldItalic
+gfx::setfont -font SansSerif
+edit::move -offset 254,-1524
+nse::clearselection
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SYM_BOM_ENTRY.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SYM_BOM_ENTRY.1
+prop::delete -valueindex 0 Cost-per-1000_with_Lazy_Sourcing
+prop::add Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD BATT-CONN_BCPCB10.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD BATT-CONN_BCPCB10.1
+prop::delete -valueindex 0 Cost-per-1000_with_Lazy_Sourcing
+prop::add -value .4 Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SYM_BOM_ENTRY.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SYM_BOM_ENTRY.1
+nse::selectitems 88
+nse::clearselection
+prop::setvisible -valueindex 0 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+nse::selectitems 99
+gfx::setfont -font SansSerif
+gfx::setfontsize -size 3
+edit::move -offset 14986,-1016
+nse::clearselection
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SYM_BOM_ENTRY.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SYM_BOM_ENTRY.1
+nse::selectitems 99
+edit::move -offset -2794,-254
+edit::move -offset 0,-254
+nse::clearselection
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SYM_BOM_ENTRY.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SYM_BOM_ENTRY.1
+# invalid property value : expected real value
+prop::setvalue -value 1.00 -valueindex 0 Cost_per_1000
+nse::selectitems 99
+edit::move -offset 3556,254
+nse::clearselection
+nse::selectitems 99
+edit::move -offset 254,-4826
+edit::move -offset 0,-254
+nse::clearselection
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SYM_FUSE.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SYM_FUSE.1
+prop::add -value 0.399 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD FUEL-GAUGE_LC709203FQH-01TWG.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD FUEL-GAUGE_LC709203FQH-01TWG.1
+prop::add -value 0.22852 Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+nse::selectitems 153
+edit::move -offset 0,-254
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD JST-2P-HDR_SM02B-SRSS-TB-LF-SN.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD JST-2P-HDR_SM02B-SRSS-TB-LF-SN.1
+prop::add -value 0.22852 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -file C:\EyeProject\Eye/sym/3VREG_ROHM-BU30SD2MG-MTR.1 
+nse::setmode -file -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\3VREG_ROHM-BU30SD2MG-MTR.1 3VREG_ROHM-BU30SD2MG-MTR.1
+prop::add -value 0.22413 Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD RTC_AM1805.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD RTC_AM1805.1
+prop::add -value 0.90805 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD ABRACON-XTAL_ABS07-120-32-768KHZ-T.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD ABRACON-XTAL_ABS07-120-32-768KHZ-T.1
+prop::add -value 0.30272 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SUPERCAP_CPH3225A.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SUPERCAP_CPH3225A.1
+prop::setvalue -value 0.93380 -valueindex 0 MANF_P/N
+nse::undo
+prop::add -value 0.93380 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD LI-ION-CHGR_MCP73113-06SI-MF.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD LI-ION-CHGR_MCP73113-06SI-MF.1
+prop::add -value 0.89250 Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+prop::setvalue -value 0.820 -valueindex 0 Cost_per_1000
+nse::savesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -file C:\EyeProject\Eye/sym/TXS0102DCTR.1 
+nse::setmode -file -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\TXS0102DCTR.1 TXS0102DCTR.1
+nse::closesymbol
+prop::add -value 0.32630 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SCHOTTKY_CUS520-HEF.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SCHOTTKY_CUS520-HEF.1
+prop::add -value 0.04137 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -file C:\EyeProject\Eye/sym/LOADSWITCH_SIP32431DR3-T1GE3.1 
+nse::setmode -file -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\LOADSWITCH_SIP32431DR3-T1GE3.1 LOADSWITCH_SIP32431DR3-T1GE3.1
+prop::add -value 0.19261 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -file C:\EyeProject\Eye/sym/REG-3V3_NCP603SN330T1G.1 
+nse::setmode -file -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\REG-3V3_NCP603SN330T1G.1 REG-3V3_NCP603SN330T1G.1
+prop::add -value 0.21957 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SPST_CNK_PTS840-GK-SMTR-LFS.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SPST_CNK_PTS840-GK-SMTR-LFS.1
+prop::add -value 0.18700 Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+nse::selectitems 84
+nse::clearselection
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD PMOS_RZM001P02T2L.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD PMOS_RZM001P02T2L.1
+prop::add -value 0.04623 Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SCHMITT-TRIGGER_74AUP1G17SE-7.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SCHMITT-TRIGGER_74AUP1G17SE-7.1
+prop::add -value 0.17510 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD D-TYPE_SN74AUP1G74DCUR.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD D-TYPE_SN74AUP1G74DCUR.1
+prop::add -value 0.22588 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD NMOS_SSM3K35MFV-TPL3.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD NMOS_SSM3K35MFV-TPL3.1
+prop::add -value 0.09121 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD BJT-MMBT3904-7-F.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD BJT-MMBT3904-7-F.1
+prop::add -value 0.02719 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD PMOS_NTR1P02LT1G.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD PMOS_NTR1P02LT1G.1
+prop::add -value 0.10017 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD 3INP-OR-GATE_NC7SZ332P6X.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD 3INP-OR-GATE_NC7SZ332P6X.1
+prop::add -value 0.09022 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD USB-B_10103592-0001LF.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD USB-B_10103592-0001LF.1
+prop::add -value 0.47718 Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD USB-TVS_ESDR0502N.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD USB-TVS_ESDR0502N.1
+prop::add -value 0.12522 Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::selectitems {54 68 69 82 88 89 93 94 97 98 99 100 101 102 103 106 107 108 111 112 115 116 117}
+edit::move -offset 508,-2032
+nse::clearselection
+nse::selectitems 89
+edit::move -offset 0,0
+symbol::setoutline -rect 0,-31750,25654,31750
+nse::clearselection
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD AU6465R.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD AU6465R.1
+prop::add -value 1.200 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD NMOS_BSS138NH6327XTSA2.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD NMOS_BSS138NH6327XTSA2.1
+prop::add -value 0.06241 Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD 4-1-USB-SWITCH_FSUSB74UMX.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD 4-1-USB-SWITCH_FSUSB74UMX.1
+prop::add -value 0.40170 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD 4x2-1-MUX_SN74CB3Q3257RGYR.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD 4x2-1-MUX_SN74CB3Q3257RGYR.1
+prop::add -value 0.49286 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -file C:\EyeProject\Eye/sym/OR-CTRLR_TPS2102DBVR.1 
+nse::setmode -file -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\OR-CTRLR_TPS2102DBVR.1 OR-CTRLR_TPS2102DBVR.1
+prop::add -value 1.00811 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD COMBO-CARD-HOLDER_1046421610.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD COMBO-CARD-HOLDER_1046421610.1
+prop::add -value 2.05756 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -file C:\EyeProject\Eye/sym/REG-3V3_AP7361C-33E-13.1 
+nse::setmode -file -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\REG-3V3_AP7361C-33E-13.1 REG-3V3_AP7361C-33E-13.1
+prop::add -value 0.22763 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SEGGER-NEEDLE-10P-ADTR.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SEGGER-NEEDLE-10P-ADTR.1
+prop::add COST
+prop::setvisible -valueindex 0 -visible none COST
+prop::delete -valueindex 0 COST
+prop::add -value 0 Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+prop::setvalue -value 0.0 -valueindex 0 Cost_per_1000
+prop::setvisible -valueindex 0 Notes
+nse::selectitems 65
+gfx::setcolor -color Green
+gfx::setfont -font Script
+gfx::setfont -font SansSerif
+nse::clearselection
+nse::selectitems 65
+edit::move -offset -4826,2540
+nse::clearselection
+prop::setvisible -valueindex 0 -visible none Notes
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD JST-2P-HDR_SM02B-SRSS-TB-LF-SN.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD JST-2P-HDR_SM02B-SRSS-TB-LF-SN.1
+nse::selectitems {15 21 56 57}
+nse::deselectitems {15 21 56 57}
+nse::selectitems 61
+item::setrect -rect 2540,-7874,13970,6604
+nse::deselectitems 61
+nse::selectitems 73
+edit::move -offset 6096,254
+nse::clearselection
+nse::selectitems {15 21 56 57}
+edit::copy
+edit::paste -point 5588,-12954
+nse::clearselection
+nse::selectitems {78 79 80 81 82 83 84 85 86 87}
+nse::clearselection
+nse::undo
+nse::clearselection
+nse::selectitems {56 57}
+edit::copy
+edit::paste -point 11176,-6350
+nse::clearselection
+nse::selectitems {88 89 90 91 92}
+edit::move -offset -7112,-1016
+nse::deselectitems {88 89 90 91 92}
+nse::selectitems 61
+item::setrect -rect 2540,-7874,12700,6604
+nse::deselectitems 61
+nse::selectitems 73
+edit::move -offset 0,0
+edit::move -offset -2032,0
+nse::clearselection
+symbol::setoutline -rect 0,-8636,17780,8636
+prop::setvalue -value {CONN HEADER SH 3POS SIDE 1MM TIN} -valueindex 0 DESCRIPTION
+prop::setvalue -value SM03B-SRSS-TB(LF)(SN) -valueindex 0 MANF_P/N
+prop::setvalue -value JST-3P-HDR_SM03B-SRSS-TB-LF-SN -valueindex 0 PKG_TYPE
+nse::selectitems 21
+nse::deselectitems 21
+nse::selectitems 57
+nse::clearselection
+nse::selectitems 92
+edit::move -offset 0,0
+nse::clearselection
+nse::selectitems 92
+prop::setvalue -value 3 -dest port -ports 92 \#
+nse::deselectitems 92
+nse::selectitems 69
+port::rename -newname IN3 92
+nse::clearselection
+nse::selectitems 92
+prop::setvalue -value 5 -dest port -ports 69 \#
+nse::clearselection
+nse::selectitems 69
+nse::clearselection
+nse::savesymbol
+prop::setvalue -value DNP -valueindex 0 Notes
+prop::setvalue -value {} -valueindex 0 Notes
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD JST-2P-HDR_SM02B-SRSS-TB-LF-SN.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD JST-2P-HDR_SM02B-SRSS-TB-LF-SN.1
+nse::savesymbol -saveas JST-3P-HDR_SM03B-SRSS-TB-LF-SN.1
+prop::setvalue -value {CONN HEADER SH 2POS SIDE 1MM TIN} -valueindex 0 DESCRIPTION
+prop::setvalue -value SM02B-SRSS-TB(LF)(SN) -valueindex 0 MANF_P/N
+prop::setvalue -value JST-2P-HDR_SM02B-SRSS-TB-LF-SN -valueindex 0 PKG_TYPE
+nse::selectitems {88 92}
+symbol::deleteitems
+nse::selectitems 61
+item::setrect -rect 2540,-7874,8636,6604
+nse::deselectitems 61
+nse::selectitems 73
+edit::move -offset -4064,0
+nse::clearselection
+nse::selectitems 73
+nse::clearselection
+nse::selectitems 69
+prop::setvalue -value 3 -dest port -ports 69 \#
+nse::clearselection
+nse::savesymbol -saveas JST-2P-HDR_SM02B-SRSS-TB-LF-SN.1
+symbol::setoutline -rect 0,-8636,13716,8636
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD USB-KINETIS_NXP-MKV10Z32VFM7.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD USB-KINETIS_NXP-MKV10Z32VFM7.1
+prop::add -value 2.30100 Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -file C:\EyeProject\Eye/sym/IDEALDIODE_MAXIM-MAX40200AUK.1 
+nse::setmode -file -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\IDEALDIODE_MAXIM-MAX40200AUK.1 IDEALDIODE_MAXIM-MAX40200AUK.1
+prop::add -value 0.37536 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -file C:\EyeProject\Eye/sym/TXB0102DCUR.1 
+nse::setmode -file -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\TXB0102DCUR.1 TXB0102DCUR.1
+prop::add -value 0.39222 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD WIRLS-CHRGR-RCVR_TI-BQ51013BRHLT.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD WIRLS-CHRGR-RCVR_TI-BQ51013BRHLT.1
+symbol::setoutline -rect 254,-72136,36322,72136
+nse::selectitems 11
+nse::clearselection
+prop::add -value 3.00920 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SMALL-LED_CITIZEN-CL-503T-SD-T.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SMALL-LED_CITIZEN-CL-503T-SD-T.1
+prop::add -value 0.28331 Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SMALL-LED_CITIZEN-CL-503T-SD-T.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SMALL-LED_CITIZEN-CL-503T-SD-T.1
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD RGB-LED-DRVR_TI-LP5569RTWR.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD RGB-LED-DRVR_TI-LP5569RTWR.1
+prop::add -value 0.89311 Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -file C:\EyeProject\Eye/sym/REG-1V8_MICROCHIP-TC1015-1-8VCT713.1 
+nse::setmode -file -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\REG-1V8_MICROCHIP-TC1015-1-8VCT713.1 REG-1V8_MICROCHIP-TC1015-1-8VCT713.1
+prop::add -value 0.27300 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD 16MHZ-XTAL_ABM8-16-000MHZ-7-1-U-T.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD 16MHZ-XTAL_ABM8-16-000MHZ-7-1-U-T.1
+prop::add COST
+prop::setvisible -valueindex 0 -visible none COST
+prop::delete -valueindex 0 COST
+prop::add -value 0.75240 Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD MBED-IF_UC_MKL26Z128VFM4.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD MBED-IF_UC_MKL26Z128VFM4.1
+prop::add Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+prop::setvalue -value 3.33450 -valueindex 0 Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD PanasonicSwitch.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD PanasonicSwitch.1
+nse::savesymbol -saveas TACTILE-SPST_CNK-KMT071-NGJ-LHS.1
+prop::setvalue -value TACTILE-SPST_CNK-KMT071-NGJ-LHS -valueindex 0 PKG_TYPE
+prop::setvalue -value {SWITCH TACTILE SPST-NO 0.05A 32V} -valueindex 0 DESCRIPTION
+nse::selectitems 15
+nse::deselectitems 15
+nse::selectitems 44
+nse::clearselection
+nse::selectitems 48
+prop::setvalue -value 4 -dest port -ports 44 \#
+nse::clearselection
+nse::selectitems 18
+nse::clearselection
+nse::selectitems 44
+nse::clearselection
+nse::selectitems 18
+nse::clearselection
+nse::selectitems 44
+nse::clearselection
+nse::selectitems 48
+prop::setvalue -value 2 -dest port -ports 48 \#
+nse::clearselection
+prop::setvalue -value C&K -valueindex 0 MANF
+prop::setvalue -value {KMT071 NGJ LHS} -valueindex 0 MANF_P/N
+prop::add -value 0.16363 Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD TXC-XTAL_9HT11-32-768KBZC-T.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD TXC-XTAL_9HT11-32-768KBZC-T.1
+prop::add -value 0.46200 Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD TXC-XTAL_9HT11-32-768KBZC-T.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD TXC-XTAL_9HT11-32-768KBZC-T.1
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD 32MHZ-XTAL_CX3225SB32000D0FLJCC.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD 32MHZ-XTAL_CX3225SB32000D0FLJCC.1
+prop::add -value 0.41250 Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD NRF52832-QFAA-R.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD NRF52832-QFAA-R.1
+prop::add -value 2.86650 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD CC-DIODE-ARR_BAV70S-135.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD CC-DIODE-ARR_BAV70S-135.1
+prop::add -value 0.09068 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD CREESMRGBLED.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD CREESMRGBLED.1
+prop::add -value 0.61400 Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -file C:\EyeProject\Eye/sym/TXB0104DR.1 
+nse::setmode -file -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\TXB0104DR.1 TXB0104DR.1
+prop::add -value 0.59792 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD ACCELEROMETER_MMA8452QT.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD ACCELEROMETER_MMA8452QT.1
+prop::add -value 0.79050 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD TEMP-SENSOR_SiL_SI7006-A20-IM1.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD TEMP-SENSOR_SiL_SI7006-A20-IM1.1
+prop::add Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+prop::setvalue -value 1.68684 -valueindex 0 Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD EEPROM_AT24C02D-MAHM-T.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD EEPROM_AT24C02D-MAHM-T.1
+nse::savesymbol -saveas EEPROM_MICROCHIP-ATAES132-MAH-EQ-T.1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD EEPROM_AT24C02D-MAHM-T.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD EEPROM_AT24C02D-MAHM-T.1
+prop::add -value 0.110 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+prop::setvalue -value microchipDIRECT -valueindex 0 Distributor
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD 2x4-1-MUX_CD74HC4052PWR.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD 2x4-1-MUX_CD74HC4052PWR.1
+prop::add -value 0.22413 Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -file C:\EyeProject\Eye/sym/3C-DIP-SWITCH_NIDEC-CVS-03TB.1 
+nse::setmode -file -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\3C-DIP-SWITCH_NIDEC-CVS-03TB.1 3C-DIP-SWITCH_NIDEC-CVS-03TB.1
+prop::add -value 1.49520 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD 4P-HEADER_MOLEX-5037630491.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD 4P-HEADER_MOLEX-5037630491.1
+prop::add -value 0.62093 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD XTAL_CM315D32768EZFT.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD XTAL_CM315D32768EZFT.1
+prop::add -value 0.45870 Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none VALUE
+prop::setvisible -valueindex 0 VALUE
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -file C:\EyeProject\Eye/sym/U-BLOX_EVA-M8Q.1 
+nse::setmode -file -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -file C:\\EyeProject\\Eye\\SYM\\U-BLOX_EVA-M8Q.1 U-BLOX_EVA-M8Q.1
+prop::add -value 10.53000 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD GPS-SAW_B39162B4327P810.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD GPS-SAW_B39162B4327P810.1
+prop::add -value 1.23323 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD RF-GNSS-SPDT_4259-63.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD RF-GNSS-SPDT_4259-63.1
+prop::add -value 0.650 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SMA_0732511150.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SMA_0732511150.1
+prop::add -value 1.92937 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD AntenovaSR4G008.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD AntenovaSR4G008.1
+prop::add -value 1.73644 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD RF-LNA_BGU8009-115.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD RF-LNA_BGU8009-115.1
+prop::add Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+prop::setvalue -value 0.31185 -valueindex 0 Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD FLASH_S25FL132K0XNFIQ11.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD FLASH_S25FL132K0XNFIQ11.1
+# invalid property value : expected real value
+prop::add Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+prop::setvalue -value 0.98000 -valueindex 0 Cost_per_1000
+nse::selectitems 106
+edit::move -offset 762,-4572
+nse::clearselection
+nse::selectitems {11 12 13 14 15 16 17 18 19 30 31 32 33 57 58 60 61 63 64 66 67 69 106 107 108 109 113 114 116}
+edit::move -offset 0,5080
+nse::clearselection
+symbol::setoutline -rect 0,-23876,30480,23876
+nse::savesymbol
+symbol::setoutline -rect 0,-23622,30480,23622
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD FLASH_S25FL132K0XNFIQ11.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD FLASH_S25FL132K0XNFIQ11.1
+prop::setvalue -value 0.513 -valueindex 0 Cost_per_1000
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD Slide-DPDT_CL-SB-22A-11T.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD Slide-DPDT_CL-SB-22A-11T.1
+prop::add -value 0.78188 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD EHS6.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD EHS6.1
+prop::add -value 35 Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD EHS6.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD EHS6.1
+prop::setvalue -value 35.000 -valueindex 0 Cost_per_1000
+prop::setvalue -value {Embedded Works} -valueindex 0 Distributor
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD PMOS_IRLML6401TRPBF.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD PMOS_IRLML6401TRPBF.1
+prop::add -value 0.116 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+prop::setvalue -value Allied -valueindex 0 Distributor
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD UFL_U-FL-R-SMT-1-10.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD UFL_U-FL-R-SMT-1-10.1
+prop::add -value 0.72160 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD LVL-SHFTR_SN74LVC1T45DCKR.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD LVL-SHFTR_SN74LVC1T45DCKR.1
+prop::add -value 0.22413 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+prop::setvalue -value {Pin 1 designated by silkscreen dot} -valueindex 0 Notes
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SYM_BOM_ENTRY.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SYM_BOM_ENTRY.1
+prop::setvalue -value BOM? -valueindex 0 REFDES
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD FUEL-GAUGE_LC709203FQH-01TWG.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD FUEL-GAUGE_LC709203FQH-01TWG.1
+nse::selectitems 22
+nse::clearselection
+nse::selectitems {22 24 26 60}
+symbol::deleteitems {22 24 26 60}
+nse::savesymbol -saveas BATT-PROTECT_TI-BQ29700DSER.1
+prop::setvalue -value BQ29700DSER -valueindex 0 MANF_P/N
+prop::setvalue -value {Pin 1 designated by notched pad} -valueindex 0 Notes
+prop::setvalue -value S-PDSO-N6 -valueindex 0 PKG_TYPE
+prop::setvalue -value {Texas Instruments} -valueindex 0 MANF
+prop::setvalue -value {IC LITHIUM BATT PROTECT 6-SON} -valueindex 0 DESCRIPTION
+prop::setvalue -value 0.29499 -valueindex 0 Cost_per_1000
+nse::selectitems 18
+nse::deselectitems 18
+nse::selectitems 16
+edit::copy
+edit::paste -point -762,-14732
+nse::clearselection
+nse::selectitems {154 155 156 157}
+nse::clearselection
+nse::selectitems 18
+prop::setvalue -value 5 -dest port -ports 157 \#
+nse::clearselection
+nse::selectitems 18
+nse::clearselection
+nse::selectitems 12
+port::rename -newname NC 18
+# port 'NC reused id = 60
+nse::clearselection
+nse::selectitems 60
+nse::clearselection
+nse::selectitems 12
+port::rename -newname COUT 12
+nse::clearselection
+nse::selectitems 14
+nse::clearselection
+nse::selectitems 16
+nse::clearselection
+nse::selectitems 14
+port::rename -newname DOUT 14
+nse::clearselection
+nse::selectitems 16
+nse::clearselection
+nse::selectitems 157
+port::rename -newname VSS 16
+nse::clearselection
+nse::selectitems 20
+port::rename -newname BAT 157
+port::rename -newname V- 20
+nse::clearselection
+nse::selectitems 60
+nse::clearselection
+nse::selectitems {12 14 30 31 33 60}
+edit::vertmirror
+nse::clearselection
+nse::selectitems {16 20 32 34 155 157}
+nse::clearselection
+nse::selectitems {16 20}
+nse::clearselection
+nse::selectitems {16 20 32 34 155 157}
+edit::move -offset 10922,17780
+nse::clearselection
+nse::selectitems {12 14 60}
+edit::move -offset -27432,1016
+edit::move -offset -1778,3810
+nse::clearselection
+nse::selectitems 60
+edit::move -offset 1524,-10668
+nse::clearselection
+nse::selectitems 11
+item::setrect -rect 5080,-20320,17780,20320
+nse::clearselection
+nse::selectitems 60
+edit::move -offset 4826,254
+nse::clearselection
+nse::selectitems 14
+edit::move -offset 6350,2794
+nse::deselectitems 14
+nse::selectitems 12
+edit::move -offset -1270,-508
+nse::deselectitems 12
+nse::selectitems 14
+edit::move -offset 0,5080
+nse::deselectitems 14
+nse::selectitems 12
+edit::move -offset 7620,-7620
+nse::clearselection
+symbol::setoutline -rect 0,-25400,28194,25400
+nse::selectitems 14
+edit::move -offset 0,2540
+nse::clearselection
+nse::selectitems 12
+edit::move -offset 0,2540
+nse::deselectitems 12
+nse::selectitems 60
+edit::move -offset 0,2540
+nse::clearselection
+nse::selectitems 54
+nse::deselectitems 54
+nse::selectitems 11
+item::setrect -rect 5080,-15240,17780,15240
+nse::clearselection
+nse::selectitems {16 20 157}
+nse::deselectitems {16 20 157}
+nse::selectitems 17
+nse::clearselection
+nse::selectitems {16 20 157}
+edit::vertmirror
+nse::clearselection
+nse::selectitems 20
+edit::move -offset 12700,-25400
+nse::clearselection
+nse::selectitems 157
+edit::move -offset 11938,-12954
+nse::clearselection
+nse::selectitems 16
+edit::move -offset 12700,-10160
+nse::clearselection
+nse::selectitems 11
+item::setrect -rect 5080,-15240,15240,15240
+nse::clearselection
+nse::selectitems {16 20 157}
+edit::move -offset -2540,0
+nse::clearselection
+nse::selectitems 54
+edit::move -offset 2540,5080
+nse::clearselection
+nse::selectitems 55
+edit::move -offset 0,5080
+nse::clearselection
+symbol::setoutline -rect 0,-20320,25400,20320
+nse::selectitems 12
+nse::clearselection
+nse::selectitems 60
+port::settype -type in
+nse::clearselection
+nse::selectitems 12
+port::settype -type out
+nse::clearselection
+nse::selectitems 14
+port::settype -type out
+nse::clearselection
+nse::selectitems 16
+port::settype -type ground
+nse::clearselection
+nse::selectitems 157
+port::settype -type in
+nse::clearselection
+nse::selectitems 20
+nse::clearselection
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD BATT-PROTECT_TI-BQ29700DSER.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD BATT-PROTECT_TI-BQ29700DSER.1
+prop::setvalue -value 0.53680 -valueindex 0 Cost_per_1000
+prop::setvalue -value BQ29732DSET -valueindex 0 MANF_P/N
+prop::setvalue -value {} -valueindex 0 DESCRIPTION
+prop::setvalue -value {IC LITHIUM BATT PROTECT 6WSON} -valueindex 0 DESCRIPTION
+nse::savesymbol -saveas BATT-PROTECT_TI-BQ29732DSET.1
+prop::setvalue -value 0.330 -valueindex 0 Cost_per_1000
+prop::setvalue -value Mouser -valueindex 0 Distributor
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD NMOS_BSS138NH6327XTSA2.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD NMOS_BSS138NH6327XTSA2.1
+prop::setvalue -value IRLML6344TRPBF -valueindex 0 MANF_P/N
+nse::selectitems 12
+nse::deselectitems 12
+nse::selectitems 50
+nse::deselectitems 50
+nse::selectitems 14
+nse::clearselection
+prop::setvalue -value 0.13165 -valueindex 0 Cost_per_1000
+prop::setvalue -value {MOSFET N-CH 30V 5A SOT23} -valueindex 0 DESCRIPTION
+nse::savesymbol -saveas NMOS_IRLML6344TRPBF.1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SYM_BOM_ENTRY.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SYM_BOM_ENTRY.1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SYM_BOM_ENTRY.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SYM_BOM_ENTRY.1
+nse::closesymbol
