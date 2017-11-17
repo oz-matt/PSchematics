@@ -14,14 +14,15 @@
     <Line text="Generated on $(DATE)"/>
   </Header>
   <Columns>
-    <Column type="NUMBER" label="#" width="10"/>
-    <Column type="QUANTITY" label="QTY" width="2"/>
-    <Column type="PROPERTY" property="REFDES" label="REFDES" width="10" sort="ASCENDING" key="SECONDARY" display="Full"/>
-    <Column type="PROPERTY" property="VALUE" label="VALUE" width="10" display="Compress"/>
+    <Column type="NUMBER" label="#" width="1"/>
+    <Column type="QUANTITY" label="QTY" width="1"/>
+    <Column type="PROPERTY" property="REFDES" label="REFDES" width="5" sort="ASCENDING" key="SECONDARY" display="Compress"/>
+    <Column type="PROPERTY" property="VALUE" label="VALUE" width="2" display="Compress"/>
     <Column type="PROPERTY" property="DESCRIPTION" label="DESCRIPTION" width="5" key="SECONDARY" display="Compress"/>
-    <Column type="PROPERTY" property="MANF" label="MANF" width="5" display="Compress"/>
-    <Column type="PROPERTY" property="MANF_P/N" label="MANF_P/N" width="5" key="PRIMARY" display="Compress"/>
-    <Column type="PROPERTY" property="Distributor" label="DISTRIBUTOR" width="5" display="Compress"/>
+    <Column type="PROPERTY" property="MANF" label="MANF" width="3" display="Compress"/>
+    <Column type="PROPERTY" property="MANF_P/N" label="MANF_P/N" width="3" key="PRIMARY" display="Compress"/>
+    <Column type="PROPERTY" property="Distributor" label="DISTRIBUTOR" width="2" display="Compress"/>
     <Column type="PROPERTY" property="Notes" label="NOTES" width="5" key="PRIMARY" display="Compress"/>
+    <Column type="PROPERTY" property="Cost_per_1000" label="Cost_per_1000" width="5" display="Compress"/>
   </Columns>
 </PartListerConfiguration>

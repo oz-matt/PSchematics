@@ -67615,3 +67615,71 @@ nse::closesymbol
 nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
 nse::opensymbol -snapshot DxD SYM_BOM_ENTRY.1
 nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD BLE-ANT_440.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD BLE-ANT_440.1
+prop::add Cost_per_1000
+prop::setvisible -valueindex 0 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+prop::setvalue -value 0.28108 -valueindex 0 Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SYM_BOM_ENTRY.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SYM_BOM_ENTRY.1
+symbol::setforwardpcb true
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SYM_BOM_ENTRY.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SYM_BOM_ENTRY.1
+symbol::setforwardpcb true
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD BLE-ANT_440.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD BLE-ANT_440.1
+prop::setvalue -value {} -valueindex 0 Notes
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD AntenovaSR4G008.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD AntenovaSR4G008.1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD TEMP-SENSOR_SiL_SI7006-A20-IM1.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD TEMP-SENSOR_SiL_SI7006-A20-IM1.1
+prop::setvalue -value {Silicon Labs} -valueindex 0 MANF
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD ACCELEROMETER_MMA8452QT.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD ACCELEROMETER_MMA8452QT.1
+nse::opensymbol -snapshot DxD WIRLS-CHRGR-RCVR_TI-BQ51013BRHLT.1
+prop::setvalue -value {Pin 1 designated by silkscreen dot} -valueindex 0 Notes
+nse::savesymbol sid2
+nse::closesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD D-TYPE_SN74AUP1G74DCUR.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD D-TYPE_SN74AUP1G74DCUR.1
+prop::setvalue -value {Pin 1 indicated by silkscreen dot} -valueindex 0 Notes
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD RF-GNSS-SPDT_4259-63.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD RF-GNSS-SPDT_4259-63.1
+prop::setvalue -value {Pin 1 indicated by silkscreen dot} -valueindex 0 Notes
+prop::setvalue -value {RF Switch IC General Purpose SPDT 3GHz 50 Ohm SC-70-6} -valueindex 0 DESCRIPTION
+nse::savesymbol sid1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD Slide-DPDT_CL-SB-22A-11T.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD Slide-DPDT_CL-SB-22A-11T.1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD SMDLED-BLU_LITEON-LTST-C193TBKT-5A.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD SMDLED-BLU_LITEON-LTST-C193TBKT-5A.1
+prop::add -value 0.08577 Cost_per_1000
+prop::setvisible -valueindex 0 -visible none Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol

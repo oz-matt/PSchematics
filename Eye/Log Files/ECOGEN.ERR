@@ -1,20 +1,20 @@
-PADS Layout ECO Generator (Version 6.4v) 11/16/2017 3:36:34 PM
+PADS Layout ECO Generator (Version 6.4v) 11/16/2017 9:03:27 PM
 Copyright (c) 2003 - 2008 Mentor Graphics Corp. - All rights reserved
 Command line arguments:  -e C:\EyeProject\Eye\Log Files\ECOGEN.ERR -r p -a PCB,PART,NET,PIN -l PCB,NET,NETCLASS,GEN,DFP
-16 msec
-4 msec
+23 msec
+5 msec
 Reading the OLD DESIGN
-There are 575 parts in the design
+There are 577 parts in the design
 There are 364 signals in the design
-There are 1707 pins in the design
-30 msec
+There are 1711 pins in the design
+67 msec
 Reading the NEW DESIGN
 WARNING: Signal $6N723 has 1 pins
-There are 575 parts in the design
+There are 590 parts in the design
 There are 365 signals in the design
-There are 1708 pins in the design
-10 msec
-Final cost=16
-Partitioning - 7 msec
-Final Matching - 2 msec
+There are 1712 pins in the design
+18 msec
+Final cost=848
+Partitioning - 14 msec
+Final Matching - 4 msec
 Deleted pins: 0,  Added pins: 1
