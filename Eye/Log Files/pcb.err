@@ -199,6 +199,7 @@ pcb: Warning 6113: Device SYM_BOM_ENTRY has 0 shapes
 pcb: Warning 6113: Device SYM_BOM_ENTRY has 0 shapes
 pcb: Warning 6113: Device SYM_BOM_ENTRY has 0 shapes
 pcb: Warning 6113: Device SYM_BOM_ENTRY has 0 shapes
+pcb: Note 5854: Instance value (PKG_TYPE=0402) was added to instance ($4I5190) on (Q10B).
 pcb: Note 5626: Summary of Log Files/pcb.err
-Status 0, Notes 2, Warnings 199
+Status 0, Notes 3, Warnings 199
 Errors 0, Failures 0, Fatals 0, Internals 0

@@ -622,21 +622,9 @@
 			(pin 7  3 "SEGGER-NEEDLE-10P-ADTR__SEGGER-NEEDLE-10P-ADTR_1" 0 "RTCK" 0)
 			(pin 3  3 "SEGGER-NEEDLE-10P-ADTR__SEGGER-NEEDLE-10P-ADTR_1" 0 "GND" 0)
 			(pin 5  3 "SEGGER-NEEDLE-10P-ADTR__SEGGER-NEEDLE-10P-ADTR_1" 0 "5V-SUPPLY" 0))
-		(part "SCHOTTKY_MBRS410LT3G")
-		(logical_part_mapping "SCHOTTKY_MBRS410LT3G"
-			(comp "D19" "D18"))
-		(logical_part "SCHOTTKY_MBRS410LT3G"
-			(slots
-				(slot "SCHOTTKY_MBRS410LT3G__SCHOTTKY_MBRS410LT3G_1"
-					(attributes
-						(attval "Description" "DIODE SCHOTTKY 10V 4A SMC")
-						(attval "PKG_TYPE" "SMC-2L")
-						(attval "REFDES" "D?"))))
-			(pin 1  4 "SCHOTTKY_MBRS410LT3G__SCHOTTKY_MBRS410LT3G_1" 0 "CATHODE" 0)
-			(pin 2  3 "SCHOTTKY_MBRS410LT3G__SCHOTTKY_MBRS410LT3G_1" 0 "ANODE" 0))
 		(part "SCHOTTKY_CUS520-HEF")
 		(logical_part_mapping "SCHOTTKY_CUS520-HEF"
-			(comp "D17" "D16" "D15" "D14" "D13" "D12" "D11" "D10" "D9" "D8" "D7" "D6" "D5" "D4" "D2" "D1"))
+			(comp "D19" "D18" "D17" "D16" "D15" "D14" "D13" "D12" "D11" "D10" "D9" "D8" "D7" "D6" "D5" "D4" "D2" "D1"))
 		(logical_part "SCHOTTKY_CUS520-HEF"
 			(slots
 				(slot "SCHOTTKY_CUS520-HEF__SCHOTTKY_CUS520-HEF_1"
@@ -3894,22 +3882,22 @@
 				(attval "Description" "SWITCH TACTILE SPST-NO 0.05A 12V")
 				(attval "DEVICE" "SPST_CNK_PTS840-GK-SMTR-LFS")
 				(attval "REFDES" "SW1")))
-		(component "0603"
+		(component "0402"
 			(place "R183" 0.0 0.0 top 0.0
 				(comp_pin "2" 0.0 0.0 "IN")
 				(comp_pin "1" 0.0 0.0 "IN"))
 			(attributes
-				(attval "Value" "0R0")
-				(attval "Description" "RES SMD 0.0OHM JUMPER 1/10W 0603")
+				(attval "Value" "0R")
+				(attval "Description" "RES SMD 0 OHM JUMPER 1/16W 0402")
 				(attval "DEVICE" "SYM_RES")
 				(attval "REFDES" "R183")))
-		(component "0603"
+		(component "0402"
 			(place "R182" 0.0 0.0 top 0.0
 				(comp_pin "2" 0.0 0.0 "IN")
 				(comp_pin "1" 0.0 0.0 "IN"))
 			(attributes
-				(attval "Value" "0R0")
-				(attval "Description" "RES SMD 0.0OHM JUMPER 1/10W 0603")
+				(attval "Value" "0R")
+				(attval "Description" "RES SMD 0 OHM JUMPER 1/16W 0402")
 				(attval "DEVICE" "SYM_RES")
 				(attval "REFDES" "R182")))
 		(component "0402"
@@ -5460,40 +5448,40 @@
 				(attval "Description" "DNP")
 				(attval "DEVICE" "SYM_RES")
 				(attval "REFDES" "R10")))
-		(component "0603"
+		(component "0402"
 			(place "R9" 0.0 0.0 top 0.0
 				(comp_pin "2" 0.0 0.0 "IN")
 				(comp_pin "1" 0.0 0.0 "IN"))
 			(attributes
 				(attval "Value" "5.1M")
-				(attval "Description" "RES SMD 5.1M OHM 5% 1/10W 0603")
+				(attval "Description" "RES SMD 5.1M OHM 5% 1/16W 0402")
 				(attval "DEVICE" "SYM_RES")
 				(attval "REFDES" "R9")))
-		(component "0603"
+		(component "0402"
 			(place "R8" 0.0 0.0 top 0.0
 				(comp_pin "2" 0.0 0.0 "IN")
 				(comp_pin "1" 0.0 0.0 "IN"))
 			(attributes
 				(attval "Value" "5.1M")
-				(attval "Description" "RES SMD 5.1M OHM 5% 1/10W 0603")
+				(attval "Description" "RES SMD 5.1M OHM 5% 1/16W 0402")
 				(attval "DEVICE" "SYM_RES")
 				(attval "REFDES" "R8")))
-		(component "0603"
+		(component "0402"
 			(place "R7" 0.0 0.0 top 0.0
 				(comp_pin "2" 0.0 0.0 "IN")
 				(comp_pin "1" 0.0 0.0 "IN"))
 			(attributes
 				(attval "Value" "2.2K")
-				(attval "Description" "RES SMD 2.2K OHM 1% 1/10W 0603")
+				(attval "Description" "RES SMD 2.2K OHM 1% 1/16W 0402")
 				(attval "DEVICE" "SYM_RES")
 				(attval "REFDES" "R7")))
-		(component "0603"
+		(component "0402"
 			(place "R6" 0.0 0.0 top 0.0
 				(comp_pin "2" 0.0 0.0 "IN")
 				(comp_pin "1" 0.0 0.0 "IN"))
 			(attributes
 				(attval "Value" "330R")
-				(attval "Description" "RES SMD 330 OHM 1% 1/10W 0603")
+				(attval "Description" "RES SMD 330 OHM 1% 1/16W 0402")
 				(attval "DEVICE" "SYM_RES")
 				(attval "REFDES" "R6")))
 		(component "0402"
@@ -6239,21 +6227,21 @@
 				(attval "Value" "3.0A")
 				(attval "DEVICE" "SYM_FUSE")
 				(attval "REFDES" "F1")))
-		(component "SMC-2L"
+		(component "SOD-323"
 			(place "D19" 0.0 0.0 top 0.0
 				(comp_pin "1" 0.0 0.0 "OUT")
 				(comp_pin "2" 0.0 0.0 "IN"))
 			(attributes
 				(attval "Description" "DNP")
-				(attval "DEVICE" "SCHOTTKY_MBRS410LT3G")
+				(attval "DEVICE" "SCHOTTKY_CUS520-HEF")
 				(attval "REFDES" "D19")))
-		(component "SMC-2L"
+		(component "SOD-323"
 			(place "D18" 0.0 0.0 top 0.0
 				(comp_pin "1" 0.0 0.0 "OUT")
 				(comp_pin "2" 0.0 0.0 "IN"))
 			(attributes
 				(attval "Description" "DNP")
-				(attval "DEVICE" "SCHOTTKY_MBRS410LT3G")
+				(attval "DEVICE" "SCHOTTKY_CUS520-HEF")
 				(attval "REFDES" "D18")))
 		(component "SOD-323"
 			(place "D17" 0.0 0.0 top 0.0
@@ -7590,13 +7578,14 @@
  "1µF 6.3V CERAMIC CAPACITOR X5R 0402 (1005 METRIC) 0.039"" L X 0.020"" W (1.00MM X 0.50MM)")
 				(attval "DEVICE" "SYM_CAP_UNPOL")
 				(attval "REFDES" "C4")))
-		(component "0603"
+		(component "0402"
 			(place "C3" 0.0 0.0 top 0.0
 				(comp_pin "2" 0.0 0.0 "IN")
 				(comp_pin "1" 0.0 0.0 "IN"))
 			(attributes
 				(attval "Value" "100NF")
-				(attval "Description" "CAP CER 0.1UF 50V X7R 0603")
+				(attval "Description"
+ "0.10µF ±10% 6.3V CERAMIC CAPACITOR X7R 0402 (1005 METRIC)")
 				(attval "DEVICE" "SYM_CAP_UNPOL")
 				(attval "REFDES" "C3")))
 		(component "0402"
@@ -7897,8 +7886,8 @@
 		(func "$6I2529" "" "SW3" 1)
 		(func "$4I2868" "" "SW2" 1)
 		(func "$2I3584" "" "SW1" 1)
-		(func "$4I5487" "" "R183" 1)
-		(func "$4I5476" "" "R182" 1)
+		(func "$4I5638" "" "R183" 1)
+		(func "$4I5627" "" "R182" 1)
 		(func "$4I5436" "" "R181" 1)
 		(func "$3I3576" "" "R180" 1)
 		(func "$3I3565" "" "R179" 1)
@@ -8071,7 +8060,7 @@
 		(func "$2I4411" "" "R12" 1)
 		(func "$2I4400" "" "R11" 1)
 		(func "$1I2842" "" "R10" 1)
-		(func "$1I2780" "" "R9" 1)
+		(func "$1I2962" "" "R9" 1)
 		(func "$1I2749" "" "R8" 1)
 		(func "$1I2738" "" "R7" 1)
 		(func "$1I2727" "" "R6" 1)
@@ -8151,8 +8140,8 @@
 		(func "$1I2455" "" "J1" 1)
 		(func "$3I2156" "" "F2" 1)
 		(func "$1I2192" "" "F1" 1)
-		(func "$4I5060" "" "D19" 1)
-		(func "$4I5059" "" "D18" 1)
+		(func "$4I5615" "" "D19" 1)
+		(func "$4I5603" "" "D18" 1)
 		(func "$9I186" "" "D17" 1)
 		(func "$9I141" "" "D16" 1)
 		(func "$8I1400" "" "D15" 1)
@@ -8295,7 +8284,7 @@
 		(func "$2I4488" "" "C6" 1)
 		(func "$1I165" "" "C5" 1)
 		(func "$2I4477" "" "C4" 1)
-		(func "$1I2760" "" "C3" 1)
+		(func "$1I2951" "" "C3" 1)
 		(func "$1I2480" "" "C2" 1)
 		(func "$1I2467" "" "C1" 1)
 		(func "$9I1282" "" "BOM13" 1)
@@ -8319,7 +8308,7 @@
 		(net "3V3_AU"
 			(pins TP13-1 C25-1 C33-1 C35-2 C52-2 R61-1 U31-5 U50-2 U50-10 U50-16))
 		(net "3V3_GPS"
-			(pins TP2-1 D14-2 C21-1 R52-1))
+			(pins TP2-1 D14-2 R52-1))
 		(net "3V3_GPS_ACT"
 			(pins TP46-1 C106-2 C110-2 R146-1 R149-2 SW4-6))
 		(net "3V3_GPS_PAS"
@@ -8335,7 +8324,7 @@
 			(pins TP14-1 U9-16 U10-16 J4-T4 C27-2 C38-1 R60-1 R62-1 R41-1 R42-1 R43-1))
 		(net "3V3_USB"
 			(pins TP20-1 D8-2 D15-2 C42-2 R48-2 R44-2 R59-2 R66-2 R67-1 R78-1 R77-1
- R183-2 U27-1 U49-7 U54-4 U59-3))
+ R182-2 U27-1 U49-7 U54-4 U59-3))
 		(net "3V3_USB_OR_BTN"
 			(pins D8-1 D9-1 C43-2 C63-2 C67-2 U18-5 U20-7 Q31-2 U25-1 U25-7 U26-1 U26-3
  R69-2 R72-2 R74-2 R76-2 R81-2 R87-2 R88-1 R98-2 R99-2 U27-5 U28-5 J6-1 U43-3
@@ -8344,17 +8333,17 @@
 			(pins SW1-2 SW1-4 Q22-2 Q24-2 TP76-1 C11-2 U17-5 U20-3 U21-3 R4-2 R1-1 R24-1
  R15-2 R16-2 U48-8 U49-21 U36-13 U51-4))
 		(net "3V_BTNPWR"
-			(pins D9-2 C40-2 R70-2 R182-2 U28-1 U55-1))
+			(pins D9-2 C40-2 R70-2 R183-2 U28-1 U55-1))
 		(net "3V_SWPWR"
 			(pins TP92-1 C10-2 C12-2 C15-2 Q32-2 R23-2 R25-2 R27-1 R29-2 R73-1 U51-1
  U52-4 U53-4 U55-4 U61-5))
 		(net "5V_USB"
-			(pins U4-6 C44-2 U22-1 U22-2 R91-1 R123-2 R159-1 R164-2 U29-5 U30-5 D18-1
- D19-1 U39-233 U45-1 U60-3))
+			(pins U4-6 D18-1 D19-1 C44-2 U22-1 U22-2 R91-1 R123-2 R159-1 R164-2 U29-5
+ U30-5 U39-233 U45-1 U60-3))
 		(net "5V_USB_QI"
-			(pins D3-2 U14-4 R89-2 R92-2 U29-1 D18-2 U56-3))
+			(pins D3-2 D19-2 U14-4 R89-2 R92-2 U29-1 U56-3))
 		(net "5V_USB_RAW"
-			(pins F2-2 R90-2 R91-2 R93-2 U30-1 D19-2 U38-6))
+			(pins F2-2 D18-2 R90-2 R91-2 R93-2 U30-1 U38-6))
 		(net "$1N56"
 			(pins TP83-1 U36-2))
 		(net "$1N57"
@@ -8398,7 +8387,7 @@
 		(net "$1N2772"
 			(pins J3-4 F1-1 R6-1))
 		(net "$1N2774"
-			(pins J3-2 C3-1 R9-2 R10-2 Q35-2 U41-4))
+			(pins J3-2 C3-1 R10-2 R9-2 Q35-2 U41-4))
 		(net "$1N2778"
 			(pins R7-2 U41-6))
 		(net "$1N2824"
@@ -8444,7 +8433,7 @@
 		(net "$2N4736"
 			(pins U3-3 U3-1 C20-2 U37-1))
 		(net "$2N4740"
-			(pins R52-2 U40-1))
+			(pins C21-1 R52-2 U40-1))
 		(net "$2N4741"
 			(pins U3-5 R53-2))
 		(net "$2N4926"
@@ -8498,9 +8487,9 @@
 		(net "$4N2899"
 			(pins D7-2 Q32-3 R75-2))
 		(net "$4N3252"
-			(pins R183-1 U27-3))
+			(pins R182-1 U27-3))
 		(net "$4N3253"
-			(pins R182-1 U28-3))
+			(pins R183-1 U28-3))
 		(net "$4N3256"
 			(pins R77-2 U45-3))
 		(net "$4N4055"
