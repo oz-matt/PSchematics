@@ -3,14 +3,6 @@ pcb: Warning 5733: Parameterized attribute VALUE=600R @ 100MHZ on FUNC $9I112: v
 pcb: Warning 5733: Parameterized attribute VALUE=600R @ 100MHZ on FUNC $9I112: viewbase: Error 338: Undefined variable(s) encountered
 pcb: Warning 5733: Parameterized attribute VALUE=600R @ 100MHZ on FUNC $9I113: viewbase: Error 338: Undefined variable(s) encountered
 pcb: Warning 5733: Parameterized attribute VALUE=600R @ 100MHZ on FUNC $9I113: viewbase: Error 338: Undefined variable(s) encountered
-pcb: Warning 5733: Parameterized attribute VALUE=600R @ 100MHZ on FUNC $9I114: viewbase: Error 338: Undefined variable(s) encountered
-pcb: Warning 5733: Parameterized attribute VALUE=600R @ 100MHZ on FUNC $9I114: viewbase: Error 338: Undefined variable(s) encountered
-pcb: Warning 5733: Parameterized attribute VALUE=600R @ 100MHZ on FUNC $9I115: viewbase: Error 338: Undefined variable(s) encountered
-pcb: Warning 5733: Parameterized attribute VALUE=600R @ 100MHZ on FUNC $9I115: viewbase: Error 338: Undefined variable(s) encountered
-pcb: Warning 5733: Parameterized attribute VALUE=600R @ 100MHZ on FUNC $9I117: viewbase: Error 338: Undefined variable(s) encountered
-pcb: Warning 5733: Parameterized attribute VALUE=600R @ 100MHZ on FUNC $9I117: viewbase: Error 338: Undefined variable(s) encountered
-pcb: Warning 5733: Parameterized attribute VALUE=600R @ 100MHZ on FUNC $9I118: viewbase: Error 338: Undefined variable(s) encountered
-pcb: Warning 5733: Parameterized attribute VALUE=600R @ 100MHZ on FUNC $9I118: viewbase: Error 338: Undefined variable(s) encountered
 pcb: Warning 5733: Parameterized attribute VALUE=600R @ 100MHZ on FUNC $9I122: viewbase: Error 338: Undefined variable(s) encountered
 pcb: Warning 5733: Parameterized attribute VALUE=600R @ 100MHZ on FUNC $9I122: viewbase: Error 338: Undefined variable(s) encountered
 pcb: Warning 5733: Parameterized attribute VALUE=600R @ 100MHZ on FUNC $9I123: viewbase: Error 338: Undefined variable(s) encountered
@@ -30,7 +22,11 @@ pcb: Warning 6094: Q10B pin $9I127.ADC1: Pin not connected
 pcb: Warning 6094: Q10B pin $9I127.CTS0: Pin not connected
 pcb: Warning 6094: Q10B pin $9I127.GPIO1/DTR0: Pin not connected
 pcb: Warning 6094: Q10B pin $9I127.GPIO15: Pin not connected
+pcb: Warning 6094: Q10B pin $9I127.GPIO18/CP_WAKEUP/RTS1: Pin not connected
+pcb: Warning 6094: Q10B pin $9I127.GPIO19/SUSPEND/CTS1/SPI_CS: Pin not connected
 pcb: Warning 6094: Q10B pin $9I127.GPIO2/DCD0: Pin not connected
+pcb: Warning 6094: Q10B pin $9I127.GPIO20/TXDDAI: Pin not connected
+pcb: Warning 6094: Q10B pin $9I127.GPIO21/RXDDAI: Pin not connected
 pcb: Warning 6094: Q10B pin $9I127.GPIO22/TFSDAI: Pin not connected
 pcb: Warning 6094: Q10B pin $9I127.GPIO23/SCLK: Pin not connected
 pcb: Warning 6094: Q10B pin $9I127.GPIO24/RING0: Pin not connected
@@ -42,6 +38,8 @@ pcb: Warning 6094: Q10B pin $9I127.GPIO7/PWM1: Pin not connected
 pcb: Warning 6094: Q10B pin $9I127.GPIO8/COUNTER: Pin not connected
 pcb: Warning 6094: Q10B pin $9I127.HSIC_DATA: Pin not connected
 pcb: Warning 6094: Q10B pin $9I127.HSIC_STRB: Pin not connected
+pcb: Warning 6094: Q10B pin $9I127.I2CCLK: Pin not connected
+pcb: Warning 6094: Q10B pin $9I127.I2CDAT: Pin not connected
 pcb: Warning 6094: Q10B pin $9I127.NC1: Pin not connected
 pcb: Warning 6094: Q10B pin $9I127.NC10: Pin not connected
 pcb: Warning 6094: Q10B pin $9I127.NC11: Pin not connected
@@ -60,6 +58,7 @@ pcb: Warning 6094: Q10B pin $9I127.NC7: Pin not connected
 pcb: Warning 6094: Q10B pin $9I127.NC8: Pin not connected
 pcb: Warning 6094: Q10B pin $9I127.NC9: Pin not connected
 pcb: Warning 6094: Q10B pin $9I127.RTS0: Pin not connected
+pcb: Warning 6094: Q10B pin $9I127.RXD0: Pin not connected
 pcb: Warning 6094: Q10B pin $9I127.RESERVED_1: Pin not connected
 pcb: Warning 6094: Q10B pin $9I127.RESERVED_10: Pin not connected
 pcb: Warning 6094: Q10B pin $9I127.RESERVED_11: Pin not connected
@@ -74,9 +73,15 @@ pcb: Warning 6094: Q10B pin $9I127.RESERVED_6: Pin not connected
 pcb: Warning 6094: Q10B pin $9I127.RESERVED_7: Pin not connected
 pcb: Warning 6094: Q10B pin $9I127.RESERVED_8: Pin not connected
 pcb: Warning 6094: Q10B pin $9I127.RESERVED_9: Pin not connected
+pcb: Warning 6094: Q10B pin $9I127.TXD0: Pin not connected
 pcb: Warning 6094: Q10B pin $9I127.VDDLP: Pin not connected
 pcb: Warning 6094: Q10B pin $8I1387.NC1: Pin not connected
 pcb: Warning 6094: Q10B pin $8I1387.NC2: Pin not connected
+pcb: Warning 6094: Q10B pin $8I1333.ANT_OFF: Pin not connected
+pcb: Warning 6094: Q10B pin $8I1333.ANT_OK: Pin not connected
+pcb: Warning 6094: Q10B pin $8I1333.DSEL: Pin not connected
+pcb: Warning 6094: Q10B pin $8I1333.PIO13: Pin not connected
+pcb: Warning 6094: Q10B pin $8I1333.PIO14: Pin not connected
 pcb: Warning 6094: Q10B pin $8I1333.RES1: Pin not connected
 pcb: Warning 6094: Q10B pin $8I1333.RES2: Pin not connected
 pcb: Warning 6094: Q10B pin $8I1333.RES3: Pin not connected
@@ -84,6 +89,11 @@ pcb: Warning 6094: Q10B pin $8I1333.RES4: Pin not connected
 pcb: Warning 6094: Q10B pin $8I1333.RES5: Pin not connected
 pcb: Warning 6094: Q10B pin $8I1333.RES6: Pin not connected
 pcb: Warning 6094: Q10B pin $8I1333.RES7: Pin not connected
+pcb: Warning 6094: Q10B pin $8I1333.RESET_N: Pin not connected
+pcb: Warning 6094: Q10B pin $8I1333.SAFEBOOT_N: Pin not connected
+pcb: Warning 6094: Q10B pin $8I1333.SCL/SPI_CLK: Pin not connected
+pcb: Warning 6094: Q10B pin $8I1333.SDA/SPI_CS_N: Pin not connected
+pcb: Warning 6094: Q10B pin $8I1333.TIMEPULSE: Pin not connected
 pcb: Warning 6094: Q10B pin $8I1329.IN_1: Pin not connected
 pcb: Warning 6094: Q10B pin $8I1329.OUT_1: Pin not connected
 pcb: Warning 6094: Q10B pin $8I1329.OUT_2: Pin not connected
@@ -184,6 +194,11 @@ pcb: Warning 6094: Q10B pin $2I3538.NC: Pin not connected
 pcb: Warning 6094: Q10B pin $1I8.NC: Pin not connected
 pcb: Warning 6094: Q10B pin $1I2792.NC: Pin not connected
 pcb: Warning 6094: Q10B pin $1I1326.NC: Pin not connected
+pcb: Warning 6094: Q10B pin $1I12.CLKOUT/NIRQ3: Pin not connected
+pcb: Warning 6094: Q10B pin $1I12.WDI: Pin not connected
+pcb: Warning 6094: Q10B pin $1I12.NEXTR: Pin not connected
+pcb: Warning 6094: Q10B pin $1I12.NRST: Pin not connected
+pcb: Warning 6094: Q10B pin $1I12.NTIRQ: Pin not connected
 pcb: Warning 6094: Q10B pin $1I10.NC: Pin not connected
 pcb: Warning 6094: Q10B pin $1I10.NC2: Pin not connected
 pcb: Warning 6113: Device SYM_BOM_ENTRY has 0 shapes
@@ -199,7 +214,6 @@ pcb: Warning 6113: Device SYM_BOM_ENTRY has 0 shapes
 pcb: Warning 6113: Device SYM_BOM_ENTRY has 0 shapes
 pcb: Warning 6113: Device SYM_BOM_ENTRY has 0 shapes
 pcb: Warning 6113: Device SYM_BOM_ENTRY has 0 shapes
-pcb: Note 5854: Instance value (PKG_TYPE=0402) was added to instance ($4I5190) on (Q10B).
 pcb: Note 5626: Summary of Log Files/pcb.err
-Status 0, Notes 3, Warnings 199
+Status 0, Notes 2, Warnings 214
 Errors 0, Failures 0, Fatals 0, Internals 0

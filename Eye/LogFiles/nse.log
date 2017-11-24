@@ -67708,3 +67708,24 @@ nse::selectitems {47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67
 edit::copy
 nse::clearselection
 nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD 1mm_TP.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD 1mm_TP.1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD RF-GNSS-SPDT_4259-63.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD RF-GNSS-SPDT_4259-63.1
+nse::selectitems {70 74}
+prop::setvisible -valueindex 0 -dest port \#
+nse::clearselection
+nse::selectitems {18 44}
+prop::setvisible -valueindex 0 -dest port \#
+nse::clearselection
+nse::selectitems 78
+prop::setvisible -valueindex 0 -dest port \#
+nse::clearselection
+nse::selectitems 15
+prop::setvisible -valueindex 0 -dest port \#
+nse::clearselection
+nse::savesymbol sid1
+nse::closesymbol
