@@ -459,13 +459,13 @@
 			(pin 1  3 "SYM_FUSE__SYM_FUSE_1" 0 "IN" 0))
 		(part "SYM_CAP_UNPOL")
 		(logical_part_mapping "SYM_CAP_UNPOL"
-			(comp "C128" "C127" "C126" "C125" "C124" "C123" "C122" "C121" "C120" "C119" "C118" "C117" "C116" "C115" "C114"
- "C113" "C112" "C111" "C110" "C109" "C108" "C107" "C106" "C105" "C104" "C103" "C102" "C101" "C100" "C99" "C98"
- "C97" "C96" "C95" "C94" "C93" "C91" "C90" "C89" "C88" "C87" "C86" "C85" "C84" "C83" "C82" "C81" "C80" "C79" "C78" "C77" "C76"
- "C75" "C74" "C73" "C72" "C71" "C70" "C69" "C68" "C67" "C66" "C65" "C64" "C63" "C62" "C61" "C60" "C59" "C58" "C57" "C56" "C55"
- "C54" "C53" "C52" "C51" "C50" "C49" "C48" "C47" "C46" "C45" "C44" "C43" "C42" "C41" "C40" "C39" "C38" "C37" "C36" "C35" "C34"
- "C33" "C32" "C31" "C30" "C29" "C28" "C27" "C26" "C25" "C24" "C23" "C22" "C21" "C20" "C19" "C18" "C17" "C16" "C15" "C14" "C13"
- "C12" "C11" "C10" "C9" "C8" "C7" "C6" "C5" "C4" "C3" "C2" "C1"))
+			(comp "C129" "C128" "C127" "C126" "C125" "C124" "C123" "C122" "C121" "C120" "C119" "C118" "C117" "C116" "C115"
+ "C114" "C113" "C112" "C111" "C110" "C109" "C108" "C107" "C106" "C105" "C104" "C103" "C102" "C101" "C100" "C99"
+ "C98" "C97" "C96" "C95" "C94" "C93" "C91" "C90" "C89" "C88" "C87" "C86" "C85" "C84" "C83" "C82" "C81" "C80" "C79" "C78" "C77"
+ "C76" "C75" "C74" "C73" "C72" "C71" "C70" "C69" "C68" "C67" "C66" "C65" "C64" "C63" "C62" "C61" "C60" "C59" "C58" "C57" "C56"
+ "C55" "C54" "C53" "C52" "C51" "C50" "C49" "C48" "C47" "C46" "C45" "C44" "C43" "C42" "C41" "C40" "C39" "C38" "C37" "C36" "C35"
+ "C34" "C33" "C32" "C31" "C30" "C29" "C28" "C27" "C26" "C25" "C24" "C23" "C22" "C21" "C20" "C19" "C18" "C17" "C16" "C15" "C14"
+ "C13" "C12" "C11" "C10" "C9" "C8" "C7" "C6" "C5" "C4" "C3" "C2" "C1"))
 		(logical_part "SYM_CAP_UNPOL"
 			(slots
 				(slot "SYM_CAP_UNPOL__SYM_CAP_UNPOL_1"
@@ -590,8 +590,8 @@
 		(part "SIMPLE_TP")
 		(logical_part_mapping "SIMPLE_TP"
 			(comp "TP69" "TP68" "TP67" "TP61" "TP58" "TP57" "TP54" "TP39" "TP38" "TP33" "TP32" "TP31" "TP30" "TP29" "TP28"
- "TP27" "TP26" "TP25" "TP24" "TP23" "TP22" "TP21" "TP20" "TP19" "TP18" "TP17" "TP16" "TP15" "TP14" "TP13" "TP12"
- "TP11" "TP10" "TP9" "TP8" "TP7" "TP6" "TP5" "TP4" "TP3" "TP2" "TP1"))
+ "TP25" "TP24" "TP23" "TP22" "TP21" "TP20" "TP19" "TP18" "TP17" "TP16" "TP15" "TP14" "TP13" "TP12" "TP11" "TP10"
+ "TP9" "TP8" "TP7" "TP6" "TP5" "TP4" "TP3" "TP2" "TP1"))
 		(logical_part "SIMPLE_TP"
 			(slots
 				(slot "SIMPLE_TP__SIMPLE_TP_1"
@@ -3496,18 +3496,6 @@
 				(attval "DEVICE" "SIMPLE_TP")
 				(attval "REFDES" "TP28")))
 		(component "TP-1MM"
-			(place "TP27" 0.0 0.0 top 0.0
-				(comp_pin "1" 0.0 0.0 "IN"))
-			(attributes
-				(attval "DEVICE" "SIMPLE_TP")
-				(attval "REFDES" "TP27")))
-		(component "TP-1MM"
-			(place "TP26" 0.0 0.0 top 0.0
-				(comp_pin "1" 0.0 0.0 "IN"))
-			(attributes
-				(attval "DEVICE" "SIMPLE_TP")
-				(attval "REFDES" "TP26")))
-		(component "TP-1MM"
 			(place "TP25" 0.0 0.0 top 0.0
 				(comp_pin "1" 0.0 0.0 "IN"))
 			(attributes
@@ -6157,6 +6145,16 @@
 				(attval "Description" "DIODE SCHOTTKY 40V 500MA SURFACE MOUNT CST2")
 				(attval "DEVICE" "SCHOTTKY_CUS520-HEF")
 				(attval "REFDES" "D1")))
+		(component "0402"
+			(place "C129" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "4.7UF")
+				(attval "Description"
+ "4.7µF 6.3V CERAMIC CAPACITOR X5R 0402 (1005 METRIC) 0.039"" L X 0.020"" W (1.00MM X 0.50MM)")
+				(attval "DEVICE" "SYM_CAP_UNPOL")
+				(attval "REFDES" "C129")))
 		(component "1206"
 			(place "C128" 0.0 0.0 top 0.0
 				(comp_pin "2" 0.0 0.0 "IN")
@@ -6664,13 +6662,14 @@
 				(attval "Description" "CAP CER 4.7UF 6.3V X5R 0603")
 				(attval "DEVICE" "SYM_CAP_UNPOL")
 				(attval "REFDES" "C76")))
-		(component "0603"
+		(component "0402"
 			(place "C75" 0.0 0.0 top 0.0
 				(comp_pin "2" 0.0 0.0 "IN")
 				(comp_pin "1" 0.0 0.0 "IN"))
 			(attributes
 				(attval "Value" "1UF")
-				(attval "Description" "CAP CER 1UF 6.3V X7R 0603")
+				(attval "Description"
+ "1µF 6.3V CERAMIC CAPACITOR X5R 0402 (1005 METRIC) 0.039"" L X 0.020"" W (1.00MM X 0.50MM)")
 				(attval "DEVICE" "SYM_CAP_UNPOL")
 				(attval "REFDES" "C75")))
 		(component "0402"
@@ -7528,7 +7527,7 @@
 		(func "$9I242" "" "U35" 1)
 		(func "$9I235" "" "U34" 1)
 		(func "$7I2114" "" "U33" 1)
-		(func "$8I1895" "" "U32" 1)
+		(func "$8I1933" "" "U32" 1)
 		(func "$3I2202" "" "U31" 1)
 		(func "$4I5061" "" "U30" 1)
 		(func "$4I5046" "" "U29" 1)
@@ -7604,8 +7603,6 @@
 		(func "$7I2405" "" "TP30" 1)
 		(func "$7I2402" "" "TP29" 1)
 		(func "$6I2727" "" "TP28" 1)
-		(func "$6I782" "" "TP27" 1)
-		(func "$6I781" "" "TP26" 1)
 		(func "$6I780" "" "TP25" 1)
 		(func "$6I779" "" "TP24" 1)
 		(func "$4I5665" "" "TP23" 1)
@@ -7903,6 +7900,7 @@
 		(func "$4I5427" "" "D3" 1)
 		(func "$2I4753" "" "D2" 1)
 		(func "$2I4751" "" "D1" 1)
+		(func "$8I1951" "" "C129" 1)
 		(func "$9I1300" "" "C128" 1)
 		(func "$9I1289" "" "C127" 1)
 		(func "$7I2360" "" "C126" 1)
@@ -7956,7 +7954,7 @@
 		(func "$6I804" "" "C78" 1)
 		(func "$4I5522" "" "C77" 1)
 		(func "$6I802" "" "C76" 1)
-		(func "$6I801" "" "C75" 1)
+		(func "$6I2733" "" "C75" 1)
 		(func "$6I799" "" "C74" 1)
 		(func "$6I797" "" "C73" 1)
 		(func "$6I795" "" "C72" 1)
@@ -8509,11 +8507,11 @@
 		(net "EHS6_ENS"
 			(pins Q19-3 L14-1 R163-1))
 		(net "EHS6_FLOW_IN"
-			(pins TP26-1 TP57-1 U11-20 U65-8))
+			(pins TP57-1 U11-20 U65-8))
 		(net "EHS6_FLOW_INS"
 			(pins L16-1 R169-1 U65-5))
 		(net "EHS6_FLOW_OUT"
-			(pins TP27-1 U11-14 U65-1))
+			(pins U11-14 U65-1))
 		(net "EHS6_FLOW_OUTS"
 			(pins TP58-1 L15-1 R170-1 U65-4))
 		(net "EHS6_IGN"
@@ -8541,8 +8539,8 @@
 		(net "GPS_EN"
 			(pins TP3-1 U11-29 R49-1 U40-3))
 		(net "GPS_IO_PWR"
-			(pins TP31-1 D14-1 D15-1 U12-8 C103-2 R145-2 U32-6 U49-19 U49-20 U64-6 U64-3
- SW4-5))
+			(pins TP31-1 D14-1 D15-1 U12-8 C103-2 C129-1 R145-2 U32-6 U49-19 U49-20
+ U64-6 U64-3 SW4-5))
 		(net "GPS_RF_IN"
 			(pins U7-4 U49-1))
 		(net "GPS_RXD"
@@ -8554,16 +8552,16 @@
  U7-5 Q15-2 U9-12 U9-17 U9-8 U10-17 U10-8 U11-49 U11-31 U11-45 U12-9 U12-4
  J4-G1 J4-G2 J4-G3 J4-G4 J4-G5 J4-G6 J4-G7 J4-G8 J4-S5 J4-T6 C23-1 C26-1 C27-1
  C28-1 C30-2 C36-1 C37-1 C38-2 C31-2 C32-2 C33-2 C34-1 C35-1 C52-1 C29-2
- C124-1 C87-1 C71-1 C72-1 C73-1 C74-1 C75-1 C76-1 C78-1 C79-1 C83-1 C84-1 C86-1
+ C124-1 C87-1 C75-1 C71-1 C72-1 C73-1 C74-1 C76-1 C78-1 C79-1 C83-1 C84-1 C86-1
  C93-2 C94-2 C95-2 C96-1 C97-1 C98-2 C100-1 C106-1 C107-1 C109-1 C110-1
- C111-1 C112-2 C113-1 C114-1 C115-1 C121-1 U15-2 U15-1 X3-2 X3-4 U23-1 L3-1
- L4-1 ANT1-1 R55-2 R58-1 R63-1 R64-1 R65-1 R179-1 R180-1 R147-1 R149-1 U32-2
- ANT2-3 ANT2-4 ANT2-6 U39-203 U39-84 U39-85 U39-86 U39-88 U39-89 U39-90
- U39-92 U39-93 U39-94 U39-95 U39-205 U39-96 U39-97 U39-98 U39-238 U39-54
- U39-55 U39-56 U39-57 U39-58 U39-60 U39-208 U39-61 U39-62 U39-63 U39-99
- U39-100 U39-101 U39-102 U39-103 U39-245 U39-250 U39-81 U39-251 U39-252
- U39-82 U39-223 U39-225 U39-227 U39-83 X5-2 X5-4 U49-2 U49-18 U49-37 U49-38
- U49-39 U49-40 U49-41 U49-42 U49-43 U50-29 U50-17 U50-5))
+ C111-1 C112-2 C129-2 C113-1 C114-1 C115-1 C121-1 U15-2 U15-1 X3-2 X3-4 U23-1
+ L3-1 L4-1 ANT1-1 R55-2 R58-1 R63-1 R64-1 R65-1 R179-1 R180-1 R147-1 R149-1
+ U32-2 ANT2-3 ANT2-4 ANT2-6 U39-203 U39-84 U39-85 U39-86 U39-88 U39-89
+ U39-90 U39-92 U39-93 U39-94 U39-95 U39-205 U39-96 U39-97 U39-98 U39-238
+ U39-54 U39-55 U39-56 U39-57 U39-58 U39-60 U39-208 U39-61 U39-62 U39-63
+ U39-99 U39-100 U39-101 U39-102 U39-103 U39-245 U39-250 U39-81 U39-251
+ U39-252 U39-82 U39-223 U39-225 U39-227 U39-83 X5-2 X5-4 U49-2 U49-18 U49-37
+ U49-38 U49-39 U49-40 U49-41 U49-42 U49-43 U50-29 U50-17 U50-5))
 		(net "KIN_FLOW_IN"
 			(pins TP23-1 U25-30 R84-1 U63-8))
 		(net "KIN_FLOW_INS"

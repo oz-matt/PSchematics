@@ -1,113 +1,113 @@
 ** ECO In Report **
 
-Wed Nov 22 10:56:19 2017
+Fri Nov 24 23:42:00 2017
 
 Input  File : C:\EyeProject\Eye\Q10B.eco
-Current Job : Q10B-v2.2.pcb
+Current Job : Layout_Switch_17_11_24_21_50_41.pcb
 
 
 
-Line 10 , Section *PART*
+Line 6 , Section *PART*
 BOM1  SYM_BOM_ENTRY
 * Failed to get SYM_BOM_ENTRY from library
 
-Line 11 , Section *PART*
+Line 7 , Section *PART*
 BOM10  SYM_BOM_ENTRY
 * Failed to get SYM_BOM_ENTRY from library
 
-Line 12 , Section *PART*
+Line 8 , Section *PART*
 BOM11  SYM_BOM_ENTRY
 * Failed to get SYM_BOM_ENTRY from library
 
-Line 13 , Section *PART*
+Line 9 , Section *PART*
 BOM12  SYM_BOM_ENTRY
 * Failed to get SYM_BOM_ENTRY from library
 
-Line 14 , Section *PART*
+Line 10 , Section *PART*
 BOM13  SYM_BOM_ENTRY
 * Failed to get SYM_BOM_ENTRY from library
 
-Line 15 , Section *PART*
+Line 11 , Section *PART*
 BOM2  SYM_BOM_ENTRY
 * Failed to get SYM_BOM_ENTRY from library
 
-Line 16 , Section *PART*
+Line 12 , Section *PART*
 BOM3  SYM_BOM_ENTRY
 * Failed to get SYM_BOM_ENTRY from library
 
-Line 17 , Section *PART*
+Line 13 , Section *PART*
 BOM4  SYM_BOM_ENTRY
 * Failed to get SYM_BOM_ENTRY from library
 
-Line 18 , Section *PART*
+Line 14 , Section *PART*
 BOM5  SYM_BOM_ENTRY
 * Failed to get SYM_BOM_ENTRY from library
 
-Line 19 , Section *PART*
+Line 15 , Section *PART*
 BOM6  SYM_BOM_ENTRY
 * Failed to get SYM_BOM_ENTRY from library
 
-Line 20 , Section *PART*
+Line 16 , Section *PART*
 BOM7  SYM_BOM_ENTRY
 * Failed to get SYM_BOM_ENTRY from library
 
-Line 21 , Section *PART*
+Line 17 , Section *PART*
 BOM8  SYM_BOM_ENTRY
 * Failed to get SYM_BOM_ENTRY from library
 
-Line 22 , Section *PART*
+Line 18 , Section *PART*
 BOM9  SYM_BOM_ENTRY
 * Failed to get SYM_BOM_ENTRY from library
 
-Line 28 , Section *SET_ATTRIBUTE*
+Line 32 , Section *SET_ATTRIBUTE*
 *SET_ATTRIBUTE* PART BOM1
 * Incorrect object name : BOM1
 
-Line 30 , Section *SET_ATTRIBUTE*
+Line 34 , Section *SET_ATTRIBUTE*
 *SET_ATTRIBUTE* PART BOM10
 * Incorrect object name : BOM10
 
-Line 32 , Section *SET_ATTRIBUTE*
+Line 36 , Section *SET_ATTRIBUTE*
 *SET_ATTRIBUTE* PART BOM11
 * Incorrect object name : BOM11
 
-Line 34 , Section *SET_ATTRIBUTE*
+Line 38 , Section *SET_ATTRIBUTE*
 *SET_ATTRIBUTE* PART BOM12
 * Incorrect object name : BOM12
 
-Line 36 , Section *SET_ATTRIBUTE*
+Line 40 , Section *SET_ATTRIBUTE*
 *SET_ATTRIBUTE* PART BOM13
 * Incorrect object name : BOM13
 
-Line 38 , Section *SET_ATTRIBUTE*
+Line 42 , Section *SET_ATTRIBUTE*
 *SET_ATTRIBUTE* PART BOM2
 * Incorrect object name : BOM2
 
-Line 40 , Section *SET_ATTRIBUTE*
+Line 44 , Section *SET_ATTRIBUTE*
 *SET_ATTRIBUTE* PART BOM3
 * Incorrect object name : BOM3
 
-Line 42 , Section *SET_ATTRIBUTE*
+Line 46 , Section *SET_ATTRIBUTE*
 *SET_ATTRIBUTE* PART BOM4
 * Incorrect object name : BOM4
 
-Line 44 , Section *SET_ATTRIBUTE*
+Line 48 , Section *SET_ATTRIBUTE*
 *SET_ATTRIBUTE* PART BOM5
 * Incorrect object name : BOM5
 
-Line 46 , Section *SET_ATTRIBUTE*
+Line 50 , Section *SET_ATTRIBUTE*
 *SET_ATTRIBUTE* PART BOM6
 * Incorrect object name : BOM6
 
-Line 48 , Section *SET_ATTRIBUTE*
+Line 52 , Section *SET_ATTRIBUTE*
 *SET_ATTRIBUTE* PART BOM7
 * Incorrect object name : BOM7
 
-Line 50 , Section *SET_ATTRIBUTE*
+Line 54 , Section *SET_ATTRIBUTE*
 *SET_ATTRIBUTE* PART BOM8
 * Incorrect object name : BOM8
 
-Line 52 , Section *SET_ATTRIBUTE*
+Line 56 , Section *SET_ATTRIBUTE*
 *SET_ATTRIBUTE* PART BOM9
 * Incorrect object name : BOM9
 * Warning: deleting single-pin signal $6N723
