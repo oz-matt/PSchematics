@@ -590,8 +590,8 @@
 		(part "SIMPLE_TP")
 		(logical_part_mapping "SIMPLE_TP"
 			(comp "TP69" "TP68" "TP67" "TP61" "TP58" "TP57" "TP54" "TP39" "TP38" "TP33" "TP32" "TP31" "TP30" "TP29" "TP28"
- "TP25" "TP24" "TP23" "TP22" "TP21" "TP20" "TP19" "TP18" "TP17" "TP16" "TP15" "TP14" "TP13" "TP12" "TP11" "TP10"
- "TP9" "TP8" "TP7" "TP6" "TP5" "TP4" "TP3" "TP2" "TP1"))
+ "TP25" "TP24" "TP23" "TP22" "TP21" "TP20" "TP19" "TP18" "TP17" "TP16" "TP14" "TP13" "TP12" "TP11" "TP10" "TP9"
+ "TP8" "TP7" "TP6" "TP5" "TP4" "TP3" "TP2" "TP1"))
 		(logical_part "SIMPLE_TP"
 			(slots
 				(slot "SIMPLE_TP__SIMPLE_TP_1"
@@ -3555,12 +3555,6 @@
 			(attributes
 				(attval "DEVICE" "SIMPLE_TP")
 				(attval "REFDES" "TP16")))
-		(component "TP-1MM"
-			(place "TP15" 0.0 0.0 top 0.0
-				(comp_pin "1" 0.0 0.0 "IN"))
-			(attributes
-				(attval "DEVICE" "SIMPLE_TP")
-				(attval "REFDES" "TP15")))
 		(component "TP-1MM"
 			(place "TP14" 0.0 0.0 top 0.0
 				(comp_pin "1" 0.0 0.0 "IN"))
@@ -7613,7 +7607,6 @@
 		(func "$4I5653" "" "TP18" 1)
 		(func "$4I5649" "" "TP17" 1)
 		(func "$4I2824" "" "TP16" 1)
-		(func "$3I3683" "" "TP15" 1)
 		(func "$3I2273" "" "TP14" 1)
 		(func "$3I2272" "" "TP13" 1)
 		(func "$3I3680" "" "TP12" 1)
@@ -8052,9 +8045,9 @@
 		(net "3V3_GPS"
 			(pins TP2-1 D14-2 R52-1))
 		(net "3V3_GPS_ACT"
-			(pins C106-2 C110-2 R146-1 R149-2 SW4-6))
+			(pins C106-2 C110-2 R146-1 R149-2 SW4-4))
 		(net "3V3_GPS_PAS"
-			(pins U1-6 U1-2 C107-2 C109-2 C111-2 R147-2 U32-4 SW4-4))
+			(pins U1-6 U1-2 C107-2 C109-2 C111-2 R147-2 U32-4 SW4-6))
 		(net "3V3_MBED"
 			(pins U4-14 U4-23 U4-15 U4-7 U4-5 C93-1 C94-1 C100-2 U16-14 R104-2 R126-1))
 		(net "3V3_NRF"
@@ -8079,13 +8072,15 @@
 		(net "3V_SWPWR"
 			(pins TP92-1 C10-2 C12-2 C15-2 Q32-2 R23-2 R25-2 R27-1 R29-2 R73-1 U51-1
  U52-4 U53-4 U55-4 U61-5))
+		(net "5V_DIRECT"
+			(pins J2-2 TP12-1 J5-1 R57-2 U38-6))
 		(net "5V_USB"
 			(pins TP22-1 U4-6 D18-1 D19-1 C44-2 U22-1 U22-2 R91-1 R123-2 R159-1 R164-2
  U29-5 U30-5 U39-233 U45-1 U60-3))
 		(net "5V_USB_QI"
 			(pins TP21-1 D3-2 D19-2 U14-4 R89-2 R92-2 U29-1 U56-3))
 		(net "5V_USB_RAW"
-			(pins TP15-1 F2-2 D18-2 R90-2 R91-2 R93-2 U30-1 U38-6))
+			(pins F2-2 D18-2 R90-2 R91-2 R93-2 U30-1))
 		(net "$1N60"
 			(pins TP72-1 U19-4))
 		(net "$1N64"
@@ -8200,8 +8195,6 @@
 			(pins R61-2 U54-1))
 		(net "$3N2085"
 			(pins R62-2 U31-4))
-		(net "$3N2086"
-			(pins J2-2 TP12-1 J5-1 R57-2))
 		(net "$4N2829"
 			(pins Q16-3 C39-2 U18-2 R72-1))
 		(net "$4N2841"
@@ -8267,17 +8260,17 @@
 		(net "$5N2810"
 			(pins C61-1 U43-24))
 		(net "$5N2823"
-			(pins LED3-1 U43-19))
+			(pins LED2-1 U43-19))
 		(net "$5N2824"
-			(pins LED3-3 U43-18))
+			(pins LED2-3 U43-18))
 		(net "$5N2825"
-			(pins LED3-4 U43-17))
+			(pins LED2-4 U43-17))
 		(net "$5N2826"
-			(pins LED2-1 U43-16))
+			(pins LED3-1 U43-16))
 		(net "$5N2827"
-			(pins LED2-3 U43-15))
+			(pins LED3-3 U43-15))
 		(net "$5N2828"
-			(pins LED2-4 U43-14))
+			(pins LED3-4 U43-14))
 		(net "$5N2829"
 			(pins LED1-1 U43-13))
 		(net "$5N2830"
@@ -9560,9 +9553,6 @@
 		(net_scalar "$4N2829"
 			(constraints
 				(cnsval "SCHEDULED" "FALSE")))
-		(net_scalar "$3N2086"
-			(constraints
-				(cnsval "SCHEDULED" "FALSE")))
 		(net_scalar "$3N2085"
 			(constraints
 				(cnsval "SCHEDULED" "FALSE")))
@@ -9741,6 +9731,9 @@
 			(constraints
 				(cnsval "SCHEDULED" "FALSE")))
 		(net_scalar "5V_USB"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "5V_DIRECT"
 			(constraints
 				(cnsval "SCHEDULED" "FALSE")))
 		(net_scalar "3V_SWPWR"

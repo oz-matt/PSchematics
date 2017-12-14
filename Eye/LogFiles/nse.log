@@ -67729,3 +67729,3299 @@ prop::setvisible -valueindex 0 -dest port \#
 nse::clearselection
 nse::savesymbol sid1
 nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD AntenovaSR4G008.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD AntenovaSR4G008.1
+nse::selectitems 15
+nse::clearselection
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD NRF52832-QFAA-R.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD NRF52832-QFAA-R.1
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD NRF52832-QFAA-R.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD NRF52832-QFAA-R.1
+prop::setvalue -value 4.18163 -valueindex 0 Cost_per_1000
+prop::setvalue -value {IC RF TxRx + MCU Bluetooth Bluetooth v5.0 2.4GHz 73-VFQFN Dual Rows Exposed Pad} -valueindex 0 DESCRIPTION
+prop::setvalue -value NRF52840-QIAA-R -valueindex 0 MANF_P/N
+prop::setvalue -value {Pin 1 indicated by silkscreen notch} -valueindex 0 Notes
+prop::setvalue -value NORDIC_QFN73L -valueindex 0 PKG_TYPE
+nse::savesymbol -saveas NRF52840-QIAA-R.1
+nse::selectitems 254
+nse::clearselection
+nse::selectitems 642
+prop::setvalue -value A8 -dest port -ports 254 \#
+nse::clearselection
+nse::selectitems 614
+nse::clearselection
+nse::selectitems 276
+nse::clearselection
+nse::selectitems 272
+prop::setvalue -value A10 -dest port -ports 276 \#
+nse::clearselection
+nse::selectitems 427
+prop::setvalue -value A12 -dest port -ports 272 \#
+nse::clearselection
+nse::selectitems 274
+prop::setvalue -value A14 -dest port -ports 427 \#
+nse::clearselection
+nse::selectitems 266
+prop::setvalue -value A16 -dest port -ports 274 \#
+nse::clearselection
+nse::selectitems 284
+prop::setvalue -value A18 -dest port -ports 266 \#
+nse::clearselection
+nse::selectitems 290
+prop::setvalue -value A20 -dest port -ports 284 \#
+nse::clearselection
+nse::selectitems 282
+prop::setvalue -value A22 -dest port -ports 290 \#
+nse::clearselection
+nse::selectitems 278
+prop::setvalue -value A23 -dest port -ports 282 \#
+nse::clearselection
+nse::selectitems 555
+prop::setvalue -value B1 -dest port -ports 278 \#
+nse::clearselection
+nse::selectitems 14
+prop::setvalue -value B3 -dest port -ports 555 \#
+nse::clearselection
+nse::selectitems 196
+prop::setvalue -value B5 -dest port -ports 14 \#
+nse::clearselection
+nse::selectitems 467
+prop::setvalue -value B7 -dest port -ports 196 \#
+nse::clearselection
+nse::selectitems 242
+prop::setvalue -value B9 -dest port -ports 467 \#
+nse::clearselection
+nse::selectitems 240
+prop::setvalue -value B11 -dest port -ports 242 \#
+nse::clearselection
+nse::selectitems 240
+nse::clearselection
+nse::selectitems 439
+prop::setvalue -value B13 -dest port -ports 240 \#
+nse::clearselection
+nse::selectitems 212
+prop::setvalue -value B15 -dest port -ports 439 \#
+nse::clearselection
+nse::selectitems 268
+prop::setvalue -value B17 -dest port -ports 212 \#
+nse::clearselection
+nse::selectitems 431
+prop::setvalue -value B19 -dest port -ports 268 \#
+nse::clearselection
+nse::selectitems 298
+prop::setvalue -value B24 -dest port -ports 431 \#
+nse::clearselection
+nse::selectitems 196
+nse::clearselection
+nse::selectitems 298
+nse::clearselection
+nse::selectitems 471
+prop::setvalue -value C1 -dest port -ports 298 \#
+nse::clearselection
+nse::selectitems 463
+prop::setvalue -value D2 -dest port -ports 471 \#
+nse::clearselection
+nse::selectitems 459
+prop::setvalue -value D23 -dest port -ports 463 \#
+nse::clearselection
+nse::selectitems 294
+prop::setvalue -value E24 -dest port -ports 459 \#
+nse::clearselection
+nse::selectitems 18
+prop::setvalue -value F2 -dest port -ports 294 \#
+nse::clearselection
+nse::selectitems 270
+prop::setvalue -value F23 -dest port -ports 18 \#
+nse::clearselection
+nse::selectitems 214
+prop::setvalue -value G1 -dest port -ports 270 \#
+nse::clearselection
+nse::selectitems 447
+prop::setvalue -value H2 -dest port -ports 214 \#
+nse::clearselection
+nse::selectitems 258
+prop::setvalue -value H23 -dest port -ports 447 \#
+nse::clearselection
+nse::selectitems 296
+prop::setvalue -value J1 -dest port -ports 258 \#
+nse::clearselection
+nse::selectitems 618
+prop::setvalue -value J24 -dest port -ports 296 \#
+nse::clearselection
+nse::selectitems 646
+prop::setvalue -value K2 -dest port -ports 618 \#
+nse::clearselection
+nse::selectitems 634
+prop::setvalue -value L1 -dest port -ports 646 \#
+nse::clearselection
+nse::selectitems 559
+prop::setvalue -value L24 -dest port -ports 634 \#
+nse::clearselection
+nse::selectitems 443
+prop::setvalue -value M2 -dest port -ports 559 \#
+nse::clearselection
+nse::selectitems 598
+prop::setvalue -value N1 -dest port -ports 443 \#
+nse::clearselection
+nse::selectitems 606
+nse::clearselection
+nse::selectitems 598
+nse::clearselection
+nse::selectitems 606
+prop::setvalue -value N24 -dest port -ports 598 \#
+nse::clearselection
+nse::selectitems 254
+prop::setvalue -value P2 -dest port -ports 606 \#
+nse::clearselection
+nse::selectitems 610
+nse::clearselection
+nse::selectitems 629
+prop::setvalue -value P23 -dest port -ports 610 \#
+nse::clearselection
+nse::selectitems 638
+prop::setvalue -value R1 -dest port -ports 629 \#
+nse::clearselection
+nse::selectitems 256
+prop::setvalue -value R24 -dest port -ports 638 \#
+nse::clearselection
+nse::selectitems 590
+prop::setvalue -value T2 -dest port -ports 256 \#
+nse::clearselection
+nse::selectitems 594
+prop::setvalue -value T23 -dest port -ports 590 \#
+nse::clearselection
+nse::selectitems 602
+prop::setvalue -value U1 -dest port -ports 594 \#
+nse::clearselection
+nse::selectitems 614
+prop::setvalue -value U24 -dest port -ports 602 \#
+nse::clearselection
+nse::selectitems 622
+prop::setvalue -value V23 -dest port -ports 614 \#
+nse::clearselection
+nse::selectitems 630
+prop::setvalue -value W1 -dest port -ports 622 \#
+nse::clearselection
+nse::selectitems 642
+prop::setvalue -value W24 -dest port -ports 630 \#
+nse::clearselection
+nse::selectitems 276
+prop::setvalue -value Y2 -dest port -ports 642 \#
+nse::clearselection
+nse::selectitems 439
+edit::copy
+edit::paste -point 59690,-67056
+nse::clearselection
+nse::selectitems {654 655 656 657}
+nse::clearselection
+nse::selectitems 276
+nse::clearselection
+nse::selectitems 654
+prop::setvalue -value Z -dest port -ports 654 \#
+edit::copy
+nse::clearselection
+edit::paste -point 109982,-61468
+nse::clearselection
+nse::selectitems {658 659 660 661}
+edit::move -offset -30988,3810
+edit::move -offset -56642,762
+edit::move -offset -22352,-7112
+nse::clearselection
+nse::selectitems {654 655 656 658 659 661}
+edit::copy
+edit::paste -point 74930,-35814
+# cannot create port with name 'XC1_1_1' : port already exists - using unique name 'XC1_1_2' instead
+nse::clearselection
+nse::selectitems {662 663 664 665}
+nse::clearselection
+edit::paste -point 78740,-17018
+# cannot create port with name 'XC1_1_2' : port already exists - using unique name 'XC1_1_3' instead
+# cannot create port with name 'XC1_1_1_1' : port already exists - using unique name 'XC1_1_1_2' instead
+nse::clearselection
+nse::selectitems {666 667 668 669}
+edit::paste -point 79756,9398
+# cannot create port with name 'XC1_1_3' : port already exists - using unique name 'XC1_1_4' instead
+# cannot create port with name 'XC1_1_1_2' : port already exists - using unique name 'XC1_1_1_3' instead
+nse::clearselection
+nse::selectitems {670 671 672 673}
+edit::paste -point 76200,29464
+# cannot create port with name 'XC1_1_4' : port already exists - using unique name 'XC1_1_5' instead
+# cannot create port with name 'XC1_1_1_3' : port already exists - using unique name 'XC1_1_1_4' instead
+nse::clearselection
+nse::selectitems {674 675 676 677}
+edit::paste -point 53340,73660
+# cannot create port with name 'XC1_1_5' : port already exists - using unique name 'XC1_1_6' instead
+# cannot create port with name 'XC1_1_1_4' : port already exists - using unique name 'XC1_1_1_5' instead
+nse::clearselection
+nse::selectitems {678 679 680 681}
+edit::paste -point 67310,59690
+# cannot create port with name 'XC1_1_6' : port already exists - using unique name 'XC1_1_7' instead
+# cannot create port with name 'XC1_1_1_5' : port already exists - using unique name 'XC1_1_1_6' instead
+nse::clearselection
+nse::selectitems {682 683 684 685}
+nse::clearselection
+nse::selectitems {663 664 667 668 671 672 675 676 679 680 683 684}
+nse::clearselection
+nse::selectitems {663 664 667 668 671 672 675 676 679 680 683 684}
+edit::move -offset -72898,-16764
+nse::clearselection
+nse::selectitems 654
+port::setside -side right
+nse::clearselection
+nse::selectitems 683
+nse::clearselection
+nse::selectitems 684
+nse::clearselection
+nse::selectitems 668
+nse::clearselection
+nse::selectitems 661
+prop::setvalue -value Y23 -dest port -ports 668 \#
+nse::clearselection
+nse::selectitems 654
+prop::setvalue -value AA24 -dest port -ports 661 \#
+nse::clearselection
+nse::selectitems 663
+nse::clearselection
+nse::selectitems 654
+prop::setvalue -value AB2 -dest port -ports 663 \#
+nse::clearselection
+nse::selectitems 684
+nse::clearselection
+nse::selectitems 654
+prop::setvalue -value AC5 -dest port -ports 684 \#
+nse::clearselection
+nse::selectitems 683
+nse::clearselection
+nse::selectitems 654
+prop::setvalue -value AC9 -dest port -ports 683 \#
+nse::clearselection
+nse::selectitems 680
+nse::clearselection
+nse::selectitems 664
+prop::setvalue -value AC11 -dest port -ports 680 \#
+nse::clearselection
+nse::selectitems 679
+nse::clearselection
+nse::selectitems 664
+prop::setvalue -value AC13 -dest port -ports 679 \#
+nse::clearselection
+nse::selectitems 676
+nse::clearselection
+nse::selectitems 675
+prop::setvalue -value AC15 -dest port -ports 676 \#
+nse::clearselection
+nse::selectitems 664
+prop::setvalue -value AC17 -dest port -ports 675 \#
+nse::clearselection
+nse::selectitems 672
+nse::clearselection
+nse::selectitems 664
+prop::setvalue -value AC19 -dest port -ports 672 \#
+nse::clearselection
+nse::selectitems 654
+prop::setvalue -value AC21 -dest port -ports 664 \#
+nse::clearselection
+nse::selectitems 667
+nse::clearselection
+nse::selectitems 654
+prop::setvalue -value AC24 -dest port -ports 667 \#
+prop::setvalue -value AD2 -dest port -ports 654 \#
+nse::clearselection
+nse::selectitems 671
+edit::copy
+edit::paste -point 68580,-12954
+nse::clearselection
+nse::selectitems {686 687}
+nse::clearselection
+edit::paste -point 69088,-9652
+# cannot create port with name 'XC1_1_4_1' : port already exists - using unique name 'XC1_1_4_2' instead
+nse::clearselection
+nse::selectitems {688 689}
+nse::clearselection
+nse::selectitems {686 688}
+edit::copy
+edit::paste -point 67564,-4572
+nse::clearselection
+nse::selectitems {690 691 692 693}
+edit::paste -point 66040,-2032
+# cannot create port with name 'XC1_1_4_1_1' : port already exists - using unique name 'XC1_1_4_1_2' instead
+# cannot create port with name 'XC1_1_4_2_1' : port already exists - using unique name 'XC1_1_4_2_2' instead
+nse::clearselection
+nse::selectitems {694 695 696 697}
+edit::paste -point 66040,3302
+# cannot create port with name 'XC1_1_4_1_2' : port already exists - using unique name 'XC1_1_4_1_3' instead
+# cannot create port with name 'XC1_1_4_2_2' : port already exists - using unique name 'XC1_1_4_2_3' instead
+nse::clearselection
+nse::selectitems {698 699 700 701}
+edit::paste -point 66802,11684
+# cannot create port with name 'XC1_1_4_1_3' : port already exists - using unique name 'XC1_1_4_1_4' instead
+# cannot create port with name 'XC1_1_4_2_3' : port already exists - using unique name 'XC1_1_4_2_4' instead
+nse::clearselection
+nse::selectitems {702 703 704 705}
+edit::paste -point 65278,21590
+# cannot create port with name 'XC1_1_4_1_4' : port already exists - using unique name 'XC1_1_4_1_5' instead
+# cannot create port with name 'XC1_1_4_2_4' : port already exists - using unique name 'XC1_1_4_2_5' instead
+nse::clearselection
+nse::selectitems {706 707 708 709}
+edit::paste -point 62484,29718
+# cannot create port with name 'XC1_1_4_1_5' : port already exists - using unique name 'XC1_1_4_1_6' instead
+# cannot create port with name 'XC1_1_4_2_5' : port already exists - using unique name 'XC1_1_4_2_6' instead
+nse::clearselection
+nse::selectitems {710 711 712 713}
+edit::paste -point 65532,38354
+# cannot create port with name 'XC1_1_4_1_6' : port already exists - using unique name 'XC1_1_4_1_7' instead
+# cannot create port with name 'XC1_1_4_2_6' : port already exists - using unique name 'XC1_1_4_2_7' instead
+nse::clearselection
+nse::selectitems {714 715 716 717}
+edit::paste -point 65532,35560
+# cannot create port with name 'XC1_1_4_1_7' : port already exists - using unique name 'XC1_1_4_1_8' instead
+# cannot create port with name 'XC1_1_4_2_7' : port already exists - using unique name 'XC1_1_4_2_8' instead
+nse::clearselection
+nse::selectitems {718 719 720 721}
+nse::clearselection
+nse::selectitems 686
+nse::clearselection
+nse::selectitems 701
+prop::setvalue -value AD4 -dest port -ports 686 \#
+nse::clearselection
+nse::selectitems 688
+nse::clearselection
+nse::selectitems 699
+prop::setvalue -value AD6 -dest port -ports 688 \#
+nse::clearselection
+nse::selectitems 697
+prop::setvalue -value AD8 -dest port -ports 699 \#
+nse::clearselection
+nse::selectitems 701
+nse::clearselection
+nse::selectitems 697
+prop::setvalue -value AD10 -dest port -ports 701 \#
+nse::clearselection
+nse::selectitems 707
+nse::clearselection
+nse::selectitems 711
+nse::clearselection
+nse::selectitems 707
+prop::setvalue -value AD12 -dest port -ports 711 \#
+nse::clearselection
+nse::selectitems 713
+nse::clearselection
+nse::selectitems 709
+prop::setvalue -value AD14 -dest port -ports 713 \#
+nse::clearselection
+nse::selectitems 697
+nse::clearselection
+nse::selectitems 695
+prop::setvalue -value AD16 -dest port -ports 697 \#
+nse::clearselection
+nse::selectitems 707
+nse::clearselection
+nse::selectitems 695
+prop::setvalue -value AD18 -dest port -ports 707 \#
+nse::clearselection
+nse::selectitems 721
+nse::clearselection
+nse::selectitems 691
+prop::setvalue -value AD20 -dest port -ports 721 \#
+nse::clearselection
+nse::selectitems 693
+nse::clearselection
+nse::selectitems 717
+prop::setvalue -value AD22 -dest port -ports 693 \#
+nse::clearselection
+nse::selectitems 719
+prop::setvalue -value AD23 -dest port -ports 717 \#
+prop::setvalue -value EP -dest port -ports 719 \#
+nse::clearselection
+nse::selectitems 691
+symbol::deleteitems 691
+nse::selectitems 703
+symbol::deleteitems 703
+nse::selectitems 695
+symbol::deleteitems 695
+nse::selectitems 715
+symbol::deleteitems 715
+nse::selectitems 671
+symbol::deleteitems 671
+nse::selectitems 705
+symbol::deleteitems 705
+nse::selectitems 709
+symbol::deleteitems 709
+nse::selectitems 18
+nse::clearselection
+nse::selectitems 254
+port::rename -newname P0.31 254
+nse::clearselection
+nse::selectitems 272
+nse::clearselection
+nse::selectitems 276
+port::rename -newname P0.29 276
+nse::clearselection
+nse::selectitems 272
+port::rename -newname P0.02 272
+nse::clearselection
+nse::selectitems 427
+port::rename -newname P1.15 427
+nse::clearselection
+nse::selectitems 274
+nse::clearselection
+nse::selectitems 266
+port::rename -newname P1.13 274
+nse::clearselection
+nse::selectitems 284
+port::rename -newname DEC2 266
+port::rename -newname P1.10 284
+nse::clearselection
+nse::selectitems 290
+nse::clearselection
+nse::selectitems 282
+port::rename -newname VDD 290
+nse::clearselection
+nse::selectitems 661
+port::rename -newname XC2 282
+nse::clearselection
+nse::selectitems 663
+port::rename -newname B1 661
+nse::clearselection
+nse::selectitems 282
+port::rename -newname B3 663
+nse::clearselection
+nse::selectitems 661
+nse::clearselection
+nse::selectitems 282
+nse::clearselection
+nse::selectitems 278
+nse::clearselection
+nse::selectitems 555
+port::rename -newname VDD 278
+nse::clearselection
+nse::selectitems 14
+port::rename -newname DCC 555
+nse::clearselection
+nse::selectitems 196
+port::rename -newname DEC4 14
+nse::clearselection
+nse::selectitems 467
+port::rename -newname VSS 196
+port::rename -newname P0.30 467
+nse::clearselection
+nse::selectitems 242
+port::rename -newname P0.28 242
+nse::clearselection
+nse::selectitems 240
+nse::clearselection
+nse::selectitems 242
+nse::clearselection
+nse::selectitems 240
+port::rename -newname P0.03 240
+nse::clearselection
+nse::selectitems 439
+nse::clearselection
+nse::selectitems 439
+nse::clearselection
+nse::selectitems 212
+port::rename -newname P1.14 439
+nse::clearselection
+nse::selectitems 268
+port::rename -newname P1.12 212
+port::rename -newname P0.11 268
+nse::clearselection
+nse::selectitems 431
+nse::clearselection
+nse::selectitems 298
+port::rename -newname XC1 431
+nse::clearselection
+nse::selectitems 471
+port::rename -newname DEC1 298
+nse::clearselection
+nse::selectitems 463
+port::rename -newname P0.00 471
+nse::clearselection
+nse::selectitems 459
+port::rename -newname DEC3 463
+nse::clearselection
+nse::selectitems 719
+port::rename -newname DEC6 459
+nse::clearselection
+nse::selectitems 459
+nse::clearselection
+nse::selectitems 719
+nse::clearselection
+nse::selectitems 459
+nse::clearselection
+nse::selectitems 719
+nse::clearselection
+nse::selectitems 459
+nse::clearselection
+nse::selectitems 719
+port::rename -newname EP 719
+nse::clearselection
+nse::selectitems 294
+port::rename -newname P0.01 294
+nse::clearselection
+nse::selectitems 18
+port::rename -newname VSS_PA 18
+nse::clearselection
+nse::selectitems 270
+port::rename -newname P0.26 270
+nse::clearselection
+nse::selectitems 214
+port::rename -newname P0.27 214
+nse::clearselection
+nse::selectitems 447
+port::rename -newname ANT 447
+nse::clearselection
+nse::selectitems 258
+port::rename -newname P0.04 258
+nse::clearselection
+nse::selectitems 296
+port::rename -newname P0.10 296
+nse::clearselection
+nse::selectitems 618
+port::rename -newname P0.05 618
+nse::clearselection
+nse::selectitems 646
+port::rename -newname P0.06 646
+nse::clearselection
+nse::selectitems 634
+port::rename -newname P0.09 634
+nse::clearselection
+nse::selectitems 559
+port::rename -newname P0.07 559
+nse::clearselection
+nse::selectitems 443
+port::rename -newname P0.08 443
+nse::clearselection
+nse::selectitems 598
+port::rename -newname DEC5 598
+nse::clearselection
+nse::selectitems 559
+nse::clearselection
+nse::selectitems 443
+nse::clearselection
+nse::selectitems 559
+nse::clearselection
+nse::selectitems 598
+nse::clearselection
+nse::selectitems 443
+nse::clearselection
+nse::selectitems 610
+nse::clearselection
+nse::selectitems 606
+nse::clearselection
+nse::selectitems 598
+nse::clearselection
+nse::selectitems 606
+port::rename -newname P1.08 606
+nse::clearselection
+nse::selectitems 610
+port::rename -newname P1.07 610
+nse::clearselection
+nse::selectitems 629
+port::rename -newname P1.09 629
+nse::clearselection
+nse::selectitems 638
+port::rename -newname P1.06 638
+nse::clearselection
+nse::selectitems 256
+port::rename -newname P0.11 256
+nse::clearselection
+nse::selectitems 590
+port::rename -newname P1.05 590
+nse::clearselection
+nse::selectitems 594
+port::rename -newname P0.12 594
+nse::clearselection
+nse::selectitems 602
+port::rename -newname P1.04 602
+nse::clearselection
+nse::selectitems 614
+port::rename -newname P1.03 614
+nse::clearselection
+nse::selectitems 622
+port::rename -newname VDD 622
+nse::clearselection
+nse::selectitems 630
+port::rename -newname P1.02 630
+nse::clearselection
+nse::selectitems 642
+port::rename -newname VDDH 642
+nse::clearselection
+nse::selectitems 668
+port::rename -newname P1.01 668
+nse::clearselection
+nse::selectitems 642
+nse::clearselection
+nse::selectitems 661
+port::rename -newname SWDCLK 661
+nse::clearselection
+nse::selectitems 663
+nse::clearselection
+nse::selectitems 684
+nse::clearselection
+nse::selectitems 663
+port::rename -newname DCCH 663
+nse::clearselection
+nse::selectitems 684
+port::rename -newname DECUSB 684
+nse::clearselection
+nse::selectitems 683
+port::rename -newname P0.14 683
+nse::clearselection
+nse::selectitems 680
+nse::clearselection
+nse::selectitems 683
+nse::clearselection
+nse::selectitems 680
+port::rename -newname P0.16 680
+nse::clearselection
+nse::selectitems 679
+port::rename -newname P0.18 679
+nse::clearselection
+nse::selectitems 676
+port::rename -newname P0.19 676
+nse::clearselection
+nse::selectitems 675
+nse::clearselection
+nse::selectitems 672
+port::rename -newname P0.21 675
+nse::clearselection
+nse::selectitems 664
+port::rename -newname P0.23 672
+port::rename -newname P0.25 664
+nse::clearselection
+nse::selectitems 654
+nse::clearselection
+nse::selectitems 667
+port::rename -newname SWDIO 667
+nse::clearselection
+nse::selectitems 654
+port::rename -newname VBUS 654
+nse::clearselection
+nse::selectitems 686
+port::rename -newname D- 686
+nse::clearselection
+nse::selectitems 688
+port::rename -newname D+ 688
+nse::clearselection
+nse::selectitems 699
+port::rename -newname P0.13 699
+nse::clearselection
+nse::selectitems 701
+port::rename -newname P0.15 701
+nse::clearselection
+nse::selectitems 711
+port::rename -newname P0.17 711
+nse::clearselection
+nse::selectitems 697
+nse::clearselection
+nse::selectitems 713
+port::rename -newname VDD 713
+nse::clearselection
+nse::selectitems 697
+port::rename -newname P0.20 697
+nse::clearselection
+nse::selectitems 707
+port::settype -type in
+port::rename -newname P0.22 707
+nse::clearselection
+nse::selectitems 721
+port::rename -newname P0.24 721
+nse::clearselection
+nse::selectitems 693
+port::rename -newname P01.00 693
+nse::clearselection
+nse::selectitems 717
+nse::clearselection
+nse::selectitems 278
+port::rename -newname VDD 717
+nse::clearselection
+nse::selectitems 717
+nse::clearselection
+nse::selectitems 254
+nse::clearselection
+nse::selectitems 276
+nse::clearselection
+nse::selectitems 254
+nse::clearselection
+nse::selectitems 276
+nse::clearselection
+nse::selectitems 272
+nse::clearselection
+nse::selectitems 427
+nse::clearselection
+nse::selectitems 274
+nse::clearselection
+nse::selectitems 266
+nse::clearselection
+nse::selectitems 284
+nse::clearselection
+nse::selectitems 290
+nse::clearselection
+nse::selectitems 282
+nse::clearselection
+nse::selectitems 661
+nse::clearselection
+nse::selectitems 282
+nse::clearselection
+nse::selectitems 290
+nse::clearselection
+nse::selectitems 282
+nse::clearselection
+nse::selectitems 661
+nse::clearselection
+nse::selectitems 663
+nse::clearselection
+nse::selectitems 684
+nse::clearselection
+nse::selectitems 683
+nse::clearselection
+nse::selectitems 680
+nse::clearselection
+nse::selectitems 679
+nse::clearselection
+nse::selectitems 676
+nse::clearselection
+nse::selectitems 680
+nse::clearselection
+nse::selectitems 679
+port::rename -newname P0.18/nRESET 679
+port::settype -type out
+port::settype -type in
+nse::clearselection
+nse::selectitems 676
+nse::clearselection
+nse::selectitems 680
+nse::clearselection
+nse::selectitems 679
+nse::clearselection
+nse::selectitems 676
+nse::clearselection
+nse::selectitems 675
+nse::clearselection
+nse::selectitems 672
+nse::clearselection
+nse::selectitems 664
+nse::clearselection
+nse::selectitems 667
+nse::clearselection
+nse::selectitems 654
+nse::clearselection
+nse::selectitems 686
+nse::clearselection
+nse::selectitems 688
+nse::clearselection
+nse::selectitems 699
+nse::clearselection
+nse::selectitems 701
+nse::clearselection
+nse::selectitems 711
+nse::clearselection
+nse::selectitems 713
+nse::clearselection
+nse::selectitems 697
+nse::clearselection
+nse::selectitems 707
+nse::clearselection
+nse::selectitems 721
+nse::clearselection
+nse::selectitems 693
+port::rename -newname P01.00/TRACEDATA0 693
+port::settype -type out
+port::settype -type in
+nse::clearselection
+nse::selectitems 697
+nse::clearselection
+nse::selectitems 693
+nse::clearselection
+nse::selectitems 717
+nse::clearselection
+nse::selectitems 254
+nse::clearselection
+nse::selectitems 278
+nse::clearselection
+nse::selectitems 555
+nse::clearselection
+nse::selectitems 14
+nse::clearselection
+nse::selectitems 196
+nse::clearselection
+nse::selectitems 467
+nse::clearselection
+nse::selectitems 242
+nse::clearselection
+nse::selectitems 240
+nse::clearselection
+nse::selectitems 439
+nse::clearselection
+nse::selectitems 212
+nse::clearselection
+nse::selectitems 268
+port::rename -newname P0.11/TRACEDATA2 268
+port::settype -type in
+prop::setvalue -value {} -dest port -ports 268 \#
+prop::setvalue -value B19 -dest port -ports 268 \#
+nse::clearselection
+nse::selectitems 212
+nse::clearselection
+nse::selectitems 268
+nse::clearselection
+nse::selectitems 431
+nse::clearselection
+nse::selectitems 298
+nse::clearselection
+nse::selectitems 431
+nse::clearselection
+nse::selectitems 298
+nse::clearselection
+nse::selectitems 471
+nse::clearselection
+nse::selectitems 463
+nse::clearselection
+nse::selectitems 459
+nse::clearselection
+nse::selectitems 719
+nse::clearselection
+nse::selectitems 294
+nse::clearselection
+nse::selectitems 18
+nse::clearselection
+nse::selectitems 270
+nse::clearselection
+nse::selectitems 214
+nse::clearselection
+nse::selectitems 447
+nse::clearselection
+nse::selectitems 258
+nse::clearselection
+nse::selectitems 296
+port::rename -newname P0.10/NFC2 296
+nse::clearselection
+nse::selectitems 618
+nse::clearselection
+nse::selectitems 646
+nse::clearselection
+nse::selectitems 634
+port::rename -newname P0.09/NFC1 634
+nse::clearselection
+nse::selectitems 559
+port::rename -newname P0.07/TRACECLK 559
+port::settype -type out
+nse::clearselection
+nse::selectitems 443
+nse::clearselection
+nse::selectitems 598
+nse::clearselection
+nse::selectitems 443
+nse::clearselection
+nse::selectitems 598
+nse::clearselection
+nse::selectitems 606
+nse::clearselection
+nse::selectitems 610
+nse::clearselection
+nse::selectitems 629
+port::rename -newname P1.09/TRACEDATA3 629
+nse::clearselection
+nse::selectitems 638
+nse::clearselection
+nse::selectitems 256
+nse::clearselection
+nse::selectitems 638
+nse::clearselection
+nse::selectitems 256
+nse::clearselection
+nse::selectitems 590
+nse::clearselection
+nse::selectitems 594
+port::rename -newname P0.12/TRACEDATA1 594
+port::settype -type out
+nse::clearselection
+nse::selectitems 602
+nse::clearselection
+nse::selectitems 614
+nse::clearselection
+nse::selectitems 602
+nse::clearselection
+nse::selectitems 614
+nse::clearselection
+nse::selectitems 622
+nse::clearselection
+nse::selectitems 630
+nse::clearselection
+nse::selectitems 622
+nse::clearselection
+nse::selectitems 630
+nse::clearselection
+nse::selectitems 642
+nse::clearselection
+nse::selectitems 668
+nse::clearselection
+nse::selectitems {278 290 622 713 717}
+# Duplicated pins with different properties 
+# have been found at symbol NRF52840-QIAA-R.1
+nse::clearselection
+nse::selectitems 668
+nse::clearselection
+nse::selectitems 717
+port::rename -newname VDD1 713
+nse::clearselection
+nse::selectitems 278
+port::rename -newname VDD2 717
+nse::clearselection
+nse::selectitems 717
+port::rename -newname VDD3 278
+nse::clearselection
+nse::selectitems 622
+nse::clearselection
+nse::selectitems 594
+port::rename -newname VDD4 622
+nse::clearselection
+nse::selectitems 290
+nse::clearselection
+nse::selectitems 661
+port::rename -newname VDD5 290
+nse::savesymbol
+nse::clearselection
+nse::selectitems {654 655 656 658 659 661 663 664 667 668 672 675 676 679 680 683 684 686 688 693 697 699 701 707 711 713 717 719 721 722 723 724 725 726 727 728 729 730 731 732 733 734 735 736 737 738 739 740 741 742 743 744}
+edit::move -offset -18542,-21336
+edit::move -offset 33020,-59436
+nse::clearselection
+nse::selectitems {686 688 734 735}
+edit::move -offset 34290,-11684
+nse::clearselection
+nse::selectitems {679 680 683 684 711 713 717 719 721 723 725 726 727 728 738 739 741 742 744}
+edit::move -offset 17780,7874
+nse::clearselection
+nse::selectitems 741
+edit::move -offset -16976,-8890
+nse::clearselection
+nse::selectitems {654 655 656 658 659 661 663 664 667 668 672 675 676 679 680 683 684 686 688 693 697 699 701 707 711 713 717 719 721 722 723 724 725 726 727 728 729 730 731 732 733 734 735 736 737 738 739 740 741 742 743 744}
+edit::textalign
+nse::clearselection
+nse::selectitems {383 387}
+edit::move -offset -45974,28956
+nse::deselectitems {383 387}
+nse::selectitems 11
+item::setrect -rect 8128,-117348,56896,117348
+nse::clearselection
+nse::selectitems 11
+edit::move -offset -3048,-2032
+nse::clearselection
+nse::selectitems 11
+edit::move -offset 0,0
+item::setrect -rect 5080,-119380,55880,117348
+nse::clearselection
+nse::selectitems {14 18 196 214 256 258 270 294 296 298 300 301 303 306 322 323 329 341 342 343 383 387 441 443 445 447 457 459 461 463 465 467 469 471 557 559 590 592 594 596 598 600 602 604 610 612 614 616 618 620 622 624 628 629 634 636 638 640 646 648}
+edit::move -offset -28448,-25908
+nse::clearselection
+nse::selectitems {212 213 240 241 242 243 254 255 266 267 268 269 272 273 274 275 276 277 278 279 282 283 284 285 290 291 293 305 314 315 321 327 328 330 331 332 333 335 336 339 340 424 426 427 428 430 431 439 552 553 555 606 607 608 630 631 633 642 643 644}
+edit::move -offset 43688,-10160
+nse::clearselection
+nse::selectitems 622
+edit::move -offset 25400,-7620
+edit::move -offset -5080,2540
+edit::vertmirror
+nse::deselectitems 622
+nse::selectitems 633
+nse::deselectitems 633
+nse::selectitems 642
+edit::move -offset -71120,-14986
+nse::deselectitems 642
+nse::selectitems 622
+edit::move -offset 27940,2540
+nse::clearselection
+nse::selectitems 278
+edit::move -offset -71120,-53594
+nse::clearselection
+nse::selectitems 339
+edit::move -offset 0,-508
+nse::deselectitems 339
+nse::selectitems 290
+edit::move -offset 0,-254
+edit::move -offset -71120,-63500
+nse::clearselection
+nse::selectitems 739
+edit::move -offset 3852,-762
+nse::deselectitems 739
+nse::selectitems 713
+edit::move -offset -59690,-8382
+edit::move -offset -81280,-45720
+nse::clearselection
+nse::selectitems 656
+edit::move -offset 1524,508
+nse::deselectitems 656
+nse::selectitems 659
+edit::move -offset 1524,0
+nse::deselectitems 659
+nse::selectitems 658
+edit::move -offset 423,254
+edit::move -offset 5080,5080
+nse::deselectitems 658
+nse::selectitems 661
+edit::move -offset 0,254
+edit::move -offset -15240,7620
+edit::move -offset -7620,2540
+nse::clearselection
+nse::selectitems 713
+prop::setvisible -valueindex 0 -visible none -dest port \#
+prop::setvisible -valueindex 0 -dest port \#
+nse::clearselection
+nse::selectitems 744
+edit::move -offset 804,762
+edit::move -offset 5080,0
+nse::deselectitems 744
+nse::selectitems 717
+edit::move -offset -70358,-11938
+edit::move -offset -71120,-45720
+prop::setvisible -valueindex 0 -visible none -dest port \#
+prop::setvisible -valueindex 0 -dest port \#
+nse::clearselection
+nse::selectitems 717
+nse::clearselection
+nse::selectitems {717 744 746}
+nse::clearselection
+nse::selectitems {744 746}
+gfx::setfont -font SansSerif
+nse::clearselection
+nse::selectitems 739
+gfx::setfont -font SansSerif
+nse::deselectitems 739
+nse::selectitems 745
+gfx::setfont -font SansSerif
+nse::clearselection
+nse::selectitems 745
+nse::deselectitems 745
+nse::selectitems 713
+edit::move -offset 0,0
+nse::clearselection
+nse::selectitems {278 290 339 622 642}
+nse::clearselection
+nse::selectitems {278 290 622 642}
+nse::deselectitems {278 290 622 642}
+nse::selectitems 279
+nse::clearselection
+nse::selectitems {278 290 622 642}
+edit::vertmirror
+nse::deselectitems {278 290 622 642}
+nse::selectitems 739
+edit::move -offset 1270,762
+nse::deselectitems 739
+nse::selectitems 745
+edit::move -offset 0,-2794
+nse::deselectitems 745
+nse::selectitems 746
+nse::deselectitems 746
+nse::selectitems 717
+edit::move -offset 0,0
+edit::move -offset -2540,-2540
+edit::vertmirror
+nse::clearselection
+nse::selectitems 717
+edit::vertmirror
+nse::clearselection
+nse::selectitems 745
+edit::move -offset 0,0
+nse::deselectitems 745
+nse::selectitems 278
+nse::clearselection
+nse::selectitems {278 290 333 339 622 624 642 644 713 745}
+nse::clearselection
+nse::selectitems {278 290 339 622 642 745}
+edit::rotate -center 25400,-99060 -angle 180
+nse::clearselection
+nse::selectitems 745
+edit::move -offset 0,0
+edit::move -offset 0,7620
+edit::rotate -center 25400,-93980 -angle 90
+nse::deselectitems 745
+nse::selectitems 624
+nse::deselectitems 624
+nse::selectitems 745
+edit::rotate -center 25400,-93980 -angle 90
+nse::clearselection
+nse::selectitems {278 290 622 642 713 745}
+edit::move -offset 0,-5080
+nse::clearselection
+nse::selectitems 745
+edit::move -offset 0,2540
+edit::move -offset 0,-2540
+nse::clearselection
+nse::selectitems 745
+nse::clearselection
+nse::selectitems 745
+nse::deselectitems 745
+nse::selectitems 624
+nse::deselectitems 624
+nse::selectitems 739
+nse::deselectitems 739
+nse::selectitems 745
+nse::deselectitems 745
+nse::selectitems 624
+nse::clearselection
+nse::selectitems 745
+edit::move -offset 0,2540
+nse::clearselection
+nse::selectitems 713
+edit::move -offset 12700,0
+nse::deselectitems 713
+nse::selectitems 745
+edit::move -offset 0,0
+edit::move -offset 0,-5080
+nse::clearselection
+nse::selectitems 745
+edit::move -offset 0,0
+nse::clearselection
+nse::selectitems 717
+nse::deselectitems 717
+nse::selectitems 746
+edit::move -offset 0,-254
+nse::clearselection
+nse::selectitems 713
+nse::deselectitems 713
+nse::selectitems {713 739}
+nse::deselectitems {713 739}
+nse::selectitems {713 739}
+nse::deselectitems {713 739}
+nse::selectitems {713 739}
+nse::deselectitems {713 739}
+nse::selectitems {713 739}
+nse::clearselection
+nse::selectitems {713 739}
+nse::deselectitems {713 739}
+nse::selectitems {713 739 745}
+edit::move -offset 25400,-5080
+edit::move -offset 0,-7620
+edit::move -offset 0,-2540
+nse::clearselection
+nse::selectitems 739
+edit::move -offset -12700,0
+nse::clearselection
+nse::selectitems 745
+edit::move -offset 0,0
+edit::move -offset 0,0
+nse::clearselection
+nse::selectitems 745
+edit::move -offset 2540,-2540
+nse::deselectitems 745
+nse::selectitems 713
+nse::clearselection
+nse::selectitems 713
+edit::move -offset 0,0
+nse::clearselection
+nse::selectitems 713
+port::setlength -length 7620
+nse::clearselection
+nse::selectitems 713
+edit::move -offset 2540,0
+nse::clearselection
+nse::selectitems 745
+edit::move -offset 0,0
+nse::deselectitems 745
+nse::selectitems 739
+edit::move -offset -2540,0
+nse::deselectitems 739
+nse::selectitems 745
+edit::move -offset -2540,2540
+nse::clearselection
+nse::selectitems {14 18 196 208 210 212 213 214 215 219 240 241 242 243 254 255 256 257 258 259 266 267 268 269 270 271 272 273 274 275 276 277 278 279 282 283 284 285 290 291 293 294 295 296 297 298 299 424 427 428 431 439 440 443 444 447 456 459 460 463 464 467 468 471 552 555 556 559 590 591 594 595 598 599 602 603 606 607 610 611 614 615 618 619 622 623 626 629 630 631 634 635 638 639 642 643 646 647 654 655 658 661 663 664 667 668 672 675 676 679 680 683 684 686 688 693 697 699 701 707 711 713 717 719 721 722 723 724 725 726 727 728 729 730 731 732 733 734 735 736 737 738 739 740 741 742 743 744}
+port::setlength -length 7620
+nse::clearselection
+nse::selectitems 717
+edit::move -offset 40640,-20320
+nse::deselectitems 717
+nse::selectitems 744
+edit::move -offset -762,-762
+edit::move -offset -15240,0
+nse::clearselection
+nse::selectitems 278
+edit::move -offset 40640,-5080
+nse::deselectitems 278
+nse::selectitems 746
+edit::move -offset 0,-2540
+nse::clearselection
+nse::selectitems 333
+nse::deselectitems 333
+nse::selectitems 279
+edit::move -offset -4657,0
+nse::clearselection
+nse::selectitems 279
+edit::move -offset 0,0
+nse::clearselection
+nse::selectitems 279
+edit::move -offset 0,0
+edit::move -offset 1270,0
+nse::clearselection
+nse::selectitems 623
+nse::deselectitems 623
+nse::selectitems 622
+edit::move -offset 1270,0
+edit::move -offset 39370,-7620
+nse::deselectitems 622
+nse::selectitems 623
+edit::move -offset 423,0
+edit::move -offset -3810,0
+nse::clearselection
+nse::selectitems 290
+edit::move -offset 40640,2540
+nse::deselectitems 290
+nse::selectitems 291
+edit::move -offset -3387,0
+nse::clearselection
+nse::selectitems 642
+edit::move -offset 40640,1270
+nse::clearselection
+nse::selectitems 643
+edit::move -offset 423,0
+edit::move -offset -3810,0
+nse::clearselection
+nse::selectitems 339
+edit::move -offset 0,254
+nse::clearselection
+nse::selectitems {383 387}
+edit::move -offset 79248,-26162
+nse::clearselection
+nse::selectitems {278 290 333 339 622 624 642 644 713 717 745 746}
+edit::move -offset 0,-1270
+edit::move -offset 0,-1270
+nse::clearselection
+nse::selectitems 656
+nse::clearselection
+nse::selectitems {328 656 659}
+nse::clearselection
+nse::selectitems {656 659}
+nse::clearselection
+nse::selectitems 722
+nse::clearselection
+nse::selectitems 732
+nse::selectitems 733
+nse::deselectitems 733
+nse::clearselection
+nse::selectitems 724
+nse::selectitems 733
+nse::selectitems 732
+nse::selectitems 722
+nse::selectitems 734
+nse::selectitems 735
+gfx::setfont -font SansSerif
+nse::deselectitems {722 724 732 733 734 735}
+nse::selectitems 731
+nse::selectitems 743
+nse::selectitems 740
+nse::selectitems 736
+nse::selectitems 737
+nse::selectitems 730
+nse::selectitems 729
+nse::selectitems 741
+nse::selectitems 738
+nse::selectitems 723
+nse::selectitems 742
+nse::selectitems 726
+nse::selectitems 725
+nse::selectitems 728
+nse::selectitems 727
+gfx::setfont -font SansSerif
+nse::clearselection
+nse::selectitems 447
+edit::move -offset 34290,-22352
+edit::move -offset -11430,-39370
+nse::deselectitems 447
+nse::selectitems 444
+edit::move -offset 3387,0
+nse::clearselection
+nse::selectitems 208
+edit::move -offset 3387,0
+nse::deselectitems 208
+nse::selectitems 295
+edit::move -offset 3387,0
+nse::clearselection
+nse::selectitems 294
+edit::move -offset 45720,21590
+nse::deselectitems 294
+nse::selectitems 594
+nse::deselectitems 594
+nse::selectitems 592
+edit::move -offset 0,254
+nse::deselectitems 592
+nse::selectitems 595
+nse::deselectitems 595
+nse::selectitems 594
+edit::move -offset 46990,6096
+nse::clearselection
+nse::selectitems 295
+nse::deselectitems 295
+nse::selectitems 595
+edit::move -offset 3387,0
+nse::clearselection
+nse::selectitems 594
+edit::move -offset -1270,0
+nse::clearselection
+nse::selectitems 256
+edit::move -offset 45720,2540
+nse::clearselection
+nse::selectitems {258 296 559 618 634 646}
+nse::clearselection
+nse::selectitems {258 296 443 559 618 634 646}
+edit::move -offset 45720,-9398
+nse::clearselection
+nse::selectitems {214 270}
+edit::move -offset 44450,-11176
+nse::clearselection
+nse::selectitems {467 471}
+edit::move -offset 44450,-16002
+nse::deselectitems {467 471}
+nse::selectitems 273
+edit::move -offset -2117,-508
+nse::clearselection
+nse::selectitems {242 272}
+edit::move -offset -30480,13716
+edit::move -offset -17780,21590
+edit::move -offset -22860,17780
+nse::deselectitems {242 272}
+nse::selectitems 240
+edit::move -offset -25400,6096
+edit::move -offset -30480,15240
+nse::deselectitems 240
+nse::selectitems 240
+edit::move -offset -15240,10160
+nse::clearselection
+nse::selectitems 276
+edit::move -offset -13970,-9144
+edit::move -offset -53340,-6350
+nse::clearselection
+nse::selectitems {679 680 727 728}
+edit::move -offset -96012,-17018
+nse::clearselection
+nse::selectitems {675 676 729 730}
+edit::move -offset -79502,21082
+nse::deselectitems {675 676 729 730}
+nse::selectitems 711
+edit::move -offset -115062,5080
+nse::deselectitems 711
+nse::selectitems 721
+edit::move -offset -118618,-1524
+nse::clearselection
+nse::selectitems {697 699 701 707 736 737 740 741 743}
+nse::clearselection
+nse::selectitems {697 699 701 736 737 740 743}
+nse::clearselection
+nse::selectitems {697 699 701 736 737 740}
+edit::move -offset -100838,55880
+nse::deselectitems {697 699 701 736 737 740}
+nse::selectitems 707
+edit::move -offset -98806,43942
+nse::deselectitems 707
+nse::selectitems 672
+edit::move -offset -84328,30480
+nse::deselectitems 672
+nse::selectitems 664
+edit::move -offset -79502,74422
+nse::deselectitems 664
+nse::selectitems 471
+edit::move -offset -3810,36830
+nse::deselectitems 471
+nse::selectitems 294
+edit::move -offset -10160,55880
+edit::move -offset 5080,17780
+nse::deselectitems 294
+nse::selectitems 468
+edit::move -offset 3387,0
+nse::clearselection
+nse::selectitems 272
+edit::move -offset -3810,22606
+edit::vertmirror
+edit::move -offset -1270,10160
+nse::deselectitems 272
+nse::selectitems 240
+edit::move -offset -5080,31750
+nse::deselectitems 240
+nse::selectitems 314
+nse::selectitems 241
+nse::deselectitems 241
+nse::selectitems 240
+edit::vertmirror
+nse::clearselection
+nse::selectitems 241
+edit::move -offset 3387,0
+nse::deselectitems 241
+nse::selectitems 273
+edit::move -offset 1270,508
+nse::deselectitems 273
+nse::selectitems 258
+edit::move -offset -5080,56896
+nse::deselectitems 258
+nse::selectitems 618
+edit::move -offset -5080,64516
+nse::clearselection
+nse::selectitems {240 258 259 272 294 471 618 619}
+edit::move -offset -30480,-2540
+nse::deselectitems {240 258 259 272 294 471 618 619}
+nse::selectitems 646
+edit::move -offset 0,-254
+edit::move -offset -35560,67310
+nse::deselectitems 646
+nse::selectitems 559
+edit::move -offset -35560,75692
+nse::deselectitems 559
+nse::selectitems 443
+edit::move -offset -35560,81280
+nse::deselectitems 443
+nse::selectitems 634
+edit::move -offset -35560,77724
+nse::deselectitems 634
+nse::selectitems 297
+nse::deselectitems 297
+nse::selectitems 296
+edit::move -offset -35560,72136
+nse::deselectitems 296
+nse::selectitems 256
+edit::move -offset -35560,91440
+nse::deselectitems 256
+nse::selectitems 594
+edit::move -offset -35560,96520
+nse::deselectitems 594
+nse::selectitems 699
+edit::move -offset -24130,13970
+edit::vertmirror
+edit::move -offset -36830,20320
+nse::deselectitems 699
+nse::selectitems 736
+nse::deselectitems 736
+nse::selectitems 699
+edit::rotate -center -11430,12700 -angle 180
+nse::deselectitems 699
+nse::selectitems 254
+edit::move -offset -48260,-4826
+nse::deselectitems 254
+nse::selectitems 268
+edit::move -offset -48260,-3810
+nse::deselectitems 268
+nse::selectitems 683
+edit::move -offset -62992,8382
+edit::move -offset -76200,39370
+edit::move -offset -10160,-2540
+nse::clearselection
+nse::selectitems 701
+edit::move -offset -61468,36068
+nse::deselectitems 701
+nse::selectitems 680
+edit::move -offset 0,762
+edit::move -offset -39370,49530
+nse::deselectitems 680
+nse::selectitems 711
+edit::move -offset -60960,60960
+nse::deselectitems 711
+nse::selectitems 679
+edit::move -offset -39370,58420
+nse::deselectitems 679
+nse::selectitems 676
+edit::move -offset -60960,71882
+nse::deselectitems 676
+nse::selectitems 697
+edit::move -offset -61468,54102
+nse::deselectitems 697
+nse::selectitems 675
+edit::move -offset -60960,80010
+nse::clearselection
+nse::selectitems 707
+edit::move -offset -60960,50800
+nse::deselectitems 707
+nse::selectitems 672
+edit::move -offset 0,0
+edit::move -offset -59690,92710
+nse::deselectitems 672
+nse::selectitems 721
+edit::move -offset -60960,76200
+nse::deselectitems 721
+nse::selectitems 664
+edit::move -offset -59690,99060
+nse::deselectitems 664
+nse::selectitems 270
+edit::move -offset -34290,103632
+nse::deselectitems 270
+nse::selectitems 214
+edit::move -offset -34290,109220
+nse::deselectitems 214
+nse::selectitems 243
+nse::deselectitems 243
+nse::selectitems 242
+edit::move -offset -1270,22860
+nse::deselectitems 242
+nse::selectitems {242 243}
+nse::deselectitems {242 243}
+nse::selectitems {242 243}
+nse::deselectitems {242 243}
+nse::selectitems {242 243}
+nse::deselectitems {242 243}
+nse::selectitems {242 243}
+edit::move -offset -5080,30480
+edit::move -offset -29210,45720
+nse::deselectitems {242 243}
+nse::selectitems 276
+edit::move -offset -8890,31750
+edit::move -offset -29210,58420
+nse::deselectitems 276
+nse::selectitems 467
+edit::move -offset -1270,44450
+edit::move -offset -34290,63500
+nse::deselectitems 467
+nse::selectitems 254
+edit::move -offset -10160,27940
+edit::move -offset -49530,100330
+nse::clearselection
+nse::selectitems 268
+port::rename -newname P1.11/TRACEDATA2
+nse::clearselection
+nse::selectitems {726 727 728 729 730 736 737 738 740}
+edit::move -offset 6392,0
+nse::clearselection
+nse::selectitems {257 259 297 440 556 619 635 647}
+edit::move -offset 3387,0
+nse::clearselection
+nse::selectitems 240
+nse::deselectitems 240
+nse::selectitems 707
+edit::move -offset -1270,0
+nse::deselectitems 707
+nse::selectitems 741
+edit::move -offset 5588,1016
+nse::deselectitems 741
+nse::selectitems 731
+edit::move -offset 6392,0
+nse::deselectitems 731
+nse::selectitems 742
+edit::move -offset 6392,0
+nse::deselectitems 742
+nse::selectitems 732
+edit::move -offset 6392,0
+nse::deselectitems 732
+nse::selectitems 271
+edit::move -offset 3387,0
+nse::deselectitems 271
+nse::selectitems 215
+edit::move -offset 3387,0
+nse::deselectitems 215
+nse::selectitems 243
+edit::move -offset 13123,0
+edit::move -offset 1270,0
+nse::clearselection
+nse::selectitems {215 243}
+nse::clearselection
+nse::selectitems 243
+edit::move -offset -1270,0
+edit::move -offset 254,-254
+nse::deselectitems 243
+nse::selectitems 215
+nse::deselectitems 215
+nse::selectitems 243
+edit::move -offset 254,0
+nse::clearselection
+nse::selectitems 277
+edit::move -offset 13123,0
+nse::deselectitems 277
+nse::selectitems 276
+edit::move -offset -1270,0
+nse::deselectitems 276
+nse::selectitems 277
+edit::move -offset 0,0
+nse::clearselection
+nse::selectitems 277
+edit::move -offset 1270,0
+nse::clearselection
+nse::selectitems 277
+edit::move -offset -762,-254
+nse::clearselection
+nse::selectitems 467
+edit::move -offset 762,0
+nse::deselectitems 467
+nse::selectitems 464
+edit::move -offset 3641,-254
+nse::deselectitems 464
+nse::selectitems 467
+edit::move -offset 508,0
+nse::deselectitems 467
+nse::selectitems 464
+edit::move -offset -508,0
+nse::deselectitems 464
+nse::selectitems 255
+edit::move -offset 14224,0
+nse::deselectitems 255
+nse::selectitems 254
+nse::clearselection
+nse::selectitems 254
+edit::move -offset 1270,0
+nse::clearselection
+nse::selectitems 471
+nse::deselectitems 471
+nse::selectitems 294
+nse::deselectitems 294
+nse::selectitems 272
+nse::deselectitems 272
+nse::selectitems 240
+nse::clearselection
+nse::selectitems {214 215 240 241 242 243 254 256 257 258 259 270 271 272 273 276 277 294 295 296 297 440 443 464 467 468 471 556 559 594 595 618 619 634 635 646 647 664 672 675 676 679 680 683 697 699 701 707 711 721 726 727 728 729 730 731 732 736 737 738 740 741 742}
+nse::clearselection
+nse::selectitems {672 675 676 679 680 683 697 699 701 707 711 721}
+edit::vertmirror
+nse::clearselection
+nse::selectitems {726 727 728 729 730 731 736 737 738 740 741 742}
+edit::move -offset 16510,0
+edit::move -offset 1270,0
+nse::clearselection
+nse::selectitems 736
+edit::move -offset 0,0
+nse::clearselection
+nse::selectitems 699
+nse::clearselection
+nse::selectitems {726 727 728 729 730 731 732 736 737 738 740 741 742}
+edit::move -offset -508,0
+nse::clearselection
+nse::selectitems 728
+edit::move -offset 10414,0
+nse::clearselection
+nse::selectitems {214 215 242 243 254 255 270 271 276 277 464 467 664 672 675 676 679 697 707 711 721 727 728 729 730 731 732 738 740 741 742}
+nse::clearselection
+nse::selectitems 664
+edit::rotate -center -11430,43180 -angle 180
+nse::clearselection
+nse::selectitems {242 276}
+edit::vertmirror
+nse::deselectitems {242 276}
+nse::selectitems 254
+edit::move -offset 0,0
+edit::vertmirror
+nse::clearselection
+nse::selectitems 255
+edit::move -offset 17526,0
+nse::clearselection
+nse::selectitems {243 277 732}
+edit::move -offset 16764,254
+edit::move -offset 254,0
+nse::clearselection
+nse::selectitems 742
+edit::move -offset 0,0
+nse::deselectitems 742
+nse::selectitems 732
+edit::move -offset -254,-254
+nse::clearselection
+nse::selectitems {594 664 672 675 676 679 680 683 697 699 701 707 711 721}
+prop::setvisible -valueindex 0 -visible none -dest port \#
+prop::setvisible -valueindex 0 -dest port \#
+nse::clearselection
+nse::selectitems {306 329 747 748 749 750 751 752 753 754 755 756 757 758 759}
+nse::clearselection
+nse::selectitems 755
+nse::selectitems 753
+nse::selectitems 756
+nse::selectitems 752
+nse::selectitems 758
+nse::selectitems 751
+nse::selectitems 750
+nse::selectitems 754
+nse::selectitems 749
+nse::selectitems 757
+nse::selectitems 748
+nse::selectitems 759
+nse::selectitems 747
+gfx::setfont -font SansSerif
+edit::move -offset -254,-2311
+edit::move -offset 508,0
+nse::clearselection
+nse::selectitems 314
+edit::move -offset -1524,0
+nse::clearselection
+nse::selectitems {306 314 315 321 322 323 329 330 332 341 342 441 465 469 557 596 620 636 648 747 748 749 750 751 752 753 754 755 756 757 758 759}
+nse::clearselection
+nse::selectitems {214 215 240 241 242 243 254 255 256 257 258 259 270 271 272 273 276 277 294 295 296 297 306 314 315 321 322 323 329 330 332 341 342 440 441 443 464 465 467 468 469 471 556 557 559 594 595 596 618 619 620 634 635 636 646 647 648 664 672 675 676 679 680 683 697 699 701 707 711 721 726 727 728 729 730 731 732 736 737 738 740 741 742 747 748 749 750 751 752 753 754 755 756 757 758 759}
+edit::move -offset 12700,-88138
+nse::clearselection
+nse::undo
+edit::move -offset 11430,-87630
+edit::move -offset 1270,-1270
+nse::clearselection
+nse::selectitems 269
+nse::deselectitems 269
+nse::selectitems 328
+nse::deselectitems 328
+nse::selectitems 268
+edit::move -offset -13970,50800
+nse::clearselection
+nse::selectitems {590 592 600 602 604 610 612 614 616 628 629 638 640}
+nse::clearselection
+nse::selectitems {590 591 592 602 603 604 610 611 612 614 615 616 626 628 629 638 639 640}
+edit::move -offset -12700,31242
+edit::move -offset 67310,24130
+nse::clearselection
+nse::selectitems {293 340 424 426 427 439 606 607 608 630 631 633}
+edit::move -offset -59690,27940
+edit::move -offset 12700,15240
+edit::move -offset 3810,2540
+nse::clearselection
+nse::selectitems {212 213 274 275 305 331}
+edit::move -offset -58420,6096
+nse::clearselection
+nse::selectitems 336
+nse::deselectitems 336
+nse::selectitems 284
+edit::move -offset -45720,-37846
+nse::deselectitems 284
+nse::selectitems 668
+edit::move -offset 508,-254
+edit::move -offset -86360,41910
+nse::clearselection
+nse::selectitems {693 743}
+edit::move -offset -110490,8382
+nse::clearselection
+nse::selectitems 743
+edit::move -offset -7578,-3810
+edit::move -offset 13970,3810
+nse::clearselection
+nse::selectitems 693
+edit::move -offset -27940,49530
+edit::move -offset 50800,16510
+nse::clearselection
+nse::selectitems 668
+edit::move -offset 19050,64770
+nse::deselectitems 668
+nse::selectitems 631
+edit::move -offset -3387,0
+nse::clearselection
+nse::selectitems 630
+edit::move -offset 12700,35560
+nse::clearselection
+nse::selectitems {590 592 602 604 614 616 628 638 640}
+nse::clearselection
+nse::selectitems {590 591 602 603 604 614 615 638 639 640}
+edit::move -offset 31750,43180
+edit::vertmirror
+edit::move -offset -4886,0
+nse::clearselection
+nse::selectitems 610
+edit::move -offset 31750,39878
+nse::deselectitems 610
+nse::selectitems 606
+edit::move -offset 12700,78740
+nse::deselectitems 606
+nse::selectitems 629
+edit::move -offset 31750,47752
+nse::deselectitems 629
+nse::selectitems 284
+edit::move -offset -1270,74930
+edit::move -offset 16510,13970
+edit::move -offset 0,1270
+nse::deselectitems 284
+nse::selectitems 268
+edit::move -offset 31750,43180
+nse::clearselection
+nse::selectitems {212 213 274 275 305 331}
+edit::move -offset 27940,83820
+nse::deselectitems {212 213 274 275 305 331}
+nse::selectitems 439
+edit::move -offset -7620,44450
+edit::move -offset 20320,21590
+nse::clearselection
+nse::selectitems {426 427}
+edit::move -offset 26670,80772
+edit::move -offset -13970,3810
+nse::clearselection
+nse::selectitems 724
+edit::move -offset -10118,-1270
+nse::clearselection
+nse::selectitems {212 268 274 284 305 328 331 336 340 426 427 439 590 592 602 604 606 608 610 611 612 614 616 626 629 630 633 638 640 668 693}
+nse::clearselection
+nse::selectitems 639
+edit::move -offset -3387,-1270
+nse::deselectitems 639
+nse::selectitems 608
+nse::deselectitems 608
+nse::selectitems 610
+edit::vertmirror
+nse::clearselection
+nse::selectitems {212 213 268 269 274 275 284 285 293 305 328 331 336 340 424 426 427 439 606 607 608 610 611 612 626 628 629 638 640}
+nse::clearselection
+nse::selectitems 336
+nse::deselectitems 336
+nse::selectitems 629
+edit::vertmirror
+nse::clearselection
+nse::selectitems 590
+edit::move -offset 0,-2794
+nse::clearselection
+nse::selectitems {212 213 268 269 274 275 284 285 293 305 328 331 336 340 424 426 427 439 606 607 608 610 611 612 626 628 629 638 639 640}
+edit::move -offset 0,-5080
+edit::move -offset 0,-1270
+nse::deselectitems {212 213 268 269 274 275 284 285 293 305 328 331 336 340 424 426 427 439 606 607 608 610 611 612 626 628 629 638 639 640}
+nse::selectitems 724
+edit::move -offset 0,-1270
+nse::clearselection
+nse::selectitems 631
+edit::move -offset 0,-2540
+edit::move -offset 508,0
+nse::deselectitems 631
+nse::selectitems 615
+edit::move -offset -2879,-2286
+nse::deselectitems 615
+nse::selectitems 603
+edit::move -offset -2879,-2794
+nse::deselectitems 603
+nse::selectitems 591
+edit::move -offset -2879,-3302
+nse::deselectitems 591
+nse::selectitems 631
+nse::deselectitems 631
+nse::selectitems 668
+nse::clearselection
+nse::selectitems {591 603 615 631 724}
+edit::move -offset 0,2540
+nse::clearselection
+nse::selectitems 590
+edit::move -offset 0,-508
+nse::deselectitems 590
+nse::selectitems 638
+edit::move -offset 0,-508
+nse::deselectitems 638
+nse::selectitems 639
+edit::move -offset 508,1270
+nse::deselectitems 639
+nse::selectitems 591
+edit::move -offset 0,0
+edit::move -offset 0,762
+nse::deselectitems 591
+nse::selectitems 603
+edit::move -offset 0,508
+edit::move -offset 0,-254
+nse::deselectitems 603
+nse::selectitems 615
+edit::move -offset 0,-254
+nse::deselectitems 615
+nse::selectitems 631
+nse::deselectitems 631
+nse::selectitems 724
+nse::deselectitems 724
+nse::selectitems 693
+edit::move -offset 0,0
+nse::deselectitems 693
+nse::selectitems 743
+edit::move -offset -26924,1016
+edit::move -offset -7366,-1016
+nse::deselectitems 743
+nse::selectitems 611
+edit::move -offset -3387,-254
+nse::deselectitems 611
+nse::selectitems 610
+edit::move -offset 0,-508
+nse::deselectitems 610
+nse::selectitems 611
+edit::move -offset 508,254
+nse::clearselection
+nse::selectitems 606
+edit::move -offset 0,-254
+nse::deselectitems 606
+nse::selectitems 607
+edit::move -offset -2879,0
+nse::deselectitems 607
+nse::selectitems 629
+edit::move -offset 254,0
+edit::move -offset -254,0
+nse::deselectitems 629
+nse::selectitems 626
+edit::move -offset -2879,0
+nse::deselectitems 626
+nse::selectitems 285
+edit::move -offset -3133,0
+nse::deselectitems 285
+nse::selectitems 269
+edit::move -offset -85,0
+edit::move -offset -3048,0
+nse::deselectitems 269
+nse::selectitems 213
+edit::move -offset -85,0
+edit::move -offset -3048,0
+nse::deselectitems 213
+nse::selectitems 275
+edit::move -offset -3133,0
+nse::deselectitems 275
+nse::selectitems 293
+edit::move -offset -3133,0
+nse::deselectitems 293
+nse::selectitems 424
+edit::move -offset 169,0
+edit::move -offset -3556,0
+nse::clearselection
+nse::selectitems 340
+edit::move -offset 1524,0
+nse::deselectitems 340
+nse::selectitems 693
+prop::setvisible -valueindex 0 -visible none -dest port \#
+prop::setvisible -valueindex 0 -dest port \#
+nse::deselectitems 693
+nse::selectitems 760
+gfx::setfont -font SansSerif
+edit::move -offset 0,-2311
+nse::deselectitems 760
+nse::selectitems 633
+edit::move -offset 0,-254
+nse::clearselection
+nse::selectitems 668
+edit::move -offset 0,-254
+edit::move -offset 11684,7112
+edit::move -offset 3302,254
+nse::clearselection
+nse::selectitems 668
+edit::move -offset -254,0
+prop::setvisible -valueindex 0 -visible none -dest port \#
+prop::setvisible -valueindex 0 -dest port \#
+nse::deselectitems 668
+nse::selectitems 761
+gfx::setfont -font SansSerif
+edit::move -offset -254,-2565
+nse::deselectitems 761
+nse::selectitems 668
+edit::move -offset -14732,-7112
+nse::clearselection
+nse::selectitems {212 268 274 284 427 439 590 602 606 610 614 629 630 633 638 668 693 760}
+nse::clearselection
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD NRF52840-QIAA-R.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD NRF52840-QIAA-R.1
+nse::selectitems 614
+edit::move -offset 0,508
+edit::move -offset 0,0
+nse::clearselection
+nse::selectitems 614
+nse::clearselection
+nse::selectitems {212 268 274 284 427 439 590 602 604 606 610 614 629 638}
+edit::move -offset 0,-254
+edit::move -offset 0,-254
+nse::clearselection
+nse::selectitems {212 268 274 284 305 328 331 336 340 426 427 439 590 592 602 604 606 608 610 612 614 616 628 629 630 633 638 640 668 693 760 761}
+edit::move -offset 3302,-50038
+nse::deselectitems {212 268 274 284 305 328 331 336 340 426 427 439 590 592 602 604 606 608 610 612 614 616 628 629 630 633 638 640 668 693 760 761}
+nse::selectitems 447
+edit::move -offset 80010,23114
+edit::vertmirror
+edit::move -offset -13208,6858
+nse::clearselection
+nse::selectitems {208 214 240 242 254 256 258 270 272 276 294 296 306 314 315 321 322 323 329 330 332 341 342 441 443 465 467 469 471 557 559 594 596 618 620 634 636 646 648 664 672 675 676 679 680 683 697 699 701 707 711 721 747 748 749 750 751 752 753 754 755 756 757 758 759}
+nse::clearselection
+nse::selectitems {214 240 242 254 256 258 270 272 276 294 296 306 314 315 321 322 323 329 330 332 341 342 441 443 465 467 469 471 557 559 594 596 618 620 634 636 646 648 664 672 675 676 679 680 683 697 699 701 707 711 721 747 748 749 750 751 752 753 754 755 756 757 758 759}
+edit::move -offset 0,-7620
+nse::clearselection
+nse::selectitems {212 268 274 284 305 328 331 336 340 426 427 439 590 592 602 604 606 608 610 612 614 616 628 629 630 633 638 640 668 693 760 761}
+edit::vertmirror
+edit::move -offset -66802,25146
+edit::move -offset -254,0
+nse::clearselection
+nse::selectitems 11
+edit::move -offset 0,254
+item::setrect -rect 5080,-119126,55880,127254
+item::setrect -rect 5080,-119126,55880,129286
+nse::clearselection
+nse::selectitems 11
+item::setrect -rect 5080,-119126,55880,127254
+nse::clearselection
+nse::selectitems 658
+edit::move -offset -1270,-2794
+nse::clearselection
+nse::selectitems {278 290 333 339 622 624 642 644 713 717 745 746}
+edit::move -offset 0,0
+nse::clearselection
+nse::selectitems 18
+edit::move -offset 0,20320
+edit::move -offset 60960,49530
+nse::deselectitems 18
+nse::selectitems 719
+edit::move -offset -119380,508
+nse::clearselection
+nse::selectitems 663
+edit::move -offset -54102,40640
+nse::deselectitems 663
+nse::selectitems 196
+edit::move -offset 73660,-34036
+nse::deselectitems 196
+nse::selectitems 663
+edit::move -offset -26670,1270
+nse::deselectitems 663
+nse::selectitems 762
+nse::clearselection
+nse::selectitems 663
+nse::deselectitems 663
+nse::selectitems 762
+nse::deselectitems 762
+nse::selectitems 722
+nse::deselectitems 722
+nse::selectitems 762
+gfx::setfontsize -size 10
+gfx::setfont -font SansSerif
+nse::clearselection
+nse::selectitems 722
+nse::deselectitems 722
+nse::selectitems 663
+nse::deselectitems 663
+nse::selectitems 722
+edit::move -offset 42,0
+edit::move -offset -10160,0
+nse::clearselection
+nse::selectitems 762
+edit::move -offset -5080,-2540
+nse::deselectitems 762
+nse::selectitems 663
+edit::move -offset 17780,-6350
+nse::deselectitems 663
+nse::selectitems 642
+edit::move -offset 0,0
+nse::deselectitems 642
+nse::selectitems 663
+edit::move -offset 0,-1270
+nse::clearselection
+nse::selectitems {18 196 208 301 303 719 723 767}
+edit::move -offset 19050,67310
+nse::clearselection
+nse::selectitems {18 208 301 719 723 767}
+edit::move -offset 11430,-17780
+nse::clearselection
+nse::selectitems 719
+nse::deselectitems 719
+nse::selectitems 767
+gfx::setfont -font SansSerif
+gfx::setfontsize -size 10
+nse::clearselection
+nse::selectitems 767
+edit::move -offset -11430,-1270
+nse::deselectitems 767
+nse::selectitems 723
+edit::move -offset 2582,-1270
+edit::move -offset -1270,0
+nse::clearselection
+nse::selectitems 719
+nse::deselectitems 719
+nse::selectitems 18
+edit::rotate -center 69850,6350 -angle 180
+edit::move -offset 8890,3810
+nse::clearselection
+nse::selectitems 196
+nse::deselectitems 196
+nse::selectitems 210
+edit::move -offset -10583,0
+nse::deselectitems 210
+nse::selectitems 303
+edit::move -offset 3810,0
+nse::deselectitems 303
+nse::selectitems 196
+edit::vertmirror
+nse::clearselection
+nse::selectitems 210
+edit::move -offset -13970,0
+nse::deselectitems 210
+nse::selectitems 196
+edit::move -offset 7620,7620
+nse::clearselection
+nse::selectitems 303
+edit::move -offset 3810,0
+nse::deselectitems 303
+nse::selectitems 723
+edit::move -offset 0,0
+nse::clearselection
+nse::selectitems {18 196 301 303 719 723}
+edit::move -offset -13970,-6350
+nse::clearselection
+nse::selectitems 431
+edit::move -offset 0,-15494
+nse::deselectitems 431
+nse::selectitems 282
+edit::move -offset 0,1270
+nse::deselectitems 282
+nse::selectitems 283
+edit::move -offset -3387,0
+nse::deselectitems 283
+nse::selectitems 428
+edit::move -offset -3387,0
+nse::deselectitems 428
+nse::selectitems 431
+edit::move -offset 0,-5080
+nse::clearselection
+nse::selectitems {282 283 335 428 430 431}
+edit::move -offset -26670,-31750
+nse::deselectitems {282 283 335 428 430 431}
+nse::selectitems 447
+edit::move -offset -3302,-3302
+nse::clearselection
+nse::selectitems {282 335 430 431}
+nse::clearselection
+nse::selectitems {428 431}
+nse::clearselection
+nse::selectitems {282 335 430 431}
+edit::move -offset -3810,-10160
+nse::clearselection
+nse::selectitems 552
+edit::move -offset -3387,0
+nse::deselectitems 552
+nse::selectitems 555
+edit::move -offset -30480,-46990
+nse::deselectitems 555
+nse::selectitems 663
+edit::move -offset 1270,6350
+edit::move -offset -1270,1270
+nse::clearselection
+nse::selectitems {555 663}
+edit::move -offset 0,-2540
+nse::clearselection
+nse::selectitems 663
+edit::move -offset 0,1270
+nse::clearselection
+nse::selectitems {282 335 430 431 445 447}
+edit::move -offset 0,6350
+nse::clearselection
+nse::selectitems {282 335 430 431 445 447}
+edit::move -offset 0,17780
+nse::clearselection
+nse::selectitems 734
+edit::move -offset 804,-1270
+nse::deselectitems 734
+nse::selectitems 735
+edit::move -offset 1566,-762
+nse::clearselection
+nse::selectitems 734
+edit::move -offset 1270,0
+nse::deselectitems 734
+nse::selectitems 735
+nse::clearselection
+nse::selectitems 735
+edit::move -offset 254,-254
+nse::deselectitems 735
+nse::selectitems 734
+edit::move -offset 0,254
+nse::deselectitems 734
+nse::selectitems 735
+edit::move -offset -254,0
+nse::clearselection
+nse::selectitems 686
+nse::deselectitems 686
+nse::selectitems 688
+nse::clearselection
+nse::selectitems {686 688}
+edit::vertmirror
+nse::clearselection
+nse::selectitems {686 688}
+edit::vertmirror
+nse::clearselection
+nse::selectitems 766
+gfx::setfontsize -size 10
+nse::deselectitems 766
+nse::selectitems 765
+gfx::setfontsize -size 10
+nse::clearselection
+nse::selectitems 765
+nse::clearselection
+nse::selectitems 765
+nse::selectitems 766
+gfx::setfont -font SansSerif
+nse::clearselection
+nse::selectitems 765
+edit::move -offset -8128,-2286
+nse::deselectitems 765
+nse::selectitems 766
+nse::deselectitems 766
+nse::selectitems 765
+edit::move -offset 8890,1270
+nse::clearselection
+nse::selectitems 686
+nse::deselectitems 686
+nse::selectitems 765
+nse::clearselection
+nse::selectitems 765
+edit::move -offset -13208,-254
+nse::clearselection
+nse::selectitems 766
+nse::deselectitems 766
+nse::selectitems 765
+edit::move -offset 0,508
+edit::move -offset 0,-762
+edit::move -offset 0,0
+edit::move -offset 0,254
+nse::deselectitems 765
+nse::selectitems 766
+edit::move -offset -12954,-1270
+nse::clearselection
+nse::selectitems 688
+edit::move -offset -508,0
+nse::clearselection
+nse::selectitems 734
+edit::move -offset -508,0
+nse::clearselection
+nse::selectitems 766
+edit::move -offset 508,0
+nse::clearselection
+nse::selectitems {686 688}
+edit::move -offset -53594,18034
+nse::clearselection
+nse::selectitems 688
+nse::clearselection
+nse::selectitems {686 688}
+edit::move -offset -254,0
+nse::clearselection
+nse::selectitems 688
+edit::move -offset 0,-762
+nse::clearselection
+nse::selectitems 763
+gfx::setfontsize -size 10
+gfx::setfont -font SansSerif
+nse::clearselection
+nse::selectitems 733
+nse::deselectitems 733
+nse::selectitems 763
+edit::move -offset -2286,2286
+nse::deselectitems 763
+nse::selectitems 733
+edit::move -offset 42,0
+edit::move -offset -10160,0
+nse::deselectitems 733
+nse::selectitems 763
+edit::move -offset -3810,-4572
+nse::clearselection
+nse::selectitems 661
+nse::clearselection
+nse::selectitems 659
+edit::move -offset -13716,-254
+nse::deselectitems 659
+nse::selectitems 658
+edit::move -offset -2794,-6604
+nse::deselectitems 658
+nse::selectitems 659
+edit::move -offset 7874,-1016
+nse::deselectitems 659
+nse::selectitems 658
+edit::move -offset -13208,4064
+nse::deselectitems 658
+nse::selectitems 661
+nse::deselectitems 661
+nse::selectitems 655
+edit::move -offset -8467,0
+nse::deselectitems 655
+nse::selectitems 656
+edit::move -offset -4572,-1778
+nse::deselectitems 656
+nse::selectitems 763
+nse::clearselection
+nse::selectitems 667
+edit::move -offset -28194,-14986
+nse::deselectitems 667
+nse::selectitems 654
+edit::move -offset -23368,11430
+edit::move -offset 508,-508
+nse::deselectitems 654
+nse::selectitems 667
+edit::move -offset -508,0
+nse::clearselection
+nse::selectitems {654 661 667 763}
+nse::clearselection
+nse::selectitems {654 661 667 763}
+edit::move -offset -37592,57912
+nse::clearselection
+nse::selectitems {654 661 667}
+edit::move -offset -508,0
+edit::move -offset 0,-1016
+nse::clearselection
+nse::selectitems 725
+edit::move -offset -12658,0
+nse::deselectitems 725
+nse::selectitems 684
+edit::move -offset -16256,-13970
+edit::move -offset -56642,-5842
+nse::clearselection
+nse::selectitems {298 299 343 598 599 600}
+edit::move -offset 762,57912
+nse::deselectitems {298 299 343 598 599 600}
+nse::selectitems 266
+edit::move -offset -3048,-13970
+nse::clearselection
+nse::selectitems {14 219 298 299 300 343 456 457 459 460 461 463 598 599 600}
+edit::move -offset 112522,-20828
+nse::clearselection
+nse::selectitems 343
+nse::deselectitems 343
+nse::selectitems 457
+nse::deselectitems 457
+nse::selectitems 461
+nse::clearselection
+nse::selectitems 298
+edit::move -offset -508,14478
+nse::clearselection
+nse::selectitems 457
+edit::move -offset -508,-762
+nse::clearselection
+nse::undo
+nse::deselectitems 457
+nse::selectitems 459
+edit::move -offset 19304,21082
+nse::deselectitems 459
+nse::selectitems 266
+edit::move -offset -1524,-37338
+nse::clearselection
+nse::selectitems 298
+edit::vertmirror
+nse::clearselection
+nse::selectitems 463
+edit::vertmirror
+nse::clearselection
+nse::selectitems 14
+edit::vertmirror
+nse::deselectitems 14
+nse::selectitems 598
+edit::vertmirror
+edit::move -offset 1016,-9906
+nse::deselectitems 598
+nse::selectitems 459
+edit::vertmirror
+edit::move -offset -17018,-254
+nse::clearselection
+nse::selectitems {14 219 300 456 457 459 598 599 600}
+edit::move -offset -254,-7620
+nse::clearselection
+nse::selectitems {456 459 598 599 600}
+edit::move -offset -1778,-1778
+nse::clearselection
+nse::selectitems 459
+edit::move -offset -508,0
+nse::clearselection
+nse::selectitems {14 219 266 267 298 299 456 459 460 463 598 599 600}
+nse::clearselection
+nse::selectitems 299
+edit::move -offset -1863,0
+edit::move -offset -254,0
+nse::deselectitems 299
+nse::selectitems 267
+edit::move -offset -2625,0
+edit::move -offset 254,0
+nse::deselectitems 267
+nse::selectitems 299
+edit::move -offset -762,0
+nse::deselectitems 299
+nse::selectitems 298
+edit::move -offset -508,0
+nse::deselectitems 298
+nse::selectitems 463
+nse::deselectitems 463
+nse::selectitems 460
+edit::move -offset -85,0
+nse::clearselection
+nse::selectitems 463
+edit::move -offset -254,0
+nse::clearselection
+nse::selectitems 460
+edit::move -offset -2286,0
+nse::deselectitems 460
+nse::selectitems 219
+edit::move -offset -2371,0
+nse::deselectitems 219
+nse::selectitems 599
+edit::move -offset -2371,0
+nse::deselectitems 599
+nse::selectitems 456
+edit::move -offset -2371,0
+nse::deselectitems 456
+nse::selectitems 599
+nse::clearselection
+nse::selectitems 459
+edit::move -offset 0,-508
+nse::clearselection
+nse::selectitems {459 598}
+edit::move -offset 0,254
+nse::clearselection
+nse::selectitems 299
+edit::move -offset 508,0
+nse::clearselection
+nse::selectitems 299
+nse::clearselection
+nse::selectitems 298
+edit::move -offset 0,254
+nse::clearselection
+nse::selectitems {14 459 598}
+edit::move -offset 0,-254
+nse::clearselection
+nse::selectitems 300
+edit::move -offset 0,254
+nse::clearselection
+nse::selectitems {14 266 298 459 463 598}
+edit::move -offset -24130,39878
+edit::move -offset -1778,-254
+nse::clearselection
+nse::selectitems {18 196 301 303 719 723}
+edit::move -offset 0,-1270
+nse::deselectitems {18 196 301 303 719 723}
+nse::selectitems 764
+gfx::setfontsize -size 10
+nse::clearselection
+nse::selectitems 764
+gfx::setfont -font SansSerif
+nse::clearselection
+nse::selectitems 764
+edit::move -offset -4572,-2286
+nse::clearselection
+nse::selectitems 684
+edit::move -offset -254,0
+nse::clearselection
+nse::selectitems {11 14 18 196 208 210 212 213 214 215 219 240 241 242 243 254 255 256 257 258 259 266 267 268 269 270 271 272 273 274 275 276 277 278 279 282 283 284 285 290 291 293 294 295 296 297 298 299 300 301 303 305 306 314 315 321 322 323 327 328 329 330 331 332 333 335 336 339 340 341 342 343 383 387 424 426 427 428 430 431 439 440 441 443 444 445 447 456 457 459 460 461 463 464 465 467 468 469 471 552 553 555 556 557 559 590 591 592 594 595 596 598 599 600 602 603 604 606 607 608 610 611 612 614 615 616 618 619 620 622 623 624 626 628 629 630 631 633 634 635 636 638 639 640 642 643 644 646 647 648 654 655 656 658 659 661 663 664 667 668 672 675 676 679 680 683 684 686 688 693 697 699 701 707 711 713 717 719 721 722 723 724 725 726 727 728 729 730 731 732 733 734 735 736 737 738 739 740 741 742 743 744 745 746 747 748 749 750 751 752 753 754 755 756 757 758 759 760 761 762 763 764 765 766 767}
+edit::move -offset 2794,-9144
+nse::clearselection
+symbol::setoutline -rect 254,-132842,70866,132334
+nse::selectitems 383
+edit::move -offset 254,1524
+edit::move -offset 0,-254
+nse::deselectitems 383
+nse::selectitems 387
+edit::move -offset -2286,1778
+nse::clearselection
+nse::selectitems 387
+edit::move -offset 0,508
+nse::clearselection
+nse::undo
+nse::clearselection
+symbol::setoutline -rect 254,-133350,70866,132842
+nse::selectitems 684
+edit::move -offset 0,11938
+nse::clearselection
+nse::selectitems {14 266 298 300 327 343 457 459 461 463 598 600 684 764}
+edit::move -offset 0,-3048
+nse::clearselection
+nse::savesymbol
+nse::selectitems 739
+edit::move -offset 254,0
+nse::deselectitems 739
+nse::selectitems 744
+edit::move -offset 254,0
+nse::clearselection
+nse::selectitems {655 658 733}
+edit::move -offset -508,0
+nse::clearselection
+nse::selectitems 733
+edit::move -offset 254,0
+nse::clearselection
+nse::selectitems 444
+edit::move -offset 508,0
+nse::clearselection
+nse::selectitems {283 428}
+edit::move -offset 508,0
+nse::clearselection
+nse::selectitems {219 267 299 456 460 599}
+edit::move -offset -508,0
+nse::clearselection
+nse::selectitems 767
+edit::move -offset -508,-254
+nse::clearselection
+nse::selectitems {11 208 210 767}
+nse::clearselection
+nse::selectitems {208 210 767}
+edit::move -offset 508,0
+nse::clearselection
+nse::selectitems {765 766}
+edit::move -offset -254,0
+nse::clearselection
+nse::selectitems 424
+edit::move -offset -254,0
+nse::deselectitems 424
+nse::selectitems 255
+nse::deselectitems 255
+nse::selectitems 464
+edit::move -offset 254,254
+nse::deselectitems 464
+nse::selectitems 255
+edit::move -offset 254,0
+nse::clearselection
+nse::selectitems {215 241 243 255 257 259 271 273 277 295 297 440 464 468 556 595 619 635 647 726 727 728 729 730 731 732 736 737 738 740 741 742}
+edit::move -offset -762,0
+nse::clearselection
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD 4-1-USB-SWITCH_FSUSB74UMX.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD 4-1-USB-SWITCH_FSUSB74UMX.1
+prop::setvalue -value MAXIM-TQFN32-EP -valueindex 0 MANF_P/N
+nse::savesymbol -saveas USB-MUX-8-1_MAX4999ETJ.1
+prop::setvalue -value 4.60280 -valueindex 0 Cost_per_1000
+prop::setvalue -value {USB Switch IC 1 Channel 32-TQFN-EP (5x5)} -valueindex 0 DESCRIPTION
+prop::setvalue -value {Maxim Integrated} -valueindex 0 MANF
+prop::setvalue -value {Pin 1 indicated by silkscreen notch} -valueindex 0 Notes
+prop::setvalue -value MAXIM-TQFN32-EP -valueindex 0 PKG_TYPE
+prop::setvalue -value MAX4999ETJ+ -valueindex 0 MANF_P/N
+nse::selectitems {20 22 24 26 34 35 36 37 60 69 106 107 113 116 117 120}
+edit::copy
+nse::clearselection
+edit::paste -point 5080,-69850
+nse::clearselection
+nse::selectitems {130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153}
+nse::clearselection
+edit::paste -point 33274,-72644
+# cannot create port with name 'HSD1+_1' : port already exists - using unique name 'HSD1+_2' instead
+# cannot create port with name 'HSD2-_1' : port already exists - using unique name 'HSD2-_2' instead
+# cannot create port with name 'HSD2+_1' : port already exists - using unique name 'HSD2+_2' instead
+# cannot create port with name 'HSD1-_1' : port already exists - using unique name 'HSD1-_2' instead
+# cannot create port with name 'HSD3+_1' : port already exists - using unique name 'HSD3+_2' instead
+# cannot create port with name 'HSD3-_1' : port already exists - using unique name 'HSD3-_2' instead
+# cannot create port with name 'HSD0+_1' : port already exists - using unique name 'HSD0+_2' instead
+# cannot create port with name 'HSD0-_1' : port already exists - using unique name 'HSD0-_2' instead
+nse::clearselection
+nse::selectitems {154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177}
+nse::clearselection
+nse::selectitems 69
+nse::clearselection
+nse::selectitems 145
+nse::clearselection
+nse::selectitems 12
+prop::setvalue -value 17 -dest port -ports 145 \#
+nse::clearselection
+nse::selectitems 169
+nse::clearselection
+nse::selectitems 12
+prop::setvalue -value 18 -dest port -ports 169 \#
+nse::clearselection
+nse::selectitems 142
+nse::clearselection
+nse::selectitems 66
+prop::setvalue -value 19 -dest port -ports 142 \#
+nse::clearselection
+nse::selectitems 60
+nse::clearselection
+nse::selectitems 66
+prop::setvalue -value 20 -dest port -ports 60 \#
+nse::clearselection
+nse::selectitems 22
+nse::clearselection
+nse::selectitems 135
+nse::clearselection
+nse::selectitems 66
+prop::setvalue -value 21 -dest port -ports 135 \#
+nse::clearselection
+nse::selectitems 159
+nse::clearselection
+nse::selectitems 166
+prop::setvalue -value 22 -dest port -ports 159 \#
+nse::clearselection
+nse::selectitems 24
+nse::clearselection
+nse::selectitems 166
+prop::setvalue -value 23 -dest port -ports 24 \#
+nse::clearselection
+nse::selectitems 162
+nse::clearselection
+nse::selectitems 20
+prop::setvalue -value 24 -dest port -ports 162 \#
+nse::clearselection
+nse::selectitems 156
+nse::clearselection
+nse::selectitems 132
+prop::setvalue -value 25 -dest port -ports 156 \#
+nse::clearselection
+nse::selectitems 26
+prop::setvalue -value 26 -dest port -ports 132 \#
+nse::clearselection
+nse::selectitems 141
+nse::clearselection
+nse::selectitems 165
+prop::setvalue -value 27 -dest port -ports 141 \#
+nse::clearselection
+nse::selectitems 113
+prop::setvalue -value 28 -dest port -ports 165 \#
+nse::clearselection
+nse::selectitems 150
+nse::clearselection
+nse::selectitems 174
+prop::setvalue -value 29 -dest port -ports 150 \#
+nse::clearselection
+nse::selectitems 113
+prop::setvalue -value 30 -dest port -ports 174 \#
+nse::clearselection
+nse::selectitems 117
+nse::clearselection
+nse::selectitems 153
+nse::clearselection
+nse::selectitems 177
+prop::setvalue -value 31 -dest port -ports 153 \#
+nse::clearselection
+nse::selectitems 124
+prop::setvalue -value 32 -dest port -ports 177 \#
+nse::clearselection
+nse::selectitems 174
+edit::move -offset 0,-254
+edit::copy
+edit::paste -point 21590,-74676
+nse::clearselection
+nse::selectitems {178 179 180}
+nse::clearselection
+nse::selectitems 124
+prop::setvalue -value 33 -dest port -ports 178 \#
+nse::clearselection
+nse::selectitems 14
+nse::clearselection
+nse::selectitems 18
+nse::clearselection
+nse::selectitems 14
+port::rename -newname VCC 18
+nse::clearselection
+nse::selectitems 12
+port::rename -newname GND1 14
+nse::clearselection
+nse::selectitems 18
+nse::clearselection
+nse::selectitems 12
+port::rename -newname VCC1 18
+nse::clearselection
+nse::selectitems 66
+port::rename -newname EN 12
+nse::clearselection
+nse::selectitems 63
+port::rename -newname COM0 66
+nse::clearselection
+nse::selectitems 16
+port::rename -newname COM1 63
+nse::clearselection
+nse::selectitems 69
+port::rename -newname C0 16
+nse::clearselection
+nse::selectitems 166
+port::rename -newname C1 69
+nse::clearselection
+nse::selectitems 22
+port::rename -newname C2 166
+nse::clearselection
+nse::selectitems 138
+port::rename -newname D0_0 22
+port::rename -newname D0_1 138
+nse::clearselection
+nse::selectitems 20
+nse::clearselection
+nse::selectitems 26
+port::rename -newname GND2 20
+port::rename -newname D1_0 26
+nse::clearselection
+nse::selectitems 113
+port::rename -newname D1_1 113
+nse::clearselection
+nse::selectitems 117
+port::rename -newname GND3 117
+nse::clearselection
+nse::selectitems 124
+port::rename -newname D2_0 124
+nse::clearselection
+nse::selectitems 128
+port::rename -newname D2_1 128
+nse::clearselection
+nse::selectitems 145
+port::rename -newname GND4 145
+nse::clearselection
+nse::selectitems 169
+port::rename -newname D3_0 169
+nse::clearselection
+nse::selectitems 142
+port::rename -newname D3_1 142
+nse::clearselection
+nse::selectitems 60
+port::rename -newname VCC2 60
+nse::clearselection
+nse::selectitems 135
+port::rename -newname GND5 135
+nse::clearselection
+nse::selectitems 159
+port::rename -newname D4_1 159
+nse::clearselection
+nse::selectitems 24
+port::rename -newname D4_0 24
+nse::clearselection
+nse::selectitems 162
+nse::clearselection
+nse::selectitems 156
+nse::clearselection
+nse::selectitems 162
+port::rename -newname GND6 162
+nse::clearselection
+nse::selectitems 156
+port::rename -newname D5_1 156
+nse::clearselection
+nse::selectitems 132
+port::rename -newname D5_0 132
+nse::clearselection
+nse::selectitems 141
+port::rename -newname GND7 141
+nse::clearselection
+nse::selectitems 165
+port::rename -newname D6_1 165
+nse::clearselection
+nse::selectitems 150
+port::rename -newname D6_0 150
+nse::clearselection
+nse::selectitems 174
+port::rename -newname GND8 174
+nse::clearselection
+nse::selectitems 153
+port::rename -newname D7_1 153
+nse::clearselection
+nse::selectitems 177
+port::rename -newname D7_0 177
+nse::clearselection
+nse::selectitems 178
+port::rename -newname EP 178
+nse::clearselection
+nse::selectitems 20
+edit::move -offset 47752,6096
+nse::deselectitems 20
+nse::selectitems 117
+edit::move -offset 46482,8128
+nse::deselectitems 117
+nse::selectitems 145
+edit::move -offset 41910,14478
+nse::deselectitems 145
+nse::selectitems 162
+edit::move -offset 14224,24130
+nse::deselectitems 162
+nse::selectitems 135
+edit::move -offset 42418,15748
+nse::deselectitems 135
+nse::selectitems 141
+edit::move -offset 42672,22352
+nse::deselectitems 141
+nse::selectitems 178
+edit::move -offset -4318,33782
+edit::move -offset -2032,508
+nse::clearselection
+nse::selectitems {66 109 130 132 136 138 142 143 148 150 151 153}
+nse::clearselection
+nse::selectitems {109 136 138 142 143}
+nse::clearselection
+nse::selectitems {66 109 130 132 136 138 142 143 148 150 151 153}
+edit::move -offset -27940,-16256
+nse::clearselection
+nse::selectitems {154 156 157 159 163 165 166 167 169 170 172 174 175 177}
+edit::move -offset 43942,-19812
+nse::clearselection
+nse::selectitems 11
+item::setrect -rect 5080,-59944,31242,54864
+nse::clearselection
+nse::selectitems {12 13 15 16 17 18 19 61 63 121 124 125 128}
+edit::move -offset 14986,-30734
+nse::clearselection
+nse::selectitems 15
+edit::move -offset -15494,30988
+edit::move -offset 762,0
+nse::deselectitems 15
+nse::selectitems 14
+edit::move -offset 30988,-12446
+nse::clearselection
+nse::selectitems {14 15 20 21 31 34 117 118 120 133 135 139 141 145 146 160 162 178 179}
+edit::move -offset 2032,11684
+nse::clearselection
+nse::selectitems 14
+edit::rotate -center 50292,-3302 -angle 90
+edit::move -offset 2794,-508
+nse::clearselection
+nse::selectitems {20 34 117 118 135 141 145 146 162 178}
+edit::vertmirror
+nse::clearselection
+nse::selectitems 14
+edit::move -offset 254,0
+nse::clearselection
+nse::selectitems 20
+edit::move -offset -3924,8890
+nse::deselectitems 20
+nse::selectitems 117
+edit::move -offset -5194,14732
+nse::clearselection
+nse::selectitems 145
+edit::move -offset -4686,20320
+nse::deselectitems 145
+nse::selectitems 135
+edit::move -offset -4178,29210
+nse::deselectitems 135
+nse::selectitems 162
+edit::move -offset -4178,28702
+nse::deselectitems 162
+nse::selectitems 141
+edit::move -offset -3924,35560
+nse::deselectitems 141
+nse::selectitems 178
+edit::move -offset -3162,21082
+nse::clearselection
+nse::selectitems 15
+edit::rotate -center 49530,-10160 -angle 270
+edit::move -offset -1270,6604
+nse::clearselection
+nse::selectitems 15
+edit::move -offset -762,254
+nse::clearselection
+nse::selectitems 15
+edit::move -offset 254,0
+nse::clearselection
+nse::selectitems {14 20 31 34 117 120 135 141 145 162 178}
+edit::move -offset -13970,-19050
+nse::clearselection
+nse::selectitems 11
+item::setrect -rect 5080,-59944,31750,54864
+item::setrect -rect 5080,-60960,31750,55880
+item::setrect -rect 5080,-60960,31750,55880
+nse::clearselection
+nse::selectitems 18
+edit::move -offset 23876,20828
+nse::clearselection
+nse::selectitems {12 13 16 17 30 32 61 63 108 121 123 124 125 127 128}
+edit::move -offset 8890,-18796
+nse::clearselection
+nse::selectitems 12
+edit::move -offset 13716,44196
+nse::deselectitems 12
+nse::selectitems 174
+edit::move -offset -18796,41910
+edit::move -offset -16510,49530
+nse::clearselection
+nse::selectitems {14 20 31 34 117 120 135 141 145 162 178}
+edit::rotate -center 39370,-16510 -angle 270
+edit::move -offset -8890,33020
+nse::clearselection
+nse::selectitems {14 20 117 135 141 145 162}
+edit::vertmirror
+nse::clearselection
+nse::selectitems {14 20 31 34 117 120 135 141 145 162 178}
+edit::move -offset -10160,-19050
+nse::deselectitems {14 20 31 34 117 120 135 141 145 162 178}
+nse::selectitems 174
+nse::deselectitems 174
+nse::selectitems 178
+edit::move -offset 1270,0
+nse::clearselection
+nse::selectitems 174
+edit::rotate -center 44450,0 -angle 90
+edit::move -offset -15240,-2540
+nse::deselectitems 174
+nse::selectitems 178
+edit::move -offset 1270,0
+nse::clearselection
+nse::selectitems {14 20 31 34 117 120 135 141 145 162 174 178}
+edit::move -offset 1270,0
+edit::move -offset 1270,0
+nse::clearselection
+nse::selectitems 11
+item::setrect -rect 5080,-55880,40640,50800
+nse::clearselection
+nse::selectitems 11
+item::setrect -rect 5080,-67310,40640,62230
+nse::clearselection
+nse::selectitems 18
+edit::move -offset -6350,-6350
+nse::deselectitems 18
+nse::selectitems 12
+edit::move -offset -5080,-8890
+nse::deselectitems 12
+nse::selectitems 60
+edit::move -offset 38100,-20574
+edit::rotate -center 40640,-33020 -angle 180
+edit::move -offset 24130,-7620
+nse::clearselection
+nse::selectitems {12 18 60}
+edit::rotate -center 64770,-40640 -angle 90
+nse::deselectitems {12 18 60}
+nse::selectitems 33
+edit::move -offset -39624,-29210
+nse::clearselection
+nse::undo
+nse::clearselection
+nse::selectitems {12 13 18 19 30 33 58 60 107}
+edit::move -offset -35560,-21590
+edit::move -offset -8890,-7620
+edit::move -offset 5080,0
+nse::clearselection
+nse::selectitems 69
+edit::move -offset -2540,-47244
+nse::deselectitems 69
+nse::selectitems 16
+edit::move -offset -39370,10160
+nse::deselectitems 16
+nse::selectitems 166
+edit::move -offset -45466,-9652
+nse::deselectitems 166
+nse::selectitems 16
+edit::move -offset -6350,15240
+nse::deselectitems 16
+nse::selectitems 69
+edit::move -offset 10160,0
+nse::deselectitems 69
+nse::selectitems 67
+nse::clearselection
+nse::selectitems 166
+edit::move -offset -24130,15240
+nse::deselectitems 166
+nse::selectitems 16
+edit::vertmirror
+nse::clearselection
+nse::selectitems 166
+edit::move -offset 0,7620
+nse::clearselection
+nse::selectitems {16 69 166}
+edit::rotate -center 10160,-57150 -angle 270
+edit::vertmirror
+edit::move -offset 2540,-1270
+nse::clearselection
+nse::selectitems {16 17 67 69 166 167}
+edit::rotate -center 12700,-57150 -angle 270
+edit::rotate -center 12700,-57150 -angle 180
+nse::clearselection
+nse::selectitems {16 69 166}
+nse::deselectitems {16 69 166}
+nse::selectitems 17
+nse::clearselection
+nse::selectitems {16 69 166}
+edit::horzmirror
+edit::move -offset -8890,1270
+nse::clearselection
+nse::selectitems 66
+edit::move -offset -7366,35814
+edit::rotate -center -17780,-22860 -angle 270
+nse::clearselection
+nse::selectitems 64
+edit::move -offset -254,-508
+nse::deselectitems 64
+nse::selectitems 66
+edit::rotate -center -17780,-22860 -angle 180
+nse::deselectitems 66
+nse::selectitems 63
+edit::move -offset -36830,56642
+edit::move -offset -36830,0
+edit::rotate -center -17780,-25400 -angle 180
+nse::clearselection
+nse::selectitems 64
+edit::move -offset 0,0
+edit::move -offset -1270,10160
+edit::rotate -center -13970,-19050 -angle 270
+edit::move -offset 3810,-3810
+nse::deselectitems 64
+nse::selectitems 61
+edit::move -offset 762,0
+nse::clearselection
+nse::selectitems 66
+edit::move -offset 0,-5080
+nse::clearselection
+nse::selectitems 109
+edit::move -offset 254,0
+nse::deselectitems 109
+nse::selectitems 108
+edit::move -offset 0,0
+nse::clearselection
+nse::selectitems {63 66}
+edit::move -offset 8890,-6350
+nse::deselectitems {63 66}
+nse::selectitems 11
+nse::clearselection
+nse::selectitems {22 24 26 113}
+edit::move -offset -6350,19304
+edit::move -offset 85090,-25400
+nse::clearselection
+nse::selectitems {63 66}
+edit::move -offset 11430,0
+nse::deselectitems {63 66}
+nse::selectitems 138
+edit::move -offset 53340,19558
+nse::deselectitems 138
+nse::selectitems 22
+edit::move -offset -45720,-22098
+nse::deselectitems 22
+nse::selectitems 114
+edit::move -offset 5842,-3810
+nse::clearselection
+nse::undo
+nse::deselectitems 114
+nse::selectitems 113
+edit::move -offset -17780,1270
+edit::move -offset -27940,3810
+nse::deselectitems 113
+nse::selectitems 26
+edit::move -offset -45720,-7874
+nse::clearselection
+nse::selectitems 128
+edit::move -offset -1270,-4826
+edit::move -offset 1270,0
+nse::clearselection
+nse::selectitems {123 124 127 128}
+edit::move -offset -20320,34290
+nse::clearselection
+nse::selectitems 142
+edit::move -offset 55880,39878
+nse::deselectitems 142
+nse::selectitems 169
+edit::move -offset -44196,41148
+nse::clearselection
+nse::selectitems 36
+edit::move -offset 0,508
+edit::move -offset -6350,7620
+nse::clearselection
+nse::undo
+nse::undo
+nse::deselectitems 36
+nse::selectitems 24
+edit::move -offset -26670,10922
+nse::clearselection
+nse::selectitems 159
+edit::move -offset -25146,61468
+nse::clearselection
+nse::selectitems 132
+edit::move -offset 93980,31242
+nse::deselectitems 132
+nse::selectitems 156
+edit::move -offset -6096,40132
+nse::clearselection
+nse::selectitems 150
+edit::move -offset 90170,12446
+nse::deselectitems 150
+nse::selectitems 165
+edit::move -offset -9906,10922
+nse::clearselection
+nse::selectitems 153
+edit::move -offset 100330,-4064
+nse::clearselection
+nse::selectitems {63 66 108 109}
+edit::move -offset 0,-5080
+edit::move -offset 0,1270
+edit::move -offset 0,1270
+nse::deselectitems {63 66 108 109}
+nse::selectitems 22
+edit::move -offset -2540,-6350
+nse::deselectitems 22
+nse::selectitems 138
+nse::clearselection
+nse::selectitems {22 138}
+edit::vertmirror
+edit::move -offset 15240,-5080
+nse::clearselection
+nse::selectitems {26 113}
+edit::vertmirror
+edit::move -offset 12700,-10160
+nse::clearselection
+nse::selectitems {124 128}
+edit::move -offset 12700,-10160
+nse::clearselection
+nse::selectitems {142 169}
+edit::vertmirror
+edit::move -offset 12700,-10160
+edit::move -offset 0,0
+nse::deselectitems {142 169}
+nse::selectitems 159
+edit::move -offset 0,-1270
+nse::clearselection
+nse::selectitems {24 36 159}
+edit::vertmirror
+edit::move -offset -6350,-11430
+nse::clearselection
+nse::selectitems {132 156}
+edit::vertmirror
+nse::clearselection
+nse::selectitems 154
+nse::clearselection
+nse::selectitems {132 156}
+edit::move -offset -25400,26670
+nse::clearselection
+nse::selectitems {148 150 163 165}
+edit::vertmirror
+edit::move -offset -28486,60960
+nse::clearselection
+nse::selectitems {22 24 26 35 36 37 113 116 123 124 127 128 132 138 142 150 156 159 165 169}
+edit::move -offset 0,-5080
+nse::clearselection
+nse::selectitems {153 177}
+edit::move -offset -9906,55626
+nse::clearselection
+nse::selectitems 177
+edit::move -offset 0,0
+nse::deselectitems 177
+nse::selectitems 153
+nse::clearselection
+nse::selectitems 153
+edit::move -offset -254,254
+nse::clearselection
+nse::selectitems {153 177}
+edit::vertmirror
+edit::move -offset -21590,24130
+nse::clearselection
+nse::selectitems 11
+item::setrect -rect 5080,-77470,40640,72390
+nse::clearselection
+nse::selectitems {12 18 30 33 60 107}
+edit::move -offset 0,-10160
+nse::deselectitems {12 18 30 33 60 107}
+nse::selectitems 58
+nse::clearselection
+nse::selectitems {22 24 26 35 36 37 113 116 123 124 127 128 132 138 142 150 153 156 159 165 169 177}
+edit::move -offset 0,-6350
+nse::clearselection
+nse::selectitems {16 32 69 106 166}
+nse::clearselection
+nse::selectitems {16 32 69 106 166}
+edit::move -offset 0,-10160
+nse::clearselection
+symbol::setoutline -rect 0,-82550,50800,82550
+nse::selectitems 166
+nse::selectitems {135 141 162 174 178}
+nse::selectitems 14
+nse::deselectitems 14
+nse::selectitems 145
+nse::selectitems {132 150 153 156 159 165 177}
+nse::selectitems {142 169}
+nse::selectitems 138
+prop::setvisible -valueindex 0 -visible none -dest port -ports 113 \#
+prop::setvisible -valueindex 0 -visible none -dest port \#
+prop::setvisible -valueindex 0 -dest port \#
+nse::clearselection
+nse::selectitems 31
+edit::move -offset -2286,0
+nse::deselectitems 31
+nse::selectitems 34
+edit::move -offset -2286,0
+nse::deselectitems 34
+nse::selectitems 120
+edit::move -offset -2540,0
+nse::deselectitems 120
+nse::selectitems 186
+edit::move -offset -2667,0
+nse::deselectitems 186
+nse::selectitems 182
+edit::move -offset -2667,0
+nse::deselectitems 182
+nse::selectitems 191
+edit::move -offset -2667,0
+nse::deselectitems 191
+nse::selectitems 184
+edit::move -offset -2667,0
+nse::deselectitems 184
+nse::selectitems 195
+edit::move -offset -2667,0
+nse::deselectitems 195
+nse::selectitems 197
+edit::move -offset -2667,0
+nse::deselectitems 197
+nse::selectitems 188
+nse::selectitems 196
+nse::selectitems 192
+nse::selectitems 187
+nse::selectitems 189
+nse::selectitems 181
+nse::selectitems 190
+edit::move -offset 0,-2667
+nse::deselectitems {181 187 188 189 190 192 196}
+nse::selectitems 185
+nse::selectitems 194
+edit::move -offset 0,-2667
+nse::deselectitems {185 194}
+nse::selectitems 183
+edit::move -offset 0,-2667
+nse::deselectitems 183
+nse::selectitems 193
+edit::move -offset 0,-2667
+nse::selectitems 183
+nse::selectitems 194
+nse::selectitems 185
+nse::selectitems 190
+nse::selectitems 181
+nse::selectitems 189
+nse::selectitems 187
+nse::selectitems 192
+nse::selectitems 196
+nse::selectitems 188
+nse::selectitems 186
+nse::selectitems 182
+nse::selectitems 191
+nse::selectitems 184
+nse::selectitems 195
+nse::selectitems 197
+gfx::setfont -font SansSerif
+nse::deselectitems {181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197}
+nse::selectitems 113
+prop::setvisible -valueindex 0 -dest port \#
+nse::clearselection
+nse::selectitems {22 24 26 35 36 37 113 116 123 124 127 128 132 138 142 150 153 156 159 165 169 177 181 183 185 187 188 189 190 192 194 196}
+edit::move -offset 0,-2540
+nse::clearselection
+nse::selectitems 57
+edit::move -offset -7366,-57404
+nse::clearselection
+prop::setvisible -valueindex 0 PKG_TYPE
+nse::selectitems 56
+gfx::setfont -font SansSerif
+edit::move -offset -6350,-81280
+nse::deselectitems 56
+nse::selectitems 57
+edit::move -offset -5080,-3810
+symbol::addline -points {38100,-71120 33020,-71120}
+symbol::addline -points {38100,-68580 33020,-68580}
+item::setline -points {38100,-68580 33020,-68580 33020,-68580 34290,-69850} 199
+item::setline -points {38100,-68580 33020,-68580 34290,-69850 34290,-69850 35560,-68580} 199
+item::setline -points {38100,-71120 33020,-71120 33020,-71120 34290,-72390} 198
+item::setline -points {38100,-71120 33020,-71120 34290,-72390 34290,-72390 35560,-71120} 198
+nse::clearselection
+nse::selectitems {198 199}
+edit::copy
+edit::paste -point 33020,-64770
+nse::clearselection
+nse::selectitems {200 201}
+edit::paste -point 33020,-54610
+nse::clearselection
+nse::selectitems {202 203}
+edit::move -offset 0,-2540
+edit::paste -point 33020,-49530
+nse::clearselection
+nse::selectitems {204 205}
+edit::paste -point 33020,-41910
+nse::clearselection
+nse::selectitems {206 207}
+edit::paste -point 33020,-34290
+nse::clearselection
+nse::selectitems {208 209}
+edit::paste -point 33020,-26670
+nse::clearselection
+nse::selectitems {210 211}
+edit::paste -point 33020,-19050
+nse::clearselection
+nse::selectitems {212 213}
+nse::clearselection
+edit::paste -point 16510,-36830
+nse::clearselection
+nse::selectitems {214 215}
+edit::vertmirror
+edit::move -offset -2540,-1270
+nse::clearselection
+symbol::addline -points {17780,-38100 34290,-72390}
+symbol::addline -points {17780,-35560 34290,-69850}
+symbol::addline -points {10160,-66040 12700,-66040}
+symbol::addline -points {15240,-66040 17780,-66040}
+symbol::addline -points {20320,-66040 22860,-66040}
+symbol::addline -points {24130,-64770 24130,-62230}
+symbol::addline -points {24130,-59690 24130,-57150}
+symbol::addline -points {24130,-54610 24130,-52070}
+nse::selectitems 217
+symbol::deleteitems
+nse::selectitems 216
+item::setline -points {20320,-35560 34290,-72390}
+item::setline -points {20320,-35560 31750,-69850}
+nse::clearselection
+nse::selectitems {216 221 222 223}
+nse::clearselection
+nse::selectitems 220
+edit::move -offset -1270,0
+nse::clearselection
+nse::undo
+nse::clearselection
+nse::selectitems {221 222 223}
+edit::move -offset 1270,0
+nse::clearselection
+nse::selectitems 220
+edit::move -offset 1270,0
+nse::deselectitems 220
+nse::selectitems 219
+edit::move -offset 1270,0
+nse::deselectitems 219
+nse::selectitems 218
+edit::move -offset 1270,0
+nse::clearselection
+nse::savesymbol
+nse::closesymbol
