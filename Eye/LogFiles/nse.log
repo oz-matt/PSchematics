@@ -71801,3 +71801,31 @@ prop::add -value {Pin 1 indicated by silkcreen dot} Notes
 prop::setvisible -valueindex 0 -visible none Notes
 nse::savesymbol
 nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD FLASH_S25FL132K0XNFIQ11.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD FLASH_S25FL132K0XNFIQ11.1
+nse::savesymbol -saveas FLASH_CYPRESS-S25FL132K0XMFB040.1
+prop::setvalue -value S25FL132K0XMFB040 -valueindex 0 MANF_P/N
+prop::setvalue -value {Pin 1 indicated by silkscreen lip} -valueindex 0 Notes
+prop::setvalue -value 8SOIC -valueindex 0 PKG_TYPE
+prop::setvalue -value {IC FLASH 32MBIT 108MHZ 8SOIC} -valueindex 0 DESCRIPTION
+prop::setvalue -value 2.72000 -valueindex 0 Cost_per_1000
+nse::selectitems 113
+symbol::deleteitems
+nse::selectitems 11
+nse::deselectitems 11
+nse::selectitems 66
+edit::move -offset 254,3302
+edit::move -offset -254,0
+nse::deselectitems 66
+nse::selectitems 64
+edit::move -offset 0,-254
+nse::clearselection
+nse::savesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD FLASH_CYPRESS-S25FL132K0XMFB040.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD FLASH_CYPRESS-S25FL132K0XMFB040.1
+prop::setvalue -value SOIC8 -valueindex 0 PKG_TYPE
+nse::savesymbol
+nse::closesymbol

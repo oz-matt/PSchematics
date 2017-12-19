@@ -205,6 +205,9 @@ pcb: Warning 6094: Q10B pin $2I3582.NC: Pin not connected
 pcb: Warning 6094: Q10B pin $2I3538.NC: Pin not connected
 pcb: Warning 6094: Q10B pin $1I8.NC: Pin not connected
 pcb: Warning 6094: Q10B pin $1I2792.NC: Pin not connected
+pcb: Warning 6094: Q10B pin $1I2514.IN1: Pin not connected
+pcb: Warning 6094: Q10B pin $1I2510.IN1: Pin not connected
+pcb: Warning 6094: Q10B pin $1I172.IN1: Pin not connected
 pcb: Warning 6094: Q10B pin $1I1326.NC: Pin not connected
 pcb: Warning 6094: Q10B pin $1I12.CLKOUT/NIRQ3: Pin not connected
 pcb: Warning 6094: Q10B pin $1I12.WDI: Pin not connected
@@ -227,5 +230,5 @@ pcb: Warning 6113: Device SYM_BOM_ENTRY has 0 shapes
 pcb: Warning 6113: Device SYM_BOM_ENTRY has 0 shapes
 pcb: Warning 6113: Device SYM_BOM_ENTRY has 0 shapes
 pcb: Note 5626: Summary of Log Files/pcb.err
-Status 0, Notes 1, Warnings 227
+Status 0, Notes 1, Warnings 230
 Errors 0, Failures 0, Fatals 0, Internals 0
