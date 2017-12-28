@@ -520,7 +520,7 @@
 			(pin 1  3 "SYM_CAP_UNPOL__SYM_CAP_UNPOL_1" 0 "V+" 0))
 		(part "SYM_BOM_ENTRY")
 		(logical_part_mapping "SYM_BOM_ENTRY"
-			(comp "BOM13" "BOM12" "BOM11" "BOM10" "BOM9" "BOM8" "BOM7" "BOM6" "BOM5" "BOM4" "BOM3" "BOM2" "BOM1"))
+			(comp "BOM13" "BOM11" "BOM10" "BOM9" "BOM8" "BOM7" "BOM6" "BOM5" "BOM4" "BOM3" "BOM2" "BOM1"))
 		(logical_part "SYM_BOM_ENTRY"
 			(slots
 				(slot "SYM_BOM_ENTRY__SYM_BOM_ENTRY_1"
@@ -1086,6 +1086,31 @@
 			(pin 2  3 "NMOS_BSS138NH6327XTSA2__NMOS_BSS138NH6327XTSA2_1" 0 "SOURCE" 0)
 			(pin 1  3 "NMOS_BSS138NH6327XTSA2__NMOS_BSS138NH6327XTSA2_1" 0 "GATE" 0)
 			(pin 3  3 "NMOS_BSS138NH6327XTSA2__NMOS_BSS138NH6327XTSA2_1" 0 "DRAIN" 0))
+		(part "NFC-QI-ANTENNA_MOLEX-1461794001")
+		(logical_part_mapping "NFC-QI-ANTENNA_MOLEX-1461794001"
+			(comp "J9"))
+		(logical_part "NFC-QI-ANTENNA_MOLEX-1461794001"
+			(slots
+				(slot
+ "NFC-QI-ANTENNA_MOLEX-1461794001__NFC-QI-ANTENNA_MOLEX-1461794001_1"
+					(attributes
+						(attval "Description" "RX 2 COIL 1 LAYER 8.9UH")
+						(attval "PKG_TYPE" "QI-NFC-PADS")
+						(attval "REFDES" "J?"))))
+			(pin 6  3
+ "NFC-QI-ANTENNA_MOLEX-1461794001__NFC-QI-ANTENNA_MOLEX-1461794001_1" 0 "QI3" 0)
+			(pin 5  3
+ "NFC-QI-ANTENNA_MOLEX-1461794001__NFC-QI-ANTENNA_MOLEX-1461794001_1" 0 "QI2" 0)
+			(pin 7  3
+ "NFC-QI-ANTENNA_MOLEX-1461794001__NFC-QI-ANTENNA_MOLEX-1461794001_1" 0 "QI14" 0)
+			(pin 4  3
+ "NFC-QI-ANTENNA_MOLEX-1461794001__NFC-QI-ANTENNA_MOLEX-1461794001_1" 0 "QI1" 0)
+			(pin 3  3
+ "NFC-QI-ANTENNA_MOLEX-1461794001__NFC-QI-ANTENNA_MOLEX-1461794001_1" 0 "NFC3" 0)
+			(pin 2  3
+ "NFC-QI-ANTENNA_MOLEX-1461794001__NFC-QI-ANTENNA_MOLEX-1461794001_1" 0 "NFC2" 0)
+			(pin 1  3
+ "NFC-QI-ANTENNA_MOLEX-1461794001__NFC-QI-ANTENNA_MOLEX-1461794001_1" 0 "NFC1" 0))
 		(part "MK20DX128VFM5")
 		(logical_part_mapping "MK20DX128VFM5"
 			(comp "U66"))
@@ -2011,7 +2036,7 @@
 		(part "1MM_TP")
 		(logical_part_mapping "1MM_TP"
 			(comp "TP100" "TP99" "TP98" "TP97" "TP96" "TP94" "TP93" "TP92" "TP91" "TP90" "TP89" "TP88" "TP87" "TP86"
- "TP85" "TP81" "TP79" "TP76" "TP75" "TP74" "TP73" "TP72" "TP71" "TP70" "TP40" "TP37" "TP36" "TP35" "TP34"))
+ "TP85" "TP81" "TP79" "TP76" "TP75" "TP74" "TP73" "TP72" "TP71" "TP70" "TP40" "TP37" "TP36" "TP35" "TP34" "TP10"))
 		(logical_part "1MM_TP"
 			(slots
 				(slot "1MM_TP__1MM_TP_1"
@@ -3752,6 +3777,12 @@
 			(attributes
 				(attval "DEVICE" "SIMPLE_TP")
 				(attval "REFDES" "TP12")))
+		(component "TP-1MM"
+			(place "TP10" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "DEVICE" "1MM_TP")
+				(attval "REFDES" "TP10")))
 		(component "TP-1MM"
 			(place "TP9" 0.0 0.0 top 0.0
 				(comp_pin "1" 0.0 0.0 "IN"))
@@ -6052,6 +6083,19 @@
 				(attval "Description" "FIXED IND 3.9NH 500MA 200 MOHM")
 				(attval "DEVICE" "SYM_IND")
 				(attval "REFDES" "L1")))
+		(component "QI-NFC-PADS"
+			(place "J9" 0.0 0.0 top 0.0
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "RX 2 COIL 1 LAYER 8.9UH")
+				(attval "DEVICE" "NFC-QI-ANTENNA_MOLEX-1461794001")
+				(attval "REFDES" "J9")))
 		(component "JST-3P-HDR_SM03B-SRSS-TB-LF-SN"
 			(place "J8" 0.0 0.0 top 0.0
 				(comp_pin "4" 0.0 0.0 "IN")
@@ -7617,12 +7661,6 @@
 				(attval "Description" "ANT PCB TRACE IPEX SMT")
 				(attval "DEVICE" "SYM_BOM_ENTRY")
 				(attval "REFDES" "BOM13")))
-		(component "BOM12"
-			(place "BOM12" 0.0 0.0 top 0.0)
-			(attributes
-				(attval "Description" "RX 2 COIL 1 LAYER 8.9UH")
-				(attval "DEVICE" "SYM_BOM_ENTRY")
-				(attval "REFDES" "BOM12")))
 		(component "BOM11"
 			(place "BOM11" 0.0 0.0 top 0.0)
 			(attributes
@@ -7848,6 +7886,7 @@
 		(func "$3I2273" "" "TP14" 1)
 		(func "$3I2272" "" "TP13" 1)
 		(func "$3I3680" "" "TP12" 1)
+		(func "$5I3210" "" "TP10" 1)
 		(func "$3I2118" "" "TP9" 1)
 		(func "$3I2117" "" "TP8" 1)
 		(func "$1I2286" "" "TP7" 1)
@@ -8104,6 +8143,7 @@
 		(func "$8I1376" "" "L3" 1)
 		(func "$8I1362" "" "L2" 1)
 		(func "$6I793" "" "L1" 1)
+		(func "$4I5733" "" "J9" 1)
 		(func "$4I5458" "" "J8" 1)
 		(func "$7I2396" "" "J7" 1)
 		(func "$4I4067" "" "J6" 1)
@@ -8266,7 +8306,6 @@
 		(func "$1I2480" "" "C2" 1)
 		(func "$1I2467" "" "C1" 1)
 		(func "$9I1282" "" "BOM13" 1)
-		(func "$4I5558" "" "BOM12" 1)
 		(func "$3I3612" "" "BOM11" 1)
 		(func "$1I2922" "" "BOM10" 1)
 		(func "$1I2895" "" "BOM9" 1)
@@ -8282,7 +8321,7 @@
 		(func "$6I2654" "" "ANT1" 1))
 	(network
 		(net "1V8_PLEDS"
-			(pins C69-2 U26-5 U43-10 U44-10))
+			(pins TP10-1 C69-2 U26-5 U43-10 U44-10))
 		(net "3V3_AU"
 			(pins TP13-1 C25-1 C33-1 C35-2 C52-2 R61-1 U31-5 U50-2 U50-10 U50-16))
 		(net "3V3_GPS"
@@ -8297,8 +8336,8 @@
 			(pins TP1-1 U8-5 TP40-1 U13-14 U13-1 C18-2 C22-2 C81-1 C74-2 C75-2 C76-2
  C83-2 C86-2 C100-2 C70-2 C82-2 C89-2 C101-2 U21-6 U21-7 U11-AD14 U11-AD23
  U11-B1 U11-W1 U11-A22 U11-Y2 Q33-2 R2-2 R53-1 R54-2 R105-2 R107-1 R160-1
- U31-3 U24-16 U34-6 U35-1 U16-12 U16-1 U67-1 U42-8 U68-8 U40-4 U57-4 U58-4
- U59-4 U63-3 U64-7 U65-7))
+ U31-3 U24-16 U34-6 U35-1 U16-12 U16-1 U16-13 U67-1 U42-8 U68-8 U40-4 U57-4
+ U58-4 U59-4 U63-3 U64-7 U65-7))
 		(net "3V3_SD"
 			(pins TP14-1 U9-16 U10-16 J4-T4 C27-2 C38-1 R60-1 R62-1 R41-1 R42-1 R43-1))
 		(net "3V3_USB"
@@ -8475,7 +8514,7 @@
 		(net "$4N5169"
 			(pins C50-2 U14-16))
 		(net "$4N5170"
-			(pins C50-1 C51-1 C56-1 C57-1 C77-1 U14-19))
+			(pins J9-4 C50-1 C51-1 C56-1 C57-1 C77-1 U14-19))
 		(net "$4N5171"
 			(pins C53-2 C54-2 C55-2 C56-2 C57-2 C58-1 C59-1 C60-1 U14-2))
 		(net "$4N5172"
@@ -8486,6 +8525,8 @@
 			(pins C60-2 U14-6))
 		(net "$4N5175"
 			(pins U14-7 R96-2))
+		(net "$4N5726"
+			(pins J9-5 C53-1 C54-1 C55-1))
 		(net "$5N2793"
 			(pins LED1-2 LED2-2 LED3-2 C64-2 U43-22))
 		(net "$5N2807"
@@ -8574,8 +8615,6 @@
 			(pins D12-1 TP37-1 U11-B11 R108-2))
 		(net "$6N707"
 			(pins D13-1 U11-A10 R118-2))
-		(net "$6N723"
-			(pins C91-1))
 		(net "$6N2994"
 			(pins X2-1 C84-2 U11-F2))
 		(net "$6N3020"
@@ -8783,10 +8822,10 @@
 			(pins U33-14 U49-16 U64-5))
 		(net "HGND"
 			(pins U1-1 U1-4 U5-2 U5-3 X5-2 Q14-2 U4-33 U4-1 U4-11 U4-14 U4-17 U4-21 U4-24
- U4-27 U4-30 U6-2 U6-3 U6-5 U7-2 U7-3 U7-5 U12-4 U9-12 U9-17 U9-8 U10-17 U10-8
- J4-G1 J4-G2 J4-G3 J4-G4 J4-G5 J4-G6 J4-G7 J4-G8 J4-S5 J4-T6 C23-1 C26-1 C27-1
- C28-1 C30-2 C36-1 C37-1 C38-2 C31-2 C32-2 C33-2 C34-1 C35-1 C52-1 C29-2 C73-1
- C74-1 C75-1 C76-1 C83-1 C86-1 C87-1 C93-1 C94-1 C95-1 C96-1 C97-1 C98-2
+ U4-27 U4-30 J9-2 U6-2 U6-3 U6-5 U7-2 U7-3 U7-5 U12-4 U9-12 U9-17 U9-8 U10-17
+ U10-8 J4-G1 J4-G2 J4-G3 J4-G4 J4-G5 J4-G6 J4-G7 J4-G8 J4-S5 J4-T6 C23-1 C26-1
+ C27-1 C28-1 C30-2 C36-1 C37-1 C38-2 C31-2 C32-2 C33-2 C34-1 C35-1 C52-1 C29-2
+ C73-1 C74-1 C75-1 C76-1 C83-1 C86-1 C87-1 C93-1 C94-1 C95-1 C96-1 C97-1 C98-2
  C100-1 C131-1 C132-1 C71-1 C72-1 C78-1 C79-1 C84-1 C106-1 C107-1 C109-1
  C110-1 C111-1 C112-2 C129-2 C113-1 C114-1 C115-1 C121-1 U15-2 U15-1 X3-2 X3-4
  U11-EP U11-B7 U11-F23 L3-1 L4-1 ANT1-1 R55-2 R58-1 R63-1 R64-1 R179-1 R180-1
@@ -8870,7 +8909,9 @@
 		(net "NFC1"
 			(pins C90-2 C91-2 U11-L24 R121-2))
 		(net "NFC2"
-			(pins C90-1 U11-J24 R121-1))
+			(pins J9-3 C90-1 U11-J24 R121-1))
+		(net "NFC_OUT"
+			(pins J9-1 C91-1))
 		(net "NRF_ANT"
 			(pins C78-2 U11-H23 L1-2))
 		(net "NRF_D+"
@@ -9304,6 +9345,9 @@
 		(net_scalar "NRF_ANT"
 			(constraints
 				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "NFC_OUT"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
 		(net_scalar "NFC2"
 			(constraints
 				(cnsval "SCHEDULED" "FALSE")))
@@ -9685,9 +9729,6 @@
 		(net_scalar "$6N2994"
 			(constraints
 				(cnsval "SCHEDULED" "FALSE")))
-		(net_scalar "$6N723"
-			(constraints
-				(cnsval "SCHEDULED" "FALSE")))
 		(net_scalar "$6N707"
 			(constraints
 				(cnsval "SCHEDULED" "FALSE")))
@@ -9818,6 +9859,9 @@
 			(constraints
 				(cnsval "SCHEDULED" "FALSE")))
 		(net_scalar "$5N2793"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$4N5726"
 			(constraints
 				(cnsval "SCHEDULED" "FALSE")))
 		(net_scalar "$4N5175"

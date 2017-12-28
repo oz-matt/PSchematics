@@ -71829,3 +71829,165 @@ nse::opensymbol -snapshot DxD FLASH_CYPRESS-S25FL132K0XMFB040.1
 prop::setvalue -value SOIC8 -valueindex 0 PKG_TYPE
 nse::savesymbol
 nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD BLE-ANT_440.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD BLE-ANT_440.1
+nse::opensymbol -snapshot DxD SYM_BOM_ENTRY.1
+nse::opensymbol -snapshot DxD JST-3P-HDR_SM03B-SRSS-TB-LF-SN.1
+nse::savesymbol -saveas NFC-PADS_MOLEX-1461794001.1
+nse::selectitems 69
+symbol::deleteitems
+nse::selectitems 73
+symbol::deleteitems
+nse::selectitems 61
+edit::move -offset 0,0
+nse::clearselection
+symbol::setoutline -rect 0,-11176,17780,11176
+prop::setvalue -value {} -valueindex 0 Cost_per_1000
+prop::setvalue -value 7.45186 -valueindex 0 Cost_per_1000
+prop::setvalue -value {RX 2 COIL 1 LAYER 8.9UH} -valueindex 0 DESCRIPTION
+prop::setvalue -value {Molex, LLC} -valueindex 0 MANF
+prop::setvalue -value 1461794001 -valueindex 0 MANF_P/N
+prop::setvalue -value NFC-PADS -valueindex 0 PKG_TYPE
+nse::selectitems 21
+nse::deselectitems 21
+nse::selectitems 57
+nse::deselectitems 57
+nse::selectitems 92
+nse::clearselection
+nse::savesymbol
+nse::closesymbol
+nse::closesymbol
+nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD NFC-PADS_MOLEX-1461794001.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD NFC-PADS_MOLEX-1461794001.1
+nse::selectitems 61
+item::setrect -rect 2540,-7874,34798,6604
+nse::clearselection
+nse::selectitems {15 21 56 57 88 92}
+edit::copy
+edit::paste -point 22860,-7112
+nse::clearselection
+nse::selectitems {93 94 95 96 97 98 99 100 101 102 103 104 105 106 107}
+nse::clearselection
+nse::selectitems {93 94}
+edit::copy
+edit::paste -point 20828,-7112
+nse::clearselection
+nse::selectitems {108 109 110 111 112}
+edit::move -offset -24892,0
+nse::deselectitems {108 109 110 111 112}
+nse::selectitems 61
+edit::move -offset 0,0
+item::setrect -rect 2540,-7874,35814,6604
+nse::clearselection
+symbol::setoutline -rect 0,-11176,43942,11176
+symbol::addtext -text {NFC } -pos 5588,-10160
+nse::selectitems 113
+edit::move -offset 0,0
+gfx::setfont -font SansSerif
+nse::clearselection
+nse::selectitems 113
+edit::move -offset 0,0
+edit::copy
+edit::paste -point 19812,-11176
+nse::clearselection
+nse::selectitems 114
+item::settext -text QI
+nse::clearselection
+nse::selectitems 114
+edit::move -offset 8636,254
+nse::clearselection
+nse::selectitems 113
+edit::move -offset 1016,1016
+nse::clearselection
+nse::selectitems 114
+edit::move -offset 0,508
+nse::clearselection
+nse::selectitems {15 21 56 57 61 88 92 93 94 98 102 103 104 108 112 113 114}
+edit::move -offset -2286,254
+nse::clearselection
+nse::selectitems {93 94 98 102 103 104 108 112}
+edit::move -offset -2032,-254
+nse::clearselection
+nse::selectitems 61
+item::setrect -rect 254,-7620,33528,6604
+nse::clearselection
+nse::selectitems 114
+edit::move -offset -2032,0
+nse::clearselection
+symbol::setoutline -rect 0,-10160,34544,10160
+symbol::setoutline -rect 0,-10160,34036,10160
+nse::selectitems 21
+nse::clearselection
+nse::selectitems 57
+nse::deselectitems 57
+nse::selectitems 92
+nse::deselectitems 92
+nse::selectitems 112
+nse::clearselection
+nse::selectitems 94
+prop::setvalue -value 4 -dest port -ports 112 \#
+nse::clearselection
+nse::selectitems 102
+prop::setvalue -value 5 -dest port -ports 94 \#
+nse::clearselection
+nse::selectitems 104
+prop::setvalue -value 6 -dest port -ports 102 \#
+nse::clearselection
+prop::setvalue -value 7 -dest port -ports 104 \#
+nse::selectitems 112
+nse::clearselection
+nse::selectitems 21
+nse::clearselection
+nse::selectitems 57
+port::rename -newname NFC1 21
+nse::clearselection
+nse::selectitems 21
+nse::clearselection
+nse::selectitems 57
+nse::clearselection
+nse::selectitems 92
+port::rename -newname NFC2 57
+nse::clearselection
+nse::selectitems 94
+port::rename -newname NFC3 92
+nse::clearselection
+nse::selectitems 112
+nse::clearselection
+nse::selectitems 94
+port::rename -newname QI1 112
+nse::clearselection
+nse::selectitems 102
+port::rename -newname QI1 94
+nse::clearselection
+nse::selectitems 104
+port::rename -newname QI1 102
+nse::clearselection
+nse::selectitems 102
+port::rename -newname QI14 104
+nse::clearselection
+nse::selectitems 94
+port::rename -newname QI3 102
+port::rename -newname QI2 94
+nse::clearselection
+nse::selectitems 21
+edit::move -offset 0,0
+nse::deselectitems 21
+nse::selectitems 57
+nse::deselectitems 57
+nse::selectitems 92
+nse::clearselection
+nse::selectitems 112
+nse::clearselection
+nse::selectitems 94
+nse::clearselection
+nse::selectitems 102
+nse::deselectitems 102
+nse::selectitems 104
+edit::move -offset 0,0
+nse::clearselection
+prop::setvalue -value QI-NFC-PADS -valueindex 0 PKG_TYPE
+nse::savesymbol -saveas NFC-QI-ANTENNA_MOLEX-1461794001.1
+nse::closesymbol
