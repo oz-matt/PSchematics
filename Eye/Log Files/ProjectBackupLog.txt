@@ -1,169 +1,3 @@
-[2017-11-24 09.28.59] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-13 11.31.23 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-24 09.29.20] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-08-07 17.16.31 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-24 09.29.41] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-10-22 14.33.21 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-24 09.29.41] Migrating iCDB upgrade backups from directory [Eye\database\cdbback] to Project Backup format.
-[2017-11-24 09.29.41] WARNING: Ignoring iCDB backup file [2017-10-09 23.32.53-11652-d.zip] - will not be migrated.
-[2017-11-24 09.29.41] WARNING: Ignoring iCDB backup file [2017-10-08 23.25.46-6192-d.zip] - will not be migrated.
-[2017-11-24 09.29.41] WARNING: Ignoring iCDB backup file [2017-09-12 21.26.59-3124-i.zip] - will not be migrated.
-[2017-11-24 09.29.41] WARNING: Ignoring iCDB backup file [2017-08-15 00.00.17-5560-d.zip] - will not be migrated.
-[2017-11-24 09.29.41] WARNING: Ignoring iCDB backup file [2017-08-06 01.22.11-7136-d.zip] - will not be migrated.
-[2017-11-24 09.29.41] WARNING: Ignoring iCDB backup file [2015-12-28 17.42.13-2160-i.zip] - will not be migrated.
-[2017-11-24 09.29.41] WARNING: Ignoring iCDB backup file [2014-04-23 17.44.46-1884-d.zip] - will not be migrated.
-[2017-11-24 09.29.58] Successfully created [AutoSave] backup [2017-11-24 09.29.43 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
-[2017-11-24 09.29.58] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-11-23 16.30.26 - auto.zip].
-[2017-11-24 09.29.58] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-11-23 16.30.26 - auto.zip] removed.
-[2017-11-24 13.37.06] Successfully created [AutoSave] backup [2017-11-24 13.36.46 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
-[2017-11-24 13.37.06] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-11-23 20.30.26 - auto.zip].
-[2017-11-24 13.37.06] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-11-23 20.30.26 - auto.zip] removed.
-[2017-11-24 17.36.52] Successfully created [AutoSave] backup [2017-11-24 17.36.46 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
-[2017-11-24 17.36.52] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-11-24 00.30.26 - auto.zip].
-[2017-11-24 17.36.52] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-11-24 00.30.26 - auto.zip] removed.
-[2017-11-24 21.36.51] Successfully created [AutoSave] backup [2017-11-24 21.36.46 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
-[2017-11-24 21.36.51] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-11-24 09.29.43 - auto.zip].
-[2017-11-24 21.36.51] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-11-24 09.29.43 - auto.zip] removed.
-[2017-11-25 01.36.58] Successfully created [AutoSave] backup [2017-11-25 01.36.46 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
-[2017-11-25 01.36.58] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-11-24 13.36.46 - auto.zip].
-[2017-11-25 01.36.58] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-11-24 13.36.46 - auto.zip] removed.
-[2017-11-25 10.56.40] ERROR: Broken backup file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-11 09.31.01 - auto.zip] - will not be managed. Could not find description data.
-[2017-11-25 10.56.44] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-13 11.31.23 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-25 10.57.06] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-08-07 17.16.31 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-25 10.57.27] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-10-22 14.33.21 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-25 10.57.27] Migrating iCDB upgrade backups from directory [Eye\database\cdbback] to Project Backup format.
-[2017-11-25 10.57.27] WARNING: Ignoring iCDB backup file [2017-10-09 23.32.53-11652-d.zip] - will not be migrated.
-[2017-11-25 10.57.27] WARNING: Ignoring iCDB backup file [2017-10-08 23.25.46-6192-d.zip] - will not be migrated.
-[2017-11-25 10.57.27] WARNING: Ignoring iCDB backup file [2017-09-12 21.26.59-3124-i.zip] - will not be migrated.
-[2017-11-25 10.57.28] WARNING: Ignoring iCDB backup file [2017-08-15 00.00.17-5560-d.zip] - will not be migrated.
-[2017-11-25 10.57.28] WARNING: Ignoring iCDB backup file [2017-08-06 01.22.11-7136-d.zip] - will not be migrated.
-[2017-11-25 10.57.28] WARNING: Ignoring iCDB backup file [2015-12-28 17.42.13-2160-i.zip] - will not be migrated.
-[2017-11-25 10.57.28] WARNING: Ignoring iCDB backup file [2014-04-23 17.44.46-1884-d.zip] - will not be migrated.
-[2017-11-25 10.57.41] Successfully created [AutoSave] backup [2017-11-25 10.57.29 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
-[2017-11-25 10.57.41] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-11-24 17.36.46 - auto.zip].
-[2017-11-25 10.57.41] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-11-24 17.36.46 - auto.zip] removed.
-[2017-11-25 14.57.31] Successfully created [AutoSave] backup [2017-11-25 14.57.29 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
-[2017-11-25 14.57.31] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-11-24 21.36.46 - auto.zip].
-[2017-11-25 14.57.31] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-11-24 21.36.46 - auto.zip] removed.
-[2017-11-25 21.21.06] Successfully created [AutoSave] backup [2017-11-25 21.20.53 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
-[2017-11-25 21.21.06] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-11-25 01.36.46 - auto.zip].
-[2017-11-25 21.21.06] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-11-25 01.36.46 - auto.zip] removed.
-[2017-11-25 23.41.13] ERROR: Broken backup file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-11 09.31.01 - auto.zip] - will not be managed. Could not find description data.
-[2017-11-25 23.41.19] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-13 11.31.23 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-25 23.41.40] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-08-07 17.16.31 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-25 23.42.02] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-10-22 14.33.21 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-25 23.42.02] Migrating iCDB upgrade backups from directory [Eye\database\cdbback] to Project Backup format.
-[2017-11-25 23.42.02] WARNING: Ignoring iCDB backup file [2017-10-09 23.32.53-11652-d.zip] - will not be migrated.
-[2017-11-25 23.42.02] WARNING: Ignoring iCDB backup file [2017-10-08 23.25.46-6192-d.zip] - will not be migrated.
-[2017-11-25 23.42.02] WARNING: Ignoring iCDB backup file [2017-09-12 21.26.59-3124-i.zip] - will not be migrated.
-[2017-11-25 23.42.02] WARNING: Ignoring iCDB backup file [2017-08-15 00.00.17-5560-d.zip] - will not be migrated.
-[2017-11-25 23.42.02] WARNING: Ignoring iCDB backup file [2017-08-06 01.22.11-7136-d.zip] - will not be migrated.
-[2017-11-25 23.42.02] WARNING: Ignoring iCDB backup file [2015-12-28 17.42.13-2160-i.zip] - will not be migrated.
-[2017-11-25 23.42.02] WARNING: Ignoring iCDB backup file [2014-04-23 17.44.46-1884-d.zip] - will not be migrated.
-[2017-11-26 16.40.15] ERROR: Broken backup file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-11 09.31.01 - auto.zip] - will not be managed. Could not find description data.
-[2017-11-26 16.40.20] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-13 11.31.23 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-26 16.40.35] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-08-07 17.16.31 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-26 16.40.48] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-10-22 14.33.21 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-26 16.40.49] Migrating iCDB upgrade backups from directory [Eye\database\cdbback] to Project Backup format.
-[2017-11-26 16.40.49] WARNING: Ignoring iCDB backup file [2017-10-09 23.32.53-11652-d.zip] - will not be migrated.
-[2017-11-26 16.40.49] WARNING: Ignoring iCDB backup file [2017-10-08 23.25.46-6192-d.zip] - will not be migrated.
-[2017-11-26 16.40.49] WARNING: Ignoring iCDB backup file [2017-09-12 21.26.59-3124-i.zip] - will not be migrated.
-[2017-11-26 16.40.49] WARNING: Ignoring iCDB backup file [2017-08-15 00.00.17-5560-d.zip] - will not be migrated.
-[2017-11-26 16.40.49] WARNING: Ignoring iCDB backup file [2017-08-06 01.22.11-7136-d.zip] - will not be migrated.
-[2017-11-26 16.40.49] WARNING: Ignoring iCDB backup file [2015-12-28 17.42.13-2160-i.zip] - will not be migrated.
-[2017-11-26 16.40.49] WARNING: Ignoring iCDB backup file [2014-04-23 17.44.46-1884-d.zip] - will not be migrated.
-[2017-11-26 16.41.01] Successfully created [AutoSave] backup [2017-11-26 16.40.50 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
-[2017-11-26 16.41.01] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-11-25 10.57.29 - auto.zip].
-[2017-11-26 16.41.01] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-11-25 10.57.29 - auto.zip] removed.
-[2017-11-26 20.41.02] Successfully created [AutoSave] backup [2017-11-26 20.40.50 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
-[2017-11-26 20.41.02] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-11-25 14.57.29 - auto.zip].
-[2017-11-26 20.41.02] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-11-25 14.57.29 - auto.zip] removed.
-[2017-11-27 13.53.40] ERROR: Broken backup file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-11 09.31.01 - auto.zip] - will not be managed. Could not find description data.
-[2017-11-27 13.53.44] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-13 11.31.23 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-27 13.54.03] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-08-07 17.16.31 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-27 13.54.24] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-10-22 14.33.21 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-27 13.54.25] Migrating iCDB upgrade backups from directory [Eye\database\cdbback] to Project Backup format.
-[2017-11-27 13.54.25] WARNING: Ignoring iCDB backup file [2017-10-09 23.32.53-11652-d.zip] - will not be migrated.
-[2017-11-27 13.54.25] WARNING: Ignoring iCDB backup file [2017-10-08 23.25.46-6192-d.zip] - will not be migrated.
-[2017-11-27 13.54.25] WARNING: Ignoring iCDB backup file [2017-09-12 21.26.59-3124-i.zip] - will not be migrated.
-[2017-11-27 13.54.25] WARNING: Ignoring iCDB backup file [2017-08-15 00.00.17-5560-d.zip] - will not be migrated.
-[2017-11-27 13.54.25] WARNING: Ignoring iCDB backup file [2017-08-06 01.22.11-7136-d.zip] - will not be migrated.
-[2017-11-27 13.54.25] WARNING: Ignoring iCDB backup file [2015-12-28 17.42.13-2160-i.zip] - will not be migrated.
-[2017-11-27 13.54.25] WARNING: Ignoring iCDB backup file [2014-04-23 17.44.46-1884-d.zip] - will not be migrated.
-[2017-11-27 13.54.38] Successfully created [AutoSave] backup [2017-11-27 13.54.26 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
-[2017-11-27 13.54.38] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-11-25 21.20.53 - auto.zip].
-[2017-11-27 13.54.38] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-11-25 21.20.53 - auto.zip] removed.
-[2017-11-28 06.36.15] ERROR: Broken backup file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-11 09.31.01 - auto.zip] - will not be managed. Could not find description data.
-[2017-11-28 06.36.19] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-13 11.31.23 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-28 06.36.33] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-08-07 17.16.31 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-28 06.36.46] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-10-22 14.33.21 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-28 06.36.47] Migrating iCDB upgrade backups from directory [Eye\database\cdbback] to Project Backup format.
-[2017-11-28 06.36.47] WARNING: Ignoring iCDB backup file [2017-10-09 23.32.53-11652-d.zip] - will not be migrated.
-[2017-11-28 06.36.47] WARNING: Ignoring iCDB backup file [2017-10-08 23.25.46-6192-d.zip] - will not be migrated.
-[2017-11-28 06.36.47] WARNING: Ignoring iCDB backup file [2017-09-12 21.26.59-3124-i.zip] - will not be migrated.
-[2017-11-28 06.36.47] WARNING: Ignoring iCDB backup file [2017-08-15 00.00.17-5560-d.zip] - will not be migrated.
-[2017-11-28 06.36.47] WARNING: Ignoring iCDB backup file [2017-08-06 01.22.11-7136-d.zip] - will not be migrated.
-[2017-11-28 06.36.47] WARNING: Ignoring iCDB backup file [2015-12-28 17.42.13-2160-i.zip] - will not be migrated.
-[2017-11-28 06.36.47] WARNING: Ignoring iCDB backup file [2014-04-23 17.44.46-1884-d.zip] - will not be migrated.
-[2017-11-28 06.36.56] Successfully created [AutoSave] backup [2017-11-28 06.36.48 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
-[2017-11-28 06.36.56] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-11-26 16.40.50 - auto.zip].
-[2017-11-28 06.36.56] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-11-26 16.40.50 - auto.zip] removed.
-[2017-11-28 10.36.54] Successfully created [AutoSave] backup [2017-11-28 10.36.48 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
-[2017-11-28 10.36.55] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-11-26 20.40.50 - auto.zip].
-[2017-11-28 10.36.55] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-11-26 20.40.50 - auto.zip] removed.
-[2017-11-28 18.31.28] ERROR: Broken backup file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-11 09.31.01 - auto.zip] - will not be managed. Could not find description data.
-[2017-11-28 18.31.34] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-13 11.31.23 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-28 18.31.54] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-08-07 17.16.31 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-28 18.32.13] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-10-22 14.33.21 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-28 18.32.14] Migrating iCDB upgrade backups from directory [Eye\database\cdbback] to Project Backup format.
-[2017-11-28 18.32.14] WARNING: Ignoring iCDB backup file [2017-10-09 23.32.53-11652-d.zip] - will not be migrated.
-[2017-11-28 18.32.14] WARNING: Ignoring iCDB backup file [2017-10-08 23.25.46-6192-d.zip] - will not be migrated.
-[2017-11-28 18.32.14] WARNING: Ignoring iCDB backup file [2017-09-12 21.26.59-3124-i.zip] - will not be migrated.
-[2017-11-28 18.32.14] WARNING: Ignoring iCDB backup file [2017-08-15 00.00.17-5560-d.zip] - will not be migrated.
-[2017-11-28 18.32.14] WARNING: Ignoring iCDB backup file [2017-08-06 01.22.11-7136-d.zip] - will not be migrated.
-[2017-11-28 18.32.14] WARNING: Ignoring iCDB backup file [2015-12-28 17.42.13-2160-i.zip] - will not be migrated.
-[2017-11-28 18.32.14] WARNING: Ignoring iCDB backup file [2014-04-23 17.44.46-1884-d.zip] - will not be migrated.
-[2017-11-28 18.32.22] Successfully created [AutoSave] backup [2017-11-28 18.32.14 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
-[2017-11-28 18.32.22] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-11-27 13.54.26 - auto.zip].
-[2017-11-28 18.32.22] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-11-27 13.54.26 - auto.zip] removed.
-[2017-11-28 22.32.22] Successfully created [AutoSave] backup [2017-11-28 22.32.14 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
-[2017-11-28 22.32.22] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-11-28 06.36.48 - auto.zip].
-[2017-11-28 22.32.22] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-11-28 06.36.48 - auto.zip] removed.
-[2017-11-29 09.36.49] ERROR: Broken backup file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-11 09.31.01 - auto.zip] - will not be managed. Could not find description data.
-[2017-11-29 09.36.53] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-13 11.31.23 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-29 09.37.07] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-08-07 17.16.31 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-29 09.37.20] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-10-22 14.33.21 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-29 09.37.21] Migrating iCDB upgrade backups from directory [Eye\database\cdbback] to Project Backup format.
-[2017-11-29 09.37.21] WARNING: Ignoring iCDB backup file [2017-10-09 23.32.53-11652-d.zip] - will not be migrated.
-[2017-11-29 09.37.21] WARNING: Ignoring iCDB backup file [2017-10-08 23.25.46-6192-d.zip] - will not be migrated.
-[2017-11-29 09.37.21] WARNING: Ignoring iCDB backup file [2017-09-12 21.26.59-3124-i.zip] - will not be migrated.
-[2017-11-29 09.37.21] WARNING: Ignoring iCDB backup file [2017-08-15 00.00.17-5560-d.zip] - will not be migrated.
-[2017-11-29 09.37.21] WARNING: Ignoring iCDB backup file [2017-08-06 01.22.11-7136-d.zip] - will not be migrated.
-[2017-11-29 09.37.21] WARNING: Ignoring iCDB backup file [2015-12-28 17.42.13-2160-i.zip] - will not be migrated.
-[2017-11-29 09.37.21] WARNING: Ignoring iCDB backup file [2014-04-23 17.44.46-1884-d.zip] - will not be migrated.
-[2017-11-29 09.37.31] Successfully created [AutoSave] backup [2017-11-29 09.37.23 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
-[2017-11-29 09.37.31] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-11-28 10.36.48 - auto.zip].
-[2017-11-29 09.37.31] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-11-28 10.36.48 - auto.zip] removed.
-[2017-11-29 10.48.15] ERROR: Broken backup file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-11 09.31.01 - auto.zip] - will not be managed. Could not find description data.
-[2017-11-29 10.48.19] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-13 11.31.23 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-29 10.48.33] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-08-07 17.16.31 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-29 10.48.46] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-10-22 14.33.21 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-29 10.48.46] Migrating iCDB upgrade backups from directory [Eye\database\cdbback] to Project Backup format.
-[2017-11-29 10.48.46] WARNING: Ignoring iCDB backup file [2017-10-09 23.32.53-11652-d.zip] - will not be migrated.
-[2017-11-29 10.48.46] WARNING: Ignoring iCDB backup file [2017-10-08 23.25.46-6192-d.zip] - will not be migrated.
-[2017-11-29 10.48.46] WARNING: Ignoring iCDB backup file [2017-09-12 21.26.59-3124-i.zip] - will not be migrated.
-[2017-11-29 10.48.46] WARNING: Ignoring iCDB backup file [2017-08-15 00.00.17-5560-d.zip] - will not be migrated.
-[2017-11-29 10.48.46] WARNING: Ignoring iCDB backup file [2017-08-06 01.22.11-7136-d.zip] - will not be migrated.
-[2017-11-29 10.48.46] WARNING: Ignoring iCDB backup file [2015-12-28 17.42.13-2160-i.zip] - will not be migrated.
-[2017-11-29 10.48.46] WARNING: Ignoring iCDB backup file [2014-04-23 17.44.46-1884-d.zip] - will not be migrated.
-[2017-11-29 13.43.28] Successfully created [AutoSave] backup [2017-11-29 13.43.14 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
-[2017-11-29 13.43.28] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-11-28 18.32.14 - auto.zip].
-[2017-11-29 13.43.28] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-11-28 18.32.14 - auto.zip] removed.
-[2017-11-29 20.00.49] ERROR: Broken backup file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-11 09.31.01 - auto.zip] - will not be managed. Could not find description data.
-[2017-11-29 20.00.53] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-13 11.31.23 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-29 20.01.07] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-08-07 17.16.31 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-29 20.01.20] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-10-22 14.33.21 - auto.zip] - will not be managed. Could not get list of backup content.
-[2017-11-29 20.01.21] Migrating iCDB upgrade backups from directory [Eye\database\cdbback] to Project Backup format.
-[2017-11-29 20.01.21] WARNING: Ignoring iCDB backup file [2017-10-09 23.32.53-11652-d.zip] - will not be migrated.
-[2017-11-29 20.01.21] WARNING: Ignoring iCDB backup file [2017-10-08 23.25.46-6192-d.zip] - will not be migrated.
-[2017-11-29 20.01.21] WARNING: Ignoring iCDB backup file [2017-09-12 21.26.59-3124-i.zip] - will not be migrated.
 [2017-11-29 20.01.21] WARNING: Ignoring iCDB backup file [2017-08-15 00.00.17-5560-d.zip] - will not be migrated.
 [2017-11-29 20.01.21] WARNING: Ignoring iCDB backup file [2017-08-06 01.22.11-7136-d.zip] - will not be migrated.
 [2017-11-29 20.01.21] WARNING: Ignoring iCDB backup file [2015-12-28 17.42.13-2160-i.zip] - will not be migrated.
@@ -927,3 +761,165 @@
 [2017-12-27 18.08.07] Successfully created [AutoSave] backup [2017-12-27 18.07.56 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
 [2017-12-27 18.08.07] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-12-25 14.15.41 - auto.zip].
 [2017-12-27 18.08.07] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-12-25 14.15.41 - auto.zip] removed.
+[2017-12-28 10.58.31] ERROR: Broken backup file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-11 09.31.01 - auto.zip] - will not be managed. Could not find description data.
+[2017-12-28 10.58.35] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-13 11.31.23 - auto.zip] - will not be managed. Could not get list of backup content.
+[2017-12-28 10.58.52] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-08-07 17.16.31 - auto.zip] - will not be managed. Could not get list of backup content.
+[2017-12-28 10.59.12] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-10-22 14.33.21 - auto.zip] - will not be managed. Could not get list of backup content.
+[2017-12-28 10.59.12] Migrating iCDB upgrade backups from directory [Eye\database\cdbback] to Project Backup format.
+[2017-12-28 10.59.12] WARNING: Ignoring iCDB backup file [2017-10-09 23.32.53-11652-d.zip] - will not be migrated.
+[2017-12-28 10.59.12] WARNING: Ignoring iCDB backup file [2017-10-08 23.25.46-6192-d.zip] - will not be migrated.
+[2017-12-28 10.59.12] WARNING: Ignoring iCDB backup file [2017-09-12 21.26.59-3124-i.zip] - will not be migrated.
+[2017-12-28 10.59.12] WARNING: Ignoring iCDB backup file [2017-08-15 00.00.17-5560-d.zip] - will not be migrated.
+[2017-12-28 10.59.12] WARNING: Ignoring iCDB backup file [2017-08-06 01.22.11-7136-d.zip] - will not be migrated.
+[2017-12-28 10.59.12] WARNING: Ignoring iCDB backup file [2015-12-28 17.42.13-2160-i.zip] - will not be migrated.
+[2017-12-28 10.59.12] WARNING: Ignoring iCDB backup file [2014-04-23 17.44.46-1884-d.zip] - will not be migrated.
+[2017-12-28 10.59.26] Successfully created [AutoSave] backup [2017-12-28 10.59.14 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
+[2017-12-28 10.59.26] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-12-25 20.13.44 - auto.zip].
+[2017-12-28 10.59.26] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-12-25 20.13.44 - auto.zip] removed.
+[2017-12-29 09.34.28] ERROR: Broken backup file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-11 09.31.01 - auto.zip] - will not be managed. Could not find description data.
+[2017-12-29 09.34.32] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-13 11.31.23 - auto.zip] - will not be managed. Could not get list of backup content.
+[2017-12-29 09.34.47] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-08-07 17.16.31 - auto.zip] - will not be managed. Could not get list of backup content.
+[2017-12-29 09.35.00] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-10-22 14.33.21 - auto.zip] - will not be managed. Could not get list of backup content.
+[2017-12-29 09.35.01] Migrating iCDB upgrade backups from directory [Eye\database\cdbback] to Project Backup format.
+[2017-12-29 09.35.01] WARNING: Ignoring iCDB backup file [2017-10-09 23.32.53-11652-d.zip] - will not be migrated.
+[2017-12-29 09.35.01] WARNING: Ignoring iCDB backup file [2017-10-08 23.25.46-6192-d.zip] - will not be migrated.
+[2017-12-29 09.35.01] WARNING: Ignoring iCDB backup file [2017-09-12 21.26.59-3124-i.zip] - will not be migrated.
+[2017-12-29 09.35.01] WARNING: Ignoring iCDB backup file [2017-08-15 00.00.17-5560-d.zip] - will not be migrated.
+[2017-12-29 09.35.01] WARNING: Ignoring iCDB backup file [2017-08-06 01.22.11-7136-d.zip] - will not be migrated.
+[2017-12-29 09.35.01] WARNING: Ignoring iCDB backup file [2015-12-28 17.42.13-2160-i.zip] - will not be migrated.
+[2017-12-29 09.35.01] WARNING: Ignoring iCDB backup file [2014-04-23 17.44.46-1884-d.zip] - will not be migrated.
+[2017-12-29 09.35.11] Successfully created [AutoSave] backup [2017-12-29 09.35.02 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
+[2017-12-29 09.35.11] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-12-27 14.07.56 - auto.zip].
+[2017-12-29 09.35.11] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-12-27 14.07.56 - auto.zip] removed.
+[2017-12-29 13.35.11] Successfully created [AutoSave] backup [2017-12-29 13.35.02 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
+[2017-12-29 13.35.11] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-12-27 18.07.56 - auto.zip].
+[2017-12-29 13.35.11] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-12-27 18.07.56 - auto.zip] removed.
+[2017-12-29 17.35.13] Successfully created [AutoSave] backup [2017-12-29 17.35.02 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
+[2017-12-29 17.35.13] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-12-28 10.59.14 - auto.zip].
+[2017-12-29 17.35.13] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-12-28 10.59.14 - auto.zip] removed.
+[2017-12-29 21.35.09] Successfully created [AutoSave] backup [2017-12-29 21.35.02 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
+[2017-12-29 21.35.09] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-12-29 09.35.02 - auto.zip].
+[2017-12-29 21.35.09] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-12-29 09.35.02 - auto.zip] removed.
+[2017-12-30 13.44.34] ERROR: Broken backup file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-11 09.31.01 - auto.zip] - will not be managed. Could not find description data.
+[2017-12-30 13.44.38] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-13 11.31.23 - auto.zip] - will not be managed. Could not get list of backup content.
+[2017-12-30 13.44.54] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-08-07 17.16.31 - auto.zip] - will not be managed. Could not get list of backup content.
+[2017-12-30 13.45.12] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-10-22 14.33.21 - auto.zip] - will not be managed. Could not get list of backup content.
+[2017-12-30 13.45.13] Migrating iCDB upgrade backups from directory [Eye\database\cdbback] to Project Backup format.
+[2017-12-30 13.45.13] WARNING: Ignoring iCDB backup file [2017-10-09 23.32.53-11652-d.zip] - will not be migrated.
+[2017-12-30 13.45.13] WARNING: Ignoring iCDB backup file [2017-10-08 23.25.46-6192-d.zip] - will not be migrated.
+[2017-12-30 13.45.13] WARNING: Ignoring iCDB backup file [2017-09-12 21.26.59-3124-i.zip] - will not be migrated.
+[2017-12-30 13.45.13] WARNING: Ignoring iCDB backup file [2017-08-15 00.00.17-5560-d.zip] - will not be migrated.
+[2017-12-30 13.45.13] WARNING: Ignoring iCDB backup file [2017-08-06 01.22.11-7136-d.zip] - will not be migrated.
+[2017-12-30 13.45.13] WARNING: Ignoring iCDB backup file [2015-12-28 17.42.13-2160-i.zip] - will not be migrated.
+[2017-12-30 13.45.13] WARNING: Ignoring iCDB backup file [2014-04-23 17.44.46-1884-d.zip] - will not be migrated.
+[2017-12-30 13.45.27] Successfully created [AutoSave] backup [2017-12-30 13.45.14 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
+[2017-12-30 13.45.27] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-12-29 13.35.02 - auto.zip].
+[2017-12-30 13.45.27] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-12-29 13.35.02 - auto.zip] removed.
+[2017-12-30 17.45.22] Successfully created [AutoSave] backup [2017-12-30 17.45.14 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
+[2017-12-30 17.45.22] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-12-29 17.35.02 - auto.zip].
+[2017-12-30 17.45.22] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-12-29 17.35.02 - auto.zip] removed.
+[2017-12-30 21.45.23] Successfully created [AutoSave] backup [2017-12-30 21.45.14 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
+[2017-12-30 21.45.23] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-12-29 21.35.02 - auto.zip].
+[2017-12-30 21.45.23] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-12-29 21.35.02 - auto.zip] removed.
+[2017-12-31 07.41.33] Successfully created [AutoSave] backup [2017-12-31 07.41.25 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
+[2017-12-31 07.41.33] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-12-30 13.45.14 - auto.zip].
+[2017-12-31 07.41.33] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-12-30 13.45.14 - auto.zip] removed.
+[2017-12-31 11.41.34] Successfully created [AutoSave] backup [2017-12-31 11.41.25 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
+[2017-12-31 11.41.34] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-12-30 17.45.14 - auto.zip].
+[2017-12-31 11.41.34] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-12-30 17.45.14 - auto.zip] removed.
+[2017-12-31 15.41.37] Successfully created [AutoSave] backup [2017-12-31 15.41.25 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
+[2017-12-31 15.41.37] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-12-30 21.45.14 - auto.zip].
+[2017-12-31 15.41.37] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-12-30 21.45.14 - auto.zip] removed.
+[2017-12-31 19.41.35] Successfully created [AutoSave] backup [2017-12-31 19.41.25 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
+[2017-12-31 19.41.35] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-12-31 07.41.25 - auto.zip].
+[2017-12-31 19.41.35] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-12-31 07.41.25 - auto.zip] removed.
+[2018-01-01 07.37.03] Successfully created [AutoSave] backup [2018-01-01 01.24.07 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
+[2018-01-01 07.37.03] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-12-31 11.41.25 - auto.zip].
+[2018-01-01 07.37.03] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-12-31 11.41.25 - auto.zip] removed.
+[2018-01-01 07.37.18] Successfully created [AutoSave] backup [2018-01-01 07.37.05 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
+[2018-01-01 07.37.18] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-12-31 15.41.25 - auto.zip].
+[2018-01-01 07.37.18] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-12-31 15.41.25 - auto.zip] removed.
+[2018-01-01 11.37.21] Successfully created [AutoSave] backup [2018-01-01 11.37.05 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
+[2018-01-01 11.37.21] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2017-12-31 19.41.25 - auto.zip].
+[2018-01-01 11.37.21] [AutoSave] backup file [Eye\ProjectBackup\backups\2017-12-31 19.41.25 - auto.zip] removed.
+[2018-01-01 15.37.19] Successfully created [AutoSave] backup [2018-01-01 15.37.05 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
+[2018-01-01 15.37.19] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2018-01-01 01.24.07 - auto.zip].
+[2018-01-01 15.37.19] [AutoSave] backup file [Eye\ProjectBackup\backups\2018-01-01 01.24.07 - auto.zip] removed.
+[2018-01-01 17.16.14] ERROR: Broken backup file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-11 09.31.01 - auto.zip] - will not be managed. Could not find description data.
+[2018-01-01 17.16.19] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-13 11.31.23 - auto.zip] - will not be managed. Could not get list of backup content.
+[2018-01-01 17.16.42] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-08-07 17.16.31 - auto.zip] - will not be managed. Could not get list of backup content.
+[2018-01-01 17.17.02] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-10-22 14.33.21 - auto.zip] - will not be managed. Could not get list of backup content.
+[2018-01-01 17.17.02] Migrating iCDB upgrade backups from directory [Eye\database\cdbback] to Project Backup format.
+[2018-01-01 17.17.02] WARNING: Ignoring iCDB backup file [2017-10-09 23.32.53-11652-d.zip] - will not be migrated.
+[2018-01-01 17.17.02] WARNING: Ignoring iCDB backup file [2017-10-08 23.25.46-6192-d.zip] - will not be migrated.
+[2018-01-01 17.17.02] WARNING: Ignoring iCDB backup file [2017-09-12 21.26.59-3124-i.zip] - will not be migrated.
+[2018-01-01 17.17.02] WARNING: Ignoring iCDB backup file [2017-08-15 00.00.17-5560-d.zip] - will not be migrated.
+[2018-01-01 17.17.02] WARNING: Ignoring iCDB backup file [2017-08-06 01.22.11-7136-d.zip] - will not be migrated.
+[2018-01-01 17.17.02] WARNING: Ignoring iCDB backup file [2015-12-28 17.42.13-2160-i.zip] - will not be migrated.
+[2018-01-01 17.17.02] WARNING: Ignoring iCDB backup file [2014-04-23 17.44.46-1884-d.zip] - will not be migrated.
+[2018-01-01 19.37.18] Successfully created [AutoSave] backup [2018-01-01 19.37.05 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
+[2018-01-01 19.37.18] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2018-01-01 07.37.05 - auto.zip].
+[2018-01-01 19.37.18] [AutoSave] backup file [Eye\ProjectBackup\backups\2018-01-01 07.37.05 - auto.zip] removed.
+[2018-01-02 08.57.21] ERROR: Broken backup file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-11 09.31.01 - auto.zip] - will not be managed. Could not find description data.
+[2018-01-02 08.57.25] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-13 11.31.23 - auto.zip] - will not be managed. Could not get list of backup content.
+[2018-01-02 08.57.38] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-08-07 17.16.31 - auto.zip] - will not be managed. Could not get list of backup content.
+[2018-01-02 08.57.51] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-10-22 14.33.21 - auto.zip] - will not be managed. Could not get list of backup content.
+[2018-01-02 08.57.51] Migrating iCDB upgrade backups from directory [Eye\database\cdbback] to Project Backup format.
+[2018-01-02 08.57.51] WARNING: Ignoring iCDB backup file [2017-10-09 23.32.53-11652-d.zip] - will not be migrated.
+[2018-01-02 08.57.51] WARNING: Ignoring iCDB backup file [2017-10-08 23.25.46-6192-d.zip] - will not be migrated.
+[2018-01-02 08.57.51] WARNING: Ignoring iCDB backup file [2017-09-12 21.26.59-3124-i.zip] - will not be migrated.
+[2018-01-02 08.57.51] WARNING: Ignoring iCDB backup file [2017-08-15 00.00.17-5560-d.zip] - will not be migrated.
+[2018-01-02 08.57.51] WARNING: Ignoring iCDB backup file [2017-08-06 01.22.11-7136-d.zip] - will not be migrated.
+[2018-01-02 08.57.51] WARNING: Ignoring iCDB backup file [2015-12-28 17.42.13-2160-i.zip] - will not be migrated.
+[2018-01-02 08.57.51] WARNING: Ignoring iCDB backup file [2014-04-23 17.44.46-1884-d.zip] - will not be migrated.
+[2018-01-02 08.58.06] Successfully created [AutoSave] backup [2018-01-02 08.57.52 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
+[2018-01-02 08.58.06] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2018-01-01 11.37.05 - auto.zip].
+[2018-01-02 08.58.06] [AutoSave] backup file [Eye\ProjectBackup\backups\2018-01-01 11.37.05 - auto.zip] removed.
+[2018-01-02 13.07.57] Successfully created [AutoSave] backup [2018-01-02 13.07.44 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
+[2018-01-02 13.07.57] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2018-01-01 15.37.05 - auto.zip].
+[2018-01-02 13.07.57] [AutoSave] backup file [Eye\ProjectBackup\backups\2018-01-01 15.37.05 - auto.zip] removed.
+[2018-01-02 19.03.09] ERROR: Broken backup file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-11 09.31.01 - auto.zip] - will not be managed. Could not find description data.
+[2018-01-02 19.03.13] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-13 11.31.23 - auto.zip] - will not be managed. Could not get list of backup content.
+[2018-01-02 19.03.27] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-08-07 17.16.31 - auto.zip] - will not be managed. Could not get list of backup content.
+[2018-01-02 19.03.40] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-10-22 14.33.21 - auto.zip] - will not be managed. Could not get list of backup content.
+[2018-01-02 19.03.41] Migrating iCDB upgrade backups from directory [Eye\database\cdbback] to Project Backup format.
+[2018-01-02 19.03.41] WARNING: Ignoring iCDB backup file [2017-10-09 23.32.53-11652-d.zip] - will not be migrated.
+[2018-01-02 19.03.41] WARNING: Ignoring iCDB backup file [2017-10-08 23.25.46-6192-d.zip] - will not be migrated.
+[2018-01-02 19.03.41] WARNING: Ignoring iCDB backup file [2017-09-12 21.26.59-3124-i.zip] - will not be migrated.
+[2018-01-02 19.03.41] WARNING: Ignoring iCDB backup file [2017-08-15 00.00.17-5560-d.zip] - will not be migrated.
+[2018-01-02 19.03.41] WARNING: Ignoring iCDB backup file [2017-08-06 01.22.11-7136-d.zip] - will not be migrated.
+[2018-01-02 19.03.41] WARNING: Ignoring iCDB backup file [2015-12-28 17.42.13-2160-i.zip] - will not be migrated.
+[2018-01-02 19.03.41] WARNING: Ignoring iCDB backup file [2014-04-23 17.44.46-1884-d.zip] - will not be migrated.
+[2018-01-02 19.03.55] Successfully created [AutoSave] backup [2018-01-02 19.03.42 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
+[2018-01-02 19.03.55] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2018-01-01 19.37.05 - auto.zip].
+[2018-01-02 19.03.55] [AutoSave] backup file [Eye\ProjectBackup\backups\2018-01-01 19.37.05 - auto.zip] removed.
+[2018-01-04 14.34.17] ERROR: Broken backup file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-11 09.31.01 - auto.zip] - will not be managed. Could not find description data.
+[2018-01-04 14.34.21] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-13 11.31.23 - auto.zip] - will not be managed. Could not get list of backup content.
+[2018-01-04 14.34.35] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-08-07 17.16.31 - auto.zip] - will not be managed. Could not get list of backup content.
+[2018-01-04 14.34.47] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-10-22 14.33.21 - auto.zip] - will not be managed. Could not get list of backup content.
+[2018-01-04 14.34.48] Migrating iCDB upgrade backups from directory [Eye\database\cdbback] to Project Backup format.
+[2018-01-04 14.34.48] WARNING: Ignoring iCDB backup file [2017-10-09 23.32.53-11652-d.zip] - will not be migrated.
+[2018-01-04 14.34.48] WARNING: Ignoring iCDB backup file [2017-10-08 23.25.46-6192-d.zip] - will not be migrated.
+[2018-01-04 14.34.48] WARNING: Ignoring iCDB backup file [2017-09-12 21.26.59-3124-i.zip] - will not be migrated.
+[2018-01-04 14.34.48] WARNING: Ignoring iCDB backup file [2017-08-15 00.00.17-5560-d.zip] - will not be migrated.
+[2018-01-04 14.34.48] WARNING: Ignoring iCDB backup file [2017-08-06 01.22.11-7136-d.zip] - will not be migrated.
+[2018-01-04 14.34.48] WARNING: Ignoring iCDB backup file [2015-12-28 17.42.13-2160-i.zip] - will not be migrated.
+[2018-01-04 14.34.48] WARNING: Ignoring iCDB backup file [2014-04-23 17.44.46-1884-d.zip] - will not be migrated.
+[2018-01-04 14.35.05] Successfully created [AutoSave] backup [2018-01-04 14.34.50 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
+[2018-01-04 14.35.05] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2018-01-02 08.57.52 - auto.zip].
+[2018-01-04 14.35.05] [AutoSave] backup file [Eye\ProjectBackup\backups\2018-01-02 08.57.52 - auto.zip] removed.
+[2018-01-04 17.03.44] ERROR: Broken backup file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-11 09.31.01 - auto.zip] - will not be managed. Could not find description data.
+[2018-01-04 17.03.49] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2014-10-13 11.31.23 - auto.zip] - will not be managed. Could not get list of backup content.
+[2018-01-04 17.04.09] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-08-07 17.16.31 - auto.zip] - will not be managed. Could not get list of backup content.
+[2018-01-04 17.04.29] ERROR: Broken zip file [C:\EyeProject\Eye\ProjectBackup\backups\2015-10-22 14.33.21 - auto.zip] - will not be managed. Could not get list of backup content.
+[2018-01-04 17.04.29] Migrating iCDB upgrade backups from directory [Eye\database\cdbback] to Project Backup format.
+[2018-01-04 17.04.29] WARNING: Ignoring iCDB backup file [2017-10-09 23.32.53-11652-d.zip] - will not be migrated.
+[2018-01-04 17.04.29] WARNING: Ignoring iCDB backup file [2017-10-08 23.25.46-6192-d.zip] - will not be migrated.
+[2018-01-04 17.04.29] WARNING: Ignoring iCDB backup file [2017-09-12 21.26.59-3124-i.zip] - will not be migrated.
+[2018-01-04 17.04.29] WARNING: Ignoring iCDB backup file [2017-08-15 00.00.17-5560-d.zip] - will not be migrated.
+[2018-01-04 17.04.29] WARNING: Ignoring iCDB backup file [2017-08-06 01.22.11-7136-d.zip] - will not be migrated.
+[2018-01-04 17.04.29] WARNING: Ignoring iCDB backup file [2015-12-28 17.42.13-2160-i.zip] - will not be migrated.
+[2018-01-04 17.04.29] WARNING: Ignoring iCDB backup file [2014-04-23 17.44.46-1884-d.zip] - will not be migrated.
+[2018-01-04 18.35.07] Successfully created [AutoSave] backup [2018-01-04 18.34.50 - auto.zip] requested by [DESKTOP-APFMU2M:klutc].
+[2018-01-04 18.35.07] Removing excessive [AutoSave] backup file [C:\EyeProject\Eye\ProjectBackup\backups\2018-01-02 13.07.44 - auto.zip].
+[2018-01-04 18.35.07] [AutoSave] backup file [Eye\ProjectBackup\backups\2018-01-02 13.07.44 - auto.zip] removed.

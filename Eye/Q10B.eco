@@ -1,9 +1,11 @@
 *PADS-ECO-V9.4-MILS*
-*REMARK*  old file: C:\PADS Projects\Q10B-v2.204.asc
+*REMARK*  old file: C:\PADS Projects\Q10B-v2.205.asc
 *REMARK*  new file: C:\EyeProject\Eye\Q10B.asc
-*REMARK*  created by ECOGEN (Version 6.4v) on 12/24/2017 6:13:18 PM
+*REMARK*  created by ECOGEN (Version 6.4v) on 1/2/2018 7:23:26 PM
+*DELPIN*
+U43.20  LGND
+U44.20  LGND
 *PART*
-J9  NFC-QI-ANTENNA_MOLEX-1461794001
 BOM1  SYM_BOM_ENTRY
 BOM10  SYM_BOM_ENTRY
 BOM11  SYM_BOM_ENTRY
@@ -17,25 +19,15 @@ BOM7  SYM_BOM_ENTRY
 BOM8  SYM_BOM_ENTRY
 BOM9  SYM_BOM_ENTRY
 *NET*
-*SIGNAL*  $4N5170
-J9.4
-*SIGNAL*  $4N5726
-C53.1  C54.1  C55.1  J9.5
-*SIGNAL*  HGND
-J9.2
-*SIGNAL*  NFC2
-J9.3
-*SIGNAL*  NFC_OUT
-J9.1  C91.1
+*SIGNAL*  KIN_SCL
+U43.20
+*SIGNAL*  KIN_SDA
+U44.20
 *DEL_ATTRIBUTE*	PCB	DEFAULT
-"AutoDimensioning.Text_DisplacementValue"
 "Blaze.TestPoint.Color"
 "Blaze.Thermal.Color"
 "CAM.Apply Oversize To All Pads"
 "Guard.BandColor"
-*SET_ATTRIBUTE*	PART	J9
-"PKG_TYPE"	QI-NFC-PADS
-"Description"	RX 2 COIL 1 LAYER 8.9UH
 *SET_ATTRIBUTE*	PART	BOM1
 "Description"	LI-ION BATTERY
 *SET_ATTRIBUTE*	PART	BOM10
@@ -120,5 +112,5 @@ VALID_LAYER	1
 VALID_LAYER	2
 VALID_VIA_TYPE	*USE_CURRENT*
 
-*REMARK*  Deleted pins: 0,  Added pins: 9
+*REMARK*  Deleted pins: 2,  Added pins: 2
 *END*
