@@ -71991,3 +71991,14 @@ nse::clearselection
 prop::setvalue -value QI-NFC-PADS -valueindex 0 PKG_TYPE
 nse::savesymbol -saveas NFC-QI-ANTENNA_MOLEX-1461794001.1
 nse::closesymbol
+# C:\MentorGraphics\9.4PADS\SDD_HOME\nse\win32\nse.exe -prj C:\EyeProject\Eye\Eye.prj -parent dx -icdb C:\EyeProject\Eye\database -snapshot DxD EEPROM_AT24C02D-MAHM-T.1 
+nse::setmode -icdb C:\\EyeProject\\Eye\\database -prj C:\\EyeProject\\Eye\\Eye.prj -flow netlist
+nse::opensymbol -snapshot DxD EEPROM_AT24C02D-MAHM-T.1
+prop::setvalue -value {IC EEPROM 512KBIT 1MHZ 8MINIMAP} -valueindex 0 DESCRIPTION
+prop::setvalue -value AT24C512C-MAHM-T -valueindex 0 MANF_P/N
+nse::savesymbol -saveas EEPROM_AT24C512C-MAHM-T.1
+prop::setvalue -value DigiKey -valueindex 0 Distributor
+# invalid property value : expected real value
+prop::setvalue -value 1.2314 -valueindex 0 Cost_per_1000
+nse::savesymbol sid1
+nse::closesymbol

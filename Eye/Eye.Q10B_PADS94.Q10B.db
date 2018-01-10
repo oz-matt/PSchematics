@@ -475,7 +475,7 @@
 			(pin 1  3 "SYM_RES__SYM_RES_1" 0 "IN" 0))
 		(part "SYM_IND")
 		(logical_part_mapping "SYM_IND"
-			(comp "L17" "L16" "L15" "L14" "L13" "L12" "L9" "L8" "L7" "L6" "L5" "L4" "L3" "L2" "L1"))
+			(comp "L17" "L16" "L15" "L14" "L13" "L12" "L9" "L8" "L7" "L6" "L4" "L3" "L2" "L1"))
 		(logical_part "SYM_IND"
 			(slots
 				(slot "SYM_IND__SYM_IND_1"
@@ -501,12 +501,12 @@
 			(pin 1  3 "SYM_FUSE__SYM_FUSE_1" 0 "IN" 0))
 		(part "SYM_CAP_UNPOL")
 		(logical_part_mapping "SYM_CAP_UNPOL"
-			(comp "C133" "C132" "C131" "C130" "C129" "C128" "C127" "C126" "C125" "C124" "C123" "C122" "C121" "C120" "C119"
- "C118" "C117" "C116" "C115" "C114" "C113" "C112" "C111" "C110" "C109" "C108" "C107" "C106" "C105" "C104" "C103"
- "C102" "C101" "C100" "C99" "C98" "C97" "C96" "C95" "C94" "C93" "C91" "C90" "C89" "C88" "C87" "C86" "C85" "C84" "C83" "C82"
- "C81" "C80" "C79" "C78" "C77" "C76" "C75" "C74" "C73" "C72" "C71" "C70" "C69" "C68" "C67" "C66" "C65" "C64" "C63" "C62" "C61"
- "C60" "C59" "C58" "C57" "C56" "C55" "C54" "C53" "C52" "C51" "C50" "C49" "C48" "C47" "C46" "C45" "C44" "C43" "C42" "C41" "C40"
- "C39" "C38" "C37" "C36" "C35" "C34" "C33" "C32" "C31" "C30" "C29" "C28" "C27" "C26" "C25" "C23" "C22" "C21" "C20" "C19" "C18"
+			(comp "C133" "C132" "C131" "C130" "C129" "C128" "C127" "C126" "C125" "C124" "C123" "C122" "C121" "C119" "C118"
+ "C117" "C116" "C115" "C114" "C113" "C112" "C111" "C110" "C109" "C108" "C107" "C106" "C105" "C104" "C103" "C102"
+ "C101" "C100" "C99" "C98" "C97" "C96" "C95" "C94" "C93" "C91" "C90" "C89" "C88" "C87" "C86" "C85" "C84" "C83" "C82" "C81"
+ "C80" "C79" "C78" "C77" "C76" "C75" "C74" "C73" "C72" "C71" "C70" "C69" "C68" "C67" "C66" "C65" "C64" "C63" "C62" "C61" "C60"
+ "C59" "C58" "C57" "C56" "C55" "C54" "C53" "C52" "C51" "C50" "C49" "C48" "C47" "C46" "C45" "C44" "C43" "C42" "C41" "C40" "C39"
+ "C38" "C37" "C36" "C35" "C34" "C33" "C32" "C31" "C30" "C29" "C28" "C27" "C26" "C25" "C24" "C23" "C22" "C21" "C20" "C19" "C18"
  "C17" "C16" "C15" "C14" "C13" "C12" "C11" "C10" "C9" "C8" "C7" "C6" "C5" "C4" "C3" "C2" "C1"))
 		(logical_part "SYM_CAP_UNPOL"
 			(slots
@@ -6037,16 +6037,6 @@
 				(attval "DEVICE" "SYM_IND")
 				(attval "REFDES" "L6")))
 		(component "0402"
-			(place "L5" 0.0 0.0 top 0.0
-				(comp_pin "2" 0.0 0.0 "IN")
-				(comp_pin "1" 0.0 0.0 "IN"))
-			(attributes
-				(attval "Value" "5.6NH")
-				(attval "Description"
- "5.6NH UNSHIELDED WIREWOUND INDUCTOR 800MA 51 MOHM MAX 0402 (1005 METRIC)")
-				(attval "DEVICE" "SYM_IND")
-				(attval "REFDES" "L5")))
-		(component "0402"
 			(place "L4" 0.0 0.0 top 0.0
 				(comp_pin "2" 0.0 0.0 "IN")
 				(comp_pin "1" 0.0 0.0 "IN"))
@@ -6511,16 +6501,6 @@
 				(attval "Description" "CAP CER 10PF 50V C0G/NPO 0402")
 				(attval "DEVICE" "SYM_CAP_UNPOL")
 				(attval "REFDES" "C121")))
-		(component "0805"
-			(place "C120" 0.0 0.0 top 0.0
-				(comp_pin "2" 0.0 0.0 "IN")
-				(comp_pin "1" 0.0 0.0 "IN"))
-			(attributes
-				(attval "Value" "22UF")
-				(attval "Description"
- "22µF ±20% 6.3V CERAMIC CAPACITOR X5R 0805 (2012 METRIC)")
-				(attval "DEVICE" "SYM_CAP_UNPOL")
-				(attval "REFDES" "C120")))
 		(component "1206"
 			(place "C119" 0.0 0.0 top 0.0
 				(comp_pin "2" 0.0 0.0 "IN")
@@ -7273,8 +7253,7 @@
 				(comp_pin "1" 0.0 0.0 "IN"))
 			(attributes
 				(attval "Value" "22UF")
-				(attval "Description"
- "22µF ±20% 6.3V CERAMIC CAPACITOR X5R 0805 (2012 METRIC)")
+				(attval "Description" "CAP CER 22UF 6.3V X5R 0805")
 				(attval "DEVICE" "SYM_CAP_UNPOL")
 				(attval "REFDES" "C41")))
 		(component "0402"
@@ -7303,8 +7282,7 @@
 				(comp_pin "1" 0.0 0.0 "IN"))
 			(attributes
 				(attval "Value" "22UF")
-				(attval "Description"
- "22µF ±20% 6.3V CERAMIC CAPACITOR X5R 0805 (2012 METRIC)")
+				(attval "Description" "CAP CER 22UF 6.3V X5R 0805")
 				(attval "DEVICE" "SYM_CAP_UNPOL")
 				(attval "REFDES" "C38")))
 		(component "0402"
@@ -7432,6 +7410,15 @@
  "4.7µF 6.3V CERAMIC CAPACITOR X5R 0402 (1005 METRIC) 0.039"" L X 0.020"" W (1.00MM X 0.50MM)")
 				(attval "DEVICE" "SYM_CAP_UNPOL")
 				(attval "REFDES" "C25")))
+		(component "0805"
+			(place "C24" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "22UF")
+				(attval "Description" "CAP CER 22UF 6.3V X5R 0805")
+				(attval "DEVICE" "SYM_CAP_UNPOL")
+				(attval "REFDES" "C24")))
 		(component "0402"
 			(place "C23" 0.0 0.0 top 0.0
 				(comp_pin "2" 0.0 0.0 "IN")
@@ -8138,7 +8125,6 @@
 		(func "$6I3055" "" "L8" 1)
 		(func "$9I113" "" "L7" 1)
 		(func "$9I112" "" "L6" 1)
-		(func "$8I1383" "" "L5" 1)
 		(func "$8I1380" "" "L4" 1)
 		(func "$8I1376" "" "L3" 1)
 		(func "$8I1362" "" "L2" 1)
@@ -8186,7 +8172,6 @@
 		(func "$9I265" "" "C123" 1)
 		(func "$9I213" "" "C122" 1)
 		(func "$9I207" "" "C121" 1)
-		(func "$9I196" "" "C120" 1)
 		(func "$9I149" "" "C119" 1)
 		(func "$9I148" "" "C118" 1)
 		(func "$9I147" "" "C117" 1)
@@ -8265,10 +8250,10 @@
 		(func "$4I3266" "" "C44" 1)
 		(func "$4I3249" "" "C43" 1)
 		(func "$4I3243" "" "C42" 1)
-		(func "$4I2820" "" "C41" 1)
+		(func "$9I1341" "" "C41" 1)
 		(func "$4I2818" "" "C40" 1)
 		(func "$4I2815" "" "C39" 1)
-		(func "$3I2204" "" "C38" 1)
+		(func "$4I5766" "" "C38" 1)
 		(func "$3I2203" "" "C37" 1)
 		(func "$3I2201" "" "C36" 1)
 		(func "$3I3473" "" "C35" 1)
@@ -8282,6 +8267,7 @@
 		(func "$3I2157" "" "C27" 1)
 		(func "$3I2152" "" "C26" 1)
 		(func "$3I2151" "" "C25" 1)
+		(func "$3I4169" "" "C24" 1)
 		(func "$3I2121" "" "C23" 1)
 		(func "$2I4764" "" "C22" 1)
 		(func "$2I4761" "" "C21" 1)
@@ -8339,7 +8325,7 @@
  U24-16 U34-6 U35-1 U16-12 U16-1 U16-13 U67-1 U42-8 U68-8 U40-4 U57-4 U58-4
  U59-4 U63-3 U64-7 U65-7))
 		(net "3V3_SD"
-			(pins TP14-1 U9-16 U10-16 J4-T4 C27-2 C38-1 R60-1 R62-1 R41-1 R42-1 R43-1))
+			(pins TP14-1 U9-16 U10-16 J4-T4 C27-2 C24-1 R60-1 R62-1 R41-1 R42-1 R43-1))
 		(net "3V3_USB"
 			(pins TP20-1 U4-2 U4-20 D8-2 D15-2 C73-2 C42-2 C133-2 Q37-2 R48-2 R59-2
  R109-1 R120-1 R122-1 R77-1 R182-2 R188-2 R126-1 U27-1 U66-11 U66-1 U66-7
@@ -8662,13 +8648,11 @@
 		(net "$8N1317"
 			(pins U7-1 C105-2))
 		(net "$8N1322"
-			(pins L4-2 L5-2 R148-2))
+			(pins U6-1 L4-2 R148-2))
 		(net "$8N1323"
 			(pins L3-2 R148-1 ANT2-2))
 		(net "$8N1324"
 			(pins U1-3 C108-1))
-		(net "$8N1325"
-			(pins U6-1 L5-1))
 		(net "$8N1326"
 			(pins U1-5 U6-4))
 		(net "$9N36"
@@ -8704,9 +8688,9 @@
 		(net "$9N71"
 			(pins Q7-3 Q26-1 R161-2))
 		(net "$9N72"
-			(pins Q7-1 TP99-1 C120-1 R162-2))
+			(pins Q7-1 TP99-1 C41-1 R162-2))
 		(net "$9N73"
-			(pins Q8-3 C120-2 R165-2))
+			(pins Q8-3 C41-2 R165-2))
 		(net "$9N74"
 			(pins Q25-2 Q26-2 R161-1))
 		(net "$9N78"
@@ -8762,7 +8746,7 @@
 		(net "BTN_IRQ"
 			(pins TP16-1 U18-4 U25-9))
 		(net "BTN_PWR_FEED"
-			(pins D7-1 C41-1 R71-2 U55-3))
+			(pins D7-1 C38-1 R71-2 U55-3))
 		(net "D"
 			(pins Q2-1 Q22-1 TP87-1 R11-2 R14-2 U48-3 U51-3))
 		(net "D+"
@@ -8824,8 +8808,8 @@
 			(pins U1-1 U1-4 U5-2 U5-3 X5-2 Q14-2 U4-33 U4-1 U4-11 U4-14 U4-17 U4-21 U4-24
  U4-27 U4-30 J9-2 U6-2 U6-3 U6-5 U7-2 U7-3 U7-5 U12-4 Q10-2 U9-12 U9-17 U9-8
  U10-17 U10-8 J4-G1 J4-G2 J4-G3 J4-G4 J4-G5 J4-G6 J4-G7 J4-G8 J4-S5 J4-T6 C23-1
- C26-1 C27-1 C28-1 C30-2 C36-1 C37-1 C38-2 C31-2 C32-2 C33-2 C34-1 C35-1 C52-1
- C29-2 C73-1 C74-1 C75-1 C76-1 C83-1 C86-1 C87-1 C93-1 C94-1 C95-1 C96-1 C97-1
+ C26-1 C27-1 C28-1 C30-2 C36-1 C37-1 C31-2 C32-2 C33-2 C34-1 C35-1 C52-1 C29-2
+ C73-1 C24-2 C74-1 C75-1 C76-1 C83-1 C86-1 C87-1 C93-1 C94-1 C95-1 C96-1 C97-1
  C98-2 C100-1 C131-1 C132-1 C71-1 C72-1 C78-1 C79-1 C84-1 C106-1 C107-1
  C109-1 C110-1 C111-1 C112-2 C129-2 C113-1 C114-1 C115-1 C121-1 U15-2 U15-1
  X3-2 X3-4 U11-EP U11-B7 U11-F23 L3-1 L4-1 ANT1-1 R47-1 R55-2 R58-1 R63-1
@@ -8867,8 +8851,8 @@
  Q2-2 Q3-2 Q4-2 Q5-2 Q6-2 Q7-2 Q8-2 U8-2 Q11-2 Q12-2 Q13-2 Q36-2 Q16-2 Q17-2
  Q18-2 Q19-2 Q20-2 Q21-2 Q23-3 TP35-1 U13-5 U13-10 U13-12 U13-7 C5-2 C7-2
  C17-1 C19-1 C1-1 C2-1 C8-1 C14-1 C4-1 C9-2 C10-1 C11-1 C12-1 C13-1 C15-1 C16-1
- C18-1 C20-1 C21-2 C22-1 C25-2 C39-1 C40-1 C41-2 C42-1 C43-1 C44-1 C45-1 C46-1
- C47-1 C48-1 C49-1 C63-1 C64-1 C67-1 C68-1 C69-1 C80-1 C81-2 C124-1 C130-1
+ C18-1 C20-1 C21-2 C22-1 C25-2 C39-1 C40-1 C42-1 C43-1 C44-1 C45-1 C46-1 C47-1
+ C48-1 C49-1 C38-2 C63-1 C64-1 C67-1 C68-1 C69-1 C80-1 C81-2 C124-1 C130-1
  C133-1 C70-1 C82-1 C85-1 C88-1 C89-1 C99-1 C101-1 C102-1 C125-1 C126-1 C103-1
  C127-1 C128-1 C116-1 C117-1 C118-1 C119-1 C122-1 C123-1 U14-9 U14-10 U14-11
  U14-21 U14-22 U14-23 U14-24 U14-25 U14-26 U14-27 U14-1 U14-20 Q27-2 Q28-2
@@ -9647,9 +9631,6 @@
 			(constraints
 				(cnsval "SCHEDULED" "FALSE")))
 		(net_scalar "$8N1326"
-			(constraints
-				(cnsval "SCHEDULED" "FALSE")))
-		(net_scalar "$8N1325"
 			(constraints
 				(cnsval "SCHEDULED" "FALSE")))
 		(net_scalar "$8N1324"
