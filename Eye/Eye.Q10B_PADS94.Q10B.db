@@ -461,8 +461,9 @@
  "R111" "R110" "R109" "R108" "R107" "R106" "R105" "R104" "R103" "R102" "R101" "R100" "R99" "R98" "R97" "R96" "R95"
  "R94" "R93" "R92" "R91" "R90" "R89" "R88" "R87" "R86" "R85" "R84" "R83" "R82" "R81" "R80" "R79" "R77" "R76" "R75" "R74" "R73"
  "R72" "R71" "R70" "R69" "R68" "R64" "R63" "R62" "R61" "R60" "R59" "R58" "R57" "R56" "R55" "R54" "R53" "R52" "R50" "R49" "R48"
- "R47" "R45" "R43" "R42" "R41" "R40" "R39" "R38" "R37" "R36" "R35" "R34" "R33" "R32" "R31" "R30" "R29" "R28" "R27" "R26" "R25"
- "R24" "R23" "R22" "R21" "R20" "R19" "R18" "R17" "R16" "R15" "R14" "R13" "R12" "R11" "R10" "R9" "R8" "R7" "R6" "R5" "R4" "R3" "R2" "R1"))
+ "R47" "R46" "R45" "R44" "R43" "R42" "R41" "R40" "R39" "R38" "R37" "R36" "R35" "R34" "R33" "R32" "R31" "R30" "R29" "R28" "R27"
+ "R26" "R25" "R24" "R23" "R22" "R21" "R20" "R19" "R18" "R17" "R16" "R15" "R14" "R13" "R12" "R11" "R10" "R9" "R8" "R7" "R6" "R5" "R4"
+ "R3" "R2" "R1"))
 		(logical_part "SYM_RES"
 			(slots
 				(slot "SYM_RES__SYM_RES_1"
@@ -475,7 +476,7 @@
 			(pin 1  3 "SYM_RES__SYM_RES_1" 0 "IN" 0))
 		(part "SYM_IND")
 		(logical_part_mapping "SYM_IND"
-			(comp "L17" "L16" "L15" "L14" "L13" "L12" "L9" "L8" "L7" "L6" "L4" "L3" "L2" "L1"))
+			(comp "L17" "L16" "L15" "L14" "L13" "L12" "L9" "L8" "L7" "L6" "L5" "L4" "L3" "L2" "L1"))
 		(logical_part "SYM_IND"
 			(slots
 				(slot "SYM_IND__SYM_IND_1"
@@ -501,13 +502,13 @@
 			(pin 1  3 "SYM_FUSE__SYM_FUSE_1" 0 "IN" 0))
 		(part "SYM_CAP_UNPOL")
 		(logical_part_mapping "SYM_CAP_UNPOL"
-			(comp "C133" "C132" "C131" "C130" "C129" "C128" "C127" "C126" "C125" "C124" "C123" "C122" "C121" "C119" "C118"
- "C117" "C116" "C115" "C114" "C113" "C112" "C111" "C110" "C109" "C108" "C107" "C106" "C105" "C104" "C103" "C102"
- "C101" "C100" "C99" "C98" "C97" "C96" "C95" "C94" "C93" "C91" "C90" "C89" "C88" "C87" "C86" "C85" "C84" "C83" "C82" "C81"
- "C80" "C79" "C78" "C77" "C76" "C75" "C74" "C73" "C72" "C71" "C70" "C69" "C68" "C67" "C66" "C65" "C64" "C63" "C62" "C61" "C60"
- "C59" "C58" "C57" "C56" "C55" "C54" "C53" "C52" "C51" "C50" "C49" "C48" "C47" "C46" "C45" "C44" "C43" "C42" "C41" "C40" "C39"
- "C38" "C37" "C36" "C35" "C34" "C33" "C32" "C31" "C30" "C29" "C28" "C27" "C26" "C25" "C24" "C23" "C22" "C21" "C20" "C19" "C18"
- "C17" "C16" "C15" "C14" "C13" "C12" "C11" "C10" "C9" "C8" "C7" "C6" "C5" "C4" "C3" "C2" "C1"))
+			(comp "C135" "C134" "C133" "C132" "C131" "C130" "C129" "C128" "C127" "C126" "C125" "C124" "C123" "C122" "C121"
+ "C120" "C119" "C118" "C117" "C116" "C115" "C114" "C113" "C112" "C111" "C110" "C109" "C108" "C107" "C106" "C105"
+ "C104" "C103" "C102" "C101" "C100" "C99" "C98" "C97" "C96" "C95" "C94" "C93" "C91" "C90" "C89" "C88" "C87" "C86" "C85"
+ "C84" "C83" "C82" "C81" "C80" "C79" "C78" "C77" "C76" "C75" "C74" "C73" "C72" "C71" "C70" "C69" "C68" "C67" "C66" "C65" "C64"
+ "C63" "C62" "C61" "C60" "C59" "C58" "C57" "C56" "C55" "C54" "C53" "C52" "C51" "C50" "C49" "C48" "C47" "C46" "C45" "C44" "C43"
+ "C42" "C41" "C40" "C39" "C38" "C37" "C36" "C35" "C34" "C33" "C32" "C31" "C30" "C29" "C28" "C27" "C26" "C25" "C24" "C23" "C22"
+ "C21" "C20" "C19" "C18" "C17" "C16" "C15" "C14" "C13" "C12" "C11" "C10" "C9" "C8" "C7" "C6" "C5" "C4" "C3" "C2" "C1"))
 		(logical_part "SYM_CAP_UNPOL"
 			(slots
 				(slot "SYM_CAP_UNPOL__SYM_CAP_UNPOL_1"
@@ -1049,7 +1050,7 @@
  "NOR-FLASH_MACRONIX-MX25R6435FM2IL0__NOR-FLASH_MACRONIX-MX25R6435FM2IL0_1" 0 "GND" 0))
 		(part "NMOS_SSM3K35MFV-TPL3")
 		(logical_part_mapping "NMOS_SSM3K35MFV-TPL3"
-			(comp "Q14" "Q8" "Q7" "Q6" "Q5" "Q4" "Q3" "Q2" "Q1"))
+			(comp "Q15" "Q14" "Q8" "Q7" "Q6" "Q5" "Q4" "Q3" "Q2" "Q1"))
 		(logical_part "NMOS_SSM3K35MFV-TPL3"
 			(slots
 				(slot "NMOS_SSM3K35MFV-TPL3__NMOS_SSM3K35MFV-TPL3_1"
@@ -5136,6 +5137,15 @@
 				(attval "Description" "RES SMD 10K OHM 5% 1/16W 0402")
 				(attval "DEVICE" "SYM_RES")
 				(attval "REFDES" "R47")))
+		(component "0603"
+			(place "R46" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "")
+				(attval "Description" "DNP")
+				(attval "DEVICE" "SYM_RES")
+				(attval "REFDES" "R46")))
 		(component "0402"
 			(place "R45" 0.0 0.0 top 0.0
 				(comp_pin "2" 0.0 0.0 "IN")
@@ -5145,6 +5155,15 @@
 				(attval "Description" "RES SMD 0 OHM JUMPER 1/16W 0402")
 				(attval "DEVICE" "SYM_RES")
 				(attval "REFDES" "R45")))
+		(component "0402"
+			(place "R44" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "49.9K")
+				(attval "Description" "RES SMD 49.9K OHM 1% 1/16W 0402")
+				(attval "DEVICE" "SYM_RES")
+				(attval "REFDES" "R44")))
 		(component "0402"
 			(place "R43" 0.0 0.0 top 0.0
 				(comp_pin "2" 0.0 0.0 "IN")
@@ -5734,6 +5753,15 @@
 				(attval "DEVICE" "NMOS_BSS138NH6327XTSA2")
 				(attval "REFDES" "Q16")))
 		(component "2-1L1B"
+			(place "Q15" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Description" "MOSFET N-CH 20V 0.18A VESM")
+				(attval "DEVICE" "NMOS_SSM3K35MFV-TPL3")
+				(attval "REFDES" "Q15")))
+		(component "2-1L1B"
 			(place "Q14" 0.0 0.0 top 0.0
 				(comp_pin "2" 0.0 0.0 "IN")
 				(comp_pin "1" 0.0 0.0 "IN")
@@ -6036,6 +6064,15 @@
 				(attval "Description" "FERRITE BEAD 600 OHM 0402 1LN")
 				(attval "DEVICE" "SYM_IND")
 				(attval "REFDES" "L6")))
+		(component "0402"
+			(place "L5" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "3.9NH")
+				(attval "Description" "FIXED IND 3.9NH 500MA 200 MOHM")
+				(attval "DEVICE" "SYM_IND")
+				(attval "REFDES" "L5")))
 		(component "0402"
 			(place "L4" 0.0 0.0 top 0.0
 				(comp_pin "2" 0.0 0.0 "IN")
@@ -6377,6 +6414,25 @@
 				(attval "DEVICE" "SCHOTTKY_CUS520-HEF")
 				(attval "REFDES" "D1")))
 		(component "0402"
+			(place "C135" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "1UF")
+				(attval "Description"
+ "1µF 6.3V CERAMIC CAPACITOR X5R 0402 (1005 METRIC) 0.039"" L X 0.020"" W (1.00MM X 0.50MM)")
+				(attval "DEVICE" "SYM_CAP_UNPOL")
+				(attval "REFDES" "C135")))
+		(component "0402"
+			(place "C134" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "0.5PF")
+				(attval "Description" "CAP CER 0.5PF 50V C0G/NPO 0402")
+				(attval "DEVICE" "SYM_CAP_UNPOL")
+				(attval "REFDES" "C134")))
+		(component "0402"
 			(place "C133" 0.0 0.0 top 0.0
 				(comp_pin "2" 0.0 0.0 "IN")
 				(comp_pin "1" 0.0 0.0 "IN"))
@@ -6501,6 +6557,15 @@
 				(attval "Description" "CAP CER 10PF 50V C0G/NPO 0402")
 				(attval "DEVICE" "SYM_CAP_UNPOL")
 				(attval "REFDES" "C121")))
+		(component "0402"
+			(place "C120" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "Value" "0.5PF")
+				(attval "Description" "CAP CER 0.5PF 50V C0G/NPO 0402")
+				(attval "DEVICE" "SYM_CAP_UNPOL")
+				(attval "REFDES" "C120")))
 		(component "1206"
 			(place "C119" 0.0 0.0 top 0.0
 				(comp_pin "2" 0.0 0.0 "IN")
@@ -8026,7 +8091,9 @@
 		(func "$2I4757" "" "R49" 1)
 		(func "$2I4752" "" "R48" 1)
 		(func "$3I2150" "" "R47" 1)
+		(func "$1I3130" "" "R46" 1)
 		(func "$3I2145" "" "R45" 1)
+		(func "$1I3099" "" "R44" 1)
 		(func "$3I3662" "" "R43" 1)
 		(func "$3I3649" "" "R42" 1)
 		(func "$3I3636" "" "R41" 1)
@@ -8092,6 +8159,7 @@
 		(func "$9I219" "" "Q18" 1)
 		(func "$4I2831" "" "Q17" 1)
 		(func "$4I2830" "" "Q16" 1)
+		(func "$1I3093" "" "Q15" 1)
 		(func "$3I3675" "" "Q14" 1)
 		(func "$3I2282" "" "Q13" 1)
 		(func "$3I2280" "" "Q12" 1)
@@ -8125,6 +8193,7 @@
 		(func "$6I3055" "" "L8" 1)
 		(func "$9I113" "" "L7" 1)
 		(func "$9I112" "" "L6" 1)
+		(func "$6I3968" "" "L5" 1)
 		(func "$8I1380" "" "L4" 1)
 		(func "$8I1376" "" "L3" 1)
 		(func "$8I1362" "" "L2" 1)
@@ -8159,6 +8228,8 @@
 		(func "$4I5427" "" "D3" 1)
 		(func "$2I4753" "" "D2" 1)
 		(func "$2I4751" "" "D1" 1)
+		(func "$1I3147" "" "C135" 1)
+		(func "$6I3957" "" "C134" 1)
 		(func "$6I3871" "" "C133" 1)
 		(func "$6I3718" "" "C132" 1)
 		(func "$6I3707" "" "C131" 1)
@@ -8172,6 +8243,7 @@
 		(func "$9I265" "" "C123" 1)
 		(func "$9I213" "" "C122" 1)
 		(func "$9I207" "" "C121" 1)
+		(func "$6I3946" "" "C120" 1)
 		(func "$9I149" "" "C119" 1)
 		(func "$9I148" "" "C118" 1)
 		(func "$9I147" "" "C117" 1)
@@ -8391,6 +8463,8 @@
 			(pins R9-1 Q35-1 U41-3))
 		(net "$1N2828"
 			(pins R8-1 Q34-1 U41-2))
+		(net "$1N3098"
+			(pins Q15-3 R30-1 R46-1))
 		(net "$2N3540"
 			(pins Q22-3 R20-1))
 		(net "$2N3544"
@@ -8588,7 +8662,7 @@
 		(net "$6N665"
 			(pins TP32-1 D10-1 U11-G1 R117-2))
 		(net "$6N670"
-			(pins C96-2 L1-1 ANT1-2))
+			(pins C96-2 C120-2 L5-2 L1-1))
 		(net "$6N675"
 			(pins C72-2 X3-1 U11-A23))
 		(net "$6N676"
@@ -8623,6 +8697,8 @@
 			(pins X5-3 C132-2 U66-18))
 		(net "$6N3837"
 			(pins Q37-1 R188-1 U66-30))
+		(net "$6N3945"
+			(pins C134-2 L5-1 ANT1-2))
 		(net "$7N2121"
 			(pins R139-2 U33-3 J7-2))
 		(net "$7N2122"
@@ -8747,6 +8823,8 @@
 			(pins TP16-1 U18-4 U25-9))
 		(net "BTN_PWR_FEED"
 			(pins D7-1 C38-1 R71-2 U55-3))
+		(net "CHRG_EN"
+			(pins Q15-1 U25-21 R44-2))
 		(net "D"
 			(pins Q2-1 Q22-1 TP87-1 R11-2 R14-2 U48-3 U51-3))
 		(net "D+"
@@ -8810,16 +8888,16 @@
  U10-17 U10-8 J4-G1 J4-G2 J4-G3 J4-G4 J4-G5 J4-G6 J4-G7 J4-G8 J4-S5 J4-T6 C23-1
  C26-1 C27-1 C28-1 C30-2 C36-1 C37-1 C31-2 C32-2 C33-2 C34-1 C35-1 C52-1 C29-2
  C73-1 C24-2 C74-1 C75-1 C76-1 C83-1 C86-1 C87-1 C93-1 C94-1 C95-1 C96-1 C97-1
- C98-2 C100-1 C131-1 C132-1 C71-1 C72-1 C78-1 C79-1 C84-1 C106-1 C107-1
- C109-1 C110-1 C111-1 C112-2 C129-2 C113-1 C114-1 C115-1 C121-1 U15-2 U15-1
- X3-2 X3-4 U11-EP U11-B7 U11-F23 L3-1 L4-1 ANT1-1 R47-1 R55-2 R58-1 R63-1
- R64-1 R179-1 R180-1 R147-1 R149-1 U32-2 ANT2-3 ANT2-4 ANT2-6 U39-203 U39-84
- U39-85 U39-86 U39-88 U39-89 U39-90 U39-92 U39-93 U39-94 U39-95 U39-205
- U39-96 U39-97 U39-98 U39-238 U39-54 U39-55 U39-56 U39-57 U39-58 U39-60
- U39-208 U39-61 U39-62 U39-63 U39-99 U39-100 U39-101 U39-102 U39-103 U39-245
- U39-250 U39-81 U39-251 U39-252 U39-82 U39-223 U39-225 U39-227 U39-83 U67-6
- U68-4 U49-2 U49-18 U49-37 U49-38 U49-39 U49-40 U49-41 U49-42 U49-43 U50-29
- U50-17 U50-5))
+ C98-2 C100-1 C131-1 C132-1 C120-1 C134-1 C71-1 C72-1 C78-1 C79-1 C84-1
+ C106-1 C107-1 C109-1 C110-1 C111-1 C112-2 C129-2 C113-1 C114-1 C115-1 C121-1
+ U15-2 U15-1 X3-2 X3-4 U11-EP U11-B7 U11-F23 L3-1 L4-1 ANT1-1 R47-1 R55-2
+ R58-1 R63-1 R64-1 R179-1 R180-1 R147-1 R149-1 U32-2 ANT2-3 ANT2-4 ANT2-6
+ U39-203 U39-84 U39-85 U39-86 U39-88 U39-89 U39-90 U39-92 U39-93 U39-94 U39-95
+ U39-205 U39-96 U39-97 U39-98 U39-238 U39-54 U39-55 U39-56 U39-57 U39-58
+ U39-60 U39-208 U39-61 U39-62 U39-63 U39-99 U39-100 U39-101 U39-102 U39-103
+ U39-245 U39-250 U39-81 U39-251 U39-252 U39-82 U39-223 U39-225 U39-227 U39-83
+ U67-6 U68-4 U49-2 U49-18 U49-37 U49-38 U49-39 U49-40 U49-41 U49-42 U49-43
+ U50-29 U50-17 U50-5))
 		(net "KIN_FLOW_IN"
 			(pins TP23-1 U25-30 R84-1 U63-8))
 		(net "KIN_FLOW_INS"
@@ -8847,36 +8925,36 @@
 		(net "LED_MSD"
 			(pins U66-29 U47-4))
 		(net "LGND"
-			(pins J1-2 J1-3 J1-4 J2-3 J2-4 U2-2 J3-5 J3-6 U3-2 SW1-5 SW2-5 SW2-1 SW2-3 Q1-2
- Q2-2 Q3-2 Q4-2 Q5-2 Q6-2 Q7-2 Q8-2 U8-2 Q11-2 Q12-2 Q13-2 Q36-2 Q16-2 Q17-2
- Q18-2 Q19-2 Q20-2 Q21-2 Q23-3 TP35-1 U13-5 U13-10 U13-12 U13-7 C5-2 C7-2
- C17-1 C19-1 C1-1 C2-1 C8-1 C14-1 C4-1 C9-2 C10-1 C11-1 C12-1 C13-1 C15-1 C16-1
- C18-1 C20-1 C21-2 C22-1 C25-2 C39-1 C40-1 C42-1 C43-1 C44-1 C45-1 C46-1 C47-1
- C48-1 C49-1 C38-2 C63-1 C64-1 C67-1 C68-1 C69-1 C80-1 C81-2 C124-1 C130-1
- C133-1 C70-1 C82-1 C85-1 C88-1 C89-1 C99-1 C101-1 C102-1 C125-1 C126-1 C103-1
- C127-1 C128-1 C116-1 C117-1 C118-1 C119-1 C122-1 C123-1 U14-9 U14-10 U14-11
- U14-21 U14-22 U14-23 U14-24 U14-25 U14-26 U14-27 U14-1 U14-20 Q27-2 Q28-2
- U17-3 U18-3 U20-2 U21-2 U19-1 U19-2 J5-5 J5-6 J5-7 J5-8 J5-9 J5-10 J5-11 C92-2
- U22-11 U22-12 U22-13 U22-14 U22-15 U22-16 U22-17 U22-8 U22-9 U25-33 U25-8
- U25-2 U26-2 R30-1 R2-1 R5-1 R7-1 R8-2 R10-1 R21-1 R26-2 R35-1 R12-1 R13-1
- R14-1 R22-1 R34-2 R37-1 R38-1 R39-1 R49-2 R56-2 R40-2 R58-2 R63-2 R79-1 R80-1
- R86-2 R123-2 R124-1 R68-1 R70-1 R71-1 R75-1 R81-1 R82-2 R83-2 R84-2 R85-2
- R92-1 R93-1 R94-2 R97-1 R181-1 R33-2 R100-1 R101-1 R125-2 R187-2 R189-1
- R190-1 R106-2 R107-2 R108-1 R113-2 R114-1 R115-2 R116-1 R117-1 R118-1 R119-1
- R127-1 R128-1 R129-1 R130-1 R131-1 R132-1 R133-1 R134-1 R135-1 R136-1 R137-1
- R138-1 R139-1 R140-1 R141-2 R145-1 R150-1 R173-2 R174-2 R151-1 R154-1 R155-1
- R157-1 R158-1 R159-2 R162-1 R166-2 R168-1 R169-2 R170-2 R171-1 R172-1 R175-1
- R176-1 R178-1 U27-2 U28-2 U29-2 U30-2 U31-2 U66-33 U66-2 U66-8 Q34-2 U33-8
- U33-7 U24-8 U24-7 U24-6 U34-2 U35-2 U16-6 J6-3 U38-1 U42-1 U42-2 U42-3 U42-9
- U42-4 U42-7 U43-4 U43-6 U43-25 U43-26 U43-27 U43-28 U43-29 U43-30 U43-21
- U44-4 U44-6 U44-25 U44-26 U44-27 U44-28 U44-29 U44-30 U44-21 U45-2 U45-4
- J7-3 SW3-1 SW3-4 U48-4 J8-3 J8-5 J8-4 U36-9 U51-2 U51-5 U52-2 U52-5 U53-2
- U53-5 U37-2 U37-5 U40-2 U40-5 U54-2 U54-5 U69-2 U69-5 U55-2 U55-5 U56-2 U56-5
- U59-2 U59-5 U60-2 U60-5 U61-2 U62-7 U62-8 U62-9 U62-10 U62-2 U62-3 U63-2
- U64-2 U65-2))
+			(pins J1-2 J1-3 J1-4 J2-3 J2-4 U2-2 J3-5 J3-6 U3-2 SW1-5 SW2-5 SW2-1 SW2-3
+ Q15-2 Q1-2 Q2-2 Q3-2 Q4-2 Q5-2 Q6-2 Q7-2 Q8-2 U8-2 Q11-2 Q12-2 Q13-2 Q36-2
+ Q16-2 Q17-2 Q18-2 Q19-2 Q20-2 Q21-2 Q23-3 TP35-1 U13-5 U13-10 U13-12 U13-7
+ C5-2 C7-2 C17-1 C19-1 C1-1 C2-1 C135-1 C8-1 C14-1 C4-1 C9-2 C10-1 C11-1 C12-1
+ C13-1 C15-1 C16-1 C18-1 C20-1 C21-2 C22-1 C25-2 C39-1 C40-1 C42-1 C43-1 C44-1
+ C45-1 C46-1 C47-1 C48-1 C49-1 C38-2 C63-1 C64-1 C67-1 C68-1 C69-1 C80-1 C81-2
+ C124-1 C130-1 C133-1 C70-1 C82-1 C85-1 C88-1 C89-1 C99-1 C101-1 C102-1 C125-1
+ C126-1 C103-1 C127-1 C128-1 C116-1 C117-1 C118-1 C119-1 C122-1 C123-1 U14-9
+ U14-10 U14-11 U14-21 U14-22 U14-23 U14-24 U14-25 U14-26 U14-27 U14-1 U14-20
+ Q27-2 Q28-2 U17-3 U18-3 U20-2 U21-2 U19-1 U19-2 J5-5 J5-6 J5-7 J5-8 J5-9 J5-10
+ J5-11 C92-2 U22-11 U22-12 U22-13 U22-14 U22-15 U22-16 U22-17 U22-8 U22-9
+ U25-33 U25-8 U25-2 U26-2 R2-1 R5-1 R7-1 R8-2 R10-1 R44-1 R46-2 R21-1 R26-2
+ R35-1 R12-1 R13-1 R14-1 R22-1 R34-2 R37-1 R38-1 R39-1 R49-2 R56-2 R40-2 R58-2
+ R63-2 R79-1 R80-1 R86-2 R123-2 R124-1 R68-1 R70-1 R71-1 R75-1 R81-1 R82-2
+ R83-2 R84-2 R85-2 R92-1 R93-1 R94-2 R97-1 R181-1 R33-2 R100-1 R101-1 R125-2
+ R187-2 R189-1 R190-1 R106-2 R107-2 R108-1 R113-2 R114-1 R115-2 R116-1 R117-1
+ R118-1 R119-1 R127-1 R128-1 R129-1 R130-1 R131-1 R132-1 R133-1 R134-1 R135-1
+ R136-1 R137-1 R138-1 R139-1 R140-1 R141-2 R145-1 R150-1 R173-2 R174-2 R151-1
+ R154-1 R155-1 R157-1 R158-1 R159-2 R162-1 R166-2 R168-1 R169-2 R170-2 R171-1
+ R172-1 R175-1 R176-1 R178-1 U27-2 U28-2 U29-2 U30-2 U31-2 U66-33 U66-2 U66-8
+ Q34-2 U33-8 U33-7 U24-8 U24-7 U24-6 U34-2 U35-2 U16-6 J6-3 U38-1 U42-1 U42-2
+ U42-3 U42-9 U42-4 U42-7 U43-4 U43-6 U43-25 U43-26 U43-27 U43-28 U43-29
+ U43-30 U43-21 U44-4 U44-6 U44-25 U44-26 U44-27 U44-28 U44-29 U44-30 U44-21
+ U45-2 U45-4 J7-3 SW3-1 SW3-4 U48-4 J8-3 J8-5 J8-4 U36-9 U51-2 U51-5 U52-2
+ U52-5 U53-2 U53-5 U37-2 U37-5 U40-2 U40-5 U54-2 U54-5 U69-2 U69-5 U55-2 U55-5
+ U56-2 U56-5 U59-2 U59-5 U60-2 U60-5 U61-2 U62-7 U62-8 U62-9 U62-10 U62-2
+ U62-3 U63-2 U64-2 U65-2))
 		(net "MBATT"
-			(pins U2-1 U2-3 Q9-2 F1-2 TP71-1 C19-2 C102-2 U19-3 U22-3 U22-4 R110-1 R111-2
- R112-2 R142-2 R143-2 R144-2 R156-1 J7-4 U37-4))
+			(pins U2-1 U2-3 Q9-2 F1-2 TP71-1 C19-2 C135-2 C102-2 U19-3 U22-3 U22-4 R110-1
+ R111-2 R112-2 R142-2 R143-2 R144-2 R156-1 J7-4 U37-4))
 		(net "MBED_D+"
 			(pins U4-25 R186-2))
 		(net "MBED_D-"
@@ -9492,6 +9570,9 @@
 		(net_scalar "D"
 			(constraints
 				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "CHRG_EN"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
 		(net_scalar "BTN_PWR_FEED"
 			(constraints
 				(cnsval "SCHEDULED" "FALSE")))
@@ -9676,6 +9757,9 @@
 			(constraints
 				(cnsval "SCHEDULED" "FALSE")))
 		(net_scalar "$7N2121"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$6N3945"
 			(constraints
 				(cnsval "SCHEDULED" "FALSE")))
 		(net_scalar "$6N3837"
@@ -10024,6 +10108,9 @@
 			(constraints
 				(cnsval "SCHEDULED" "FALSE")))
 		(net_scalar "$2N3540"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))
+		(net_scalar "$1N3098"
 			(constraints
 				(cnsval "SCHEDULED" "FALSE")))
 		(net_scalar "$1N2828"

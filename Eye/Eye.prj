@@ -72,7 +72,8 @@ VALUE "AQ160-DEV"
 VALUE "Q10"
 VALUE "ProgBoard"
 VALUE "Q10-Tester"
-VALUE "Q10B"
+VALUE "dino-ppb"
+VALUE "dino5"
 ENDLIST
 KEY DedicatedServerName ""
 KEY iCDBDir ".\database"
@@ -302,12 +303,21 @@ KEY SchematicDesignStatus "0"
 KEY SearchPathScheme "(Default)"
 KEY RootBlock "Q10-Tester"
 ENDSECTION
-SECTION Q10B
+SECTION dino-ppb
 KEY CADBackAnno "0"
 KEY ConfigType "PCB"
 KEY SchematicConflict "FE"
 KEY SchematicDesignBackAnno "0"
 KEY SchematicDesignStatus "0"
 KEY SearchPathScheme "(Default)"
-KEY RootBlock "Q10B"
+KEY RootBlock "dino-ppb"
+ENDSECTION
+SECTION dino5
+KEY CADBackAnno "0"
+KEY ConfigType "PCB"
+KEY SchematicConflict "FE"
+KEY SchematicDesignBackAnno "0"
+KEY SchematicDesignStatus "0"
+KEY SearchPathScheme "(Default)"
+KEY RootBlock "dino5"
 ENDSECTION
